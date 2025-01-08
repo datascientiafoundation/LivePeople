@@ -4,20 +4,20 @@ title: 2019-QROWD-Trento-Location RD
 organization: Unitn
 notes: This dataset returns the geocoordinates of where the phone is located.
 resources:
-- name: None
-  url: >-
-    
-  format: None
-- name: None
-  url: >-
-    
-  format: None
-- name: None
-  url: >-
-    
-  format: None
+- name:
+  url: >
+
+  format:
+- name:
+  url: >
+
+  format:
+- name:
+  url: >
+
+  format:
 license: >-
- ./../../resources/2023LivePeopleLicense.html
+  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Location RD
 location: Trento (Italy)
 latitude_map: 46.07
@@ -41,5 +41,3 @@ publication_date: 2023-12-20
 identifier: 003.AAAC.AAA.BN
 request_contact: datadistribution.knowdive@unitn.it
 ---
-
-
