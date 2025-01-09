@@ -10,7 +10,8 @@ resources:
   - name: 2018-SmartUnitn2-additional_material-questionnaire
     url: https://drive.google.com/file/d/1yY8RNaWO_eh4-UnXHkL2jpZld2739K3K/view?usp=share_link
     format: PDF
-license: - ./../../resources/2023LivePeopleLicense.htmldataset_name: Smart Unitn 2
+license: 
+  - ./../../resources/2023LivePeopleLicense.htmldataset_name: Smart Unitn 2
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
@@ -25,8 +26,10 @@ number_participants: 158
 language: English
 collection_name: SmartUnitn2
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f">https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f</a>
-category: - Project
-domain: - Digital University
+category: 
+  - Project
+domain: 
+  - Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.**
