@@ -29,8 +29,7 @@ collection_name: SmartUnitn2
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f">https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f</a>
 category: 
   - Project
-domain: 
-  - Digital University
+domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.**

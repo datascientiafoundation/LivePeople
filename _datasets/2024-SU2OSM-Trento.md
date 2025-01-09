@@ -29,8 +29,7 @@ collection_name: SmartUnitn2OSM
 project_url: <a href="https://datascientia.disi.unitn.it/projects/su2osm/">https://datascientia.disi.unitn.it/projects/su2osm/</a>
 category: 
   - Project
-domain: 
-  - Digital University
+domain: Digital University
 5_stars: 3
 publication_date: 2024-09-16
 identifier: 007.AAAP.AAA.**

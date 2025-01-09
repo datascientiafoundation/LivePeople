@@ -4,6 +4,9 @@ title: 2019-QROWD-Trento-Location POI
 organization: Unitn
 notes: This dataset returns the Point Of Interests surrounding the geocoordinates of where the phone is located. POI extracted every 5 minutes.
 resources:
+  - name: 
+    url: 
+    format: 
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Location POI
@@ -23,8 +26,7 @@ collection_name: QROWD
 project_url: <a href="nan">nan</a>
 category: 
   - Dataset
-domain: 
-  - Digital University
+domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 003.AAAC.AAA.BN

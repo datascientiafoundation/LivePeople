@@ -4,10 +4,9 @@ title: 2022-OC2-Thessaloniki-Wifi
 organization: Unitn
 notes: This dataset returns information related to the WIFI network to which the phone is connected to, if connected will also report the WIFI network id. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the UTH University.
 resources:
-- name: nan
-  url: >-
-    nan
-  format: nan
+  - name: 
+    url: 
+    format: 
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Wifi
@@ -25,13 +24,11 @@ number_participants: 111
 language: Not Applicable
 collection_name: OC-UTH
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
-category:
-- Dataset
+category: 
+  - Dataset
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAI.AAK.AN
 request_contact: datadistribution.knowdive@unitn.it
 ---
-
-

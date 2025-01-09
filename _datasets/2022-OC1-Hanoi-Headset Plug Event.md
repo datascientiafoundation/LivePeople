@@ -4,10 +4,9 @@ title: 2022-OC1-Hanoi-Headset Plug
 organization: Unitn
 notes: This dataset contanis the headset status (true/false), triggered when the jack of the headphones is plugged in/out. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the FPT University.
 resources:
-- name: nan
-  url: >-
-    nan
-  format: nan
+  - name: 
+    url: 
+    format: 
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Headset Plug
@@ -25,13 +24,11 @@ number_participants: 24
 language: Not Applicable
 collection_name: OC-FPT
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
-category:
-- Dataset
+category: 
+  - Dataset
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.AH
 request_contact: datadistribution.knowdive@unitn.it
 ---
-
-

@@ -4,10 +4,9 @@ title: 2023-Skel-Trento-Orientation
 organization: Unitn
 notes: 3D vector of the cellphone orientation
 resources:
-- name: codebook
-  url: >-
-    https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2023_SKEL_Trento_orientation.html
-  format: html
+  - name: codebook
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2023_SKEL_Trento_orientation.html
+    format: html
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Orientation
@@ -24,16 +23,12 @@ other_format: csv
 number_participants: 55
 language: Not Applicable
 collection_name: SKEL
-project_url: <a href="https://ds.datascientia.eu/community/public/projects/">Datascientia community project</a>
-category:
-- Dataset
+project_url: <a href="https://ds.datascientia.eu/community/public/projects/">https://ds.datascientia.eu/community/public/projects/</a>
+category: 
+  - Dataset
 domain: Digital University
 5_stars: 3
 publication_date: 2024-11-16 14:19:40
 identifier: 008.AAAQ.AAA.BQ
 request_contact: datadistribution.knowdive@unitn.it
-maintainer: Andrea Bontempelli
-maintainer_email: datadistribution.knowdive@unitn.it
 ---
-
-
