@@ -4,10 +4,9 @@ title: 2024-Makerere-Kampala-Gyroscope Uncalibrated
 organization: Unitn
 notes: This dataset contains gyroscope information that is not calibrated. All values are in radians/second and measure the rate of rotation around the X, Y and Z axis. An estimation of the drift on each axis is reported as well. No gyro-drift compensation is performed. Factory calibration and temperature compensation is still applied to the rate of rotation (angular speeds).  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 resources:
-- name: Codebook
-  url: >-
-    https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-gyroscopeuncalibrated.html
-  format: html
+  - name: Codebook
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-gyroscopeuncalibrated.html
+    format: html
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Gyroscope Uncalibrated
@@ -25,13 +24,12 @@ number_participants: 28
 language: English
 collection_name: MAK
 project_url: <a href="https://datascientia.disi.unitn.it/projects/mak/">https://datascientia.disi.unitn.it/projects/mak/</a>
-category:
-- Dataset
-domain: Digital University
+category: 
+  - Dataset
+domain: 
+  - Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.BC
 request_contact: datadistribution.knowdive@unitn.it
 ---
-
-
