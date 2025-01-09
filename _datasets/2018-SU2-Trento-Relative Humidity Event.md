@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitnTwo-Trento-Relative Humidity
+title: 2018-SmartUnitn2-Trento-Relative Humidity
 organization: Unitn
 notes: The dataset returns ambient relative humidity (%). It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:

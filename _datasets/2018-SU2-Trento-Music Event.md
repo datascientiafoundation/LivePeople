@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitnTwo-Trento-Music
+title: 2018-SmartUnitn2-Trento-Music
 organization: Unitn
 notes: The dataset returns whether music is being played on the phone (yes or no) using the default music player from the operating system. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:

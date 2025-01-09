@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2022-OC2-Thessaloniki-Gyroscope
+title: 2022-OpenCalls-Thessaloniki-Gyroscope
 organization: Unitn
 notes: The datasets contains the 3D vector of the gyroscope showing the rate of rotation (rad/s). The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the UTH University.
 resources:

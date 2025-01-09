@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2021-ChatApplicationOne-London-Application
+title: 2021-ChatApplication1-London-Application
 organization: Unitn
 notes: The dataset returns the name of the application (or application package) that is currently running in the foreground of the phone. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 resources:

@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2022-OC1-Hanoi-Music
+title: 2022-OpenCalls-Hanoi-Music
 organization: Unitn
 notes: This dataset returns whether music is being played on the phone (yes or no) using the default music player from the operating system. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the FPT University.
 resources:

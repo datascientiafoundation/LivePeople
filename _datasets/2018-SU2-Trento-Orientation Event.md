@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitnTwo-Trento-Orientation
+title: 2018-SmartUnitn2-Trento-Orientation
 organization: Unitn
 notes: The dataset contains 3D vector of the cellphone orientation. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:

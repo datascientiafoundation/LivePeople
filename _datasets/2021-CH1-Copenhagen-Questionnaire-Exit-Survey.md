@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2021-ChatApplicationOne-Copenhagen-Questionnaire-Exit-Survey
+title: 2021-ChatApplication1-Copenhagen-Questionnaire-Exit-Survey
 organization: Unitn
 notes: The dataset contains profiling questions, e.g., demographics, routines, personality. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 resources:

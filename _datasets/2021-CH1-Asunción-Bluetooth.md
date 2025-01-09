@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2021-ChatApplicationOne-Asunción-Bluetooth
+title: 2021-ChatApplication1-Asunción-Bluetooth
 organization: Unitn
 notes: The dataset returns wheter the device to wirelessly exchange data with other Bluetooth devices. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 resources:

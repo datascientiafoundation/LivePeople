@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitnTwo-Trento-Activities
+title: 2018-SmartUnitn2-Trento-Activities
 organization: Unitn
 notes: The dataset returns a label identifying the activity performed by the user, accurately detected using low power signals from multiple sensors in the device. This is achieved using Google’s Activity Recognition API. Possible activities are; still, in_vehicle, on_bycicle, on_foot, running, tilting, walking.. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:

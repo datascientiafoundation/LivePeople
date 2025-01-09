@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-Smart Unitn 2-Trento
+title: 2018-SmartUnitn2-Trento
 organization: Unitn
 notes: SmartUnitn 2 (SU2) dataset collected personal data about the everyday life of 158 university students at University of Trento by i-Log application installed on their smartphones. The SU2 data contains (1) participants’ synchronic data about profile, e.g., demographics, routines, personality; (2) participants’ diachronic data over a period of four weeks, including data from 34 sensors, both hardware and software, associated to around 100+ thousand self-reported annotations from participants.
 resources:

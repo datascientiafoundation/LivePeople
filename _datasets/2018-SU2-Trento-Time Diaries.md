@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitnTwo-Trento-Time Diaries
+title: 2018-SmartUnitn2-Trento-Time Diaries
 organization: Unitn
 notes: The dataset contains self-reported annotations in form of time diaries, provided by the participants every half hour. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:

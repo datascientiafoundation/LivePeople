@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitnTwo-Trento-Notification
+title: 2018-SmartUnitn2-Trento-Notification
 organization: Unitn
 notes: The dataset measures when the phone receives a notification and when it is dismissed by the user. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:

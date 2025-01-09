@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitnTwo-Trento-Application
+title: 2018-SmartUnitn2-Trento-Application
 organization: Unitn
 notes: The dataset returns the name of the application (or application package) that is currently running in the foreground of the phone. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:

@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2022-OC2-Thessaloniki-Touch
+title: 2022-OpenCalls-Thessaloniki-Touch
 organization: Unitn
 notes: This dataset returns the number of screen touch occurrences. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the UTH University.
 resources:

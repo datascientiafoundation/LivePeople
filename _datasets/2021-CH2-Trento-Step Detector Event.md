@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2021-ChatApplicationTwo-Trento-Step Detector
+title: 2021-ChatApplication2-Trento-Step Detector
 organization: Unitn
 notes: This dataset pertains to a sensor that returns a label identifying the activity performed by the user, accurately detected using low power signals from multiple sensors in the device. This is achieved using Google’s Activity Recognition API. Possible activities are - still, in_vehicle, on_bycicle, on_foot, running, tilting, walking. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 resources:
