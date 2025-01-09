@@ -11,7 +11,8 @@ resources:
     url: https://drive.google.com/file/d/1yY8RNaWO_eh4-UnXHkL2jpZld2739K3K/view?usp=share_link
     format: PDF
 license: 
-  - ./../../resources/2023LivePeopleLicense.htmldataset_name: Smart Unitn 2
+  - ./../../resources/2023LivePeopleLicense.html
+dataset_name: Smart Unitn 2
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
