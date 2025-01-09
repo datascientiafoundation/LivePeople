@@ -22,7 +22,7 @@ dataset_format: parquet
 other_format: unknown
 number_participants: 59
 language: unknown
-collection_name: SKEL
+collection_name: Skel
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/63cd43b5-9e20-4f36-a6b6-275946352522">https://ds.datascientia.eu/community/public/projects/63cd43b5-9e20-4f36-a6b6-275946352522</a>
 category: 
   - Dataset

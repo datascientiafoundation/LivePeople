@@ -25,7 +25,7 @@ dataset_format: parquet
 other_format: csv
 number_participants: 52
 language: Not Applicable
-collection_name: Diversity1
+collection_name: DiversityOne
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset

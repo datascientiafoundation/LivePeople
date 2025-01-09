@@ -22,7 +22,7 @@ dataset_format: parquet
 other_format: csv
 number_participants: 7
 language: English
-collection_name: MAK
+collection_name: Makerere
 project_url: <a href="https://datascientia.disi.unitn.it/projects/mak/">https://datascientia.disi.unitn.it/projects/mak/</a>
 category: 
   - Dataset

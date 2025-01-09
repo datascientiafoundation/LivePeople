@@ -22,7 +22,7 @@ dataset_format: parquet
 other_format: csv
 number_participants: 21
 language: Not Applicable
-collection_name: Diversity1
+collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd">https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd</a>
 category: 
   - Dataset Bundle

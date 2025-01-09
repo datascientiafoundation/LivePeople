@@ -22,7 +22,7 @@ dataset_format: parquet
 other_format: csv
 number_participants: 73
 language: Not Applicable
-collection_name: MAK
+collection_name: Makerere
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec14">https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec14</a>
 category: 
   - Dataset Bundle

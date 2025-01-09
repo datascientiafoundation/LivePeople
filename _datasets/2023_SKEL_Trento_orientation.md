@@ -22,7 +22,7 @@ dataset_format: parquet
 other_format: csv
 number_participants: 55
 language: Not Applicable
-collection_name: SKEL
+collection_name: Skel
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/">https://ds.datascientia.eu/community/public/projects/</a>
 category: 
   - Dataset
