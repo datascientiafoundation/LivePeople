@@ -11,7 +11,7 @@ resources:
     url: https://drive.google.com/file/d/1y9vTM9f7i9r-9sCHwPpV3MUrdV2VGtvX/view?usp=sharing
     format: html
 license: >-
- ./././resources/2023LivePeopleLicense.html
+ ./../../resources/2023LivePeopleLicense.html
 dataset_name: Bluetooth Low Energy
 location: Trento (Italy)
 latitude_map: 46.07

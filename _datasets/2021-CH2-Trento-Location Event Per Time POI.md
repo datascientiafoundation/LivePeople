@@ -11,7 +11,7 @@ resources:
     url: https://drive.google.com/file/d/1kAlm95IL3RO_M6r9e0X3oCYSKg0CeuuY/view?usp=sharing
     format: html
 license: >-
- ./././resources/2023LivePeopleLicense.html
+ ./../../resources/2023LivePeopleLicense.html
 dataset_name: Location POI
 location: Trento (Italy)
 latitude_map: 46.07

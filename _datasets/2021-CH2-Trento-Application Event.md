@@ -11,7 +11,7 @@ resources:
     url: https://drive.google.com/file/d/1O9nI5eMk8gtlV-hn6sojJZdfZdsUjkxa/view?usp=sharing
     format: html
 license: >-
- ./././resources/2023LivePeopleLicense.html
+ ./../../resources/2023LivePeopleLicense.html
 dataset_name: Application
 location: Trento (Italy)
 latitude_map: 46.07

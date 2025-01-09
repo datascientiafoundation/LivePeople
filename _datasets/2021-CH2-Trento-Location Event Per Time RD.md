@@ -11,7 +11,7 @@ resources:
     url: https://drive.google.com/file/d/11Qc99Av4NA0yW5hw1v-cAJHhwjww0brA/view?usp=sharing
     format: html
 license: >-
- ./././resources/2023LivePeopleLicense.html
+ ./../../resources/2023LivePeopleLicense.html
 dataset_name: Location RD
 location: Trento (Italy)
 latitude_map: 46.07

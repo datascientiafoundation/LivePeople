@@ -11,7 +11,7 @@ resources:
     url: https://drive.google.com/file/d/12DV94YWiAGdGa-tVSi7czIUtVJSg_52F/view?usp=sharing
     format: html
 license: >-
- ./././resources/2023LivePeopleLicense.html
+ ./../../resources/2023LivePeopleLicense.html
 dataset_name: Step Detector
 location: Trento (Italy)
 latitude_map: 46.07

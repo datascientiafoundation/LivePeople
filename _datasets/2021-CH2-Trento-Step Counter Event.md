@@ -11,7 +11,7 @@ resources:
     url: https://drive.google.com/file/d/165z9yE212NVh2FPeydh9rE3-Zr3FIief/view?usp=sharing
     format: html
 license: >-
- ./././resources/2023LivePeopleLicense.html
+ ./../../resources/2023LivePeopleLicense.html
 dataset_name: Step Counter
 location: Trento (Italy)
 latitude_map: 46.07
