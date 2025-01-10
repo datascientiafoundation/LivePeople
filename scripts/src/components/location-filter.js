@@ -27,7 +27,7 @@ export default class LocationFilter {
       }) 
       .groupBy('location')
       .map((datasetsInLoc, location) => {
-        const filters = createDatasetFilters(pick(params, ['category, collection_name', 'year', 'location_continent_facet']))
+        const filters = createDatasetFilters(pick(params, ['category', 'collection_name', 'location', 'location_continent_facet', 'year']))
         const filteredDatasets = filter(datasetsInLoc, filters)
         const locationSlug = slugify(location)
         const selected = params.location && params.location === locationSlug

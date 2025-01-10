@@ -27,7 +27,7 @@ export default class {
       })
       .groupBy('category')
       .map(function (datasetsInCat, category) {
-        const filters = createDatasetFilters(pick(params, ['collection_name', 'year', 'location', 'location_continent_facet']))
+        const filters = createDatasetFilters(pick(params, ['category', 'collection_name', 'location', 'location_continent_facet', 'year']))
         const filteredDatasets = filter(datasetsInCat, filters)
         const categorySlug = slugify(category)
         const selected = params.category && params.category === categorySlug
