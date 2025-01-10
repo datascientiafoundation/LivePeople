@@ -16,7 +16,7 @@ import OrganizationsFilter from './components/organizations-filter';
 import YearFilter from './components/year-filter';
 import LocationFilter from './components/location-filter';
 import LocationContinentFilter from './components/location-continent-filter'
-import DurationFilter from './components/duration-filter'
+import DurationFilter from './components/durations-filter'
 import CollectionFilter from './components/collection-filter';
 import Form from './components/form';
 import DatasetForm from './components/dataset-form';

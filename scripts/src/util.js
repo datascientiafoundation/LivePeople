@@ -58,7 +58,7 @@ export function createDatasetFilters(filters) {
             conditions.push(dataset.location_continent_facet && slugify(dataset.location_continent_facet).indexOf(filters.location_continent_facet) !== -1)
         }
         if (filters.duration_facet) {
-            conditions.push(dataset.duration_facet && slugify(dataset.duration_facet) === slugify(filters.duration_facet))
+            conditions.push(dataset.duration_facet && slugify(dataset.duration_facet).indexOf(filters.duration_facet) !== -1)
         }
 
         return conditions.every(function (value) {
