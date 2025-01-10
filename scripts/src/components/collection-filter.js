@@ -27,7 +27,7 @@ export default class CollectionFilter {
       })
       .groupBy('collection_name')
       .map((datasetsInCollection, collectionName) => {
-        const filters = createDatasetFilters(pick(params, ['organization']))
+        const filters = createDatasetFilters(pick(params, ['category', 'year', 'location', 'location_continent_facet']))
         const filteredDatasets = filter(datasetsInCollection, filters)
         const collectionSlug = slugify(collectionName)
         const selected = params.collection_name && params.collection_name === collectionSlug

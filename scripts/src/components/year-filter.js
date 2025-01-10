@@ -21,7 +21,7 @@ export default class {
 
       })
       .map((datasetsByYear, year) => {
-        const filters = createDatasetFilters(pick(params, ['category']))
+        const filters = createDatasetFilters(pick(params, ['category, collection_name', 'location', 'location_continent_facet']))
         const filteredDatasets = filter(datasetsByYear, filters)
         const yearSlug = slugify(year.toString()) // Ensure the year is a string
         const selected = params.year && params.year === yearSlug
