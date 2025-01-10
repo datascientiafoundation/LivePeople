@@ -34,4 +34,8 @@ domain: Digital University
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.BA-BG-BD-AY-BB
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_continent_facet: Europe
+data_type_facet: Motion
+project_facet: SmartUnitn2-Trento
 ---
