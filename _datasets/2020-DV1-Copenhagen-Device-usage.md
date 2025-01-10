@@ -13,7 +13,7 @@ dataset_name: Device-usage
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Doze%20Event/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Ring%20Mode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Screen%20Event/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Touch%20Event/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Batterycharge%20Event/">battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Battery%20Monitoring%20Log/">battery level</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-User%20Presence%20Event/">user presence</a>

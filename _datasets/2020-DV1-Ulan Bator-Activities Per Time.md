@@ -16,7 +16,7 @@ dataset_name: Activities
 location: Ulan-Bator (Mongolia)
 latitude_map: 47.92
 longitude_map: 106.9
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: Motion

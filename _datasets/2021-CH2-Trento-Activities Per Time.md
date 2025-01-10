@@ -16,7 +16,7 @@ dataset_name: Activities
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2021-12-20
+start_date: 2021-11-20
 end_date: 2021-12-08
 dataset_type: Sensors
 sensor_type: Motion

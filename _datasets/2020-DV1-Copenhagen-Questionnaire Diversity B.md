@@ -16,7 +16,7 @@ dataset_name: Questionnaire Diversity B
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Synchronic-Interactions
 sensor_type: nan

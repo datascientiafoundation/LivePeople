@@ -16,7 +16,7 @@ dataset_name: Magnetic Field
 location: Amrita (India)
 latitude_map: 10.9
 longitude_map: 76.9
-start_date: 2021-07-12
+start_date: 2021-05-26
 end_date: 2021-08-12
 dataset_type: Sensors
 sensor_type: Position

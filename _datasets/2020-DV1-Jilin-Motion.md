@@ -13,7 +13,7 @@ dataset_name: Motion
 location: Jilin (China)
 latitude_map: 43.83
 longitude_map: 126.5
-start_date: 2021-05-17
+start_date: 2020-10-12
 end_date: 2021-06-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Accelerometer%20Event/">accelerometer</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Activities%20Per%20Time/"> activities per time </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Step%20Detector%20Event/">step detector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Gyroscope%20Event/">gyroscope</a>

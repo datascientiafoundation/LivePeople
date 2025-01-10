@@ -10,10 +10,10 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Gyroscope
-location: San Luis Potosi (Mexico)
+location: San Luis Potosí (Mexico)
 latitude_map: 22.15
 longitude_map: -100.9
-start_date: 2020-07-18
+start_date: 2019-08-30
 end_date: 2021-08-14
 dataset_type: Sensors
 sensor_type: Motion

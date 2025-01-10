@@ -13,7 +13,7 @@ dataset_name: App-usage
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Headset%20Plug%20Event/">headsetplug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Notification%20Event/">notification</a>

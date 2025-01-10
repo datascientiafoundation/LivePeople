@@ -13,7 +13,7 @@ dataset_name: Environment
 location: Ulan-Bator (Mongolia)
 latitude_map: 47.92
 longitude_map: 106.9
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Pressure%20Event/">pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Light%20Event/">light</a>

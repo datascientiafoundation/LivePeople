@@ -10,7 +10,7 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Chat Application 2
-location: Asuncion (Paraguay)
+location: Asunción (Paraguay)
 latitude_map: 25.26
 longitude_map: 57.57
 start_date: 2022-01-17

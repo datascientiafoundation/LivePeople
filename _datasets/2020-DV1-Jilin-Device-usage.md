@@ -13,7 +13,7 @@ dataset_name: Device-usage
 location: Jilin (China)
 latitude_map: 43.83
 longitude_map: 126.5
-start_date: 2021-05-17
+start_date: 2020-10-12
 end_date: 2021-06-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Doze%20Event/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Ring%20Mode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Screen%20Event/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Touch%20Event/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Batterycharge%20Event/">battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Battery%20Monitoring%20Log/">battery level</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-User%20Presence%20Event/">user presence</a>

@@ -13,7 +13,7 @@ dataset_name: Motion
 location: Amrita (India)
 latitude_map: 10.9
 longitude_map: 76.9
-start_date: 2021-07-12
+start_date: 2021-05-26
 end_date: 2021-08-12
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Accelerometer%20Event/">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Activities%20Per%20Time/"> activities </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Step%20Detector%20Event/">step detector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Gyroscope%20Event/">gyroscope</a>

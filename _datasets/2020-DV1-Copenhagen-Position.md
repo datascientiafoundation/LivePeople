@@ -13,7 +13,7 @@ dataset_name: Position
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Proximity%20Event/">proximity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Magnetic%20Field%20Event/">magnetic field</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>

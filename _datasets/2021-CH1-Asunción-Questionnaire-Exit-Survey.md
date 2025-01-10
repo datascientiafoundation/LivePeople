@@ -13,7 +13,7 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Questionnaire-Exit-Survey
-location: Asuncion (Paraguay)
+location: Asunción (Paraguay)
 latitude_map: -25.26
 longitude_map: -57.57
 start_date: 2021-03-16

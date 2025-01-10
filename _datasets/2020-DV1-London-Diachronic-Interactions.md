@@ -13,7 +13,7 @@ dataset_name: Diachronic-Interactions
 location: London (United Kingdom)
 latitude_map: 51.5
 longitude_map: 0.12
-start_date: 2020-11-23
+start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Diachronic-Interactions
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Time%20Diaries/"> Time Diaries </a>

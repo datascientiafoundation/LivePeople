@@ -13,7 +13,7 @@ dataset_name: Connectivity
 location: Ulan-Bator (Mongolia)
 latitude_map: 47.92
 longitude_map: 106.9
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Bluetooth%20Normal%20Event/">bluetooth</a>

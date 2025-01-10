@@ -13,7 +13,7 @@ dataset_name: QROWD
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2020-09-07
+start_date: 2020-07-09
 end_date: 2020-07-14
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Position/"> Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Motion/"> Motion</a>

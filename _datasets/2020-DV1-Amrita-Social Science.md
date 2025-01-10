@@ -13,7 +13,7 @@ dataset_name: Daily annotations & Location
 location: Amrita (India)
 latitude_map: 10.9
 longitude_map: 76.9
-start_date: 2021-07-12
+start_date: 2021-05-26
 end_date: 2021-08-12
 dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Synchronic-Interactions/">Synchronic-Interactions</a>
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Location%20Event%20Per%20Time%20POI/">location POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Location%20Event%20Per%20Time%20RD/">location RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Time%20Diaries/"> Timediaries </a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Questionnaire%20Diversity%20C/">Questionnaire C</a>

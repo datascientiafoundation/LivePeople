@@ -13,7 +13,7 @@ dataset_name: Position
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2021-12-20
+start_date: 2021-11-20
 end_date: 2021-12-08
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>

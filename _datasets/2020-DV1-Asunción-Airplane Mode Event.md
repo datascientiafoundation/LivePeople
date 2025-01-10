@@ -13,10 +13,10 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Airplane Mode
-location: Asuncion (Paraguay)
+location: Asunción (Paraguay)
 latitude_map: -25.26
 longitude_map: -57.57
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: Device-usage

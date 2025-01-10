@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2020-DiversityOne-San Luis Potosí -Music
+title: 2020-DiversityOne-San Luis Potosí-Music
 organization: Unitn
 notes: The dataset returns whether music is being played on the phone (yes or no) using the default music player from the operating system. It is part of Wenet Diversity 1 data collection, which contains data about the everyday life activities of students coming from 8 different universities located in China, Denmark, India, Italy, Mexico, Mongolia, Paraguay and UK. The data were collected via questionnaires, data coming from 27 smartphone sensors associated to thousand self-reported annotations over a period of 4 weeks.
 resources:
@@ -13,10 +13,10 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Music
-location: San Luis Potosi (Mexico)
+location: San Luis Potosí (Mexico)
 latitude_map: 22.15
 longitude_map: -100.9
-start_date: 2020-07-18
+start_date: 2019-08-30
 end_date: 2021-08-14
 dataset_type: Sensors
 sensor_type: App-usage

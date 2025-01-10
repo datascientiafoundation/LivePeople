@@ -13,7 +13,7 @@ dataset_name: Daily annotations & Location
 location: London (United Kingdom)
 latitude_map: 51.5
 longitude_map: 0.12
-start_date: 2020-11-23
+start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Synchronic-Interactions/">Synchronic-Interactions</a>
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Time%20Diaries/"> Timediaries</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Questionnaire%20Diversity%20C/">Questionnaire C</a>

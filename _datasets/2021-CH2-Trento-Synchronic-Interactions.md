@@ -13,7 +13,7 @@ dataset_name: Synchronic-Interactions
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2021-12-20
+start_date: 2021-11-20
 end_date: 2021-12-08
 dataset_type: Synchronic-Interactions
 sensor_type: <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Questionnaire%20Exit%20Survey/">Exit survey </a>

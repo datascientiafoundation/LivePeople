@@ -13,8 +13,8 @@ dataset_name: Accelerometer
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2020-09-07
-end_date: 2020-09-07
+start_date: 2020-07-09
+end_date: 2020-07-14
 dataset_type: Sensors
 sensor_type: Motion
 size: 103000.09 MB

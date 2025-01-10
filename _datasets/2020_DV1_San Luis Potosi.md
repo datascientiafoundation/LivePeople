@@ -10,7 +10,7 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Wenet DiversityOne
-location: San Luis Potosi (Mexico)
+location: San Luis Potosí (Mexico)
 latitude_map: 22.15
 longitude_map: -100.9
 start_date: 2019-08-30

@@ -16,7 +16,7 @@ dataset_name: Questionnaire Diversity C
 location: Ulan-Bator (Mongolia)
 latitude_map: 47.92
 longitude_map: 106.9
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Synchronic-Interactions
 sensor_type: nan

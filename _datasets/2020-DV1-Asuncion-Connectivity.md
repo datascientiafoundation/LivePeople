@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2020-DiversityOne-Asuncion-Connectivity
+title: 2020-DiversityOne-Asunción-Connectivity
 organization: Unitn
 notes: The study aimed to assess diversity through the social practices and daily behaviors of university students from eight different countries. The research was carried out in two phases. Initially, a large sample of students from Denmark, Italy, Mongolia, Paraguay, the United Kingdom, China, Mexico, and India, completed a survey on their social practices, as well as their socio-demographic, cultural, and psychological elements. In the second phase, a sub-sample of the respondents engaged in a four-week data collection by using an innovative smartphone application called iLog. This app collected data from thirty-four smartphone sensors around the clock, allowing for an in-depth investigation into the diversity and daily routines of university students across countries, both synchronically and diachronically.
 resources:
@@ -10,10 +10,10 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Connectivity
-location: Asuncion (Paraguay)
+location: Asunción (Paraguay)
 latitude_map: -25.26
 longitude_map: -57.57
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Bluetooth%20Normal%20Event/">bluetooth</a>

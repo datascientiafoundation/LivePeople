@@ -13,8 +13,8 @@ dataset_name: Motion
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2020-09-07
-end_date: 2020-09-07
+start_date: 2020-07-09
+end_date: 2020-07-14
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Accelerometer%20Event/">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Activities%20Per%20Time/">activities </a>
 size: 283648 MB

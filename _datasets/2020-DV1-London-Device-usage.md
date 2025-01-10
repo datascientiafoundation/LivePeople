@@ -13,7 +13,7 @@ dataset_name: Device-usage
 location: London (United Kingdom)
 latitude_map: 51.5
 longitude_map: 0.12
-start_date: 2020-11-23
+start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Doze%20Event/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Ring%20Mode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Screen%20Event/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Touch%20Event/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Batterycharge%20Event/">battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Battery%20Monitoring%20Log/">battery level</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-User%20Presence%20Event/">user presence</a>

@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2020-DiversityOne-San Luis Potosí -Time Diaries
+title: 2020-DiversityOne-San Luis Potosí-Time Diaries
 organization: Unitn
 notes: The dataset contains a table for storing received answers from the user to the different types of contributions such as tasks for random time questions and time diaries for fixed frequency questions. It is part of Wenet Diversity 1 data collection, which contains data about the everyday life activities of students coming from 8 different universities located in China, Denmark, India, Italy, Mexico, Mongolia, Paraguay and UK. The data were collected via questionnaires, data coming from 27 smartphone sensors associated to thousand self-reported annotations over a period of 4 weeks.
 resources:
@@ -13,10 +13,10 @@ resources:
 license: >-
  ./../../resources/2023LivePeopleLicense.html
 dataset_name: Time Diaries
-location: San Luis Potosi (Mexico)
+location: San Luis Potosí (Mexico)
 latitude_map: 22.15
 longitude_map: -100.9
-start_date: 2020-07-18
+start_date: 2019-08-30
 end_date: 2021-08-14
 dataset_type: Diachronic-Interactions
 sensor_type: nan

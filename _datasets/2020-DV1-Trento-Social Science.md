@@ -13,7 +13,7 @@ dataset_name: Daily annotations & Location
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Synchronic-Interactions/">Synchronic-Interactions</a>
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Time%20Diaries/"> Timediaries </a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20C/">Questionnaire C</a>

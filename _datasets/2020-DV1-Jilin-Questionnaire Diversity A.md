@@ -16,7 +16,7 @@ dataset_name: Questionnaire Diversity A
 location: Jilin (China)
 latitude_map: 43.83
 longitude_map: 126.5
-start_date: 2021-05-17
+start_date: 2020-10-12
 end_date: 2021-06-18
 dataset_type: Synchronic-Interactions
 sensor_type: nan

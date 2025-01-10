@@ -13,7 +13,7 @@ dataset_name: Diachronic-Interactions
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Diachronic-Interactions
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Time%20Diaries/"> Time Diaries </a>

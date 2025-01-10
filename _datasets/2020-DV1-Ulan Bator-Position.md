@@ -13,7 +13,7 @@ dataset_name: Position
 location: Ulan-Bator (Mongolia)
 latitude_map: 47.92
 longitude_map: 106.9
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Proximity%20Event/">proximity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Magnetic%20Field%20Event/">magnetic field</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>

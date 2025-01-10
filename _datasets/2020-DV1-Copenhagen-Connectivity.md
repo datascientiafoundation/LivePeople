@@ -13,7 +13,7 @@ dataset_name: Connectivity
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Bluetooth%20Normal%20Event/">bluetooth </a>

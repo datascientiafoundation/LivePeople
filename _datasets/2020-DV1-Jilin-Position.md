@@ -13,7 +13,7 @@ dataset_name: Position
 location: Jilin (China)
 latitude_map: 43.83
 longitude_map: 126.5
-start_date: 2021-05-17
+start_date: 2020-10-12
 end_date: 2021-06-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Proximity%20Event/">proximity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Magnetic%20Field%20Event/">magnetic field</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>

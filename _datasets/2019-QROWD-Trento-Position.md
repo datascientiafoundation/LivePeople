@@ -13,8 +13,8 @@ dataset_name: Position
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2020-09-07
-end_date: 2020-09-07
+start_date: 2020-07-09
+end_date: 2020-07-14
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Gyroscope%20Event/">gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>
 size: 283648 MB

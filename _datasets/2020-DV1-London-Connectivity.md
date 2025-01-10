@@ -13,7 +13,7 @@ dataset_name: Connectivity
 location: London (United Kingdom)
 latitude_map: 51.5
 longitude_map: 0.12
-start_date: 2020-11-23
+start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Bluetooth%20Normal%20Event/">bluetooth</a>

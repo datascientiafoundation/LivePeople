@@ -13,7 +13,7 @@ dataset_name: Position
 location: London (United Kingdom)
 latitude_map: 51.5
 longitude_map: 0.12
-start_date: 2020-11-23
+start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Proximity%20Event/">proximity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Magnetic%20Field%20Event/">magnetic field</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>
