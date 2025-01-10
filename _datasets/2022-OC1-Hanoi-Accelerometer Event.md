@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.AY
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_facet: Vietnam
+location_continent_facet: Asia
+data_type_facet: nan
+project_facet: OpenCalls-Hanoi
 ---

@@ -34,4 +34,9 @@ domain: Digital University
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.**
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_facet: Italy
+location_continent_facet: Europe
+data_type_facet: nan
+project_facet: SmartUnitn2-Trento
 ---

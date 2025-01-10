@@ -13,7 +13,7 @@ dataset_name: App-usage
 location: Jilin (China)
 latitude_map: 43.83
 longitude_map: 126.5
-start_date: 2021-05-17
+start_date: 2020-10-12
 end_date: 2021-06-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Headset%20Plug%20Event/">headsetplug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Notification%20Event/">notification</a>
@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.AG-AH-AI-AJ
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 7-12 months
+location_facet: China
+location_continent_facet: Asia
+data_type_facet: App-usage
+project_facet: DiversityOne-Jilin
 ---

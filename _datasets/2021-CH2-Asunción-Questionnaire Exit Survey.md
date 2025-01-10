@@ -16,7 +16,7 @@ dataset_name: Questionnaire Exit Survey
 location: Asuncion (Paraguay)
 latitude_map: -25.26
 longitude_map: -57.57
-start_date: 2021-01-17
+start_date: 2022-01-17
 end_date: 2022-02-07
 dataset_type: Synchronic-Interactions
 sensor_type: unknown
@@ -34,4 +34,9 @@ domain: Digital University
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAD.AA
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_facet: Paraguay
+location_continent_facet: South America
+data_type_facet: nan
+project_facet: ChatApplication2-Asunción
 ---

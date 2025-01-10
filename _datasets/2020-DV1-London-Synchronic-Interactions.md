@@ -13,7 +13,7 @@ dataset_name: Synchronic-Interactions
 location: London (United Kingdom)
 latitude_map: 51.5
 longitude_map: 0.12
-start_date: 2020-11-23
+start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Synchronic-Interactions
 sensor_type: <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Questionnaire%20Diversity%20C/">Questionnaire C</a>
@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAE.AA
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 2-6 months
+location_facet: United Kingdom
+location_continent_facet: Europe
+data_type_facet: Synchronic-Interactions
+project_facet: DiversityOne-London
 ---

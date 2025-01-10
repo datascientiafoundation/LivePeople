@@ -13,7 +13,7 @@ dataset_name: Position
 location: Amrita (India)
 latitude_map: 10.9
 longitude_map: 76.9
-start_date: 2021-07-12
+start_date: 2021-05-26
 end_date: 2021-08-12
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Proximity%20Event/">proximity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Magnetic%20Field%20Event/">magnetic field</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>
@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAG.BR-BP-BN-BO
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 2-6 months
+location_facet: India
+location_continent_facet: Asia
+data_type_facet: Position
+project_facet: DiversityOne-Amrita
 ---

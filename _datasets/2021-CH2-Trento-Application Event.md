@@ -16,7 +16,7 @@ dataset_name: Application
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2021-12-20
+start_date: 2021-11-20
 end_date: 2021-12-08
 dataset_type: Sensors
 sensor_type: App-usage
@@ -34,4 +34,9 @@ domain: Digital University
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAA.AG
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_facet: Italy
+location_continent_facet: Europe
+data_type_facet: nan
+project_facet: ChatApplication2-Trento
 ---

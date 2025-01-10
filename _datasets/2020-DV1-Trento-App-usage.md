@@ -13,7 +13,7 @@ dataset_name: App-usage
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2020-11-16
+start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Headset%20Plug%20Event/">headsetplug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Notification%20Event/">notification</a>
@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.AG-AH-AI-AJ
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 2-6 months
+location_facet: Italy
+location_continent_facet: Europe
+data_type_facet: App-usage
+project_facet: DiversityOne-Trento
 ---

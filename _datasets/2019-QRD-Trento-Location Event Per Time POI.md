@@ -13,8 +13,8 @@ dataset_name: Location POI
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
-start_date: 2020-09-07
-end_date: 2020-09-07
+start_date: 2020-07-09
+end_date: 2020-07-14
 dataset_type: Sensors
 sensor_type: Position
 size: 182.53 MB
@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-12-20
 identifier: 003.AAAC.AAA.BN
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_facet: Italy
+location_continent_facet: Europe
+data_type_facet: nan
+project_facet: QROWD-Trento
 ---

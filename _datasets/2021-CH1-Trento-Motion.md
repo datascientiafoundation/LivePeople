@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAA.BF-BH-BI
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_facet: Italy
+location_continent_facet: Europe
+data_type_facet: Motion
+project_facet: ChatApplication1-Trento
 ---

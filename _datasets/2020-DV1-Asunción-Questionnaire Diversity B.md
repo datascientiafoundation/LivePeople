@@ -16,8 +16,8 @@ dataset_name: Questionnaire Diversity B
 location: Asuncion (Paraguay)
 latitude_map: -25.26
 longitude_map: -57.57
-start_date: 2020-11-16
-end_date: 2021-08-11
+start_date: 2020-09-28
+end_date: 2020-12-11
 dataset_type: Synchronic-Interactions
 sensor_type: nan
 size: 0.02 MB
@@ -34,4 +34,9 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAD.AA
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 2-6 months
+location_facet: Paraguay
+location_continent_facet: South America
+data_type_facet: nan
+project_facet: DiversityOne-Asunción
 ---

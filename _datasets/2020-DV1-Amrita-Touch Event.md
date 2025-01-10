@@ -16,7 +16,7 @@ dataset_name: Touch
 location: Amrita (India)
 latitude_map: 10.9
 longitude_map: 76.9
-start_date: 2021-07-12
+start_date: 2021-05-26
 end_date: 2021-08-12
 dataset_type: Sensors
 sensor_type: Device-usage
@@ -34,4 +34,9 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAG.BY
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 2-6 months
+location_facet: India
+location_continent_facet: Asia
+data_type_facet: nan
+project_facet: DiversityOne-Amrita
 ---

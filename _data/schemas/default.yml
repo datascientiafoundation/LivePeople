@@ -40,9 +40,9 @@ dataset_fields:
   - field_name: dataset_format
     label: Dataset Format
     datajson: dataset_format
-  - field_name: other_format
-    label: Other Available Format
-    datajson: other_format
+#  - field_name: other_format
+#    label: Other Available Format
+#    datajson: other_format
   - field_name: number_participants
     label: Number of Participants
     datajson: number_participants

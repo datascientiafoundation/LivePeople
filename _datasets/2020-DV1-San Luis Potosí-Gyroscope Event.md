@@ -13,7 +13,7 @@ dataset_name: Gyroscope
 location: San Luis Potosi (Mexico)
 latitude_map: 22.15
 longitude_map: -100.9
-start_date: 2020-07-18
+start_date: 2019-08-30
 end_date: 2021-08-14
 dataset_type: Sensors
 sensor_type: Motion
@@ -31,4 +31,9 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAH.BB
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: >12 months
+location_facet: Mexico
+location_continent_facet: North America
+data_type_facet: nan
+project_facet: DiversityOne-San Luis Potosí
 ---
