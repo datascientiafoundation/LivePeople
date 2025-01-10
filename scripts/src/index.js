@@ -74,7 +74,7 @@ const components = [
   { tag: 'location-filter', class: LocationFilter, usesDatasets: true },
   { tag: 'collection-filter', class: CollectionFilter, usesDatasets: true },
   { tag: 'location-continent-filter', class: LocationContinentFilter, usesDatasets: true},
-  {tag: 'duration-filter', class: DurationFilter, usesDatasets: true}
+  { tag: 'duration-filter', class: DurationFilter, usesDatasets: true}
 ];
 for (let component of components) {
   const els = queryByComponent(component.tag);
