@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2023-12-20
 identifier: 006.AAAI.AAK.AM-AO-AN-AK-AL
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 1 month
-location_facet: Greece
-location_continent_facet: Europe
-data_type_facet: Connectivity
-project_facet: OpenCalls-Thessaloniki
 ---

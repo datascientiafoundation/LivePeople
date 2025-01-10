@@ -16,7 +16,7 @@ dataset_name: Music
 location: Ulan-Bator (Mongolia)
 latitude_map: 47.92
 longitude_map: 106.9
-start_date: 2020-09-28
+start_date: 2020-11-16
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: App-usage
@@ -34,9 +34,4 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAB.AI
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
-location_facet: Mongolia
-location_continent_facet: Asia
-data_type_facet: nan
-project_facet: DiversityOne-Ulan Bator
 ---

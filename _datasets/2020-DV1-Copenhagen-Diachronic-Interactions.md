@@ -13,7 +13,7 @@ dataset_name: Diachronic-Interactions
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-09-28
+start_date: 2020-11-16
 end_date: 2020-12-11
 dataset_type: Diachronic-Interactions
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Time%20Diaries/"> Time Diaries </a>
@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAC.AB
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
-location_facet: Denmark
-location_continent_facet: Europe
-data_type_facet: Diachronic-Interactions
-project_facet: DiversityOne-Copenhagen
 ---

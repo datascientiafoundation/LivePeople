@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAD.**
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 1 month
-location_facet: Paraguay
-location_continent_facet: South America
-data_type_facet: nan
-project_facet: ChatApplication2-Asunción
 ---

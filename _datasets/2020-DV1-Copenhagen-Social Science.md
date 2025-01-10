@@ -13,7 +13,7 @@ dataset_name: Daily annotations & Location
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-09-28
+start_date: 2020-11-16
 end_date: 2020-12-11
 dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Synchronic-Interactions/">Synchronic-Interactions</a>
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Time%20Diaries/"> Timediaries </a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Questionnaire%20Diversity%20C/">Questionnaire C</a>
@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAC.BN-BO
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
-location_facet: Denmark
-location_continent_facet: Europe
-data_type_facet: Daily annotations & Location
-project_facet: DiversityOne-Copenhagen
 ---

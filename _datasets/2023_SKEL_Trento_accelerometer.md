@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2024-11-16 14:19:40
 identifier: 008.AAAQ.AAA.AY
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
-location_facet: Italy
-location_continent_facet: Europe
-data_type_facet: nan
-project_facet: Skel-Trento
 ---

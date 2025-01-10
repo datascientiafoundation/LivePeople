@@ -13,7 +13,7 @@ dataset_name: Connectivity
 location: Jilin (China)
 latitude_map: 43.83
 longitude_map: 126.5
-start_date: 2020-10-12
+start_date: 2021-05-17
 end_date: 2021-06-18
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Wifi%20Networks%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Bluetooth%20Normal%20Event/">bluetooth</a>
@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.AM-AO-AO-AK
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 7-12 months
-location_facet: China
-location_continent_facet: Asia
-data_type_facet: Connectivity
-project_facet: DiversityOne-Jilin
 ---

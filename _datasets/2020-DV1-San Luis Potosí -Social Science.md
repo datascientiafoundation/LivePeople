@@ -13,7 +13,7 @@ dataset_name: Daily annotations & Location
 location: San Luis Potosi (Mexico)
 latitude_map: 22.15
 longitude_map: -100.9
-start_date: 2019-08-30
+start_date: 2020-07-18
 end_date: 2021-08-14
 dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Synchronic-Interactions/">Synchronic-Interactions</a>
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Time%20Diaries/"> Timediaries answers </a>,  <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Questionnaire%20Diversity%20C/">Questionnaire C</a>
@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAH.BN-BO
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: >12 months
-location_facet: Mexico
-location_continent_facet: North America
-data_type_facet: Daily annotations & Location
-project_facet: DiversityOne-San Luis Potosí
 ---

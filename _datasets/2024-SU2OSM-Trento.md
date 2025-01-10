@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2024-SmartUnitn2 OSM Big Thick Data-Trento
+title: 2024-SmartUnitn2 OSM Big-thick Data-Trento
 organization: Unitn
 notes: The SU2OSM big-thick data integrates the part of SmartUnitn2 (SU2) dataset with the OpenStreetMap (OSM) dataset from Geofabrik. The SU2 dataset contains the personal big-thick data of 158 university students over a period of four weeks, which generates a sequence of personal contexts. We extracted the massive real-world places in Trentino region from OSM dataset, building provides the Reference Context. The generated SU2OSM big-thick data totally represents 104,414 personal contexts of 158 university students, a reference context which contains 147 Trentino places, where 1955 personal contexts are unified in the reference context. We updated the SU2OSM data by adding fake years for dates to facilitate ease of use. Part of the SU2OSM data has been assigned new and more reasonable datatypes.
 resources:
@@ -34,9 +34,4 @@ domain: Digital University
 publication_date: 2024-09-16
 identifier: 007.AAAP.AAA.**
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
-location_facet: Italy
-location_continent_facet: Europe
-data_type_facet: nan
-project_facet: SmartUnitn2 OSM Big Thick Data-Trento
 ---

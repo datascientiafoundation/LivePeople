@@ -13,7 +13,7 @@ dataset_name: Environment
 location: Copenhagen (Denmark)
 latitude_map: 55.67
 longitude_map: 12.56
-start_date: 2020-09-28
+start_date: 2020-11-16
 end_date: 2020-12-11
 dataset_type: Sensors
 sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Pressure%20Event/">pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Light%20Event/">light</a>
@@ -31,9 +31,4 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAC.AS-AR
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
-location_facet: Denmark
-location_continent_facet: Europe
-data_type_facet: Environment
-project_facet: DiversityOne-Copenhagen
 ---
