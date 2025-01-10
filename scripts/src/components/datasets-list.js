@@ -30,7 +30,8 @@ export default class {
       'location',
       'domain',
       'collection_name',
-      'year'
+      'year',
+      'location_continent_facet'
     ])
     
     const attributeFilters = pick(opts.el.data(), [
@@ -39,7 +40,8 @@ export default class {
       'location',
       'domain',
       'collection_name',
-      'year'
+      'year',
+      'location_continent_facet'
     ])     
     const filters = createDatasetFilters(defaults(paramFilters, attributeFilters))
     const filteredDatasets = filter(opts.datasets, filters)
