@@ -31,4 +31,8 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAH.AY-BF-BH-BI
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: >12 months
+location_continent_facet: North America
+data_type_facet: Motion
+project_facet: DiversityOne-San Luis Potosí
 ---

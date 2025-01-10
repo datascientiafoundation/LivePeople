@@ -31,4 +31,8 @@ domain: Digital University
 publication_date: 2023-12-20
 identifier: 006.AAAI.AAK.AS-AR
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 1 month
+location_continent_facet: Europe
+data_type_facet: Environment
+project_facet: OpenCalls-Thessaloniki
 ---

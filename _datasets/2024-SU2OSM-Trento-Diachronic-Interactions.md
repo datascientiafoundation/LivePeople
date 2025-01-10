@@ -34,4 +34,8 @@ domain: Digital University
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.AC
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 2-6 months
+location_continent_facet: Europe
+data_type_facet: Smart Unitn 2
+project_facet: SmartUnitn2 OSM Big Thick Data-Trento
 ---

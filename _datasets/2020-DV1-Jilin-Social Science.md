@@ -31,4 +31,8 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.BN-BO
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 7-12 months
+location_continent_facet: Asia
+data_type_facet: Daily annotations & Location
+project_facet: DiversityOne-Jilin
 ---

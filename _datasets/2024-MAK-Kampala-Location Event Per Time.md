@@ -31,4 +31,8 @@ domain: Digital University
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.BM
 request_contact: datadistribution.knowdive@unitn.it
+duration_facet: 2-6 months
+location_continent_facet: Africa
+data_type_facet: nan
+project_facet: Makerere-Kampala
 ---
