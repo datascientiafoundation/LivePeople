@@ -31,7 +31,7 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAB.AM-AO-AN-AK
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
+duration_facet: "2-6 months"
 location_continent_facet: Asia
 data_type_facet: Connectivity
 project_facet: DiversityOne-Ulan Bator

@@ -31,7 +31,7 @@ domain: Digital University
 publication_date: 2023-12-20
 identifier: 006.AAAI.AAK.BS-BV-BW-BX-BY-BU-BT-BZ
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 1 month
+duration_facet: "1 month"
 location_continent_facet: Europe
 data_type_facet: Device-usage
 project_facet: OpenCalls-Thessaloniki

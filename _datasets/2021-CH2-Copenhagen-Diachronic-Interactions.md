@@ -31,7 +31,7 @@ domain: Digital University
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAC.CA
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 1 month
+duration_facet: "1 month"
 location_continent_facet: Europe
 data_type_facet: Diachronic-Interactions
 project_facet: ChatApplication2-Copenhagen

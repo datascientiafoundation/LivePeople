@@ -34,7 +34,7 @@ domain: Digital University
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAA.AG
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 1 month
+duration_facet: "1 month"
 location_continent_facet: Europe
 data_type_facet: nan
 project_facet: ChatApplication1-Trento

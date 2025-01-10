@@ -34,7 +34,7 @@ domain: Digital University
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAD.AY
 request_contact: datadistribution.knowdive@unitn.it
-duration_facet: 2-6 months
+duration_facet: "2-6 months"
 location_continent_facet: South America
 data_type_facet: nan
 project_facet: DiversityOne-Asunción
