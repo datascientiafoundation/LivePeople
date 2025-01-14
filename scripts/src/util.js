@@ -68,7 +68,7 @@ export function createDatasetFilters(filters) {
             console.log("filter duration_facet")
             console.log(filters.duration_facet)
             console.log(dataset.duration_facet)
-            conditions.push(dataset.duration_facet && slugify(dataset.duration_facet).indexOf(filters.duration_facet) !== -1)
+            conditions.push(dataset.duration_facet && slugify(dataset.duration_facet) === (filters.duration_facet))
         }
 
 

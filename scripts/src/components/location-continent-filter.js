@@ -16,17 +16,9 @@ export default class LocationContinentFilter {
   _locationsWithCount(datasets, params) {
     return chain(datasets)
       .filter('location_continent_facet')  // Change to location_continent_facet
-      .flatMap((value) => {
-        // Explode objects where location_continent_facet is an array into one object per location
-        if (typeof value.location_continent_facet === 'string') return value
-        const duplicates = []
-        value.location_continent_facet.forEach((loc) => {
-          duplicates.push(defaults({ location_continent_facet: loc }, value))  // Change here to location_continent_facet
-        })
-        return duplicates
-      })
       .groupBy('location_continent_facet')  // Change to location_continent_facet
       .map((datasetsInLoc, location) => {
+        console.log("Processing location:", location);
         const filters = createDatasetFilters(pick(params, ['category', 'collection_name', 'location', 'location_continent_facet', 'year']))  // Change to location_continent_facet
         const filteredDatasets = filter(datasetsInLoc, filters)
         const locationSlug = slugify(location)
