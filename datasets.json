@@ -8,7 +8,7 @@
     "sensor_type": {{ dataset.sensor_type | jsonify }},
     "collection_name": {{ dataset.collection_name | jsonify }},
     "start_date": {{ dataset.start_date | jsonify }},
-    "notes": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.notes != "" %},
+    "notes": {{ dataset.notes | jsonify }}{% if dataset.notes != "" %},
     "category": {{ dataset.category | jsonify }}{% endif %},
     "location_facet": {{ dataset.location_facet | jsonify }},
     "data_type_facet": {{ dataset.data_type_facet | jsonify }},
