@@ -18,7 +18,6 @@ export default class LocationContinentFilter {
       .filter('location_continent_facet')  // Change to location_continent_facet
       .groupBy('location_continent_facet')  // Change to location_continent_facet
       .map((datasetsInLoc, location) => {
-        console.log("Processing location:", location);
         const filters = createDatasetFilters(pick(params, ['category', 'collection_name', 'location', 'location_continent_facet', 'year']))  // Change to location_continent_facet
         const filteredDatasets = filter(datasetsInLoc, filters)
         const locationSlug = slugify(location)
