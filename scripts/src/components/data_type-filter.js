@@ -12,6 +12,7 @@ export default class {
         collapseListGroup(opts.el)
     }
 
+
     _dataTypesWithCount(datasets, params) {
         return chain(datasets)
             .filter((dataset) => dataset.data_type_facet != null) // Filter out datasets where data_type_facet is null or undefined

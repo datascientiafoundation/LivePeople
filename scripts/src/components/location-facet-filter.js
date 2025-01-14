@@ -12,6 +12,7 @@ export default class LocationFacetFilter {
         collapseListGroup(opts.el)
     }
 
+
     // Given an array of datasets, returns an array of their locations with counts
     _locationsWithCount(datasets, params) {
         return chain(datasets)

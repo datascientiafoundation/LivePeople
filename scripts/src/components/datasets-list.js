@@ -40,6 +40,7 @@ export default class {
       'location_facet',
       'duration_facet',
       'data_type_facet'
+
     ])     
     const filters = createDatasetFilters(defaults(paramFilters, attributeFilters))
     const filteredDatasets = filter(opts.datasets, filters)

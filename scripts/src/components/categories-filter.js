@@ -12,6 +12,7 @@ export default class {
         collapseListGroup(opts.el)
     }
 
+
     // Given an array of datasets, returns an array of their categories with counts
     _categoriesWithCount(datasets, params) {
         return chain(datasets)

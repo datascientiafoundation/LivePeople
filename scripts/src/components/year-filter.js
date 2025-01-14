@@ -12,6 +12,7 @@ export default class {
         collapseListGroup(opts.el)
     }
 
+
     _yearsWithCount(datasets, params) {
         return chain(datasets)
             .groupBy((dataset) => {

@@ -50,11 +50,7 @@ export function createDatasetFilters(filters) {
         }
 
         if (filters.data_type_facet) {
-            if(dataset.data_type_facet){
-                conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)}
-            else{
-                conditions.push("");
-            }
+            conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)
         }
 
         if (filters.duration_facet) {
