@@ -33,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "1 month"
 location_facet: United Kingdom
 location_continent_facet: Europe
-data_type_facet: nan
 ---

@@ -33,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "2-6 months"
 location_facet: India
 location_continent_facet: Asia
-data_type_facet: nan
 ---

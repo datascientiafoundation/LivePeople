@@ -33,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: ">12 months"
 location_facet: Mexico
 location_continent_facet: North America
-data_type_facet: nan
 ---
