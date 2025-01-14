@@ -22,20 +22,22 @@ dataset_type: Synchronic-Interactions
 sensor_type: nan
 size: 0.01 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 25
 language: Not Applicable
 collection_name: DiversityOne
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAD.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "2-6 months"
+location_facet: Paraguay
 location_continent_facet: South America
-data_type_facet: nan
-project_facet: DiversityOne-Asunción
+data_type_facet: Synchronic-Interactions
 ---
