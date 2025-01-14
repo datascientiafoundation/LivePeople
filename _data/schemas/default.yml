@@ -34,6 +34,9 @@ dataset_fields:
   - field_name: sensor_type
     label: Sensor Type
     datajson: sensor_type
+  - field_name: component_dataset_link
+    label: Component dataset
+    datajson: component_dataset_link
   - field_name: size
     label: Size
     datajson: size
