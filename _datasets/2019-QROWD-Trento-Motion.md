@@ -30,7 +30,7 @@ domain:
 publication_date: 2023-11-30
 identifier: 003.AAAC.AAA.AY-BF
 request_contact: datadistribution.knowdive@unitn.it
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Accelerometer%20Event/">2019-QRD-Trento-Accelerometer Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Activities%20Per%20Time/">2019-QRD-Trento-Activities Per Time</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Accelerometer">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Gyroscope">gyroscope</a>
 duration_facet: "1 month"
 location_facet: Italy
 location_continent_facet: Europe

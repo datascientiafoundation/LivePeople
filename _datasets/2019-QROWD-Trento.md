@@ -29,7 +29,7 @@ domain:
 publication_date: 2023-12-20
 identifier: 003.AAAC.AAA.**
 request_contact: datadistribution.knowdive@unitn.it
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Motion/">2019-QROWD-Trento-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Position/">2019-QROWD-Trento-Position</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Position">position</a>
 duration_facet: "1 month"
 location_facet: Italy
 location_continent_facet: Europe
