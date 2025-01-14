@@ -33,17 +33,9 @@ export function slugify(text) {
 export function createDatasetFilters(filters) {
     return function (dataset) {
         const conditions = []
-        if (filters.organization) {
-            conditions.push(dataset.organization && slugify(dataset.organization) === filters.organization)
-        }
+
         if (filters.category) {
             conditions.push(dataset.category && slugify(dataset.category) === filters.category)
-        }
-        if (filters.location) {
-            conditions.push(dataset.location && slugify(dataset.location).indexOf(filters.location) !== -1)
-        }
-        if (filters.domain) {
-            conditions.push(dataset.domain && slugify(dataset.domain).indexOf(filters.domain) !== -1)
         }
         if (filters.collection_name) {
             conditions.push(dataset.collection_name && slugify(dataset.collection_name).indexOf(filters.collection_name) !== -1)
@@ -53,8 +45,8 @@ export function createDatasetFilters(filters) {
             const yearFromTitle = yearFromTitleMatch ? yearFromTitleMatch[0] : null; // Extract the year or set to null
             conditions.push(yearFromTitle && yearFromTitle === filters.year); // Include datasets that start with the specified year
         }
-        if (filters.location_continent_facet) {
-            conditions.push(dataset.location_continent_facet && slugify(dataset.location_continent_facet).indexOf(filters.location_continent_facet) !== -1)
+        if (filters.location_facet) {
+            conditions.push(dataset.location_facet && slugify(dataset.location_facet).indexOf(filters.location_facet) !== -1)
         }
 
         if (filters.data_type_facet) {

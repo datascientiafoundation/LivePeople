@@ -25,29 +25,21 @@ export default class {
 
     // Filter datasets and render in items container
     const paramFilters = pick(opts.params, [
-      'organization',
       'category',
-      'location',
-      'domain',
       'collection_name',
       'year',
-      'location_continent_facet',
+      'location_facet',
       'duration_facet',
       'data_type_facet'
-
     ])
     
     const attributeFilters = pick(opts.el.data(), [
-      'organization',
       'category',
-      'location',
-      'domain',
       'collection_name',
       'year',
-      'location_continent_facet',
+      'location_facet',
       'duration_facet',
       'data_type_facet'
-
     ])     
     const filters = createDatasetFilters(defaults(paramFilters, attributeFilters))
     const filteredDatasets = filter(opts.datasets, filters)

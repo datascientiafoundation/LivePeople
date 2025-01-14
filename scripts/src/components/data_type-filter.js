@@ -18,7 +18,13 @@ export default class {
             .groupBy('data_type_facet') // Group by the 'data_type_facet' column
             .map(function (datasetsInType, dataType) {
                 console.log("Processing dataType:", dataType);
-                const filters = createDatasetFilters(pick(params, [['category', 'collection_name', 'location', 'location_continent_facet', 'year', 'data_type_facet']])) // Include other filters if needed
+                const filters = createDatasetFilters(pick(params, [
+                    'category',
+                    'collection_name',
+                    'year',
+                    'location_facet',
+                    'duration_facet',
+                    'data_type_facet'])) // Include other filters if needed
                 const filteredDatasets = filter(datasetsInType, filters)
                 const typeSlug = slugify(dataType)
                 const selected = params.data_type_facet && params.data_type_facet === typeSlug

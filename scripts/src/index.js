@@ -11,11 +11,8 @@ import UserModel from './models/user';
 import Navigation from './components/navigation';
 import DatasetsList from './components/datasets-list';
 import CategoriesFilter from './components/categories-filter';
-import DomainFilter from './components/domain-filter';
-import OrganizationsFilter from './components/organizations-filter';
 import YearFilter from './components/year-filter';
-import LocationFilter from './components/location-filter';
-import LocationContinentFilter from './components/location-continent-filter'
+import LocationFacetFilter from './components/location-facet-filter'
 import DurationFilter from './components/durations-filter'
 import DataTypeFilter from './components/data_type-filter'
 import CollectionFilter from './components/collection-filter';
@@ -69,12 +66,9 @@ const components = [
   { tag: 'theme-gallery', class: ThemeGallery },
   { tag: 'datasets-list', class: DatasetsList, usesDatasets: true },
   { tag: 'categories-filter', class: CategoriesFilter, usesDatasets: true },
-//  { tag: 'domain-filter', class: DomainFilter, usesDatasets: true },
-//  { tag: 'organizations-filter', class: OrganizationsFilter, usesDatasets: true },
   { tag: 'year-filter', class: YearFilter, usesDatasets: true },
-  { tag: 'location-filter', class: LocationFilter, usesDatasets: true },
   { tag: 'collection-filter', class: CollectionFilter, usesDatasets: true },
-  { tag: 'location-continent-filter', class: LocationContinentFilter, usesDatasets: true},
+  { tag: 'location-facet-filter', class: LocationFacetFilter, usesDatasets: true},
   { tag: 'duration-filter', class: DurationFilter, usesDatasets: true},
   { tag: 'data-type-filter', class: DataTypeFilter, usesDatasets: true}
 ];
