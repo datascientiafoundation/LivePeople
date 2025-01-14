@@ -31,7 +31,6 @@ export function slugify(text) {
 
 // Given an object of filters to use, returns a function to be used by _.filter()
 export function createDatasetFilters(filters) {
-    filters.duration_facet = undefined;
     return function (dataset) {
         const conditions = []
         if (filters.organization) {
@@ -59,6 +58,9 @@ export function createDatasetFilters(filters) {
         }
 
         if (filters.data_type_facet) {
+            console.log("filter data_type_facet")
+            console.log(slugify(dataset.data_type_facet))
+            console.log(filters.data_type_facet)
             conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)
         }
 

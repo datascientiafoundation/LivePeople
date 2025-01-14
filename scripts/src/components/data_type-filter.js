@@ -19,8 +19,8 @@ export default class {
         const filters = createDatasetFilters(pick(params, [['category', 'collection_name', 'location', 'location_continent_facet', 'year', 'data_type_facet']])) // Include other filters if needed
         const filteredDatasets = filter(datasetsInType, filters)
         const typeSlug = slugify(dataType)
-        const selected = params.data_type && params.data_type === typeSlug
-        const itemParams = selected ? omit(params, 'data_type') : defaults({ data_type: typeSlug }, params)
+        const selected = params.data_type_facet && params.data_type_facet === typeSlug
+        const itemParams = selected ? omit(params, 'data_type_facet') : defaults({ data_type_facet: typeSlug }, params)
         return {
           title: dataType,
           url: '?' + $.param(itemParams),
