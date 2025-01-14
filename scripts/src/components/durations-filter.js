@@ -16,15 +16,6 @@ export default class DurationFilter {
   _durationsWithCount(datasets, params) {
     return chain(datasets)
       .filter('duration_facet') // Filter datasets with a duration_facet
-      .flatMap((value) => {
-        // Explode objects where duration_facet is an array into one object per duration
-        if (typeof value.duration_facet === 'string') return value
-        const duplicates = []
-        value.duration_facet.forEach((duration) => {
-          duplicates.push(defaults({ duration_facet: duration }, value)) // Adjust to duration_facet
-        })
-        return duplicates
-      })
       .groupBy('duration_facet') // Group by duration_facet
       .map((datasetsInDuration, duration) => {
         const filters = createDatasetFilters(pick(params, ['duration_facet'])) // Adjust to duration_facet
