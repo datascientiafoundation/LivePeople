@@ -57,6 +57,11 @@ export function createDatasetFilters(filters) {
         if (filters.location_continent_facet) {
             conditions.push(dataset.location_continent_facet && slugify(dataset.location_continent_facet).indexOf(filters.location_continent_facet) !== -1)
         }
+
+        if (filters.data_type_facet) {
+            conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)
+        }
+
         if (filters.duration_facet) {
             console.log("filter duration_facet")
             console.log(filters.duration_facet)

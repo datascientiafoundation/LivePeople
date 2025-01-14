@@ -17,6 +17,7 @@ import YearFilter from './components/year-filter';
 import LocationFilter from './components/location-filter';
 import LocationContinentFilter from './components/location-continent-filter'
 import DurationFilter from './components/durations-filter'
+import DataTypeFilter from './components/data_type-filter'
 import CollectionFilter from './components/collection-filter';
 import Form from './components/form';
 import DatasetForm from './components/dataset-form';
@@ -74,7 +75,8 @@ const components = [
   { tag: 'location-filter', class: LocationFilter, usesDatasets: true },
   { tag: 'collection-filter', class: CollectionFilter, usesDatasets: true },
   { tag: 'location-continent-filter', class: LocationContinentFilter, usesDatasets: true},
-  { tag: 'duration-filter', class: DurationFilter, usesDatasets: true}
+  { tag: 'duration-filter', class: DurationFilter, usesDatasets: true},
+  { tag: 'data-type-filter', class: DataTypeFilter, usesDatasets: true}
 ];
 for (let component of components) {
   const els = queryByComponent(component.tag);

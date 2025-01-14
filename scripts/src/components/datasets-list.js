@@ -32,8 +32,8 @@ export default class {
       'collection_name',
       'year',
       'location_continent_facet',
-      'duration_facet'
-
+      'duration_facet',
+      'data_type_facet'
 
     ])
     
@@ -45,7 +45,8 @@ export default class {
       'collection_name',
       'year',
       'location_continent_facet',
-      'duration_facet'
+      'duration_facet',
+      'data_type_facet'
 
     ])     
     const filters = createDatasetFilters(defaults(paramFilters, attributeFilters))
