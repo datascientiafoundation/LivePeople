@@ -51,12 +51,8 @@ export function createDatasetFilters(filters) {
 
         if (filters.data_type_facet) {
             if(dataset.data_type_facet){
-                console.log("filter data_type_facet-15:05")
-                console.log(slugify(dataset.data_type_facet))
-                console.log(filters.data_type_facet)
                 conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)}
             else{
-                console.log("Invalid data_type_facet:", dataset.data_type_facet); // Handle invalid or null data_type_facet
                 conditions.push("");
             }
         }

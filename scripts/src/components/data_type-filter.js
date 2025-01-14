@@ -17,7 +17,6 @@ export default class {
             .filter((dataset) => dataset.data_type_facet != null) // Filter out datasets where data_type_facet is null or undefined
             .groupBy('data_type_facet') // Group by the 'data_type_facet' column
             .map(function (datasetsInType, dataType) {
-                console.log("Processing dataType:", dataType);
                 const filters = createDatasetFilters(pick(params, [
                     'category',
                     'collection_name',
