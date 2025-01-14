@@ -19,7 +19,6 @@ longitude_map: -57.57
 start_date: 2021-03-16
 end_date: 2021-03-31
 dataset_type: Diachronic-Interactions
-sensor_type: nan
 size: 0.11 MB
 dataset_format: parquet
 number_participants: 53
@@ -30,7 +29,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAD.CA

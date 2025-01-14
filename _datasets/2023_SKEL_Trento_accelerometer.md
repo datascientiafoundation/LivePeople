@@ -27,7 +27,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-11-16 14:19:40
 identifier: 008.AAAQ.AAA.AY

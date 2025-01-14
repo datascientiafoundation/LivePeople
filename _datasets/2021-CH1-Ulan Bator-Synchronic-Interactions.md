@@ -16,7 +16,6 @@ longitude_map: 106.9
 start_date: 2021-03-12
 end_date: 2021-03-28
 dataset_type: Synchronic-Interactions
-sensor_type: nan
 size: 0.16 MB
 dataset_format: parquet
 number_participants: 39
@@ -27,7 +26,6 @@ category:
   - Dataset Bundle
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAB.AA

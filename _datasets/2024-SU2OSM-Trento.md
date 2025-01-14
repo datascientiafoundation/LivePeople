@@ -18,8 +18,6 @@ latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2024-05-24
 end_date: 2024-08-24
-dataset_type: nan
-sensor_type: nan
 size: 19.90 MB
 dataset_format: csv
 number_participants: 158
@@ -30,7 +28,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-09-16
 identifier: 007.AAAP.AAA.**

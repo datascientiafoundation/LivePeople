@@ -15,8 +15,6 @@ latitude_map: -25.26
 longitude_map: -57.57
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: nan
-sensor_type: nan
 size: 3379.20 MB
 dataset_format: parquet
 number_participants: 25
@@ -27,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAD.**

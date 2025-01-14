@@ -15,8 +15,6 @@ latitude_map: 21.03
 longitude_map: 105.8
 start_date: 2022-06-13
 end_date: 2022-07-11
-dataset_type: nan
-sensor_type: nan
 size: 11264 MB
 dataset_format: parquet
 number_participants: 112
@@ -27,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.**

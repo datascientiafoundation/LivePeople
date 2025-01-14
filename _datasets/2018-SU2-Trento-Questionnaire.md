@@ -22,7 +22,6 @@ longitude_map: 11.13
 start_date: 2018-05-11
 end_date: 2018-06-06
 dataset_type: Synchronic-Interactions
-sensor_type: nan
 size: 1 MB
 dataset_format: parquet
 number_participants: 158
@@ -33,7 +32,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.AA
