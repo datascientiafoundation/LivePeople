@@ -23,7 +23,7 @@ size: 3 MB
 dataset_format: parquet
 number_participants: 158
 language: English
-collection_name: SmartUnitn2
+collection_name: SmartUnitn2OSM
 project_url: <a href="https://datascientia.disi.unitn.it/projects/su2osm/">https://datascientia.disi.unitn.it/projects/su2osm/</a>
 category: 
   - Dataset Bundle
