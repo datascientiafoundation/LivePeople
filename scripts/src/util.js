@@ -38,7 +38,7 @@ export function createDatasetFilters(filters) {
             conditions.push(dataset.category && slugify(dataset.category) === filters.category)
         }
         if (filters.collection_name) {
-            conditions.push(dataset.collection_name && slugify(dataset.collection_name).indexOf(filters.collection_name) !== -1)
+            conditions.push(dataset.collection_name && slugify(dataset.collection_name) === filters.collection_name)
         }
         if (filters.year) {
             const yearFromTitleMatch = dataset.title.match(/^\d{4}/); // Match the year at the start of the title
@@ -46,15 +46,15 @@ export function createDatasetFilters(filters) {
             conditions.push(yearFromTitle && yearFromTitle === filters.year); // Include datasets that start with the specified year
         }
         if (filters.location_facet) {
-            conditions.push(dataset.location_facet && slugify(dataset.location_facet).indexOf(filters.location_facet) !== -1)
+            conditions.push(dataset.location_facet && slugify(dataset.location_facet) === filters.location_facet)
         }
 
         if (filters.data_type_facet) {
-            conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)
+            conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet) ===  filters.data_type_facet)
         }
 
         if (filters.duration_facet) {
-            conditions.push(dataset.duration_facet && slugify(dataset.duration_facet) === (filters.duration_facet))
+            conditions.push(dataset.duration_facet && slugify(dataset.duration_facet) === filters.duration_facet)
         }
 
 
