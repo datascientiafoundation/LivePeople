@@ -8,7 +8,7 @@ resources:
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing
     format: PDF
   - name: locationeventpertime_rd.html
-    url: https://drive.google.com/file/d/11Qc99Av4NA0yW5hw1v-cAJHhwjww0brA/view?usp=sharing
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-locationeventpertime_rd.html
     format: html
 license: >-
  ./../../resources/2023LivePeopleLicense.html

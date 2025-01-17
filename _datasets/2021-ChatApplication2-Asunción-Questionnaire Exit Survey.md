@@ -8,7 +8,7 @@ resources:
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing
     format: PDF
   - name: Exit_survey.html
-    url: https://drive.google.com/file/d/1eUwf7xUvSUH5SoSmzr3MdELcUQaDu2pn/view?usp=sharing
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-Exit_survey.html
     format: html
 license: >-
  ./../../resources/2023LivePeopleLicense.html

@@ -8,7 +8,7 @@ resources:
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing
     format: PDF
   - name: Chat_data.html
-    url: https://drive.google.com/file/d/1O5JTS9RDqS47ZmvbsAEA6HAM2ZFYftw5/view?usp=sharing
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-Chat_data.html
     format: html
 license: >-
  ./../../resources/2023LivePeopleLicense.html
