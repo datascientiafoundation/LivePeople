@@ -1,0 +1,598 @@
+import os, glob, yaml
+import pandas as pd
+from datetime import datetime
+import json
+from collections import Counter
+import re
+from numpy.f2py.crackfortran import expectbegin
+import pycountry
+import pycountry_convert as pc
+import numpy as np
+
+
+def validate_and_normalize_date(date_string):
+    """
+    Validate and normalize date strings to the format YYYY-MM-DD.
+    If the date is invalid or incomplete, return the original string.
+    """
+    try:
+        # Parse the date and normalize it to YYYY-MM-DD
+        normalized_date = datetime.strptime(date_string, "%Y-%m-%d").strftime("%Y-%m-%d")
+        return normalized_date
+    except ValueError:
+        # If the date is invalid, return the original string
+        return date_string
+
+
+def extract_resources(data):
+    extracted = dict()
+    tech_report_keywords = ['technical',
+                            'descriptor',
+                            'Big-Thick Data generation via reference and personal context unification']
+
+    if '2018-SmartUnitnTwo-Trento' in data['title']:
+        for res in data['resources']:
+            if any(keyword in str(res['name']).lower() for keyword in tech_report_keywords):
+                extracted['technical_report'] = res
+
+            elif 'codebook' in str(res['name']).lower() and data['category'] == "Dataset":
+                if data['dataset_name'] == 'Questionnaire' and 'codebook(a)' in res['name']:
+                    extracted['codebook'] = res
+                elif data['dataset_name'] == 'Time Diaries' and 'codebook(b)' in res['name']:
+                    extracted['codebook'] = res
+                elif data['dataset_type'] == 'Sensor' and 'codebook(c)' in res['name']:  # any sensor
+                    extracted['codebook'] = res
+
+            elif 'additional' in str(res['name']).lower():
+                extracted['additional_material'] = res
+
+    else:
+
+        for res in data['resources']:
+            # check nan and None
+            if not res['name'] or str(res['name']).lower() == 'nan':
+                continue
+
+            if any(keyword.lower() in str(res['name']).lower() for keyword in tech_report_keywords):
+                extracted['technical_report'] = res
+
+            elif 'codebook' in str(res['name']).lower() and data['category'] == "Dataset":
+                extracted['codebook'] = res
+            elif 'html' in str(res['name']).lower():
+                extracted['codebook'] = res
+
+            else:
+                extracted['additional_material'] = res
+
+    empty_resource = {'name': '', 'url': '', 'format': ''}
+    all_keys = ['codebook', 'technical_report', 'additional_material']
+    for res in all_keys:
+        if res not in extracted.keys():
+            extracted[res] = empty_resource
+
+    return extracted
+
+
+def read_md_files_and_extract_data(md_files_pattern) -> pd.DataFrame:
+    # List to store the extracted data
+    extracted_data = []
+
+    # Loop through all the markdown files matching the pattern
+    files = glob.glob(md_files_pattern)
+    for md_file in files:
+        with open(md_file, 'r', encoding='utf-8') as file:
+            # Read the file contents
+            content = file.read()
+
+            # Extract the YAML front matter from the Markdown file
+            try:
+                # Split the file content to get the YAML block
+                yaml_content = content.split('---')[1]  # The second part after `---` is the YAML
+
+                # Parse the YAML content into a dictionary
+                data = yaml.safe_load(yaml_content)
+
+                data['category'] = data['category'][0] if len(data['category']) == 1 else data['category']
+                # data['file_name'] = os.path.basename(md_file)
+
+                resources = extract_resources(data)
+
+                data['technical_report-name'] = resources['technical_report']['name']
+                data['technical_report-url'] = resources['technical_report']['url']
+                data['technical_report-format'] = resources['technical_report']['format']
+                data['codebook-name'] = resources['codebook']['name']
+                data['codebook-url'] = resources['codebook']['url']
+                data['codebook-format'] = resources['codebook']['format']
+                data['additional_material-name'] = resources['additional_material']['name']
+                data['additional_material-url'] = resources['additional_material']['url']
+                data['additional_material-format'] = resources['additional_material']['format']
+
+                pattern = r'<a href="([^"]+)">'
+                match = re.search(pattern, data['project_url'])
+                if match:
+                    data['project_url'] = match.group(1)
+
+                if 'other_format' not in data.keys():
+                    data['other_format'] = "unknown"
+                if str(data['other_format']) in ["nan", "unknown", ""]:
+                    data['other_format'] = "unknown"
+
+                # some md have licence  ./././resources/2023LivePeopleLicense.html
+                # should be  ./../../resources/2023LivePeopleLicense.html
+
+                if data['license'].startswith('./././'):
+                    data['license'] = data['license'].replace('./././', './../../')
+
+                extracted_data.append(data)
+            except Exception as e:
+                print(f"Error processing file {md_file}: {e}")
+
+    # Convert the extracted data into a pandas DataFrame
+    return pd.DataFrame(extracted_data)
+
+
+def save_to_excel(df, output_file):
+    df = df.sort_values('title')
+
+    df.drop(columns=['other_format'], inplace=True)
+    df.drop(columns=['location_continent_facet'], inplace=True)
+    df.drop(columns=['resources', 'dataset_type_link', 'sensor_type_link'], inplace=True)
+
+    category_groups = {category: group for category, group in df.groupby('category')}
+
+    with pd.ExcelWriter(output_file, engine='xlsxwriter') as writer:
+        for category, group in category_groups.items():
+            if category == 'Project':
+                group = group[[c for c in df.columns if 'ds:prj' in c]]
+            if category == 'Dataset' or category == 'Dataset Bundle':
+                group = group[[c for c in df.columns if 'ds:Dat' in c]]
+            group.to_excel(writer, sheet_name=category, index=False)
+
+    print(f"Data saved to {output_file}")
+
+
+def create_facet(df) -> pd.DataFrame:
+    df['start_date'] = pd.to_datetime(df['start_date'], errors='coerce')
+    df['end_date'] = pd.to_datetime(df['end_date'], errors='coerce')
+
+    # Duration Facet
+    def categorize_duration(duration):
+        months = duration.days // 30  # Convert days to approximate months
+        if months < 1:
+            return '1 month'
+        elif 1 <= months <= 6:
+            return '2-6 months'
+        elif 7 <= months <= 12:
+            return '7-12 months'
+        elif months > 12:
+            return '>12 months'
+        else:
+            return 'Unknown'
+
+    df['duration_facet'] = df['end_date'] - df['start_date']
+    df['duration_facet'] = df['duration_facet'].apply(categorize_duration)
+
+    # Location Facet
+    df['location_facet'] = df['location'].str.extract(r'\((.*?)\)', expand=False)
+
+    def country_to_continent(country_name):
+        country_alpha2 = pc.country_name_to_country_alpha2(country_name)
+        country_continent_code = pc.country_alpha2_to_continent_code(country_alpha2)
+        country_continent_name = pc.convert_continent_code_to_continent_name(country_continent_code)
+        return country_continent_name
+
+    df['location_continent_facet'] = df['location_facet'].apply(country_to_continent)
+
+    # Data type facet. sensors have types in sensor_type column, dataset_bundles have values from dataset_name
+    df['data_type_facet'] = df['dataset_type']
+    df['data_type_facet'] = df.apply(
+        lambda row: row['sensor_type'] if row['category'] == 'Dataset' and row['sensor_type'] != None else row[
+            'data_type_facet'], axis=1)
+    df['data_type_facet'] = df.apply(
+        lambda row: row['dataset_name'] if 'Sensors' == row['data_type_facet'] else row['data_type_facet'], axis=1)
+
+    df['data_type_facet'] = df['data_type_facet'].replace('Inertial', 'Position')
+
+    # Projects Diversity1-London, Diversity1-Trento
+    # df['project_facet'] = df['title'].str.split('-').str[1] + '-' + df['title'].str.split('-').str[2]
+
+    return df
+
+
+def get_project_info(df, df_project):
+    df['temp_title'] = df.apply(lambda row: row['title'].split('-')[1] + '-' + row['title'].split('-')[2] if row[
+                                                                                                                 'category'] == 'Project' else None,
+                                axis=1)
+    # df = df.merge(df_project[['ds:prjTitle', 'ds:prjStartDate', 'ds:prjEndDate']],
+    #               left_on='temp_title',
+    #               right_on='ds:prjTitle',
+    #               how='left')
+
+    df = df.merge(df_project,
+                  left_on='temp_title',
+                  right_on='ds:prjTitle',
+                  how='left')
+
+    df.drop(columns=['temp_title'], inplace=True)
+
+    return df
+
+
+def get_dates(df, df_project):
+    df['temp_title'] = df['title'].str.split('-').str[1] + '-' + df['title'].str.split('-').str[2]
+
+    df = df.merge(df_project[['ds:prjTitle', 'ds:prjStartDate', 'ds:prjEndDate']],
+                  left_on='temp_title',
+                  right_on='ds:prjTitle',
+                  how='left')
+
+    df['start_date'] = df.apply(
+        lambda row: row['ds:prjStartDate'] if pd.notnull(row['ds:prjStartDate']) else row['start_date'], axis=1)
+    df['end_date'] = df.apply(lambda row: row['ds:prjEndDate'] if pd.notnull(row['ds:prjEndDate']) else row['end_date'],
+                              axis=1)
+
+    # Drop unnecessary columns if needed
+    df = df.drop(columns=['ds:prjTitle'])
+    df = df.drop(columns=['ds:prjStartDate'])
+    df = df.drop(columns=['ds:prjEndDate'])
+    df = df.drop(columns=['temp_title'])
+
+    return df
+
+
+def fix_title(df):
+    # Strip leading/trailing spaces and ensure proper formatting
+    df['title'] = df['title'].str.strip()
+
+    # Apply replacements
+    replacements = {
+        'Wenet DiversityOne': 'DiversityOne',
+        'SmartUnitnTwoOpenStreetMap-Trento-Big Thick Data': 'SmartUnitn2 OpenStreetMap Big Thick Data-Trento',
+        'SmartUnitnTwo OpenStreetMap Big-thick Data': 'SmartUnitn2 OpenStreetMap Big Thick Data',
+
+        'Chat Application 1': 'ChatApplication1',
+        'Chat Application 2': 'ChatApplication2',
+        'Smart Unitn 2': 'SmartUnitn2',
+
+        'Two': '2',
+        'One': '1',
+
+        'OC1': 'OpenCalls',
+        'OC2': 'OpenCalls',
+        'Open Calls': 'OpenCalls',
+        'OpenStreetMap': 'OSM',
+        'Asuncion': 'Asunción',
+        'San Luis Potosi': 'San Luis Potosí',
+        'San Luis Potosí ': 'San Luis Potosí',
+
+        'Diversity1': 'DiversityOne',  # only case that should have letter One
+        'Bluetooth Normal': 'Bluetooth',
+        'Doze Mode': 'Doze',
+        'Location  Per Time RD': 'Location RD',
+        'Location.md': 'Location RD.md',
+        'WIFI': 'Wifi',
+        'Ringmode': 'Ring Mode',
+        'Rotationvector': 'Rotation Vector',
+        'Location  POI': 'Location POI',
+        'Ulan Bator': 'Ulaanbaatar',
+        'Doze': 'Doze',
+        'Questionnaire-Exit-Survey': 'Questionnaire Exit Survey'
+    }
+
+    for old_value, new_value in replacements.items():
+        df['title'] = df['title'].str.replace(old_value, new_value, regex=True)
+
+    # special case: 2024-SmartUnitn2 OSM Big Thick Data-Trento
+
+    df.loc[
+        (df['dataset_name'] == 'Time Diaries') & (df['title'] == '2024-SmartUnitn2 OSM Big Thick Data-Trento'),
+        'title'
+    ] = '2024-SmartUnitn2 OSM Big Thick Data-Trento-Time Diaries'
+
+    return df
+
+
+def fix_collection_name(df):
+    # Strip leading/trailing spaces and ensure proper formatting
+    df['collection_name'] = df['collection_name'].str.strip()
+
+    # Apply replacements
+    replacements = {
+        'Diversity1': 'DiversityOne',
+        'OC-FPT': 'OpenCalls',
+        'OC-UTH': 'OpenCalls',
+        'OC2': 'OpenCalls',
+        'SKEL': 'Skel',
+        'Chatbot1': 'ChatApplication1',
+        'Mak': 'Makerere',
+        'MAK': 'Makerere',
+    }
+
+    for old_value, new_value in replacements.items():
+        df['collection_name'] = df['collection_name'].str.replace(old_value, new_value, regex=True)
+
+    df['collection_name'] = df.apply(
+        lambda row: 'SmartUnitn2OSM' if 'SmartUnitn2 OSM' in row['title'] else row['collection_name'], axis=1)
+
+    return df
+
+
+def fix_dataset_name(df):
+    # Apply replacements
+    replacements = {
+        'Wifinetworks': 'Wifi Networks',
+        'WIFI Networks': 'Wifi Networks',
+        'WIFI': 'Wifi',
+        'Stepdetector': 'Step Detector',
+        'Rotationvector': 'Rotation Vector',
+        'Ringmode': 'Ring Mode',
+        'Location s': 'Location',
+        'Location  Per Time RD': 'Location RD',
+        'Doze Mode': 'Doze',
+        'Diachronic Interactions': 'Diachronic-Interactions',
+        'Batterycharge': 'Battery Charge',
+        'Device Usage': 'Device-usage',
+        'App usage': 'App-usage',
+        'Bluetooth Normal': 'Bluetooth',
+        'Synchronic Interactions': 'Synchronic-Interactions',
+        'Questionnaire Exit Survey': 'Questionnaire',
+        'Questionnaire-Exit-Survey': 'Questionnaire',
+    }
+
+    for old_value, new_value in replacements.items():
+        df['dataset_name'] = df['dataset_name'].str.replace(old_value, new_value, regex=True)
+    return df
+
+
+def fix_license(df):
+    df['license'] = df['license'].replace(
+        'https://datascientiafoundation.github.io/LivePeople/resources/2023LivePeopleLicense.html',
+        './../../resources/2023LivePeopleLicense.html')
+    return df
+
+
+def fix_locations(df):
+    replacements = {
+        'Asuncion (Paraguay)': 'Asunción (Paraguay)',
+        'London (UK)': 'London (United Kingdom)',
+        'San Luis Potosi (Mexico)': 'San Luis Potosí (Mexico)',
+        'Trento (IT)': 'Trento (Italy)',
+        'Ulan Bator (Mongolia)': 'Ulaanbaatar (Mongolia)',
+        'Ulan-Bator (Mongolia)': 'Ulaanbaatar (Mongolia)'
+
+    }
+
+    for old_value, new_value in replacements.items():
+        df['location'] = df['location'].replace(old_value, new_value)
+
+    return df
+
+
+def fix_dataset_types(df):
+    # Define a function to process the dataset_type
+    def process_dataset_type(row):
+        if 'Sensors' in row and '<a href' in row:
+            # Separate 'Sensors' and links
+            sensors_part = 'Sensors'  # Keep only 'Sensors'
+            links_part = re.findall(r'<a href="(.*?)">.*?</a>', row)  # Extract links
+            return sensors_part, ', '.join(links_part)  # Return both as a tuple
+        elif '<a href' in row:
+            # If only links exist, keep the links and set 'Sensors' column as NaN or empty
+            links_part = re.findall(r'<a href="(.*?)">.*?</a>', row)  # Extract links
+            return None, ', '.join(links_part)  # Return empty for sensors
+        else:
+            # If no links and no 'Sensors', keep the dataset_type as is
+            return row, None
+
+    # Apply the function to create the two new columns
+    df[['dataset_type', 'dataset_type_link']] = df['dataset_type'].apply(
+        lambda row: pd.Series(process_dataset_type(row)))
+
+    df['dataset_type'] = df.apply(lambda row: None if 'Project' == row['category'] else row['dataset_type'], axis=1)
+    df['dataset_type'] = df.apply(
+        lambda row: 'Sensor' if 'Dataset' == row['category'] and row['dataset_type'] == 'Sensors' else row[
+            'dataset_type'], axis=1)
+    df['dataset_type'] = df.apply(
+        lambda row: 'Sensors' if 'Datasets' == row['category'] and row['dataset_type'] == 'Sensor' else row[
+            'dataset_type'], axis=1)
+
+    return df
+
+
+def fix_sensor_types(df):
+    # Define a function to process the dataset_type
+    def process_dataset_type(row):
+        if '<a href=' in row:
+            # If only links exist, keep the links and set 'Sensors' column as NaN or empty
+            links_part = re.findall(r'<a href="(.*?)">.*?</a>', row)  # Extract links
+            return None, ', '.join(links_part)  # Return empty for sensors
+        elif '<a href =' in row:
+            # If only links exist, keep the links and set 'Sensors' column as NaN or empty
+            links_part = re.findall(r'<a href ="(.*?)">.*?</a>', row)  # Extract links
+            return None, ', '.join(links_part)  # Return empty for sensors
+        else:
+            # If no links and no 'Sensors', keep the dataset_type as is
+            return row, None
+
+    # Apply the function to create the two new columns
+
+    df[['sensor_type', 'sensor_type_link']] = df['sensor_type'].apply(lambda row: pd.Series(process_dataset_type(row)))
+
+    df['sensor_type'] = df['sensor_type'].apply(
+        lambda x: None if x == 'unknown' or str(x) == 'nan' or str(x) == '' else x)
+    df['sensor_type'] = df['sensor_type'].replace('App usage', 'App-usage')
+    df['sensor_type'] = df['sensor_type'].replace('Device-usage', 'Device-usage')
+    df['sensor_type'] = df['sensor_type'].replace('Device usage', 'Device-usage')
+    df['sensor_type'] = df['sensor_type'].replace('Device-Usage', 'Device-usage')
+    df['sensor_type'] = df['sensor_type'].replace('App-Usage', 'App-usage')
+    return df
+
+
+def fix_note(df):
+    # Update 'sensor_details' where 'collection_name' is 'DiversityOne'
+    df.loc[df['collection_name'] == 'DiversityOne', 'notes'] = \
+        df.loc[df['collection_name'] == 'DiversityOne', 'notes'].str.replace(
+            '27 smartphone sensors', '26 smartphone sensors', regex=False
+        )
+
+    return df
+
+
+def fix_file_name(df):
+    df['file_name'] = df['title'] + '.md'
+    return df
+
+
+def normalize_values(df):
+    df = fix_title(df)
+
+    df = fix_license(df)
+
+    df = fix_locations(df)
+
+    df = fix_collection_name(df)
+
+    df = fix_dataset_name(df)
+
+    # separates links from dataset_type column to dataset_type_link
+    df = fix_dataset_types(df)
+
+    # separates links from sensor_type column to sensor_type_link
+    df = fix_sensor_types(df)
+
+    # file name - should be at the end cuz it is taken from title
+    # df = fix_file_name(df)
+
+    # note - custom
+    df = fix_note(df)
+
+    return df
+
+
+def get_missing_codebooks(df):
+    # CHAT APP 2
+    sensors = {
+        "Chat_data.html": "2021-ChatApplication2-Chat_data.html",
+        "applicationevent.html": "2021-ChatApplication2-applicationevent.html",
+        "notificationevent.html": "2021-ChatApplication2-notificationevent.html",
+        "Exit_survey.html": "2021-ChatApplication2-Exit_survey.html",
+        "bluetoothlowenergyevent.html": "2021-ChatApplication2-bluetoothlowenergyevent.html",
+        "stepcounterevent.html": "2021-ChatApplication2-stepcounterevent.html",
+        "Profile": "2021-ChatApplication2-Profile.html",
+        "bluetoothnormalevent.html": "2021-ChatApplication2-bluetoothnormalevent.html",
+        "stepdetectorevent.html": "2021-ChatApplication2-stepdetectorevent.html",
+        "Activities Per Label": "2021-ChatApplication2-activitiesperlabel.html",
+        "locationeventpertime_poi.html": "2021-ChatApplication2-locationeventpertime_poi.html",
+        "activitiespertime.html": "2021-ChatApplication2-activitiespertime.html",
+        "locationeventpertime_rd.html": "2021-ChatApplication2-locationeventpertime_rd.html"
+    }
+
+    base_url = 'https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/'
+
+    def generate_codebook_url(row):
+        if row['codebook-url'].startswith('https://drive.google.com') and row['collection_name'] != 'SmartUnitn2':
+            return base_url + sensors.get(row['codebook-name'], 'default.html')
+        return row['codebook-url']
+
+    df['codebook-url'] = df.apply(generate_codebook_url, axis=1)
+
+    # CUSTOM
+
+    def update_codebook_url(row):
+        if row['title'] == '2020-DiversityOne-San Luis Potosí-Gyroscope':
+            row[
+                'codebook-url'] = 'https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_San-Luis-Potosi_gyroscope.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        return row
+
+    df = df.apply(update_codebook_url, axis=1)
+
+    return df
+
+
+def read_project(path):
+    df_project = pd.read_excel(path)
+
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('WeNet-', '', regex=False)
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Diversity1', 'DiversityOne', regex=False)
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('SmartUnitn', 'SmartUnitn2', regex=False)
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Big-Thick Data Project', 'Big-thick Data',
+                                                                      regex=False)
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('_', '-', regex=False)
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Tessaloniki', 'Thessaloniki', regex=False)
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Big-thick Data',
+                                                                      'SmartUnitn2 OSM Big Thick Data-Trento',
+                                                                      regex=False)
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Ulan Bator', 'Thessaloniki', regex=False)
+    return df_project
+
+
+def mapping_to_md_column_names(df):
+    import modeling as md
+
+    project_columns = md.project.keys()
+    dataset_columns = md.dataset.keys()
+
+    project_mapping = {
+        key: value for key, value in md.project.items()
+        if value and value != ''
+    }
+
+    dataset_mapping = {
+        key: value for key, value in md.dataset.items()
+        if value and value != ''
+    }
+
+    df = pd.concat([df, pd.DataFrame(None, index=df.index, columns=project_columns)], axis=1)
+    df = pd.concat([df, pd.DataFrame(None, index=df.index, columns=dataset_columns)], axis=1)
+
+    for key, value in project_mapping.items():
+        df[key] = df[value]
+
+    for key, value in dataset_mapping.items():
+        df[key] = df[value]
+
+    return df
+
+
+def main(md_files_pattern, project_file, metadata_description, output_file):
+    # Extract data from the markdown files
+    data = read_md_files_and_extract_data(md_files_pattern)
+    df_project = read_project(project_file)
+    df_md_description = pd.read_excel(metadata_description, sheet_name=None)
+
+    # clean inconsistent values
+    data = normalize_values(data)
+
+    data = get_dates(data, df_project)
+
+    data = get_missing_codebooks(data)
+
+    # Creating FACET
+    data = create_facet(data)
+
+    # add column names from metadata description
+    data = mapping_to_md_column_names(data)
+
+    # data = get_project_info(data, df_project)
+
+    # custom
+
+    # Save the extracted data to an Excel file
+    save_to_excel(data, output_file)
+
+
+if __name__ == "__main__":
+    # Folder containing the Markdown files
+    # md_files_pattern = "/Users/munkhdelger/Knowdive/LivePeople/_datasets/*.md"
+    md_files_pattern = "/Users/munkhdelger/Knowdive/LivePeople/temp/md_old/*.md"
+
+    # Output CSV file
+    output_file = "/Users/munkhdelger/Knowdive/LivePeople/temp/source.xlsx"
+
+    project_file = "/Users/munkhdelger/Knowdive/LivePeople/temp/sources/2024_LivePeople PROJECT Metadata.xlsx"
+
+    metadata_description = '/Users/munkhdelger/Knowdive/LivePeople/temp/sources/2024-LivePeople_Metadata_Description-v2_DRAFT.xlsx'
+
+    main(md_files_pattern, project_file, metadata_description, output_file)
