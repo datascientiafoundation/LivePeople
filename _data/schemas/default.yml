@@ -122,21 +122,21 @@ dataset_fields:
     label: Download request email
     datajson: ds:prjDownloadRequestEmail
 
-  - field_name: ds:prjDurationFacet
+  - field_name: durationFacet
     label: Duration facet
-    datajson: ds:prjDurationFacet
+    datajson: durationFacet
 
-  - field_name: ds:prjLocationFacet
+  - field_name: locationFacet
     label: Location facet
-    datajson: ds:prjLocationFacet
+    datajson: locationFacet
 
-  - field_name: ds:prjCollectionFacet
+  - field_name: collectionFacet
     label: Collection facet
-    datajson: ds:prjCollectionFacet
+    datajson: collectionFacet
 
-  - field_name: ds:prjCategoryFacet
+  - field_name: categoryFacet
     label: Category facet
-    datajson: ds:prjCategoryFacet
+    datajson: categoryFacet
 
   - field_name: ds:prjAdditionalMaterialName
     label: Additional material name
@@ -161,8 +161,6 @@ dataset_fields:
   - field_name: ds:prjDocumentationFormat
     label: Documentation format
     datajson: ds:prjDocumentationFormat
-
-
 
   - field_name: ds:DatName
     label: Dataset Name
@@ -328,21 +326,21 @@ dataset_fields:
     label: Dataset Name
     datajson: ds:DatSensorName
 
-  - field_name: ds:DatDurationFacet
+  - field_name: dDurationFacet
     label: Duration Facet
-    datajson: ds:DatDurationFacet
+    datajson: datDurationFacet
 
-  - field_name: ds:DatLocationFacet
+  - field_name: locationFacet
     label: Location Facet
-    datajson: ds:DatLocationFacet
+    datajson: locationFacet
 
-  - field_name: ds:DataTypeFacet
+  - field_name: dataTypeFacet
     label: Data Type Facet
-    datajson: ds:DataTypeFacet
+    datajson: dataTypeFacet
 
-  - field_name: ds:DatCategoryFacet
+  - field_name: categoryFacet
     label: Category
-    datajson: ds:DatCategoryFacet
+    datajson: categoryFacet
 
   - field_name: title
     label: Title
@@ -366,11 +364,11 @@ dataset_fields:
     label: Location
     datajson: location
   - field_name: start_date
-  label: Start Date
-  datajson: start_date
+    label: Start Date
+    datajson: start_date
   - field_name: end_date
-  label: End Date
-  datajson: end_date
+    label: End Date
+    datajson: end_date
   - field_name: dataset_type
     label: Dataset Type
     datajson: dataset_type
@@ -381,8 +379,8 @@ dataset_fields:
     label: Component dataset
     datajson: component_dataset_link
   - field_name: size
-  label: Size
-  datajson: size
+    label: Size
+    datajson: size
   - field_name: dataset_format
     label: Dataset Format
     datajson: dataset_format
