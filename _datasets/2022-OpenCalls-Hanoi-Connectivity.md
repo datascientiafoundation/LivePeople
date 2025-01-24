@@ -6,29 +6,35 @@ ds:prjType: Data collection
 ds:prjStartDate: 2022-06-13 00:00:00
 ds:prjEndDate: 2022-07-11 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823788
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets
 ds:prjCoordinator: Phan Thanh Trung
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Pham Doan Hai Phu
 ds:prjTargetLocation: Hanoi (Vietnam)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 112.0
 ds:prjSelectedParticipants: 112
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2022-04-12 00:00:00
 ds:prjIRBApprovalOrganization: FPT University
-ds:prjIRBApprovalNumber: nan
-ds:prjCiteAs: nan
-ds:prjMaintenance: nan
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
 latitude_map: 21.03
 longitude_map: 105.8
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 006.AAAJ.AAJ.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
+  - name: 
+    url: 
+    format: 
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

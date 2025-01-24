@@ -6,32 +6,35 @@ ds:prjType: Data collection
 ds:prjStartDate: 2022-01-17 00:00:00
 ds:prjEndDate: 2022-02-07 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823785
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets
 ds:prjCoordinator: Luca Cernuzzi
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Alethia Hume, Jose Luis Zarza
 ds:prjTargetLocation: Asunción (Paraguay)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 23.0
 ds:prjSelectedParticipants: 23
 ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
 ds:prjIRBApprovalDate: 2020-04-17 00:00:00
 ds:prjIRBApprovalOrganization: Universidad Católica "Nuestra Señora de la Asunción"
-ds:prjIRBApprovalNumber: nan
+ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 25.26
 longitude_map: 57.57
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 005.AAAG.AAD.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_LivePeople_Chatbot2_Data_Descriptor
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

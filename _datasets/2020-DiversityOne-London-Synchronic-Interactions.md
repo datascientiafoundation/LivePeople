@@ -6,32 +6,35 @@ ds:prjType: Data collection
 ds:prjStartDate: 2020-10-19 00:00:00
 ds:prjEndDate: 2020-12-18 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823787
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: George Gaskell
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Sally Stares, Miriam Bidoglia
 ds:prjTargetLocation: London (United Kingdom)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 1980.0
 ds:prjSelectedParticipants: 59
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2020-02-04 00:00:00
 ds:prjIRBApprovalOrganization: London School of Economics and Political Science
-ds:prjIRBApprovalNumber: nan
+ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 51.5
 longitude_map: 0.12
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 004.AAAD.AAE.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
     url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

@@ -6,32 +6,35 @@ ds:prjType: Data collection
 ds:prjStartDate: 2021-05-26 00:00:00
 ds:prjEndDate: 2021-08-12 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823788
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Shyam Diwakar
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Chaitanya Nutakki
 ds:prjTargetLocation: Amrita (India)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 6598.0
 ds:prjSelectedParticipants: 20
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2020-06-29 00:00:00
 ds:prjIRBApprovalOrganization: Amrita Vishwa Vidyapeetham
-ds:prjIRBApprovalNumber: nan
+ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 10.9
 longitude_map: 76.9
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 004.AAAD.AAG.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
     url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

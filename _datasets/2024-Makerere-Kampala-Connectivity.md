@@ -1,37 +1,40 @@
 ---
 schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8 target="_blank""> View Project </a>
-ds:prjKeywords: nan
-ds:prjType: nan
+ds:prjKeywords: 
+ds:prjType: 
 ds:prjStartDate: 2024-03-18 00:00:00
 ds:prjEndDate: 2024-05-13 00:00:00
-ds:prjFundingAgency: nan
-ds:prjInput: nan
-ds:prjOutput: nan
-ds:prjCoordinator: nan
-ds:prjObservations: nan
+ds:prjFundingAgency: 
+ds:prjInput: 
+ds:prjOutput: 
+ds:prjCoordinator: 
+ds:prjObservations: 
 organization: Unitn
-ds:prjProjectArea: nan
-ds:prjMembers: nan
+ds:prjProjectArea: 
+ds:prjMembers: 
 ds:prjTargetLocation: Kampala (Uganda)
-ds:prjTargetPopulation: nan
-ds:prjOverallParticipantsInvolved: nan
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 
 ds:prjSelectedParticipants: 73
-ds:prjTypeOfMeasurements: nan
-ds:prjIRBApprovalDate: NaT
-ds:prjIRBApprovalOrganization: nan
-ds:prjIRBApprovalNumber: nan
-ds:prjCiteAs: nan
-ds:prjMaintenance: nan
+ds:prjTypeOfMeasurements: 
+ds:prjIRBApprovalDate: 
+ds:prjIRBApprovalOrganization: 
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
 latitude_map: 0.335
 longitude_map: 32.56
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 007.AAAN.AAN.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: Big-Thick Data generation via reference and personal context unification
     url: https://arxiv.org/abs/2409.05883
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

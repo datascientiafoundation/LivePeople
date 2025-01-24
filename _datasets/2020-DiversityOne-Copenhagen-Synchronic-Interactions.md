@@ -6,15 +6,15 @@ ds:prjType: Data collection
 ds:prjStartDate: 2020-09-28 00:00:00
 ds:prjEndDate: 2020-12-11 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Amalia de Götzen
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Peter Kun, Niels Jørgen Gommesen
 ds:prjTargetLocation: Copenhagen (Denmark)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 443.0
 ds:prjSelectedParticipants: 18
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
@@ -22,16 +22,19 @@ ds:prjIRBApprovalDate: 2020-05-20 00:00:00
 ds:prjIRBApprovalOrganization: Aalbor University
 ds:prjIRBApprovalNumber: 2020-020-00462
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 55.67
 longitude_map: 12.56
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 004.AAAD.AAC.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
     url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

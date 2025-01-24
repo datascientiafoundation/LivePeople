@@ -6,15 +6,15 @@ ds:prjType: Data collection
 ds:prjStartDate: 2020-09-28 00:00:00
 ds:prjEndDate: 2020-12-11 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Ivano Bison
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Ronald Chenu Abente Acosta, Matteo Busso, Marcelo Rodas Britez, Andrea Bontempelli, Fausto Giunchiglia
 ds:prjTargetLocation: Trento (Italy)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 5692.0
 ds:prjSelectedParticipants: 221
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
@@ -22,16 +22,19 @@ ds:prjIRBApprovalDate: 2019-09-12 00:00:00
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2019-031 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 004.AAAD.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
     url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

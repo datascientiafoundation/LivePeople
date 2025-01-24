@@ -6,15 +6,15 @@ ds:prjType: Data collection
 ds:prjStartDate: 2021-11-20 00:00:00
 ds:prjEndDate: 2021-12-08 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets
 ds:prjCoordinator: Ivano Bison
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Ronald Chenu Abente Acosta, Matteo Busso, Marcelo Rodas Britez, Andrea Bontempelli, Fausto Giunchiglia
 ds:prjTargetLocation: Trento (Italy)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 31.0
 ds:prjSelectedParticipants: 31
 ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
@@ -22,16 +22,19 @@ ds:prjIRBApprovalDate: 2019-09-12 00:00:00
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2019-031 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 005.AAAG.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_LivePeople_Chatbot2_Data_Descriptor
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

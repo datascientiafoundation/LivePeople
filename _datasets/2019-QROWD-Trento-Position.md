@@ -6,29 +6,35 @@ ds:prjType: Data collection
 ds:prjStartDate: 2020-07-09 00:00:00
 ds:prjEndDate: 2020-07-14 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 QROWD project, under grant agreement 732194
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Fausto Giunchiglia
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Mattia Zeni, Ronald Chenu Abente Acosta, Enrico Bignotti, Matteo Busso
 ds:prjTargetLocation: Trento (Italy)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 157.0
 ds:prjSelectedParticipants: 157
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2018-04-03 00:00:00
 ds:prjIRBApprovalOrganization: CER UniTrento
-ds:prjIRBApprovalNumber: nan
+ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Eddy Maddalena, Luis-Daniel Ibáñez, Elena Simperl, Mattia Zeni, Enrico Bignotti, Fausto Giunchiglia, Claus Stadler, Patrick Westphal, Luís P. F. Garcia, and Jens Lehmann. . QROWD: Because Big Data Integration is Humanly Possible. In Proceedings of (KDD 2018). ACM, New York, NY, USA, 2 pages.
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 003.AAAC.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
+  - name: 
+    url: 
+    format: 
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

@@ -6,15 +6,15 @@ ds:prjType: Data collection
 ds:prjStartDate: 2018-05-11 00:00:00
 ds:prjEndDate: 2018-06-06 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Fausto Giunchiglia
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Ivano Bison, Mattia Zeni, Ronald Chenu Abente Acosta, Enrico Bignotti, Matteo Busso, Elisa Gobbi
 ds:prjTargetLocation: Trento (Italy)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 145.0
 ds:prjSelectedParticipants: 158
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
@@ -22,10 +22,10 @@ ds:prjIRBApprovalDate: 2017-06-28 00:00:00
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2016-027
 ds:prjCiteAs: Fausto Giunchiglia, Matteo Busso, Mattia Zeni, Ivano Bison, A survey on students’ daily routines and academic performance at the University of Trento, University of Trento Technical Report. No. DISI-2001-DS-01, (2022)
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 002.AAAB.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:

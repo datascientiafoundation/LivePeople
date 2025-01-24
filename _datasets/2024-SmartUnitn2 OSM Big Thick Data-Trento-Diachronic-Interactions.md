@@ -9,23 +9,23 @@ ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant 
 ds:prjInput: Datasets
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Fausto Giunchiglia
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Xiaoyue Li
 ds:prjTargetLocation: Trento (Italy)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 158.0
 ds:prjSelectedParticipants: 158
 ds:prjTypeOfMeasurements: Intensive Longitudinal Survey, Phone Sensors, Human Annotators in OpenStreetMap
-ds:prjIRBApprovalDate: NaT
+ds:prjIRBApprovalDate: 
 ds:prjIRBApprovalOrganization: CER UniTrento
-ds:prjIRBApprovalNumber: nan
+ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Giunchiglia, F., Xiaoyue, L. Big-Thick Data generation via reference and personal context unification, 27TH European Conference on Artificial Intelligence (2024).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 007.AAAP.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:

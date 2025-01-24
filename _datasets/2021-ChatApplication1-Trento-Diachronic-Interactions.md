@@ -6,15 +6,15 @@ ds:prjType: Data collection
 ds:prjStartDate: 2021-06-04 00:00:00
 ds:prjEndDate: 2021-06-18 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets
 ds:prjCoordinator: Ivano Bison
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Ronald Chenu Abente Acosta, Matteo Busso, Marcelo Rodas Britez, Andrea Bontempelli, Fausto Giunchiglia
 ds:prjTargetLocation: Trento (Italy)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 48.0
 ds:prjSelectedParticipants: 33
 ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
@@ -22,16 +22,19 @@ ds:prjIRBApprovalDate: 2019-09-12 00:00:00
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2019-031 
 ds:prjCiteAs: Fausto Giunchiglia, Ivano Bison, Matteo Busso, Ronald Chenu-Abente, Marcelo Rodas Britez, Can Gunel, Amalia de Götzen, Peter Kun, Amarsanaa Ganbold, Altangerel Chagnaa, George Gaskell, Miriam Bidoglia, Luca Cernuzzi, Alethia Hume, Jose Luis Zarza, Daniele Miorandi, Carlo Caprini, Laura Schelenz, Paula Helm, Daniel Gatica-Perez, Lakmal Meegahapola. A worldwide diversity chatbot pilot on interactions and social practices (2021). University of Trento Technical Report. No. #DISI-2001-DS-05.
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 005.AAAE.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2021-Chatbot1-technical_report
     url: https://drive.google.com/file/d/1m3_2X4b3gv-9tQS45FBCG7IJiVyeHgW3/view?usp=sharing
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

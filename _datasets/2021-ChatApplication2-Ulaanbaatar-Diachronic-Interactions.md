@@ -1,37 +1,40 @@
 ---
 schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/4e384637-2aa1-455a-b1c4-e0d927e9306b target="_blank""> View Project </a>
-ds:prjKeywords: nan
-ds:prjType: nan
+ds:prjKeywords: 
+ds:prjType: 
 ds:prjStartDate: 2021-11-22 00:00:00
 ds:prjEndDate: 2021-12-06 00:00:00
-ds:prjFundingAgency: nan
-ds:prjInput: nan
-ds:prjOutput: nan
-ds:prjCoordinator: nan
-ds:prjObservations: nan
+ds:prjFundingAgency: 
+ds:prjInput: 
+ds:prjOutput: 
+ds:prjCoordinator: 
+ds:prjObservations: 
 organization: Unitn
-ds:prjProjectArea: nan
-ds:prjMembers: nan
+ds:prjProjectArea: 
+ds:prjMembers: 
 ds:prjTargetLocation: Ulaanbaatar (Mongolia)
-ds:prjTargetPopulation: nan
-ds:prjOverallParticipantsInvolved: nan
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 
 ds:prjSelectedParticipants: 31
-ds:prjTypeOfMeasurements: nan
-ds:prjIRBApprovalDate: NaT
-ds:prjIRBApprovalOrganization: nan
-ds:prjIRBApprovalNumber: nan
-ds:prjCiteAs: nan
-ds:prjMaintenance: nan
+ds:prjTypeOfMeasurements: 
+ds:prjIRBApprovalDate: 
+ds:prjIRBApprovalOrganization: 
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
 latitude_map: 47.92
 longitude_map: 106.9
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 005.AAAG.AAB.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_LivePeople_Chatbot2_Data_Descriptor
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

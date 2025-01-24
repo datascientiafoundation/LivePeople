@@ -6,32 +6,35 @@ ds:prjType: Data collection
 ds:prjStartDate: 2019-08-30 00:00:00
 ds:prjEndDate: 2021-08-14 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823786
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Salvador Ruiz Correa
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Andrea-Rebeca Mendoza
 ds:prjTargetLocation: San Luis Potosí (Mexico)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 88.0
 ds:prjSelectedParticipants: 20
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2019-08-12 00:00:00
 ds:prjIRBApprovalOrganization: Instituto Potosino de Investigación Científica y Tecnológica
-ds:prjIRBApprovalNumber: nan
+ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021).
-ds:prjMaintenance: nan
+ds:prjMaintenance: 
 latitude_map: 22.15
 longitude_map: -100.9
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 004.AAAD.AAH.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
     url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

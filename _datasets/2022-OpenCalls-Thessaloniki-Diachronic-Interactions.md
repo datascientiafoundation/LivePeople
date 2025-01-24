@@ -6,29 +6,35 @@ ds:prjType: Data collection
 ds:prjStartDate: 2022-06-07 00:00:00
 ds:prjEndDate: 2022-07-06 00:00:00
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823789
-ds:prjInput: nan
+ds:prjInput: 
 ds:prjOutput: Datasets
 ds:prjCoordinator: Paschalis Arvanitidis
-ds:prjObservations: nan
+ds:prjObservations: 
 organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Athina Zoe, George Papagiannitsis
 ds:prjTargetLocation: Thessaloniki (Greece)
-ds:prjTargetPopulation: nan
+ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 164.0
 ds:prjSelectedParticipants: 164
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2022-03-15 00:00:00
 ds:prjIRBApprovalOrganization: University of Thessaly
 ds:prjIRBApprovalNumber: 10/15-03-2022
-ds:prjCiteAs: nan
-ds:prjMaintenance: nan
+ds:prjCiteAs: 
+ds:prjMaintenance: 
 latitude_map: 40.64
 longitude_map: 22.94
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 006.AAAI.AAK.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
+  - name: 
+    url: 
+    format: 
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

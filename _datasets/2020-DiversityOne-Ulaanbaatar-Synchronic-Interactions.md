@@ -1,37 +1,40 @@
 ---
 schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/f6bfbca4-fbe7-488f-bcf1-a66ac1f5a93a target="_blank""> View Project </a>
-ds:prjKeywords: nan
-ds:prjType: nan
+ds:prjKeywords: 
+ds:prjType: 
 ds:prjStartDate: 2020-09-28 00:00:00
 ds:prjEndDate: 2020-12-11 00:00:00
-ds:prjFundingAgency: nan
-ds:prjInput: nan
-ds:prjOutput: nan
-ds:prjCoordinator: nan
-ds:prjObservations: nan
+ds:prjFundingAgency: 
+ds:prjInput: 
+ds:prjOutput: 
+ds:prjCoordinator: 
+ds:prjObservations: 
 organization: Unitn
-ds:prjProjectArea: nan
-ds:prjMembers: nan
+ds:prjProjectArea: 
+ds:prjMembers: 
 ds:prjTargetLocation: Ulaanbaatar (Mongolia)
-ds:prjTargetPopulation: nan
-ds:prjOverallParticipantsInvolved: nan
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 
 ds:prjSelectedParticipants: 164
-ds:prjTypeOfMeasurements: nan
-ds:prjIRBApprovalDate: NaT
-ds:prjIRBApprovalOrganization: nan
-ds:prjIRBApprovalNumber: nan
-ds:prjCiteAs: nan
-ds:prjMaintenance: nan
+ds:prjTypeOfMeasurements: 
+ds:prjIRBApprovalDate: 
+ds:prjIRBApprovalOrganization: 
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
 latitude_map: 47.92
 longitude_map: 106.9
-ds:prjThumbnailUrl: nan
+ds:prjThumbnailUrl: 
 ds:prjIdentifier: 004.AAAD.AAB.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
     url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 
