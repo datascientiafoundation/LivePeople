@@ -73,8 +73,8 @@ ds:DatOrigin:
 ds:DatCreativeWorkStatus: 
 ds:DatIdentifier: 007.AAAN.AAN.BR-BP-BL-BM-BQ
 ds:DatChangelogURL: 
-ds:DatLicenceURL: >- 
-./../../resources/2023LivePeopleLicense.html
+ds:DatLicenceURL: >-
+ ./../../resources/2023LivePeopleLicense.html
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
