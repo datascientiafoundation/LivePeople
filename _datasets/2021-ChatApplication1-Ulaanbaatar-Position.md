@@ -74,7 +74,7 @@ ds:DatCreativeWorkStatus:
 ds:DatIdentifier: 005.AAAE.AAB.BM
 ds:DatChangelogURL: 
 ds:DatLicenceURL: >-
- ./../../resources/2023LivePeopleLicense.html
+  ./../../resources/2023LivePeopleLicense.html
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
