@@ -122,17 +122,17 @@ dataset_fields:
     label: Download request email
     datajson: ds:prjDownloadRequestEmail
 
-  - field_name: durationFacet
-    label: Duration facet
-    datajson: durationFacet
+#  - field_name: durationFacet
+#    label: Duration facet
+#    datajson: durationFacet
 
 #  - field_name: locationFacet
 #    label: Location facet
 #    datajson: locationFacet
 
-  - field_name: collectionFacet
-    label: Collection facet
-    datajson: collectionFacet
+#  - field_name: collectionFacet
+#    label: Collection facet
+#    datajson: collectionFacet
 
 #  - field_name: categoryFacet
 #    label: Category facet
