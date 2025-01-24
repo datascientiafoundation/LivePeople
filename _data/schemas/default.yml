@@ -1,6 +1,169 @@
 # To add fields, make a new schema file in this directory
 # and change the schema setting in _config.yml to its name
 dataset_fields:
+  - field_name: ds:prjTitle
+    label: Project title
+    datajson: ds:prjTitle
+
+  - field_name: ds:prjURL
+    label: Project URL
+    datajson: ds:prjURL
+
+  - field_name: ds:prjKeywords
+    label: Project keywords
+    datajson: ds:prjKeywords
+
+  - field_name: ds:prjType
+    label: Project type
+    datajson: ds:prjType
+
+  - field_name: ds:prjDescription
+    label: Project description
+    datajson: ds:prjDescription
+
+  - field_name: ds:prjStartDate
+    label: Project start date
+    datajson: ds:prjStartDate
+
+  - field_name: ds:prjEndDate
+    label: Project end date
+    datajson: ds:prjEndDate
+
+  - field_name: ds:prjFundingAgency
+    label: Project funding agency
+    datajson: ds:prjFundingAgency
+
+  - field_name: ds:prjInput
+    label: Project input
+    datajson: ds:prjInput
+
+  - field_name: ds:prjOutput
+    label: Project output
+    datajson: ds:prjOutput
+
+  - field_name: ds:prjCoordinator
+    label: Project coordinator
+    datajson: ds:prjCoordinator
+
+  - field_name: ds:prjObservations
+    label: Project observations
+    datajson: ds:prjObservations
+
+  - field_name: ds:prjCoordinatorOrganization
+    label: Project coordinator organization
+    datajson: ds:prjCoordinatorOrganization
+
+  - field_name: ds:prjProjectArea
+    label: Project area
+    datajson: ds:prjProjectArea
+
+  - field_name: ds:prjMembers
+    label: Project members
+    datajson: ds:prjMembers
+
+  - field_name: ds:prjTargetLocation
+    label: Project target location
+    datajson: ds:prjTargetLocation
+
+  - field_name: ds:prjTargetPopulation
+    label: Project target population
+    datajson: ds:prjTargetPopulation
+
+  - field_name: ds:prjOverallParticipantsInvolved
+    label: Overall participants involved
+    datajson: ds:prjOverallParticipantsInvolved
+
+  - field_name: ds:prjSelectedParticipants
+    label: Selected participants
+    datajson: ds:prjSelectedParticipants
+
+  - field_name: ds:prjTypeOfMeasurements
+    label: Type of measurements
+    datajson: ds:prjTypeOfMeasurements
+
+  - field_name: ds:prjIRBApprovalDate
+    label: IRB approval date
+    datajson: ds:prjIRBApprovalDate
+
+  - field_name: ds:prjIRBApprovalOrganization
+    label: IRB approval organization
+    datajson: ds:prjIRBApprovalOrganization
+
+  - field_name: ds:prjIRBApprovalNumber
+    label: IRB approval number
+    datajson: ds:prjIRBApprovalNumber
+
+  - field_name: ds:prjCiteAs
+    label: Cite as
+    datajson: ds:prjCiteAs
+
+  - field_name: ds:prjMaintenance
+    label: Maintenance
+    datajson: ds:prjMaintenance
+
+  - field_name: ds:prjLatitude
+    label: Latitude
+    datajson: ds:prjLatitude
+
+  - field_name: ds:prjLongitude
+    label: Longitude
+    datajson: ds:prjLongitude
+
+  - field_name: ds:prjThumbnailUrl
+    label: Thumbnail URL
+    datajson: ds:prjThumbnailUrl
+
+  - field_name: ds:prjIdentifier
+    label: Identifier
+    datajson: ds:prjIdentifier
+
+  - field_name: ds:prjDownloadRequestEmail
+    label: Download request email
+    datajson: ds:prjDownloadRequestEmail
+
+  - field_name: ds:prjDurationFacet
+    label: Duration facet
+    datajson: ds:prjDurationFacet
+
+  - field_name: ds:prjLocationFacet
+    label: Location facet
+    datajson: ds:prjLocationFacet
+
+  - field_name: ds:prjCollectionFacet
+    label: Collection facet
+    datajson: ds:prjCollectionFacet
+
+  - field_name: ds:prjCategoryFacet
+    label: Category facet
+    datajson: ds:prjCategoryFacet
+
+  - field_name: ds:prjAdditionalMaterialName
+    label: Additional material name
+    datajson: ds:prjAdditionalMaterialName
+
+  - field_name: ds:prjAdditionalMaterialUrl
+    label: Additional material URL
+    datajson: ds:prjAdditionalMaterialUrl
+
+  - field_name: ds:prjAdditionalMaterialFormat
+    label: Additional material format
+    datajson: ds:prjAdditionalMaterialFormat
+
+  - field_name: ds:prjDocumentationName
+    label: Documentation name
+    datajson: ds:prjDocumentationName
+
+  - field_name: ds:prjDocumentationURL
+    label: Documentation URL
+    datajson: ds:prjDocumentationURL
+
+  - field_name: ds:prjDocumentationFormat
+    label: Documentation format
+    datajson: ds:prjDocumentationFormat
+
+
+
+
   - field_name: title
     label: Title
     datajson: title
@@ -59,7 +222,7 @@ dataset_fields:
     label: Category
     form_template: form/category.html
     display_template: display/category.html
-    datajson: category 
+    datajson: category
   - field_name: domain
     label: Domain
     form_template: form/domain.html
