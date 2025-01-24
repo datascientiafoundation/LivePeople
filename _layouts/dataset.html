@@ -47,12 +47,12 @@ layout: default
                     <div class="col">
                         {% endif %}
                         <h1>
-                            <span property="dct:title">{{ page.title }}</span>
+                            <span property="dct:title">{{ page['ds:prjTitle']}}</span>
                             <a href="?view=edit" class="pull-right btn btn-outline-secondary admin-only"
                                data-hook="edit-dataset-btn">Edit</a>
                         </h1>
                         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{
-                            page.notes }}</p>
+                            page['ds:prjDescription'] }}</p>
 
                         <h2>Resources</h2>
                         <ul>
@@ -142,7 +142,7 @@ layout: default
                             {% for field in dataset_fields %}
                             {% unless dataset_system_fields contains field.field_name %}
 
-                            {% if field.field_name=="latitude_map" or field.field_name=="longitude_map" %}
+                            {% if field.field_name=="ds:prjLatitude" or field.field_name=="ds:prjLongitude" %}
                             {% continue %}
                             {% endif %}
 
