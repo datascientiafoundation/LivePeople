@@ -11,7 +11,7 @@ ds:prjInput:
 ds:prjOutput: Datasets, Publications
 ds:prjCoordinator: Fausto Giunchiglia
 ds:prjObservations: 
-ds:prjCoordinatorOrganization: Unitn
+organization: Unitn
 ds:prjProjectArea: LivePeople
 ds:prjMembers: Ivano Bison, Mattia Zeni, Ronald Chenu Abente Acosta, Enrico Bignotti, Matteo Busso, Elisa Gobbi
 ds:prjTargetLocation: Trento (Italy)

@@ -1,36 +1,44 @@
 ---
-schema: default
 title: 2022-OpenCalls-Hanoi
-organization: Unitn
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca">https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca</a>
+ds:prjKeywords: Diversity, Social Practices, Eating Habits, Smartphone data, Sensor data
+ds:prjType: Data collection
 notes: The Open Calls Project was a Wenet Horizon 2020 funded project with the goal of developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of FPT University in Vietnam. The project was carried out in June and July 2022. The project set out to sense the daily activity data of respondents through the mobile phone sensors, collect health data through daily food log surveys, collect alcohol-drinking activities coupled with the motives for drinking, and conduct semi-structured surveys to gather feedback on the project. Data collection was carried out in three big cities across Vietnam. The i-Log application was used to collect sensor data from participants with the language set to Vietnamese. The food-drink activities were collected with an i-Log survey filled in by the respondents three times a day.
+ds:prjStartDate: 2022-06-13
+ds:prjEndDate: 2022-07-11
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823788
+ds:prjInput: 
+ds:prjOutput: Datasets
+ds:prjCoordinator: Phan Thanh Trung
+ds:prjObservations: 
+organization: Unitn
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Pham Doan Hai Phu
+ds:prjTargetLocation: Hanoi (Vietnam)
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 112.0
+ds:prjSelectedParticipants: 112
+ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
+ds:prjIRBApprovalDate: 2022-04-12
+ds:prjIRBApprovalOrganization: FPT University
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
+latitude_map: 21.03
+longitude_map: 105.8
+ds:prjThumbnailUrl: 
+ds:prjIdentifier: 006.AAAJ.AAJ.**
+ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 
     url: 
     format: 
-license: >-
- ./../../resources/2023LivePeopleLicense.html
-dataset_name: Open Calls Hanoi
-location: Hanoi (Vietnam)
-latitude_map: 21.03
-longitude_map: 105.8
-start_date: 2022-06-13
-end_date: 2022-07-11
-size: 11264 MB
-dataset_format: parquet
-number_participants: 112
-language: English
-collection_name: OpenCalls
-project_url: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca">https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca</a>
-category: 
-  - Project
-domain: 
-  - Digital University
-5_stars: 3
-publication_date: 2023-12-20
-identifier: 006.AAAJ.AAJ.**
-request_contact: datadistribution.knowdive@unitn.it
+  - name: 
+    url: 
+    format: 
+durationFacet: 1 month
+locationFacet: Vietnam
+collectionFacet: OpenCalls
+categoryFacet: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-App-usage">app-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Connectivity">connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Device-usage">device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Environment">environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Position">position</a>
-duration_facet: "1 month"
-location_facet: Vietnam
-location_continent_facet: Asia
 ---
