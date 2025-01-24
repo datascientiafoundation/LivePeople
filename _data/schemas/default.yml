@@ -1,7 +1,7 @@
 # To add fields, make a new schema file in this directory
 # and change the schema setting in _config.yml to its name
 dataset_fields:
-  ### PROJECT ###
+
   - field_name: ds:prjTitle
     label: Project title
     datajson: ds:prjTitle
@@ -164,7 +164,6 @@ dataset_fields:
 
 
 
-  ### DATASET ###
   - field_name: ds:DatName
     label: Dataset Name
     datajson: ds:DatName
@@ -344,89 +343,89 @@ dataset_fields:
   - field_name: ds:DatCategoryFacet
     label: Category
     datajson: ds:DatCategoryFacet
-      ### 
-                - field_name: title
-                label: Title
-                datajson: title
-                            - field_name: organization
-                            label: Organization
-                            form_template: form/organization.html
-                            datajson: publisher.name
-                              - field_name: notes
-                                label: Description
-                                form_template: form/textarea.html
-                                datajson: description
-                              - field_name: license
-                                label: License
-                                form_template: form/license.html
-                                datajson: license
-                              - field_name: dataset_name
-                                label: Dataset Name
-                                datajson: dataset_name
-                              - field_name: location
-                                label: Location
-                                datajson: location
-                              - field_name: start_date
-                                label: Start Date
-                                datajson: start_date
-                              - field_name: end_date
-                                label: End Date
-                                datajson: end_date
-                              - field_name: dataset_type
-                                label: Dataset Type
-                                datajson: dataset_type
-                              - field_name: sensor_type
-                                label: Sensor Type
-                                datajson: sensor_type
-                              - field_name: component_dataset_link
-                                label: Component dataset
-                                datajson: component_dataset_link
-                              - field_name: size
-                                label: Size
-                                datajson: size
-                              - field_name: dataset_format
-                                label: Dataset Format
-                                datajson: dataset_format
-                              - field_name: number_participants
-                                label: Number of Participants
-                                datajson: number_participants
-                              - field_name: language
-                                label: Language
-                                datajson: language
-                              - field_name: collection_name
-                                label: Collection Name
-                                datajson: collection_name
-                              - field_name: project_url
-                                label: Project URL
-                                datajson: project_url
-                              - field_name: category
-                                label: Category
-                                form_template: form/category.html
-                                display_template: display/category.html
-                                datajson: category
-                              - field_name: domain
-                                label: Domain
-                                form_template: form/domain.html
-                                display_template: display/domain.html
-                                datajson: domain
-                              - field_name: 5_stars
-                                label: 5-Stars
-                                datajson: 5_stars
-                              - field_name: publication_date
-                                label: Publication Date
-                                datajson: publication_date
-                              - field_name: identifier
-                                label: Identifier
-                                datajson: identifier
-                              - field_name: request_contact
-                                label: Download Request Contact
-                                datajson: request_contact
-                              - field_name: latitude_map
-                                label: latitude
-                                datajson: latitude_map
-                              - field_name: longitude_map
-                                label: longitude
-                                datajson: longitude_map
+
+  - field_name: title
+    label: Title
+    datajson: title
+  - field_name: organization
+    label: Organization
+    form_template: form/organization.html
+    datajson: publisher.name
+  - field_name: notes
+    label: Description
+    form_template: form/textarea.html
+    datajson: description
+  - field_name: license
+    label: License
+    form_template: form/license.html
+    datajson: license
+  - field_name: dataset_name
+    label: Dataset Name
+    datajson: dataset_name
+  - field_name: location
+    label: Location
+    datajson: location
+  - field_name: start_date
+  label: Start Date
+  datajson: start_date
+  - field_name: end_date
+  label: End Date
+  datajson: end_date
+  - field_name: dataset_type
+    label: Dataset Type
+    datajson: dataset_type
+  - field_name: sensor_type
+    label: Sensor Type
+    datajson: sensor_type
+  - field_name: component_dataset_link
+    label: Component dataset
+    datajson: component_dataset_link
+  - field_name: size
+  label: Size
+  datajson: size
+  - field_name: dataset_format
+    label: Dataset Format
+    datajson: dataset_format
+  - field_name: number_participants
+    label: Number of Participants
+    datajson: number_participants
+  - field_name: language
+    label: Language
+    datajson: language
+  - field_name: collection_name
+    label: Collection Name
+    datajson: collection_name
+  - field_name: project_url
+    label: Project URL
+    datajson: project_url
+  - field_name: category
+    label: Category
+    form_template: form/category.html
+    display_template: display/category.html
+    datajson: category
+  - field_name: domain
+    label: Domain
+    form_template: form/domain.html
+    display_template: display/domain.html
+    datajson: domain
+  - field_name: 5_stars
+    label: 5-Stars
+    datajson: 5_stars
+  - field_name: publication_date
+    label: Publication Date
+    datajson: publication_date
+  - field_name: identifier
+    label: Identifier
+    datajson: identifier
+  - field_name: request_contact
+    label: Download Request Contact
+    datajson: request_contact
+  - field_name: latitude_map
+    label: latitude
+    datajson: latitude_map
+  - field_name: longitude_map
+    label: longitude
+    datajson: longitude_map
 
 resource_fields:
   - field_name: name
