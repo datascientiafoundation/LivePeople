@@ -73,7 +73,7 @@ ds:DatOrigin:
 ds:DatCreativeWorkStatus: 
 ds:DatIdentifier: 005.AAAE.AAB.CA
 ds:DatChangelogURL: 
-ds:DatLicenceURL: >-
+license: >-
   ./../../resources/2023LivePeopleLicense.html
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 

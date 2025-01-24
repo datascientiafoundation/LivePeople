@@ -126,17 +126,17 @@ dataset_fields:
     label: Duration facet
     datajson: durationFacet
 
-  - field_name: locationFacet
-    label: Location facet
-    datajson: locationFacet
+#  - field_name: locationFacet
+#    label: Location facet
+#    datajson: locationFacet
 
   - field_name: collectionFacet
     label: Collection facet
     datajson: collectionFacet
 
-  - field_name: categoryFacet
-    label: Category facet
-    datajson: categoryFacet
+#  - field_name: categoryFacet
+#    label: Category facet
+#    datajson: categoryFacet
 
   - field_name: ds:prjAdditionalMaterialName
     label: Additional material name
@@ -326,17 +326,17 @@ dataset_fields:
     label: Dataset Name
     datajson: ds:DatSensorName
 
-  - field_name: dDurationFacet
-    label: Duration Facet
-    datajson: datDurationFacet
+#  - field_name: dDurationFacet
+#    label: Duration Facet
+#    datajson: datDurationFacet
 
-  - field_name: locationFacet
-    label: Location Facet
-    datajson: locationFacet
+#  - field_name: locationFacet
+#    label: Location Facet
+#    datajson: locationFacet
 
-  - field_name: dataTypeFacet
-    label: Data Type Facet
-    datajson: dataTypeFacet
+#  - field_name: dataTypeFacet
+#    label: Data Type Facet
+#    datajson: dataTypeFacet
 
   - field_name: categoryFacet
     label: Category
@@ -396,11 +396,11 @@ dataset_fields:
   - field_name: project_url
     label: Project URL
     datajson: project_url
-  - field_name: category
-    label: Category
-    form_template: form/category.html
-    display_template: display/category.html
-    datajson: category
+#  - field_name: category
+#    label: Category
+#    form_template: form/category.html
+#    display_template: display/category.html
+#    datajson: category
   - field_name: domain
     label: Domain
     form_template: form/domain.html
