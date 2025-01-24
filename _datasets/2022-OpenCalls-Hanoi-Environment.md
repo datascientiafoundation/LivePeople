@@ -1,38 +1,80 @@
 ---
 schema: default
-title: 2022-OpenCalls-Hanoi-Environment
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca target="_blank""> View Project </a>
+ds:prjKeywords: Diversity, Social Practices, Eating Habits, Smartphone data, Sensor data
+ds:prjType: Data collection
+ds:prjStartDate: 2022-06-13 00:00:00
+ds:prjEndDate: 2022-07-11 00:00:00
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823788
+ds:prjInput: nan
+ds:prjOutput: Datasets
+ds:prjCoordinator: Phan Thanh Trung
+ds:prjObservations: nan
 organization: Unitn
-notes: The Open Calls Project was a Wenet Horizon 2020 funded project with the goal of developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of FPT University in Vietnam. The project was carried out in June and July 2022. The project set out to sense the daily activity data of respondents through the mobile phone sensors, collect health data through daily food log surveys, collect alcohol-drinking activities coupled with the motives for drinking, and conduct semi-structured surveys to gather feedback on the project. Data collection was carried out in three big cities across Vietnam. The i-Log application was used to collect sensor data from participants with the language set to Vietnamese. The food-drink activities were collected with an i-Log survey filled in by the respondents three times a day.
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Pham Doan Hai Phu
+ds:prjTargetLocation: Hanoi (Vietnam)
+ds:prjTargetPopulation: nan
+ds:prjOverallParticipantsInvolved: 112.0
+ds:prjSelectedParticipants: 112
+ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
+ds:prjIRBApprovalDate: 2022-04-12 00:00:00
+ds:prjIRBApprovalOrganization: FPT University
+ds:prjIRBApprovalNumber: nan
+ds:prjCiteAs: nan
+ds:prjMaintenance: nan
+latitude_map: 21.03
+longitude_map: 105.8
+ds:prjThumbnailUrl: nan
+ds:prjIdentifier: 006.AAAJ.AAJ.**
+ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 
     url: 
     format: 
-license: >-
- ./../../resources/2023LivePeopleLicense.html
-dataset_name: Environment
-location: Hanoi (Vietnam)
-latitude_map: 21.03
-longitude_map: 105.8
-start_date: 2022-06-13
-end_date: 2022-07-11
-dataset_type: Sensors
-size: 1433.60 MB
-dataset_format: parquet
-number_participants: 52
-language: Not Applicable
-collection_name: OpenCalls
-project_url: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca">https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca</a>
-category: 
-  - Dataset Bundle
-domain: 
-  - Digital University
-5_stars: 3
-publication_date: 2023-12-20
-identifier: 006.AAAJ.AAJ.AS-AR
-request_contact: datadistribution.knowdive@unitn.it
+download request:
+  - name: 
+    url: 
+    format: 
+title: 2022-OpenCalls-Hanoi-Environment
+notes: The Open Calls Project was a Wenet Horizon 2020 funded project with the goal of developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of FPT University in Vietnam. The project was carried out in June and July 2022. The project set out to sense the daily activity data of respondents through the mobile phone sensors, collect health data through daily food log surveys, collect alcohol-drinking activities coupled with the motives for drinking, and conduct semi-structured surveys to gather feedback on the project. Data collection was carried out in three big cities across Vietnam. The i-Log application was used to collect sensor data from participants with the language set to Vietnamese. The food-drink activities were collected with an i-Log survey filled in by the respondents three times a day.
+ds:DatVersion: 
+ds:DatPublicationTimestamp: 2023-12-20
+ds:DatLicense: 
+ds:DatURL: 
+ds:DatKeyword: 
+ds:DatPublisher: 
+ds:DatCreator: 
+ds:DatOwner: 
+ds:DatLanguage: Not Applicable
+ds:DatLevel: 
+ds:DatSize: 1433.60 MB
+ds:DatDomain: Digital University
+ds:DatFileFormat: parquet
+ds:DatDetailedDescription: 
+ds:DatDownloadRequest: 
+ds:DatConditionsOfAccess: 
+ds:DatGenre: 
+ds:DatisAccessibleForFree: 
+ds:DatExpires: 
+ds:DatSensorName: Environment
+ds:DatType: Sensors
+ds:DatSensorType: 
+ds:DatStartDate: 2022-06-13
+ds:DatEndDate: 2022-07-11
+ds:DatFiveStars: 3
+ds:DatOrigin: 
+ds:DatCreativeWorkStatus: 
+ds:DatIdentifier: 006.AAAJ.AAJ.AS-AR
+ds:DatChangelogURL: 
+ds:DatLicenceURL: >-
+./../../resources/2023LivePeopleLicense.html
+ds:DatSha256: 
+ds:DatUpdateTimestamp: 
+ds:DatBasedOn: 
+durationFacet: 1 month
+locationFacet: Vietnam
+dataTypeFacet: Environment
+categoryFacet: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Pressure">pressure</a>
-duration_facet: "1 month"
-location_facet: Vietnam
-location_continent_facet: Asia
-data_type_facet: Environment
 ---
