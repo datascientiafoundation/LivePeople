@@ -1,7 +1,7 @@
 ---
 schema: default
 title: 2020-DiversityOne-Trento
-ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b303target="_blank""> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b303 target="_blank""> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
 notes: The study aimed to assess diversity through the social practices and daily behaviors of university students from eight different countries. The research was carried out in two phases. Initially, a large sample of students from Denmark, Italy, Mongolia, Paraguay, the United Kingdom, China, Mexico, and India, completed a survey on their social practices, as well as their socio-demographic, cultural, and psychological elements. In the second phase, a sub-sample of the respondents engaged in a four-week data collection by using an innovative smartphone application called iLog. This app collected data from thirty-four smartphone sensors around the clock, allowing for an in-depth investigation into the diversity and daily routines of university students across countries, both synchronically and diachronically.

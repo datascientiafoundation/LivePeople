@@ -1,7 +1,7 @@
 ---
 schema: default
 title: 2021-ChatApplication1-London
-ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4851target="_blank""> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4851 target="_blank""> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
 notes: The Wenet Chat Application 1 project was based on a chatbot that collected questions and answers from university students in Italy, Denmark, Paraguay, the United Kingdom, and Mongolia. It was conducted in March and June 2021 to improve the knowledge about students' lives to promote the design of better and more targeted technology and support tools for students. It was a European Union WeNet Horizon 2020-funded project with the overall goal of developing a diversity-aware, machine-mediated paradigm for social interactions. Data was collected with a Telegram App and the i-Log Application. Some of the data collected included the respondent’s career information (department, study course, study year,) and demographics (age, gender…). Questions were sent on the Telegram App and user answers were recorded, the i-Log App recorded sensor data (such as location, accelerometer…) from the user device. This data was collected in three phases, the first phase entailed interacting with the Telegram App Ask4Help, and sensor data was also collected during this phase. The second phase involved respondents answering a questionnaire, and in the third phase, they participated in a focus group to provide feedback.
