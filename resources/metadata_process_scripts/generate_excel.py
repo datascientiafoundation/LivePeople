@@ -134,9 +134,9 @@ def read_md_files_and_extract_data(md_files_pattern) -> pd.DataFrame:
 def save_to_excel(df, output_file):
     df = df.sort_values('title')
 
-    df.drop(columns=['other_format'], inplace=True)
-    df.drop(columns=['location_continent_facet'], inplace=True)
-    df.drop(columns=['resources', 'dataset_type_link', 'sensor_type_link'], inplace=True)
+
+    df.drop(columns=['location_continent_facet', 'resources', 'other_format'], inplace=True)
+    # df.drop(columns=['dataset_type_link', 'sensor_type_link'], inplace=True)
 
     category_groups = {category: group for category, group in df.groupby('category')}
 
@@ -208,10 +208,16 @@ def get_project_info(df, df_project):
     #               right_on='ds:prjTitle',
     #               how='left')
 
-    df = df.merge(df_project,
-                  left_on='temp_title',
-                  right_on='ds:prjTitle',
-                  how='left')
+    for index, row in df.iterrows():
+        matching_row = df_project[df_project['ds:prjTitle'] == row['temp_title']]
+        if not matching_row.empty:
+            for column in df.columns:
+                if column in df_project.columns and str(df.loc[index, column]) == 'nan':
+                    df.loc[index, column] = matching_row.iloc[0][column]
+    # df = df.merge(df_project,
+    #               left_on='temp_title',
+    #               right_on='ds:prjTitle',
+    #               how='left')
 
     df.drop(columns=['temp_title'], inplace=True)
 
@@ -371,12 +377,15 @@ def fix_locations(df):
 def fix_dataset_types(df):
     # Define a function to process the dataset_type
     def process_dataset_type(row):
+        if not isinstance(row, str):
+            # Handle cases where the row is None or not a string
+            return row, None
         if 'Sensors' in row and '<a href' in row:
             # Separate 'Sensors' and links
             sensors_part = 'Sensors'  # Keep only 'Sensors'
             links_part = re.findall(r'<a href="(.*?)">.*?</a>', row)  # Extract links
             return sensors_part, ', '.join(links_part)  # Return both as a tuple
-        elif '<a href' in row:
+        if '<a href' in row:
             # If only links exist, keep the links and set 'Sensors' column as NaN or empty
             links_part = re.findall(r'<a href="(.*?)">.*?</a>', row)  # Extract links
             return None, ', '.join(links_part)  # Return empty for sensors
@@ -402,6 +411,9 @@ def fix_dataset_types(df):
 def fix_sensor_types(df):
     # Define a function to process the dataset_type
     def process_dataset_type(row):
+        if not isinstance(row, str):
+            # Handle cases where the row is None or not a string
+            return row, None
         if '<a href=' in row:
             # If only links exist, keep the links and set 'Sensors' column as NaN or empty
             links_part = re.findall(r'<a href="(.*?)">.*?</a>', row)  # Extract links
@@ -496,7 +508,7 @@ def get_missing_codebooks(df):
 
     df['codebook-url'] = df.apply(generate_codebook_url, axis=1)
 
-    # CUSTOM
+
 
     def update_codebook_url(row):
         if row['title'] == '2020-DiversityOne-San Luis Potosí-Gyroscope':
@@ -525,6 +537,9 @@ def read_project(path):
                                                                       'SmartUnitn2 OSM Big Thick Data-Trento',
                                                                       regex=False)
     df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Ulan Bator', 'Thessaloniki', regex=False)
+
+    df_project.rename(columns={'ds:prjOverallPeopleInvolved': 'ds:prjOverallParticipantsInvolved'} ,  inplace=True)
+
     return df_project
 
 
@@ -575,9 +590,13 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
     # add column names from metadata description
     data = mapping_to_md_column_names(data)
 
-    # data = get_project_info(data, df_project)
+    data = get_project_info(data, df_project)
 
     # custom
+    data['ds:DatDownloadRequestName'] = 'Download request'
+    data['ds:DatDownloadRequestURL'] = 'https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf'
+    data['ds:DatDownloadRequestFormat'] = 'PDF'
+
 
     # Save the extracted data to an Excel file
     save_to_excel(data, output_file)
@@ -586,13 +605,13 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
 if __name__ == "__main__":
     # Folder containing the Markdown files
     # md_files_pattern = "/Users/munkhdelger/Knowdive/LivePeople/_datasets/*.md"
-    md_files_pattern = "/Users/munkhdelger/Knowdive/LivePeople/temp/md_old/*.md"
+    md_files_pattern = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/md_old/*.md"
 
     # Output CSV file
-    output_file = "/Users/munkhdelger/Knowdive/LivePeople/temp/source.xlsx"
+    output_file = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/source.xlsx"
 
-    project_file = "/Users/munkhdelger/Knowdive/LivePeople/temp/sources/2024_LivePeople PROJECT Metadata.xlsx"
+    project_file = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024_LivePeople PROJECT Metadata.xlsx"
 
-    metadata_description = '/Users/munkhdelger/Knowdive/LivePeople/temp/sources/2024-LivePeople_Metadata_Description-v2_DRAFT.xlsx'
+    metadata_description = '/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024_LivePeople PROJECT Metadata.xlsx'
 
     main(md_files_pattern, project_file, metadata_description, output_file)
