@@ -39,9 +39,9 @@ resources:
     url: https://drive.google.com/file/d/1WIcaWAjYeKEfW5_1oFoXNU0qaiwwfFC7/view?usp=sharing
     format: PDF
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2018-SmartUnitn2-Trento-Touch
 notes: The dataset returns the number of screen touch occurred. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 ds:DatVersion: 

@@ -39,9 +39,9 @@ resources:
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-geomagneticrotationvector.html
     format: html
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2024-Makerere-Kampala-Geomagnetic Rotation Vector
 notes: The geomagnetic rotation vector sensor consists of an accelerometer + magnetometer which helps in conserving battery while using apps like Gmaps, Compass, etc. That sensor helps in finding where the phone is pointed at, with respect to the  magnetic poles and the phones orientation (landscape or portrait).  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 

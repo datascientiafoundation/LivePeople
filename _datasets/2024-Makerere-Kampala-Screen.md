@@ -39,9 +39,9 @@ resources:
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-screen.html
     format: html
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2024-Makerere-Kampala-Screen
 notes: The dataset returns whether the phone's screen is on or off.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 

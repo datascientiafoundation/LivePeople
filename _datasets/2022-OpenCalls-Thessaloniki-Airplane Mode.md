@@ -39,9 +39,9 @@ resources:
     url: 
     format: 
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2022-OpenCalls-Thessaloniki-Airplane Mode
 notes: The dataset returns whether the phone’s Airplane mode is ON/OFF. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the UTH University.
 ds:DatVersion: 

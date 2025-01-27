@@ -39,9 +39,9 @@ resources:
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-bluetoothnormalevent.html
     format: html
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2021-ChatApplication2-Trento-Bluetooth
 notes: The dataset returns whether the device to wirelessly exchange data with other Bluetooth devices. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 

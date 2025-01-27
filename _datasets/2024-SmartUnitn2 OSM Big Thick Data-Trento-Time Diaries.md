@@ -39,9 +39,9 @@ resources:
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-OSM-Trento-timediaries.html
     format: html
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2024-SmartUnitn2 OSM Big Thick Data-Trento-Time Diaries
 notes: The SU2OSM big-thick data integrates the part of SmartUnitn2 (SU2) dataset with the OpenStreetMap (OSM) dataset from Geofabrik. The SU2 dataset contains the personal big-thick data of 158 university students over a period of four weeks, which generating a sequence of personal contexts. We extracted the massive real-world places in Trentino region from OSM dataset, building provides the Reference Context. The generated SU2OSM big-thick data totally represents 104,414 personal contexts of 158 university students, a reference context which contains 147 Trentino places, where 1955 personal contexts are unified in the reference context. We updated the SU2OSM data by adding fake years for dates to facilitate ease of use. Part of the SU2OSM data has been assigned new and more reasonable datatypes.
 ds:DatVersion: 

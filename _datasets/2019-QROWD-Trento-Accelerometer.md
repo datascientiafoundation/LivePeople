@@ -39,9 +39,9 @@ resources:
     url: 
     format: 
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2019-QROWD-Trento-Accelerometer
 notes: This dataset returns the 3D vector of the acceleration.
 ds:DatVersion: 

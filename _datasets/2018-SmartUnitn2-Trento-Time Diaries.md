@@ -39,9 +39,9 @@ resources:
     url: https://drive.google.com/file/d/1WGYy8DdDO2C81GXRJ2OOPB80QNgbowq_/view?usp=sharing
     format: PDF
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2018-SmartUnitn2-Trento-Time Diaries
 notes: The dataset contains self-reported annotations in form of time diaries, provided by the participants every half hour. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 ds:DatVersion: 

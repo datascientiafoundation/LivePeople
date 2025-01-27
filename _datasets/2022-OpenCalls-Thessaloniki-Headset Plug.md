@@ -39,9 +39,9 @@ resources:
     url: 
     format: 
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2022-OpenCalls-Thessaloniki-Headset Plug
 notes: This dataset contanis the headset status (true/false), triggered when the jack of the headphones is plugged in/out. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the UTH University.
 ds:DatVersion: 

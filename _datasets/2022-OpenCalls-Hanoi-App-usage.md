@@ -39,9 +39,9 @@ resources:
     url: 
     format: 
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2022-OpenCalls-Hanoi-App-usage
 notes: The Open Calls Project was a Wenet Horizon 2020 funded project with the goal of developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of FPT University in Vietnam. The project was carried out in June and July 2022. The project set out to sense the daily activity data of respondents through the mobile phone sensors, collect health data through daily food log surveys, collect alcohol-drinking activities coupled with the motives for drinking, and conduct semi-structured surveys to gather feedback on the project. Data collection was carried out in three big cities across Vietnam. The i-Log application was used to collect sensor data from participants with the language set to Vietnamese. The food-drink activities were collected with an i-Log survey filled in by the respondents three times a day.
 ds:DatVersion: 

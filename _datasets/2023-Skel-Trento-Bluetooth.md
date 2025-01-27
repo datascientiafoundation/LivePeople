@@ -39,9 +39,9 @@ resources:
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2023_SKEL_Trento_bluetooth.html
     format: html
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2023-Skel-Trento-Bluetooth
 notes: Returns whether the device wirelessly exchanges data with other Bluetooth  devices
 ds:DatVersion: 

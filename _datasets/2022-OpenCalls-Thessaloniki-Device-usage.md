@@ -39,9 +39,9 @@ resources:
     url: 
     format: 
 download request:
-  - name: 
-    url: 
-    format: 
+  - name: Download request
+    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
+    format: PDF
 title: 2022-OpenCalls-Thessaloniki-Device-usage
 notes: The Open Calls Project was a Wenet Horizon 2020-funded project with the goal of developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the diversity and social contribution activities of the students at the University of Thessaly (UTH) in Greece. The purpose of this research was to gather and study the diversity of students (in terms of subject and level of study, age, gender, personality traits, moral and social values, beliefs, and attitudes towards others and life) participating in social contribution activities. The i-Log application was used to collect sensor data and time diaries from participants over the course of the study. Two questionnaires were also administered to respondents to gather demographic, profiling data, and student career information.
 ds:DatVersion: 
