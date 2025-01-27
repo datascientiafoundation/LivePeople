@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2022-04-12
 ds:prjIRBApprovalOrganization: FPT University
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: 
+ds:prjCiteAs: ""
 ds:prjMaintenance: 
 latitude_map: 21.03
 longitude_map: 105.8

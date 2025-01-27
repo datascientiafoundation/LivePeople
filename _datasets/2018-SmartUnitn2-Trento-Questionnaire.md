@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2017-06-28
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2016-027
-ds:prjCiteAs: Fausto Giunchiglia, Matteo Busso, Mattia Zeni, Ivano Bison, A survey on students’ daily routines and academic performance at the University of Trento, University of Trento Technical Report. No. DISI-2001-DS-01, (2022)
+ds:prjCiteAs: "Fausto Giunchiglia, Matteo Busso, Mattia Zeni, Ivano Bison, A survey on students’ daily routines and academic performance at the University of Trento, University of Trento Technical Report. No. DISI-2001-DS-01, (2022)"
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13

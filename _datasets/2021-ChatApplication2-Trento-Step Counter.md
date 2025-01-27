@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
 ds:prjIRBApprovalDate: 2019-09-12
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2019-031 
-ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave).
+ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave)."
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13

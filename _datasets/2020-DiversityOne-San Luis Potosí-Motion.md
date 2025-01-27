@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2019-08-12
 ds:prjIRBApprovalOrganization: Instituto Potosino de Investigación Científica y Tecnológica
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021).
+ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021)."
 ds:prjMaintenance: 
 latitude_map: 22.15
 longitude_map: -100.9

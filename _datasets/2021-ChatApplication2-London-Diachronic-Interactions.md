@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
 ds:prjIRBApprovalDate: 2020-02-04
 ds:prjIRBApprovalOrganization: London School of Economics and Political Science
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave).
+ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave)."
 ds:prjMaintenance: 
 latitude_map: 51.5
 longitude_map: 0.12

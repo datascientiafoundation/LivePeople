@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
 ds:prjIRBApprovalDate: 2020-04-17
 ds:prjIRBApprovalOrganization: Universidad Católica "Nuestra Señora de la Asunción"
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave).
+ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave)."
 ds:prjMaintenance: 
 latitude_map: 25.26
 longitude_map: 57.57

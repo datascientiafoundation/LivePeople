@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements:
 ds:prjIRBApprovalDate: 
 ds:prjIRBApprovalOrganization: 
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: 
+ds:prjCiteAs: ""
 ds:prjMaintenance: 
 latitude_map: 47.92
 longitude_map: 106.9

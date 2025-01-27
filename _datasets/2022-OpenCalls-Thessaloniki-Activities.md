@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2022-03-15
 ds:prjIRBApprovalOrganization: University of Thessaly
 ds:prjIRBApprovalNumber: 10/15-03-2022
-ds:prjCiteAs: 
+ds:prjCiteAs: ""
 ds:prjMaintenance: 
 latitude_map: 40.64
 longitude_map: 22.94

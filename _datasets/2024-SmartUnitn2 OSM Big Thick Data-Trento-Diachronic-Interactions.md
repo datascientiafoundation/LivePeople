@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Intensive Longitudinal Survey, Phone Sensors, Human An
 ds:prjIRBApprovalDate: 
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: Giunchiglia, F., Xiaoyue, L. Big-Thick Data generation via reference and personal context unification, 27TH European Conference on Artificial Intelligence (2024).
+ds:prjCiteAs: "Giunchiglia, F., Xiaoyue, L. Big-Thick Data generation via reference and personal context unification, 27TH European Conference on Artificial Intelligence (2024)."
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13

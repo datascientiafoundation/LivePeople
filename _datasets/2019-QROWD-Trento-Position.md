@@ -21,7 +21,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2018-04-03
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: Eddy Maddalena, Luis-Daniel Ibáñez, Elena Simperl, Mattia Zeni, Enrico Bignotti, Fausto Giunchiglia, Claus Stadler, Patrick Westphal, Luís P. F. Garcia, and Jens Lehmann. . QROWD: Because Big Data Integration is Humanly Possible. In Proceedings of (KDD 2018). ACM, New York, NY, USA, 2 pages.
+ds:prjCiteAs: "Eddy Maddalena, Luis-Daniel Ibáñez, Elena Simperl, Mattia Zeni, Enrico Bignotti, Fausto Giunchiglia, Claus Stadler, Patrick Westphal, Luís P. F. Garcia, and Jens Lehmann. . QROWD: Because Big Data Integration is Humanly Possible. In Proceedings of (KDD 2018). ACM, New York, NY, USA, 2 pages."
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
