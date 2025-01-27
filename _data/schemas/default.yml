@@ -338,9 +338,9 @@ dataset_fields:
 #    label: Data Type Facet
 #    datajson: dataTypeFacet
 
-  - field_name: categoryFacet
-    label: Category
-    datajson: categoryFacet
+#  - field_name: categoryFacet
+#    label: Category
+#    datajson: categoryFacet
 
   - field_name: title
     label: Title
@@ -364,10 +364,10 @@ dataset_fields:
     label: Location
     datajson: location
   - field_name: start_date
-    label: Start Date
+    label: Collection Start Date
     datajson: start_date
   - field_name: end_date
-    label: End Date
+    label: Collection End Date
     datajson: end_date
   - field_name: dataset_type
     label: Dataset Type
@@ -390,9 +390,9 @@ dataset_fields:
   - field_name: language
     label: Language
     datajson: language
-  - field_name: collection_name
-    label: Collection Name
-    datajson: collection_name
+#  - field_name: collection_name
+#    label: Collection Name
+#    datajson: collection_name
   - field_name: project_url
     label: Project URL
     datajson: project_url
