@@ -174,6 +174,22 @@ dataset_fields:
     label: Sensor Name
     datajson: ds:DatSensorName
 
+  - field_name: ds:DatType
+    label: Dataset Type
+    datajson: ds:DatType
+
+  - field_name: ds:DatSensorType
+    label: Sensor Type
+    datajson: ds:DatSensorType
+
+  - field_name: ds:DatStartDate
+    label: Start Date
+    datajson: ds:DatStartDate
+
+  - field_name: ds:DatEndDate
+    label: End Date
+    datajson: ds:DatEndDate
+
   - field_name: ds:DatVersion
     label: Dataset Version
     datajson: ds:DatVersion
@@ -250,21 +266,7 @@ dataset_fields:
     label: Expiration Date
     datajson: ds:DatExpires
 
-  - field_name: ds:DatType
-    label: Dataset Type
-    datajson: ds:DatType
 
-  - field_name: ds:DatSensorType
-    label: Sensor Type
-    datajson: ds:DatSensorType
-
-  - field_name: ds:DatStartDate
-    label: Start Date
-    datajson: ds:DatStartDate
-
-  - field_name: ds:DatEndDate
-    label: End Date
-    datajson: ds:DatEndDate
 
   - field_name: ds:DatFiveStars
     label: 5-Star Rating
