@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 2-6 months
-locationFacet: United Kingdom
-collectionFacet: DiversityOne
-categoryFacet: Project
+duration_facet: 2-6 months
+location_facet: United Kingdom
+collection_name: DiversityOne
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-App-usage">app-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Connectivity">connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Daily%20annotations%20%26%20Location">daily annotations & location</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Device-usage">device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Environment">environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Position">position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Synchronic-Interactions">synchronic-interactions</a>
 ---

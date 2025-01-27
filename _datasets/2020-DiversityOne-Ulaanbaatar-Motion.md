@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Mongolia
-dataTypeFacet: Motion
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Mongolia
+collection_name: DiversityOne
+data_type_facet: Motion
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Accelerometer">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Gyroscope">gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Step%20Counter">step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Step%20Detector">step detector</a>
 ---

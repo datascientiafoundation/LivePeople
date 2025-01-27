@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 1 month
-locationFacet: Greece
-collectionFacet: OpenCalls
-categoryFacet: Project
+duration_facet: 1 month
+location_facet: Greece
+collection_name: OpenCalls
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-App-usage">app-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Connectivity">connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Device-usage">device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Environment">environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Position">position</a>
 ---

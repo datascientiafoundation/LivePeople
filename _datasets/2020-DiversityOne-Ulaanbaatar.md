@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 2-6 months
-locationFacet: Mongolia
-collectionFacet: DiversityOne
-categoryFacet: Project
+duration_facet: 2-6 months
+location_facet: Mongolia
+collection_name: DiversityOne
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-App-usage">app-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Connectivity">connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Daily%20annotations%20%26%20Location">daily annotations & location</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Device-usage">device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Environment">environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Position">position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Synchronic-Interactions">synchronic-interactions</a>
 ---

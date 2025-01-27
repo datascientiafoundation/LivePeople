@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Mongolia
-dataTypeFacet: App-usage
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Mongolia
+collection_name: DiversityOne
+data_type_facet: App-usage
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Headset%20Plug">headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Music">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Notification">notification</a>
 ---

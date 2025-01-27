@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Vietnam
-dataTypeFacet: Position
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Vietnam
+collection_name: OpenCalls
+data_type_facet: Position
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Location%20RD">location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Magnetic%20Field">magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Proximity">proximity</a>
 ---

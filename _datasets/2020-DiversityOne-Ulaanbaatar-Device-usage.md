@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Mongolia
-dataTypeFacet: Device-usage
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Mongolia
+collection_name: DiversityOne
+data_type_facet: Device-usage
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Airplane%20Mode">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Battery%20Monitoring%20Log">battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Batterycharge">batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Doze">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Ring%20Mode">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Screen">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Touch">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-User%20Presence">user presence</a>
 ---

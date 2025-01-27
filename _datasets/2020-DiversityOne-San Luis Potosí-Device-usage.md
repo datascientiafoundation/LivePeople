@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: >12 months
-locationFacet: Mexico
-dataTypeFacet: Device-usage
-categoryFacet: Dataset Bundle
+duration_facet: >12 months
+location_facet: Mexico
+collection_name: DiversityOne
+data_type_facet: Device-usage
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Airplane%20Mode">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Battery%20Monitoring%20Log">battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Batterycharge">batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Doze">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Ring%20Mode">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Screen">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Touch">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-User%20Presence">user presence</a>
 ---

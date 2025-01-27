@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Vietnam
-dataTypeFacet: Connectivity
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Vietnam
+collection_name: OpenCalls
+data_type_facet: Connectivity
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Bluetooth">bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Bluetooth%20Low%20Energy">bluetooth low energy</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Cellular%20Network">cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Wifi">wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Wifi%20Networks">wifi networks</a>
 ---

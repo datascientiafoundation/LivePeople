@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 2-6 months
-locationFacet: Italy
-dataTypeFacet: Environment
-categoryFacet: Dataset Bundle
+duration_facet: 2-6 months
+location_facet: Italy
+collection_name: DiversityOne
+data_type_facet: Environment
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Pressure">pressure</a>
 ---

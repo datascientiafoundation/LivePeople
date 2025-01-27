@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Italy
-dataTypeFacet: Motion
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Italy
+collection_name: ChatApplication1
+data_type_facet: Motion
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Step%20Counter">step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Step%20Detector">step detector</a>
 ---

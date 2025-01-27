@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Italy
-dataTypeFacet: Synchronic-Interactions
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Italy
+collection_name: SmartUnitn2
+data_type_facet: Synchronic-Interactions
+category: Dataset Bundle
 component_dataset_link: 
 ---

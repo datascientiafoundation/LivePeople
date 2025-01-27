@@ -78,8 +78,9 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Mongolia
-dataTypeFacet: Motion
-categoryFacet: Dataset
+duration_facet: 1 month
+location_facet: Mongolia
+collection_name: DiversityOne
+data_type_facet: Motion
+category: Dataset
 ---

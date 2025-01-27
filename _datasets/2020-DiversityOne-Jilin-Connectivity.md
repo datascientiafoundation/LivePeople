@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 7-12 months
-locationFacet: China
-dataTypeFacet: Connectivity
-categoryFacet: Dataset Bundle
+duration_facet: 7-12 months
+location_facet: China
+collection_name: DiversityOne
+data_type_facet: Connectivity
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Bluetooth">bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Cellular%20Network">cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Wifi">wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Wifi%20Networks">wifi networks</a>
 ---

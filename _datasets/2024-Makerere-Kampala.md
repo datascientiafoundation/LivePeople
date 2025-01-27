@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 2-6 months
-locationFacet: Uganda
-collectionFacet: Makerere
-categoryFacet: Project
+duration_facet: 2-6 months
+location_facet: Uganda
+collection_name: Makerere
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-App-usage">app-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Connectivity">connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Device-usage">device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Environment">environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Inertial">inertial</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Position">position</a>
 ---

@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: >12 months
-locationFacet: Mexico
-dataTypeFacet: Connectivity
-categoryFacet: Dataset Bundle
+duration_facet: >12 months
+location_facet: Mexico
+collection_name: DiversityOne
+data_type_facet: Connectivity
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Bluetooth">bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Cellular%20Network">cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Wifi">wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Wifi%20Networks">wifi networks</a>
 ---

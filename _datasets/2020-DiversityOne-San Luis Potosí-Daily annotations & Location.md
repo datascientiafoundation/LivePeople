@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: >12 months
-locationFacet: Mexico
-dataTypeFacet: Daily annotations & Location
-categoryFacet: Dataset Bundle
+duration_facet: >12 months
+location_facet: Mexico
+collection_name: DiversityOne
+data_type_facet: Daily annotations & Location
+category: Dataset Bundle
 component_dataset_link: 
 ---

@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 2-6 months
-locationFacet: Uganda
-dataTypeFacet: Motion
-categoryFacet: Dataset Bundle
+duration_facet: 2-6 months
+location_facet: Uganda
+collection_name: Makerere
+data_type_facet: Motion
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Accelerometer">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Accelerometer%20Uncalibrated">accelerometer uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Gravity">gravity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Gyroscope">gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Gyroscope%20Uncalibrated">gyroscope uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Rotation%20Vector">rotation vector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Step%20Counter">step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Step%20Detector">step detector</a>
 ---

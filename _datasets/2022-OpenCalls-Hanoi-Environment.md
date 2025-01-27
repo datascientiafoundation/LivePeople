@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Vietnam
-dataTypeFacet: Environment
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Vietnam
+collection_name: OpenCalls
+data_type_facet: Environment
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Pressure">pressure</a>
 ---

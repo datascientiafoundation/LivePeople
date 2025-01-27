@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 7-12 months
-locationFacet: China
-dataTypeFacet: Motion
-categoryFacet: Dataset Bundle
+duration_facet: 7-12 months
+location_facet: China
+collection_name: DiversityOne
+data_type_facet: Motion
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Accelerometer">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Gyroscope">gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Step%20Counter">step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Step%20Detector">step detector</a>
 ---

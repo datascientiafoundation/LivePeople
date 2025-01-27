@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 1 month
-locationFacet: Denmark
-collectionFacet: ChatApplication2
-categoryFacet: Project
+duration_facet: 1 month
+location_facet: Denmark
+collection_name: ChatApplication2
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Copenhagen-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Copenhagen-Synchronic-Interactions">synchronic-interactions</a>
 ---

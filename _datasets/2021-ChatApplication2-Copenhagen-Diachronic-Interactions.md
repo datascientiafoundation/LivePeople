@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Denmark
-dataTypeFacet: Diachronic-Interactions
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Denmark
+collection_name: ChatApplication2
+data_type_facet: Diachronic-Interactions
+category: Dataset Bundle
 component_dataset_link: 
 ---

@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 7-12 months
-locationFacet: China
-dataTypeFacet: Diachronic-Interactions
-categoryFacet: Dataset Bundle
+duration_facet: 7-12 months
+location_facet: China
+collection_name: DiversityOne
+data_type_facet: Diachronic-Interactions
+category: Dataset Bundle
 component_dataset_link: 
 ---

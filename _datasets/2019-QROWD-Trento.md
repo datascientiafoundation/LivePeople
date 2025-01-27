@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 1 month
-locationFacet: Italy
-collectionFacet: QROWD
-categoryFacet: Project
+duration_facet: 1 month
+location_facet: Italy
+collection_name: QROWD
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Position">position</a>
 ---

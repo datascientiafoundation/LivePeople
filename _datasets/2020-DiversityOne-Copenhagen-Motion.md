@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 2-6 months
-locationFacet: Denmark
-dataTypeFacet: Motion
-categoryFacet: Dataset Bundle
+duration_facet: 2-6 months
+location_facet: Denmark
+collection_name: DiversityOne
+data_type_facet: Motion
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Accelerometer">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Gyroscope">gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Step%20Counter">step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Step%20Detector">step detector</a>
 ---

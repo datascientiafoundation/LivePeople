@@ -78,8 +78,9 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Greece
-dataTypeFacet: Connectivity
-categoryFacet: Dataset
+duration_facet: 1 month
+location_facet: Greece
+collection_name: OpenCalls
+data_type_facet: Connectivity
+category: Dataset
 ---

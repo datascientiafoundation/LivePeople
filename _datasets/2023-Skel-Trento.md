@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 2-6 months
-locationFacet: Italy
-collectionFacet: Skel
-categoryFacet: Project
+duration_facet: 2-6 months
+location_facet: Italy
+collection_name: Skel
+category: Project
 component_dataset_link: 
 ---

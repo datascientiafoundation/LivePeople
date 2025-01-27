@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 2-6 months
-locationFacet: Denmark
-dataTypeFacet: Connectivity
-categoryFacet: Dataset Bundle
+duration_facet: 2-6 months
+location_facet: Denmark
+collection_name: DiversityOne
+data_type_facet: Connectivity
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Bluetooth">bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Cellular%20Network">cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Wifi">wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Wifi%20Networks">wifi networks</a>
 ---

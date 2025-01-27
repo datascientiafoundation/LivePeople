@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 1 month
-locationFacet: Mongolia
-collectionFacet: ChatApplication1
-categoryFacet: Project
+duration_facet: 1 month
+location_facet: Mongolia
+collection_name: ChatApplication1
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-App-usage">app-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Connectivity">connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Position">position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Synchronic-Interactions">synchronic-interactions</a>
 ---

@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: United Kingdom
-dataTypeFacet: Synchronic-Interactions
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: United Kingdom
+collection_name: ChatApplication1
+data_type_facet: Synchronic-Interactions
+category: Dataset Bundle
 component_dataset_link: 
 ---

@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Italy
-dataTypeFacet: Environment
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Italy
+collection_name: SmartUnitn2
+data_type_facet: Environment
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Pressure">pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Relative%20Humidity">relative humidity</a>
 ---

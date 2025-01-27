@@ -78,8 +78,9 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 7-12 months
-locationFacet: China
-dataTypeFacet: Device-usage
-categoryFacet: Dataset
+duration_facet: 7-12 months
+location_facet: China
+collection_name: DiversityOne
+data_type_facet: Device-usage
+category: Dataset
 ---

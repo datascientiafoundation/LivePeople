@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Mongolia
-dataTypeFacet: Daily annotations & Location
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Mongolia
+collection_name: DiversityOne
+data_type_facet: Daily annotations & Location
+category: Dataset Bundle
 component_dataset_link: 
 ---

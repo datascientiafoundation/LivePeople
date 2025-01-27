@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Greece
-dataTypeFacet: Diachronic-Interactions
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Greece
+collection_name: OpenCalls
+data_type_facet: Diachronic-Interactions
+category: Dataset Bundle
 component_dataset_link: 
 ---

@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Italy
-dataTypeFacet: Position
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Italy
+collection_name: QROWD
+data_type_facet: Position
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Location%20POI">location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Location%20RD">location rd</a>
 ---

@@ -78,8 +78,9 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 2-6 months
-locationFacet: Paraguay
-dataTypeFacet: Motion
-categoryFacet: Dataset
+duration_facet: 2-6 months
+location_facet: Paraguay
+collection_name: DiversityOne
+data_type_facet: Motion
+category: Dataset
 ---

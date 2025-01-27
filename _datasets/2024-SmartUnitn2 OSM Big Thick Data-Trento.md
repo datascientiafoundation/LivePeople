@@ -37,9 +37,9 @@ resources:
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-OSM-Trento-timediaries.html
     format: html
-durationFacet: 2-6 months
-locationFacet: Italy
-collectionFacet: SmartUnitn2OSM
-categoryFacet: Project
+duration_facet: 2-6 months
+location_facet: Italy
+collection_name: SmartUnitn2OSM
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-SmartUnitn2%20OSM%20Big%20Thick%20Data-Trento-Diachronic-Interactions">diachronic-interactions</a>
 ---

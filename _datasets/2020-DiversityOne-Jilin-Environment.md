@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 7-12 months
-locationFacet: China
-dataTypeFacet: Environment
-categoryFacet: Dataset Bundle
+duration_facet: 7-12 months
+location_facet: China
+collection_name: DiversityOne
+data_type_facet: Environment
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Pressure">pressure</a>
 ---

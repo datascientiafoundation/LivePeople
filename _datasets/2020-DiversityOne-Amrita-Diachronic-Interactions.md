@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 2-6 months
-locationFacet: India
-dataTypeFacet: Diachronic-Interactions
-categoryFacet: Dataset Bundle
+duration_facet: 2-6 months
+location_facet: India
+collection_name: DiversityOne
+data_type_facet: Diachronic-Interactions
+category: Dataset Bundle
 component_dataset_link: 
 ---

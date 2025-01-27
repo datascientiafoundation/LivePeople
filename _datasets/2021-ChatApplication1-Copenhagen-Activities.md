@@ -78,8 +78,9 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Denmark
-dataTypeFacet: Motion
-categoryFacet: Dataset
+duration_facet: 1 month
+location_facet: Denmark
+collection_name: ChatApplication1
+data_type_facet: Motion
+category: Dataset
 ---

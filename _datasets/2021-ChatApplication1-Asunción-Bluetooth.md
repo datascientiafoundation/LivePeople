@@ -78,8 +78,9 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Paraguay
-dataTypeFacet: Connectivity
-categoryFacet: Dataset
+duration_facet: 1 month
+location_facet: Paraguay
+collection_name: ChatApplication1
+data_type_facet: Connectivity
+category: Dataset
 ---

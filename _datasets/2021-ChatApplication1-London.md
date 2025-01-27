@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 1 month
-locationFacet: United Kingdom
-collectionFacet: ChatApplication1
-categoryFacet: Project
+duration_facet: 1 month
+location_facet: United Kingdom
+collection_name: ChatApplication1
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-London-App-usage">app-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-London-Connectivity">connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-London-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-London-Motion">motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-London-Position">position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-London-Synchronic-Interactions">synchronic-interactions</a>
 ---

@@ -78,8 +78,9 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: >12 months
-locationFacet: Mexico
-dataTypeFacet: Motion
-categoryFacet: Dataset
+duration_facet: >12 months
+location_facet: Mexico
+collection_name: DiversityOne
+data_type_facet: Motion
+category: Dataset
 ---

@@ -37,9 +37,9 @@ resources:
   - name: 
     url: 
     format: 
-durationFacet: 1 month
-locationFacet: United Kingdom
-collectionFacet: ChatApplication2
-categoryFacet: Project
+duration_facet: 1 month
+location_facet: United Kingdom
+collection_name: ChatApplication2
+category: Project
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-London-Diachronic-Interactions">diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-London-Synchronic-Interactions">synchronic-interactions</a>
 ---

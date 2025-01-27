@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 1 month
-locationFacet: Mongolia
-dataTypeFacet: Position
-categoryFacet: Dataset Bundle
+duration_facet: 1 month
+location_facet: Mongolia
+collection_name: ChatApplication1
+data_type_facet: Position
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Location">location</a>
 ---

@@ -78,9 +78,10 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-durationFacet: 2-6 months
-locationFacet: Uganda
-dataTypeFacet: Position
-categoryFacet: Dataset Bundle
+duration_facet: 2-6 months
+location_facet: Uganda
+collection_name: Makerere
+data_type_facet: Position
+category: Dataset Bundle
 component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Geomagnetic%20Rotation%20Vector">geomagnetic rotation vector</a>
 ---
