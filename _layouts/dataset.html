@@ -92,16 +92,18 @@ layout: default
 
 
                         {% if page.component_dataset_link %}
-
                         <h2>Component Datasets</h2>
                         <ul>
                             {% assign links = page.component_dataset_link | split: "," %}
                             {% for link in links %}
-                            {% assign link_parts = link | split: '"' %}
+                            {% assign link_text = link | strip | remove: ">" %}
+                            {% assign link_parts = link_text | split: '"' %}
                             {% if link_parts.size > 1 %}
                             <li>
                                 <a href="{{ link_parts[1] | strip }}" target="_blank">{{ link_parts[2] | remove: "</a>" | strip }}</a>
                             </li>
+                            {% else %}
+                            <li>{{ link_text }}</li>
                             {% endif %}
                             {% endfor %}
                         </ul>

@@ -41,5 +41,5 @@ duration_facet: "2-6 months"
 location_facet: Italy
 collection_name: SmartUnitn2OSM
 category: Project
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-SmartUnitn2%20OSM%20Big%20Thick%20Data-Trento-Diachronic-Interactions">diachronic-interactions</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-SmartUnitn2%20OSM%20Big%20Thick%20Data-Trento-Diachronic-Interactions">Diachronic-interactions</a>
 ---
