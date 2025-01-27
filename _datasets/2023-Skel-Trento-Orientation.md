@@ -1,33 +1,33 @@
 ---
 schema: default
-ds:prjURL: <a href=" target="_blank""> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/ target="_blank""> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
-ds:prjStartDate: 
-ds:prjEndDate: 
+ds:prjStartDate: 2023-05-12 02:15:00
+ds:prjEndDate: 2023-06-12 02:15:00
 ds:prjFundingAgency: 
 ds:prjInput: 
 ds:prjOutput: 
 ds:prjCoordinator: 
 ds:prjObservations: 
-organization: 
+organization: Unitn
 ds:prjProjectArea: 
 ds:prjMembers: 
-ds:prjTargetLocation: 
+ds:prjTargetLocation: Trento (Italy)
 ds:prjTargetPopulation: 
 ds:prjOverallParticipantsInvolved: 
-ds:prjSelectedParticipants: 
+ds:prjSelectedParticipants: 62
 ds:prjTypeOfMeasurements: 
 ds:prjIRBApprovalDate: 
 ds:prjIRBApprovalOrganization: 
 ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: 
 ds:prjMaintenance: 
-latitude_map: 
-longitude_map: 
+latitude_map: 46.04
+longitude_map: 11.07
 ds:prjThumbnailUrl: 
-ds:prjIdentifier: 
-ds:prjDownloadRequestEmail: 
+ds:prjIdentifier: 008.AAAQ.AAA.**
+ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 
     url: 
