@@ -45,7 +45,7 @@ download request:
 title: 2022-OpenCalls-Hanoi-User Presence
 notes: This dataset is from a sensor that detects when the user is present. An example is when the user unlocks the screen. This sensor can be used in comparison to Screen status to check if the screen turn on event occurred due to the user or, for example, due to a received notification. The event user present OFF is simply when the screen turns off. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the FPT University.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-12-20
+ds:DatPublicationTimestamp: " 2023-12-20"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: User Presence
 ds:DatType: Sensor
 ds:DatSensorType: Device-usage
-ds:DatStartDate: 2022-06-13
-ds:DatEndDate: 2022-07-11
+ds:DatStartDate: "2022-06-13"
+ds:DatEndDate: "2022-07-11"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

@@ -45,7 +45,7 @@ download request:
 title: 2022-OpenCalls-Hanoi-Bluetooth
 notes: The dataset returns whether the device to wirelessly exchange data with other Bluetooth devices. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the FPT University.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-12-20
+ds:DatPublicationTimestamp: " 2023-12-20"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Bluetooth
 ds:DatType: Sensor
 ds:DatSensorType: Connectivity
-ds:DatStartDate: 2022-06-13
-ds:DatEndDate: 2022-07-11
+ds:DatStartDate: "2022-06-13"
+ds:DatEndDate: "2022-07-11"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

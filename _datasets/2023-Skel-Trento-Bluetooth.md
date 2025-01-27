@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Bluetooth
 notes: Returns whether the device wirelessly exchanges data with other Bluetooth  devices
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2024-11-16 14:19:40
+ds:DatPublicationTimestamp: " 2024-11-16 14:19:40"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Bluetooth
 ds:DatType: Sensor
 ds:DatSensorType: Connectivity
-ds:DatStartDate: 2023-05-12 02:15:00
-ds:DatEndDate: 2023-06-12 02:15:00
+ds:DatStartDate: "2023-05-12 02:15:00"
+ds:DatEndDate: "2023-06-12 02:15:00"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

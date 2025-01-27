@@ -45,7 +45,7 @@ download request:
 title: 2018-SmartUnitn2-Trento-Gravity
 notes: The dataset contains 3D vector of the gravity force. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-04-07
+ds:DatPublicationTimestamp: " 2023-04-07"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Gravity
 ds:DatType: Sensor
 ds:DatSensorType: Motion
-ds:DatStartDate: 2018-05-11
-ds:DatEndDate: 2018-06-06
+ds:DatStartDate: "2018-05-11"
+ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

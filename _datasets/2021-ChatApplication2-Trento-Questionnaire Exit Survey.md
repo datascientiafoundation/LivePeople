@@ -45,7 +45,7 @@ download request:
 title: 2021-ChatApplication2-Trento-Questionnaire Exit Survey
 notes: The dataset contains profiling questions, e.g., demographics, routines, personality. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-04-18
+ds:DatPublicationTimestamp: " 2023-04-18"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Questionnaire
 ds:DatType: Synchronic-Interactions
 ds:DatSensorType: 
-ds:DatStartDate: 2021-11-20
-ds:DatEndDate: 2021-12-08
+ds:DatStartDate: "2021-11-20"
+ds:DatEndDate: "2021-12-08"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

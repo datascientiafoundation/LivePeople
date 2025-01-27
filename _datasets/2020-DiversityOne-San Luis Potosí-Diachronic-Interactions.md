@@ -45,7 +45,7 @@ download request:
 title: 2020-DiversityOne-San Luis Potosí-Diachronic-Interactions
 notes: The study aimed to assess diversity through the social practices and daily behaviors of university students from eight different countries. The research was carried out in two phases. Initially, a large sample of students from Denmark, Italy, Mongolia, Paraguay, the United Kingdom, China, Mexico, and India, completed a survey on their social practices, as well as their socio-demographic, cultural, and psychological elements. In the second phase, a sub-sample of the respondents engaged in a four-week data collection by using an innovative smartphone application called iLog. This app collected data from thirty-four smartphone sensors around the clock, allowing for an in-depth investigation into the diversity and daily routines of university students across countries, both synchronically and diachronically.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-11-30
+ds:DatPublicationTimestamp: " 2023-11-30"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Diachronic-Interactions
 ds:DatType: Diachronic-Interactions
 ds:DatSensorType: 
-ds:DatStartDate: 2019-08-30
-ds:DatEndDate: 2021-08-14
+ds:DatStartDate: "2019-08-30"
+ds:DatEndDate: "2021-08-14"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

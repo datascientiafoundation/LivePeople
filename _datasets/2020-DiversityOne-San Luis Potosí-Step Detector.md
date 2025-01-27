@@ -45,7 +45,7 @@ download request:
 title: 2020-DiversityOne-San Luis Potosí-Step Detector
 notes: This dataset exploits the Android API that counts (incrementally) the number of steps since the devices booted. The step detector sensor collects an event each time a step is taken by the user. The value reported by the sensor is always one, the fractional part being always zero, and the event timestamp is the time when the user’s foot hit the ground. It is part of Wenet Diversity 1 data collection, which contains data about the everyday life activities of students coming from 8 different universities located in China, Denmark, India, Italy, Mexico, Mongolia, Paraguay and UK. The data were collected via questionnaires, data coming from 26 smartphone sensors associated to thousand self-reported annotations over a period of 4 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-11-30
+ds:DatPublicationTimestamp: " 2023-11-30"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Step Detector
 ds:DatType: Sensor
 ds:DatSensorType: Motion
-ds:DatStartDate: 2019-08-30
-ds:DatEndDate: 2021-08-14
+ds:DatStartDate: "2019-08-30"
+ds:DatEndDate: "2021-08-14"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

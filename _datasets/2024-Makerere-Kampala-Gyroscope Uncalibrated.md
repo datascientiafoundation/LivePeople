@@ -45,7 +45,7 @@ download request:
 title: 2024-Makerere-Kampala-Gyroscope Uncalibrated
 notes: This dataset contains gyroscope information that is not calibrated. All values are in radians/second and measure the rate of rotation around the X, Y and Z axis. An estimation of the drift on each axis is reported as well. No gyro-drift compensation is performed. Factory calibration and temperature compensation is still applied to the rate of rotation (angular speeds).  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2024-10-03
+ds:DatPublicationTimestamp: " 2024-10-03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Gyroscope Uncalibrated
 ds:DatType: Sensor
 ds:DatSensorType: Motion
-ds:DatStartDate: 2024-03-18
-ds:DatEndDate: 2024-05-13
+ds:DatStartDate: "2024-03-18"
+ds:DatEndDate: "2024-05-13"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

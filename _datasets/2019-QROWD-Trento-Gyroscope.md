@@ -45,7 +45,7 @@ download request:
 title: 2019-QROWD-Trento-Gyroscope
 notes: The dataset returns the 3D vector of the gyroscope showing the rate of rotation (rad/s)
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-12-20
+ds:DatPublicationTimestamp: " 2023-12-20"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Gyroscope
 ds:DatType: Sensor
 ds:DatSensorType: Motion
-ds:DatStartDate: 2020-07-09
-ds:DatEndDate: 2020-07-14
+ds:DatStartDate: "2020-07-09"
+ds:DatEndDate: "2020-07-14"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

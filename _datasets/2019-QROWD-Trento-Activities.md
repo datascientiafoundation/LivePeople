@@ -45,7 +45,7 @@ download request:
 title: 2019-QROWD-Trento-Activities
 notes: The dataset returns a label identifying the activity performed by the user, accurately detected using low power signals from multiple sensors in the device. This is achieved using Google’s Activity Recognition API. Possible activities are; still, in_vehicle, on_bycicle, on_foot, running, tilting, walking.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-12-20
+ds:DatPublicationTimestamp: " 2023-12-20"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Activities
 ds:DatType: Sensor
 ds:DatSensorType: Motion
-ds:DatStartDate: 2020-07-09
-ds:DatEndDate: 2020-07-14
+ds:DatStartDate: "2020-07-09"
+ds:DatEndDate: "2020-07-14"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

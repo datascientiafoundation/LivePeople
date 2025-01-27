@@ -45,7 +45,7 @@ download request:
 title: 2021-ChatApplication1-London-Location
 notes: The dataset contains location information using GPS connections. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-04-18
+ds:DatPublicationTimestamp: " 2023-04-18"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Location
 ds:DatType: Sensor
 ds:DatSensorType: Position
-ds:DatStartDate: 2021-03-12
-ds:DatEndDate: 2021-03-28
+ds:DatStartDate: "2021-03-12"
+ds:DatEndDate: "2021-03-28"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

@@ -45,7 +45,7 @@ download request:
 title: 2024-Makerere-Kampala-Magnetic Field
 notes: The dataset contains 3D vector of the magnetic field.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2024-10-03
+ds:DatPublicationTimestamp: " 2024-10-03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Magnetic Field
 ds:DatType: Sensor
 ds:DatSensorType: Position
-ds:DatStartDate: 2024-03-18
-ds:DatEndDate: 2024-05-13
+ds:DatStartDate: "2024-03-18"
+ds:DatEndDate: "2024-05-13"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

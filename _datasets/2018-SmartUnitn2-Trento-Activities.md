@@ -45,7 +45,7 @@ download request:
 title: 2018-SmartUnitn2-Trento-Activities
 notes: The dataset returns a label identifying the activity performed by the user, accurately detected using low power signals from multiple sensors in the device. This is achieved using Google’s Activity Recognition API. Possible activities are; still, in_vehicle, on_bycicle, on_foot, running, tilting, walking.. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-04-07
+ds:DatPublicationTimestamp: " 2023-04-07"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Activities
 ds:DatType: Sensor
 ds:DatSensorType: Motion
-ds:DatStartDate: 2018-05-11
-ds:DatEndDate: 2018-06-06
+ds:DatStartDate: "2018-05-11"
+ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

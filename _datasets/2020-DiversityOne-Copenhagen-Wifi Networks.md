@@ -45,7 +45,7 @@ download request:
 title: 2020-DiversityOne-Copenhagen-Wifi Networks
 notes: The dataset returns information related to the WIFI network to which the phone is connected to, if connected will also report the WIFI network id. It is part of Wenet Diversity 1 data collection, which contains data about the everyday life activities of students coming from 8 different universities located in China, Denmark, India, Italy, Mexico, Mongolia, Paraguay and UK. The data were collected via questionnaires, data coming from 26 smartphone sensors associated to thousand self-reported annotations over a period of 4 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-11-30
+ds:DatPublicationTimestamp: " 2023-11-30"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Wifi Networks
 ds:DatType: Sensor
 ds:DatSensorType: Connectivity
-ds:DatStartDate: 2020-09-28
-ds:DatEndDate: 2020-12-11
+ds:DatStartDate: "2020-09-28"
+ds:DatEndDate: "2020-12-11"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

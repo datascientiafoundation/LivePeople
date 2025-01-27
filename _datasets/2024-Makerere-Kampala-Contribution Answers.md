@@ -45,7 +45,7 @@ download request:
 title: 2024-Makerere-Kampala-Contribution Answers
 notes: The dataset contains a table for storing received answers from the user to the different types of contributions such as tasks for random time questions and time diaries for fixed frequency questions.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2024-10-03
+ds:DatPublicationTimestamp: " 2024-10-03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Contribution Answers
 ds:DatType: Diachronic-Interactions
 ds:DatSensorType: 
-ds:DatStartDate: 2024-03-18
-ds:DatEndDate: 2024-05-13
+ds:DatStartDate: "2024-03-18"
+ds:DatEndDate: "2024-05-13"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

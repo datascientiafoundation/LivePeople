@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Wifi
 notes: Returns information related to the WIFI network to which the phone is connected to, if connected will also report the WIFI network id.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2024-11-16 12:45:57
+ds:DatPublicationTimestamp: " 2024-11-16 12:45:57"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Wifi
 ds:DatType: Sensor
 ds:DatSensorType: Connectivity
-ds:DatStartDate: 2023-05-12 02:15:00
-ds:DatEndDate: 2023-06-12 02:15:00
+ds:DatStartDate: "2023-05-12 02:15:00"
+ds:DatEndDate: "2023-06-12 02:15:00"
 ds:DatFiveStars: 3
 ds:DatOrigin: direct observation
 ds:DatCreativeWorkStatus: 

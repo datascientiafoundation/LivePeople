@@ -45,7 +45,7 @@ download request:
 title: 2021-ChatApplication2-Asunción-Questionnaire Exit Survey
 notes: The dataset contains profiling questions, e.g., demographics, routines, personality. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2023-04-18
+ds:DatPublicationTimestamp: " 2023-04-18"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Questionnaire
 ds:DatType: Synchronic-Interactions
 ds:DatSensorType: 
-ds:DatStartDate: 2022-01-17
-ds:DatEndDate: 2022-02-07
+ds:DatStartDate: "2022-01-17"
+ds:DatEndDate: "2022-02-07"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

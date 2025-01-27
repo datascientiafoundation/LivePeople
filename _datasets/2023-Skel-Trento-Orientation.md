@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Orientation
 notes: 3D vector of the cellphone orientation
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2024-11-16 14:19:40
+ds:DatPublicationTimestamp: " 2024-11-16 14:19:40"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Orientation
 ds:DatType: Sensor
 ds:DatSensorType: Position
-ds:DatStartDate: 2023-05-12 02:15:00
-ds:DatEndDate: 2023-06-12 02:15:00
+ds:DatStartDate: "2023-05-12 02:15:00"
+ds:DatEndDate: "2023-06-12 02:15:00"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 

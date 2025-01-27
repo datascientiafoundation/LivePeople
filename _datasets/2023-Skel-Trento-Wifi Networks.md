@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Wifi Networks
 notes: Returns all WIFI networks detected by the smartphone.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: 2024-11-16 14:15:08
+ds:DatPublicationTimestamp: " 2024-11-16 14:15:08"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
@@ -66,8 +66,8 @@ ds:DatExpires:
 ds:DatSensorName: Wifi Networks
 ds:DatType: Sensor
 ds:DatSensorType: Connectivity
-ds:DatStartDate: 2023-05-12 02:15:00
-ds:DatEndDate: 2023-06-12 02:15:00
+ds:DatStartDate: "2023-05-12 02:15:00"
+ds:DatEndDate: "2023-06-12 02:15:00"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
