@@ -1,6 +1,6 @@
 ---
 schema: default
-ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/04250568-f8ed-4e99-a45b-b5058638587b target="_blank""> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/04250568-f8ed-4e99-a45b-b5058638587b" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
 ds:prjStartDate: 2021-03-12

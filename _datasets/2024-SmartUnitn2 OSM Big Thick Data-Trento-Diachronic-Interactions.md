@@ -1,6 +1,6 @@
 ---
 schema: default
-ds:prjURL: <a href="https://datascientia.disi.unitn.it/projects/su2osm/ target="_blank""> View Project </a>
+ds:prjURL: <a href="https://datascientia.disi.unitn.it/projects/su2osm/" target="_blank"> View Project </a>
 ds:prjKeywords: Big-Thick Data, Human Behaviors, Observation Context, Reference Context, Personal Context
 ds:prjType: Data Collection, Data Integration
 ds:prjStartDate: 2024-05-24

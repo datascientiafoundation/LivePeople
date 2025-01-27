@@ -1,6 +1,6 @@
 ---
 schema: default
-ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/c4c01f4d-bc9a-42b7-8f8e-88b037a9e160 target="_blank""> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/c4c01f4d-bc9a-42b7-8f8e-88b037a9e160" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
 ds:prjStartDate: 2021-11-22
