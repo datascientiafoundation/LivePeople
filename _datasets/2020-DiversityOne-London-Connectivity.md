@@ -83,5 +83,5 @@ location_facet: United Kingdom
 collection_name: DiversityOne
 data_type_facet: Connectivity
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Bluetooth">bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Cellular%20Network">cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Wifi">wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Wifi%20Networks">wifi networks</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Bluetooth">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Cellular%20Network">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Wifi">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Wifi%20Networks">Wifi networks</a>
 ---

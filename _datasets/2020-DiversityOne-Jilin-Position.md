@@ -83,5 +83,5 @@ location_facet: China
 collection_name: DiversityOne
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Location%20POI">location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Location%20RD">location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Magnetic%20Field">magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Proximity">proximity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Location%20POI">Location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Location%20RD">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Magnetic%20Field">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Proximity">Proximity</a>
 ---

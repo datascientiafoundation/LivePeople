@@ -83,5 +83,5 @@ location_facet: Uganda
 collection_name: Makerere
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Pressure">pressure</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Light">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Pressure">Pressure</a>
 ---

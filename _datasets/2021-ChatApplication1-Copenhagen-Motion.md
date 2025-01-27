@@ -83,5 +83,5 @@ location_facet: Denmark
 collection_name: ChatApplication1
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Copenhagen-Activities">activities</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Copenhagen-Activities">Activities</a>
 ---

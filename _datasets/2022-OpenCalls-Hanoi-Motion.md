@@ -83,5 +83,5 @@ location_facet: Vietnam
 collection_name: OpenCalls
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Accelerometer">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Gyroscope">gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Counter">step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Detector">step detector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Accelerometer">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Gyroscope">Gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Counter">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Detector">Step detector</a>
 ---

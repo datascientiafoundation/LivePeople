@@ -83,5 +83,5 @@ location_facet: Paraguay
 collection_name: DiversityOne
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Pressure">pressure</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Light">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Pressure">Pressure</a>
 ---

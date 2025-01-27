@@ -83,5 +83,5 @@ location_facet: Greece
 collection_name: OpenCalls
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Pressure">pressure</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Light">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Pressure">Pressure</a>
 ---

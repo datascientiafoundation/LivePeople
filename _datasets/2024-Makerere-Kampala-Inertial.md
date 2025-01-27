@@ -83,5 +83,5 @@ location_facet: Uganda
 collection_name: Makerere
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Geomagnetic%20Rotation%20Vector">geomagnetic rotation vector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Geomagnetic%20Rotation%20Vector">Geomagnetic rotation vector</a>
 ---

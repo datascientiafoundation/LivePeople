@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: ChatApplication1
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Notification">notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Notification">Notification</a>
 ---

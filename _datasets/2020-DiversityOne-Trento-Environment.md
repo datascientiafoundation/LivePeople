@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: DiversityOne
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Pressure">pressure</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Light">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Pressure">Pressure</a>
 ---

@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: QROWD
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Location%20POI">location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Location%20RD">location rd</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Location%20POI">Location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Location%20RD">Location rd</a>
 ---

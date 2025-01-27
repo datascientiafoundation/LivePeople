@@ -83,5 +83,5 @@ location_facet: India
 collection_name: DiversityOne
 data_type_facet: Connectivity
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Bluetooth">bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Cellular%20Network">cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi">wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi%20Networks">wifi networks</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Bluetooth">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Cellular%20Network">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi%20Networks">Wifi networks</a>
 ---

@@ -83,5 +83,5 @@ location_facet: Paraguay
 collection_name: DiversityOne
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Headset%20Plug">headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Music">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Notification">notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Headset%20Plug">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Notification">Notification</a>
 ---

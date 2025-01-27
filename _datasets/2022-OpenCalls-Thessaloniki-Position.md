@@ -83,5 +83,5 @@ location_facet: Greece
 collection_name: OpenCalls
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Location%20RD">location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Magnetic%20Field">magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Proximity">proximity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Location%20RD">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Magnetic%20Field">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Proximity">Proximity</a>
 ---

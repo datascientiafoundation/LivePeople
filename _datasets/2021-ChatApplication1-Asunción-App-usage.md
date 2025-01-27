@@ -83,5 +83,5 @@ location_facet: Paraguay
 collection_name: ChatApplication1
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Notification">notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Notification">Notification</a>
 ---

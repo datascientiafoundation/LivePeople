@@ -83,5 +83,5 @@ location_facet: Greece
 collection_name: OpenCalls
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Headset%20Plug">headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Music">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Notification">notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Headset%20Plug">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Notification">Notification</a>
 ---

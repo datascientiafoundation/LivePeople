@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: SmartUnitn2
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Pressure">pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Relative%20Humidity">relative humidity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Light">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Pressure">Pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Relative%20Humidity">Relative humidity</a>
 ---

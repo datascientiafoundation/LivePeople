@@ -83,5 +83,5 @@ location_facet: India
 collection_name: DiversityOne
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Headset%20Plug">headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Music">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Notification">notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Headset%20Plug">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Notification">Notification</a>
 ---

@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: ChatApplication2
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Location%20POI">location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Location%20RD">location rd</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Location%20POI">Location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Location%20RD">Location rd</a>
 ---

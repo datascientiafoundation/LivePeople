@@ -83,5 +83,5 @@ location_facet: Uganda
 collection_name: Makerere
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Music">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Notification">notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Notification">Notification</a>
 ---

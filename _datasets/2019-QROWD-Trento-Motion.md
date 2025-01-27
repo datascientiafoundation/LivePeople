@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: QROWD
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Accelerometer">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Gyroscope">gyroscope</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Accelerometer">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Gyroscope">Gyroscope</a>
 ---

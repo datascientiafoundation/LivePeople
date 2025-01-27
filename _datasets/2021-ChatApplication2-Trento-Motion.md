@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: ChatApplication2
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Activities">activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Counter">step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Detector">step detector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Counter">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Detector">Step detector</a>
 ---

@@ -83,5 +83,5 @@ location_facet: Mongolia
 collection_name: DiversityOne
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Application">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Headset%20Plug">headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Music">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Notification">notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Headset%20Plug">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Notification">Notification</a>
 ---

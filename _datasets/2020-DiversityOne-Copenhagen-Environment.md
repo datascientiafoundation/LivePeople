@@ -83,5 +83,5 @@ location_facet: Denmark
 collection_name: DiversityOne
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Light">light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Pressure">pressure</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Light">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Copenhagen-Pressure">Pressure</a>
 ---

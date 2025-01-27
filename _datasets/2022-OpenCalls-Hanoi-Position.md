@@ -83,5 +83,5 @@ location_facet: Vietnam
 collection_name: OpenCalls
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Location%20RD">location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Magnetic%20Field">magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Proximity">proximity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Location%20RD">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Magnetic%20Field">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Proximity">Proximity</a>
 ---
