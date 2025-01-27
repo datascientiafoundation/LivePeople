@@ -1,39 +1,85 @@
 ---
 schema: default
-title: 2023-Skel-Trento-Wifi Networks
-organization: Unitn
-notes: Returns all WIFI networks detected by the smartphone.
+ds:prjURL: <a href=" target="_blank""> View Project </a>
+ds:prjKeywords: 
+ds:prjType: 
+ds:prjStartDate: 
+ds:prjEndDate: 
+ds:prjFundingAgency: 
+ds:prjInput: 
+ds:prjOutput: 
+ds:prjCoordinator: 
+ds:prjObservations: 
+organization: 
+ds:prjProjectArea: 
+ds:prjMembers: 
+ds:prjTargetLocation: 
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 
+ds:prjSelectedParticipants: 
+ds:prjTypeOfMeasurements: 
+ds:prjIRBApprovalDate: 
+ds:prjIRBApprovalOrganization: 
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
+latitude_map: 
+longitude_map: 
+ds:prjThumbnailUrl: 
+ds:prjIdentifier: 
+ds:prjDownloadRequestEmail: 
 resources:
+  - name: 
+    url: 
+    format: 
+  - name: 
+    url: 
+    format: 
   - name: codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2023_SKEL_Trento_wifinetworks.html
     format: html
+download request:
+  - name: 
+    url: 
+    format: 
+title: 2023-Skel-Trento-Wifi Networks
+notes: Returns all WIFI networks detected by the smartphone.
+ds:DatVersion: 
+ds:DatPublicationTimestamp: 2024-11-16 14:15:08
+ds:DatLicense: 
+ds:DatURL: 
+ds:DatKeyword: 
+ds:DatPublisher: 
+ds:DatCreator: 
+ds:DatOwner: datadistribution.knowdive@unitn.it
+ds:DatLanguage: Not Applicable
+ds:DatLevel: 
+ds:DatSize: 11.49 MB
+ds:DatDomain: Digital University
+ds:DatFileFormat: parquet
+ds:DatDetailedDescription: 
+ds:DatDownloadRequest: 
+ds:DatConditionsOfAccess: 
+ds:DatGenre: 
+ds:DatisAccessibleForFree: 
+ds:DatExpires: 
+ds:DatSensorName: Wifi Networks
+ds:DatType: Sensor
+ds:DatSensorType: Connectivity
+ds:DatStartDate: 2023-05-12 02:15:00
+ds:DatEndDate: 2023-06-12 02:15:00
+ds:DatFiveStars: 3
+ds:DatOrigin: 
+ds:DatCreativeWorkStatus: 
+ds:DatIdentifier: 008.AAAQ.AAA.AO
+ds:DatChangelogURL: 
 license: >-
- ./../../resources/2023LivePeopleLicense.html
-dataset_name: Wifi Networks
-location: Trento (Italy)
-latitude_map: 46.04
-longitude_map: 11.07
-start_date: 2023-05-12 02:15:00
-end_date: 2023-06-12 02:15:00
-dataset_type: Sensor
-sensor_type: Connectivity
-size: 11.49 MB
-dataset_format: parquet
-number_participants: 58
-language: Not Applicable
-collection_name: Skel
-project_url: <a href="https://ds.datascientia.eu/community/public/projects/">https://ds.datascientia.eu/community/public/projects/</a>
-category: 
-  - Dataset
-domain: 
-  - Digital University
-5_stars: 3
-publication_date: 2024-11-16 14:15:08
-identifier: 008.AAAQ.AAA.AO
-request_contact: datadistribution.knowdive@unitn.it
-component_dataset_link: 
-duration_facet: "2-6 months"
-location_facet: Italy
-location_continent_facet: Europe
-data_type_facet: Connectivity
+  ./../../resources/2023LivePeopleLicense.html
+ds:DatSha256: 
+ds:DatUpdateTimestamp: 
+ds:DatBasedOn: 
+durationFacet: 2-6 months
+locationFacet: Italy
+dataTypeFacet: Connectivity
+categoryFacet: Dataset
 ---

@@ -1,39 +1,85 @@
 ---
 schema: default
-title: 2022-OpenCalls-Thessaloniki-Proximity
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/1e465a20-1650-42f7-88d4-d7b1b8ed6bb3 target="_blank""> View Project </a>
+ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
+ds:prjType: Data collection
+ds:prjStartDate: 2022-06-07 00:00:00
+ds:prjEndDate: 2022-07-06 00:00:00
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823789
+ds:prjInput: 
+ds:prjOutput: Datasets
+ds:prjCoordinator: Paschalis Arvanitidis
+ds:prjObservations: 
 organization: Unitn
-notes: This dataset measures the distance between the user's head and the phone, depending on the phone it may be measured in centimeters (i.e., the absolute distance) or as labels (e.g., 'near', 'far'). The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the UTH University.
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Athina Zoe, George Papagiannitsis
+ds:prjTargetLocation: Thessaloniki (Greece)
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 164.0
+ds:prjSelectedParticipants: 164
+ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
+ds:prjIRBApprovalDate: 2022-03-15 00:00:00
+ds:prjIRBApprovalOrganization: University of Thessaly
+ds:prjIRBApprovalNumber: 10/15-03-2022
+ds:prjCiteAs: 
+ds:prjMaintenance: 
+latitude_map: 40.64
+longitude_map: 22.94
+ds:prjThumbnailUrl: 
+ds:prjIdentifier: 006.AAAI.AAK.**
+ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: 
     url: 
     format: 
+  - name: 
+    url: 
+    format: 
+  - name: 
+    url: 
+    format: 
+download request:
+  - name: 
+    url: 
+    format: 
+title: 2022-OpenCalls-Thessaloniki-Proximity
+notes: This dataset measures the distance between the user's head and the phone, depending on the phone it may be measured in centimeters (i.e., the absolute distance) or as labels (e.g., 'near', 'far'). The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the UTH University.
+ds:DatVersion: 
+ds:DatPublicationTimestamp: 2023-12-20
+ds:DatLicense: 
+ds:DatURL: 
+ds:DatKeyword: 
+ds:DatPublisher: 
+ds:DatCreator: 
+ds:DatOwner: 
+ds:DatLanguage: Not Applicable
+ds:DatLevel: 
+ds:DatSize: 371.26 MB
+ds:DatDomain: Digital University
+ds:DatFileFormat: parquet
+ds:DatDetailedDescription: 
+ds:DatDownloadRequest: 
+ds:DatConditionsOfAccess: 
+ds:DatGenre: 
+ds:DatisAccessibleForFree: 
+ds:DatExpires: 
+ds:DatSensorName: Proximity
+ds:DatType: Sensor
+ds:DatSensorType: Position
+ds:DatStartDate: 2022-06-07
+ds:DatEndDate: 2022-07-06
+ds:DatFiveStars: 3
+ds:DatOrigin: 
+ds:DatCreativeWorkStatus: 
+ds:DatIdentifier: 006.AAAI.AAK.BR
+ds:DatChangelogURL: 
 license: >-
- ./../../resources/2023LivePeopleLicense.html
-dataset_name: Proximity
-location: Thessaloniki (Greece)
-latitude_map: 40.64
-longitude_map: 22.94
-start_date: 2022-06-07
-end_date: 2022-07-06
-dataset_type: Sensor
-sensor_type: Position
-size: 371.26 MB
-dataset_format: parquet
-number_participants: 113
-language: Not Applicable
-collection_name: OpenCalls
-project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
-category: 
-  - Dataset
-domain: 
-  - Digital University
-5_stars: 3
-publication_date: 2023-12-20
-identifier: 006.AAAI.AAK.BR
-request_contact: datadistribution.knowdive@unitn.it
-component_dataset_link: 
-duration_facet: "1 month"
-location_facet: Greece
-location_continent_facet: Europe
-data_type_facet: Position
+  ./../../resources/2023LivePeopleLicense.html
+ds:DatSha256: 
+ds:DatUpdateTimestamp: 
+ds:DatBasedOn: 
+durationFacet: 1 month
+locationFacet: Greece
+dataTypeFacet: Position
+categoryFacet: Dataset
 ---

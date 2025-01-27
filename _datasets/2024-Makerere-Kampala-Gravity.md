@@ -1,39 +1,85 @@
 ---
 schema: default
-title: 2024-Makerere-Kampala-Gravity
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8 target="_blank""> View Project </a>
+ds:prjKeywords: 
+ds:prjType: 
+ds:prjStartDate: 2024-03-18 00:00:00
+ds:prjEndDate: 2024-05-13 00:00:00
+ds:prjFundingAgency: 
+ds:prjInput: 
+ds:prjOutput: 
+ds:prjCoordinator: 
+ds:prjObservations: 
 organization: Unitn
-notes: This dataset contains the 3D vector of the gravity force.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
+ds:prjProjectArea: 
+ds:prjMembers: 
+ds:prjTargetLocation: Kampala (Uganda)
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 
+ds:prjSelectedParticipants: 73
+ds:prjTypeOfMeasurements: 
+ds:prjIRBApprovalDate: 
+ds:prjIRBApprovalOrganization: 
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
+latitude_map: 0.335
+longitude_map: 32.56
+ds:prjThumbnailUrl: 
+ds:prjIdentifier: 007.AAAN.AAN.**
+ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
+  - name: Big-Thick Data generation via reference and personal context unification
+    url: https://arxiv.org/abs/2409.05883
+    format: PDF
+  - name: 
+    url: 
+    format: 
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-gravity.html
     format: html
+download request:
+  - name: 
+    url: 
+    format: 
+title: 2024-Makerere-Kampala-Gravity
+notes: This dataset contains the 3D vector of the gravity force.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
+ds:DatVersion: 
+ds:DatPublicationTimestamp: 2024-10-03
+ds:DatLicense: 
+ds:DatURL: 
+ds:DatKeyword: 
+ds:DatPublisher: 
+ds:DatCreator: 
+ds:DatOwner: 
+ds:DatLanguage: English
+ds:DatLevel: 
+ds:DatSize: 34.76 MB
+ds:DatDomain: Digital University
+ds:DatFileFormat: parquet
+ds:DatDetailedDescription: 
+ds:DatDownloadRequest: 
+ds:DatConditionsOfAccess: 
+ds:DatGenre: 
+ds:DatisAccessibleForFree: 
+ds:DatExpires: 
+ds:DatSensorName: Gravity
+ds:DatType: Sensor
+ds:DatSensorType: Motion
+ds:DatStartDate: 2024-03-18
+ds:DatEndDate: 2024-05-13
+ds:DatFiveStars: 3
+ds:DatOrigin: 
+ds:DatCreativeWorkStatus: 
+ds:DatIdentifier: 007.AAAN.AAN.BA
+ds:DatChangelogURL: 
 license: >-
- ./../../resources/2023LivePeopleLicense.html
-dataset_name: Gravity
-location: Kampala (Uganda)
-latitude_map: 0.335
-longitude_map: 32.56
-start_date: 2024-03-18
-end_date: 2024-05-13
-dataset_type: Sensor
-sensor_type: Motion
-size: 34.76 MB
-dataset_format: parquet
-number_participants: 7
-language: English
-collection_name: Makerere
-project_url: <a href="https://datascientia.disi.unitn.it/projects/mak/">https://datascientia.disi.unitn.it/projects/mak/</a>
-category: 
-  - Dataset
-domain: 
-  - Digital University
-5_stars: 3
-publication_date: 2024-10-03
-identifier: 007.AAAN.AAN.BA
-request_contact: datadistribution.knowdive@unitn.it
-component_dataset_link: 
-duration_facet: "2-6 months"
-location_facet: Uganda
-location_continent_facet: Africa
-data_type_facet: Motion
+  ./../../resources/2023LivePeopleLicense.html
+ds:DatSha256: 
+ds:DatUpdateTimestamp: 
+ds:DatBasedOn: 
+durationFacet: 2-6 months
+locationFacet: Uganda
+dataTypeFacet: Motion
+categoryFacet: Dataset
 ---

@@ -1,39 +1,85 @@
 ---
 schema: default
-title: 2023-Skel-Trento-Proximity
-organization: Unitn
-notes: Measures the distance between the user's head and the phone, depending on the phone it may be measured in centimeters (i.e., the absolute distance) or as labels (e.g., 'near', 'far')
+ds:prjURL: <a href=" target="_blank""> View Project </a>
+ds:prjKeywords: 
+ds:prjType: 
+ds:prjStartDate: 
+ds:prjEndDate: 
+ds:prjFundingAgency: 
+ds:prjInput: 
+ds:prjOutput: 
+ds:prjCoordinator: 
+ds:prjObservations: 
+organization: 
+ds:prjProjectArea: 
+ds:prjMembers: 
+ds:prjTargetLocation: 
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 
+ds:prjSelectedParticipants: 
+ds:prjTypeOfMeasurements: 
+ds:prjIRBApprovalDate: 
+ds:prjIRBApprovalOrganization: 
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: 
+ds:prjMaintenance: 
+latitude_map: 
+longitude_map: 
+ds:prjThumbnailUrl: 
+ds:prjIdentifier: 
+ds:prjDownloadRequestEmail: 
 resources:
+  - name: 
+    url: 
+    format: 
+  - name: 
+    url: 
+    format: 
   - name: codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2023_SKEL_Trento_proximity.html
     format: html
+download request:
+  - name: 
+    url: 
+    format: 
+title: 2023-Skel-Trento-Proximity
+notes: Measures the distance between the user's head and the phone, depending on the phone it may be measured in centimeters (i.e., the absolute distance) or as labels (e.g., 'near', 'far')
+ds:DatVersion: 
+ds:DatPublicationTimestamp: 2024-11-16 14:15:08
+ds:DatLicense: 
+ds:DatURL: 
+ds:DatKeyword: 
+ds:DatPublisher: 
+ds:DatCreator: 
+ds:DatOwner: datadistribution.knowdive@unitn.it
+ds:DatLanguage: Not Applicable
+ds:DatLevel: 
+ds:DatSize: 87.82 MB
+ds:DatDomain: Digital University
+ds:DatFileFormat: parquet
+ds:DatDetailedDescription: 
+ds:DatDownloadRequest: 
+ds:DatConditionsOfAccess: 
+ds:DatGenre: 
+ds:DatisAccessibleForFree: 
+ds:DatExpires: 
+ds:DatSensorName: Proximity
+ds:DatType: Sensor
+ds:DatSensorType: Position
+ds:DatStartDate: 2023-05-12 02:15:00
+ds:DatEndDate: 2023-06-12 02:15:00
+ds:DatFiveStars: 3
+ds:DatOrigin: 
+ds:DatCreativeWorkStatus: 
+ds:DatIdentifier: 008.AAAQ.AAA.BR
+ds:DatChangelogURL: 
 license: >-
- ./../../resources/2023LivePeopleLicense.html
-dataset_name: Proximity
-location: Trento (Italy)
-latitude_map: 46.04
-longitude_map: 11.07
-start_date: 2023-05-12 02:15:00
-end_date: 2023-06-12 02:15:00
-dataset_type: Sensor
-sensor_type: Position
-size: 87.82 MB
-dataset_format: parquet
-number_participants: 64
-language: Not Applicable
-collection_name: Skel
-project_url: <a href="https://ds.datascientia.eu/community/public/projects/">https://ds.datascientia.eu/community/public/projects/</a>
-category: 
-  - Dataset
-domain: 
-  - Digital University
-5_stars: 3
-publication_date: 2024-11-16 14:15:08
-identifier: 008.AAAQ.AAA.BR
-request_contact: datadistribution.knowdive@unitn.it
-component_dataset_link: 
-duration_facet: "2-6 months"
-location_facet: Italy
-location_continent_facet: Europe
-data_type_facet: Position
+  ./../../resources/2023LivePeopleLicense.html
+ds:DatSha256: 
+ds:DatUpdateTimestamp: 
+ds:DatBasedOn: 
+durationFacet: 2-6 months
+locationFacet: Italy
+dataTypeFacet: Position
+categoryFacet: Dataset
 ---
