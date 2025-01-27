@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/9e382c6d-6885-45df-97cb-d24fcbacc0a7 target="_blank""> View Project </a>
 ds:prjKeywords: Mobility, Modal-Split, Parking, Smartphone Data, Sensor Data
 ds:prjType: Data collection
-ds:prjStartDate: 2020-07-09 00:00:00
-ds:prjEndDate: 2020-07-14 00:00:00
+ds:prjStartDate: 2020-07-09
+ds:prjEndDate: 2020-07-14
 ds:prjFundingAgency: European Union’s Horizon 2020 QROWD project, under grant agreement 732194
 ds:prjInput: 
 ds:prjOutput: Datasets, Publications
@@ -18,7 +18,7 @@ ds:prjTargetPopulation:
 ds:prjOverallParticipantsInvolved: 157.0
 ds:prjSelectedParticipants: 157
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
-ds:prjIRBApprovalDate: 2018-04-03 00:00:00
+ds:prjIRBApprovalDate: 2018-04-03
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Eddy Maddalena, Luis-Daniel Ibáñez, Elena Simperl, Mattia Zeni, Enrico Bignotti, Fausto Giunchiglia, Claus Stadler, Patrick Westphal, Luís P. F. Garcia, and Jens Lehmann. . QROWD: Because Big Data Integration is Humanly Possible. In Proceedings of (KDD 2018). ACM, New York, NY, USA, 2 pages.

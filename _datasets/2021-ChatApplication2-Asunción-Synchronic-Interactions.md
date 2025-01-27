@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/46939d63-b717-474c-9aa6-51773556248f target="_blank""> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2022-01-17 00:00:00
-ds:prjEndDate: 2022-02-07 00:00:00
+ds:prjStartDate: 2022-01-17
+ds:prjEndDate: 2022-02-07
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823785
 ds:prjInput: 
 ds:prjOutput: Datasets
@@ -18,7 +18,7 @@ ds:prjTargetPopulation:
 ds:prjOverallParticipantsInvolved: 23.0
 ds:prjSelectedParticipants: 23
 ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
-ds:prjIRBApprovalDate: 2020-04-17 00:00:00
+ds:prjIRBApprovalDate: 2020-04-17
 ds:prjIRBApprovalOrganization: Universidad Católica "Nuestra Señora de la Asunción"
 ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave).

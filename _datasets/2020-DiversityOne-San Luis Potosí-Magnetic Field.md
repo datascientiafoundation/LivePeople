@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd target="_blank""> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2019-08-30 00:00:00
-ds:prjEndDate: 2021-08-14 00:00:00
+ds:prjStartDate: 2019-08-30
+ds:prjEndDate: 2021-08-14
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823786
 ds:prjInput: 
 ds:prjOutput: Datasets, Publications
@@ -18,7 +18,7 @@ ds:prjTargetPopulation:
 ds:prjOverallParticipantsInvolved: 88.0
 ds:prjSelectedParticipants: 20
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
-ds:prjIRBApprovalDate: 2019-08-12 00:00:00
+ds:prjIRBApprovalDate: 2019-08-12
 ds:prjIRBApprovalOrganization: Instituto Potosino de Investigación Científica y Tecnológica
 ds:prjIRBApprovalNumber: 
 ds:prjCiteAs: Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021).

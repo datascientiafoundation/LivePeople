@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/046c8202-4e96-490f-95e7-007e72578650 target="_blank""> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2021-06-04 00:00:00
-ds:prjEndDate: 2021-06-18 00:00:00
+ds:prjStartDate: 2021-06-04
+ds:prjEndDate: 2021-06-18
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
 ds:prjInput: 
 ds:prjOutput: Datasets
@@ -18,7 +18,7 @@ ds:prjTargetPopulation:
 ds:prjOverallParticipantsInvolved: 48.0
 ds:prjSelectedParticipants: 33
 ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
-ds:prjIRBApprovalDate: 2019-09-12 00:00:00
+ds:prjIRBApprovalDate: 2019-09-12
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2019-031 
 ds:prjCiteAs: Fausto Giunchiglia, Ivano Bison, Matteo Busso, Ronald Chenu-Abente, Marcelo Rodas Britez, Can Gunel, Amalia de Götzen, Peter Kun, Amarsanaa Ganbold, Altangerel Chagnaa, George Gaskell, Miriam Bidoglia, Luca Cernuzzi, Alethia Hume, Jose Luis Zarza, Daniele Miorandi, Carlo Caprini, Laura Schelenz, Paula Helm, Daniel Gatica-Perez, Lakmal Meegahapola. A worldwide diversity chatbot pilot on interactions and social practices (2021). University of Trento Technical Report. No. #DISI-2001-DS-05.

@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/1e465a20-1650-42f7-88d4-d7b1b8ed6bb3 target="_blank""> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2022-06-07 00:00:00
-ds:prjEndDate: 2022-07-06 00:00:00
+ds:prjStartDate: 2022-06-07
+ds:prjEndDate: 2022-07-06
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823789
 ds:prjInput: 
 ds:prjOutput: Datasets
@@ -18,7 +18,7 @@ ds:prjTargetPopulation:
 ds:prjOverallParticipantsInvolved: 164.0
 ds:prjSelectedParticipants: 164
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
-ds:prjIRBApprovalDate: 2022-03-15 00:00:00
+ds:prjIRBApprovalDate: 2022-03-15
 ds:prjIRBApprovalOrganization: University of Thessaly
 ds:prjIRBApprovalNumber: 10/15-03-2022
 ds:prjCiteAs: 

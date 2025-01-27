@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f target="_blank""> View Project </a>
 ds:prjKeywords: Academic Performance, Daily Routines, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2018-05-11 00:00:00
-ds:prjEndDate: 2018-06-06 00:00:00
+ds:prjStartDate: 2018-05-11
+ds:prjEndDate: 2018-06-06
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
 ds:prjInput: 
 ds:prjOutput: Datasets, Publications
@@ -18,7 +18,7 @@ ds:prjTargetPopulation:
 ds:prjOverallParticipantsInvolved: 145.0
 ds:prjSelectedParticipants: 158
 ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
-ds:prjIRBApprovalDate: 2017-06-28 00:00:00
+ds:prjIRBApprovalDate: 2017-06-28
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2016-027
 ds:prjCiteAs: Fausto Giunchiglia, Matteo Busso, Mattia Zeni, Ivano Bison, A survey on students’ daily routines and academic performance at the University of Trento, University of Trento Technical Report. No. DISI-2001-DS-01, (2022)
