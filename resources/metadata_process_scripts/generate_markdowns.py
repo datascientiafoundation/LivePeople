@@ -7,7 +7,11 @@ import ast
 import urllib.parse
 import modeling as md
 
+
 def convert_datetime_formats(date_value):
+    if pd.isna(date_value) or date_value == '':
+        return ''
+
     # Parse date
     if isinstance(date_value, str):
         date_value = parser.parse(date_value)
@@ -26,76 +30,100 @@ def encode_url(title):
     return urllib.parse.quote(title)
 
 
-def generate_html_href(row, df):
+def generate_html_href(category, row, all_df):
     base_url = "https://datascientiafoundation.github.io/LivePeople/datasets/"
     generated_href = []
 
-    if row['category'] == 'Project':  # Should contain Dataset Bundles
-        titles = df[(df['category'] == 'Dataset Bundle') & (df['title'].str.startswith(row['title']))]['title']
+    # TODO should get component datasets using identifier field
+    if category == 'Project':  # Should contain Dataset Bundles
+
+        # get component bundles
+        bundle_df = all_df['Dataset Bundle']
+        titles = bundle_df[bundle_df['ds:DatName'].str.startswith(row['ds:prjTitle'])]['ds:DatName']
 
         for title in titles:
             link = base_url + encode_url(title)
-            label = '-'.join(title.split('-')[3:]).lower()
+            label = '-'.join(title.split('-')[3:]).capitalize()
             generated_href.append(f'<a href="{link}">{label}</a>')
 
-    elif row['category'] == 'Dataset Bundle':
-        year_collection_city = '-'.join(row['title'].split('-')[0:3])
-        bundle_name = '-'.join(row['title'].split('-')[3:])
-        titles = df[(df['category'] == 'Dataset') & (df['title'].str.startswith(year_collection_city)) & (df[
-                                                                                                              'sensor_type'] == bundle_name)][
-            'title']
+    elif category == 'Dataset Bundle':
+        year_collection_city = '-'.join(row['ds:DatName'].split('-')[0:3])
+        bundle_name = '-'.join(row['ds:DatName'].split('-')[3:])
+
+        dataset_df = all_df['Dataset']
+
+        titles = dataset_df[(dataset_df['ds:DatName'].str.startswith(year_collection_city)) & (dataset_df['ds:DatSensorType'] == bundle_name)][
+            'ds:DatName']
 
         for title in titles:
             link = base_url + encode_url(title)
-            label = '-'.join(title.split('-')[3:]).lower()
+            label = '-'.join(title.split('-')[3:]).capitalize()
             generated_href.append(f'<a href="{link}">{label}</a>')
 
     return ', '.join(generated_href)
 
 
-def create_project_md(df):
+def create_project_md(df, all_df):
+    df = df.fillna('')
     for index, row in df.iterrows():
         try:
-            file_name = row['title']+'.md'
-
-            for key in ["start_date", "end_date", "publication_date"]:
+            file_name = row['ds:prjTitle'] + '.md'
+            for key in ["ds:prjStartDate", "ds:prjEndDate", "ds:prjIRBApprovalDate"]:
                 row[key] = convert_datetime_formats(row[key])
 
             md_content = "---\n"
+            md_content = md_content + "schema: default" + "\n"
+            md_content = md_content + "title: " + row['ds:prjTitle'] + "\n"
+            md_content = md_content + "ds:prjURL: <a href=\"" + str(row['ds:prjURL']) + "\" target=\"_blank\"> View Project </a>\n"
+            md_content = md_content + "ds:prjKeywords: " + str(row['ds:prjKeywords']) + "\n"
+            md_content = md_content + "ds:prjType: " + str(row['ds:prjType']) + "\n"
+            md_content = md_content + "notes: " + str(row['ds:prjDescription']) + "\n"
+            md_content = md_content + f'ds:prjStartDate: "{str(row["ds:prjStartDate"])}"\n'
+            md_content = md_content + f'ds:prjEndDate: "{str(row["ds:prjEndDate"])}"\n'
+            md_content = md_content + "ds:prjFundingAgency: " + str(row['ds:prjFundingAgency']) + "\n"
+            md_content = md_content + "ds:prjInput: " + str(row['ds:prjInput']) + "\n"
+            md_content = md_content + "ds:prjOutput: " + str(row['ds:prjOutput']) + "\n"
+            md_content = md_content + "ds:prjCoordinator: " + str(row['ds:prjCoordinator']) + "\n"
+            md_content = md_content + "ds:prjObservations: " + str(row['ds:prjObservations']) + "\n"
+            md_content = md_content + "organization: " + str(row['ds:prjCoordinatorOrganization']) + "\n"
+            md_content = md_content + "ds:prjProjectArea: " + str(row['ds:prjProjectArea']) + "\n"
+            md_content = md_content + "ds:prjMembers: " + str(row['ds:prjMembers']) + "\n"
+            md_content = md_content + "ds:prjTargetLocation: " + str(row['ds:prjTargetLocation']) + "\n"
+            md_content = md_content + "ds:prjTargetPopulation: " + str(row['ds:prjTargetPopulation']) + "\n"
+            md_content = md_content + "ds:prjOverallParticipantsInvolved: " + str(row['ds:prjOverallParticipantsInvolved']) + "\n"
+            md_content = md_content + "ds:prjSelectedParticipants: " + str(row['ds:prjSelectedParticipants']) + "\n"
+            md_content = md_content + "ds:prjTypeOfMeasurements: " + str(row['ds:prjTypeOfMeasurements']) + "\n"
+            md_content = md_content + "ds:prjIRBApprovalDate: " + str(row['ds:prjIRBApprovalDate']) + "\n"
+            md_content = md_content + "ds:prjIRBApprovalOrganization: " + str(row['ds:prjIRBApprovalOrganization']) + "\n"
+            md_content = md_content + "ds:prjIRBApprovalNumber: " + str(row['ds:prjIRBApprovalNumber']) + "\n"
+            md_content = md_content + f'ds:prjCiteAs: "{str(row["ds:prjCiteAs"])}"\n'
+            md_content = md_content + "ds:prjMaintenance: " + str(row['ds:prjMaintenance']) + "\n"
+            md_content = md_content + "latitude_map: " + str(row['ds:prjLatitude']) + "\n"
+            md_content = md_content + "longitude_map: " + str(row['ds:prjLongitude']) + "\n"
+            md_content = md_content + "ds:prjThumbnailUrl: " + str(row['ds:prjThumbnailUrl']) + "\n"
+            md_content = md_content + "ds:prjIdentifier: " + str(row['ds:prjIdentifier']) + "\n"
+            md_content = md_content + "ds:prjDownloadRequestEmail: " + str(row['ds:prjDownloadRequestEmail']) + "\n"
 
-            md_content = md_content + "ds:prjTitle: " + row['title'] + "\n"
-            md_content = md_content + "ds:prjURL: " + row['project_url'] + "\n"
-            md_content = md_content + "ds:prjKeywords: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjDescription: " + row['notes'] + "\n"
-            md_content = md_content + "ds:prjStartDate: " + row['start_date'] + "\n"
-            md_content = md_content + "ds:prjEndDate: " + row['end_date'] + "\n"
-            md_content = md_content + "ds:prjFundingAgency: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjInput: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjOutput: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjCoordinator: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjObservations: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjCoordinatorOrganization: " + row['organization'] + "\n"
-            md_content = md_content + "ds:prjProjectArea: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjMembers: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjTargetLocation: " + row['location'] + "\n"
-            md_content = md_content + "ds:prjTargetPopulation: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjOverallParticipantsInvolved: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjSelectedParticipants: " + row['number_participants'] + "\n"
-            md_content = md_content + "ds:prjTypeOfMeasurements: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjIRBApprovalDate: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjIRBApprovalOrganization: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjIRBApprovalNumber: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjCiteAs: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjMaintenance: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjLatitude: " + row['latitude_map'] + "\n"
-            md_content = md_content + "ds:prjLongitude: " + row['longitude_map'] + "\n"
-            md_content = md_content + "ds:prjThumbnailUrl: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjIdentifier: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjDownloadRequestEmail: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjDurationFacet: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjLocationFacet: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjCollectionFacet: " + row['schema'] + "\n"
-            md_content = md_content + "ds:prjCategoryFacet: " + row['schema'] + "\n"
+            md_content = md_content + "resources:\n"
+
+            if str(row['ds:prjDocumentationName']) != "nan":
+                md_content = md_content + "  - name: " + str(row['ds:prjDocumentationName']) + "\n"
+                md_content = md_content + "    url: " + str(row['ds:prjDocumentationURL']) + "\n"
+                md_content = md_content + "    format: " + str(row['ds:prjDocumentationFormat']) + "\n"
+
+            if str(row['ds:prjAdditionalMaterialName']) != "nan":
+                md_content = md_content + "  - name: " + str(row['ds:prjAdditionalMaterialName']) + "\n"
+                md_content = md_content + "    url: " + str(row['ds:prjAdditionalMaterialUrl']) + "\n"
+                md_content = md_content + "    format: " + str(row['ds:prjAdditionalMaterialFormat']) + "\n"
+
+            # NOTE facet needs to have common field name due to filtering
+            md_content = md_content + "duration_facet: " + f'"{str(row["ds:prjDurationFacet"])}"' + "\n"
+            md_content = md_content + "location_facet: " + str(row['ds:prjLocationFacet']) + "\n"
+            md_content = md_content + "collection_name: " + str(row['ds:prjCollectionFacet']) + "\n"
+            md_content = md_content + "category: " + str(row['ds:prjCategoryFacet']) + "\n"
+
+            # for viz
+            md_content = md_content + "component_dataset_link: " + generate_html_href('Project',row, all_df) + "\n"
 
             md_content = md_content + "---\n"
 
@@ -104,123 +132,155 @@ def create_project_md(df):
             with open(output_file_path, 'w', encoding='utf-8') as md_file:
                 md_file.write(md_content)
         except Exception as e:
-            print(f"Error processing file {row['title']}: {e}")
+            print(f"Error: {e}")
 
-def create_dataset_md(df):
+
+def create_dataset_md(df, all_df):
+    df = df.fillna('')
     for index, row in df.iterrows():
         try:
-            file_name = row['title']+'.md'
+            file_name = row['ds:DatName'] + '.md'
 
-            for key in ["start_date", "end_date", "publication_date"]:
+            if file_name == '2018-SmartUnitn2-Trento-Accelerometer.md':
+                print()
+
+            for key in ["ds:DatPublicationTimestamp", "ds:DatExpires", "ds:DatStartDate", "ds:DatEndDate", "ds:DatUpdateTimestamp"]:
                 row[key] = convert_datetime_formats(row[key])
+
+
+            project_title = '-'.join(row['ds:DatName'].split('-')[0:3])
+            project_df = all_df['Project']
+
+            filtered_df =project_df[project_df['ds:prjTitle'] == project_title]
+            if filtered_df.empty:
+                print(f"No project named: {project_title}")
+                project_row = pd.Series({col: float('nan') for col in project_df.columns}) #for the code to run with empty project row values
+            else:
+                project_row = filtered_df.iloc[0]
+
+            project_row = project_row.fillna('')
+            for key in ["ds:prjStartDate", "ds:prjEndDate", "ds:prjIRBApprovalDate"]:
+                project_row[key] = convert_datetime_formats(project_row[key])
 
             md_content = "---\n"
 
-            md_content = md_content + "ds:DatTitle: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatName: " + row['title'] + "\n"
-            md_content = md_content + "ds:DatDescription: " + row['project_url'] + "\n"
-            md_content = md_content + "ds:DatVersion: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatPublicationTimestamp: " + row['notes'] + "\n"
-            md_content = md_content + "ds:DatLicense: " + row['start_date'] + "\n"
-            md_content = md_content + "ds:DatURL: " + row['end_date'] + "\n"
-            md_content = md_content + "ds:DatKeyword: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatPublisher: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatCreator: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatOwner: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatLanguage: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatLevel: " + row['organization'] + "\n"
-            md_content = md_content + "ds:DatSize: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatDomain: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatFileFormat: " + row['location'] + "\n"
-            md_content = md_content + "ds:DatDetailedDescription: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatDownloadRequest: " + row['number_participants'] + "\n"
-            md_content = md_content + "ds:DatConditionsOfAccess: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatGenre: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatisAccessibleForFree: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatExpires: " + row['schema'] + "\n"
-
-            md_content = md_content + "ds:DatType: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatSensorType: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatStartDate: " + row['latitude_map'] + "\n"
-            md_content = md_content + "ds:DatEndDate: " + row['longitude_map'] + "\n"
-            md_content = md_content + "ds:DatFiveStars: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatOrigin: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatCreativeWorkStatus: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatIdentifier: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatChangelogURL: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatLicenceURL: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatSha256: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatUpdateTimestamp: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatBasedOn: " + row['schema'] + "\n"
-
-            md_content = md_content + "ds:DatSensorName: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatDurationFacet: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatLocationFacet: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DataTypeFacet: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatCategoryFacet: " + row['schema'] + "\n"
-
-            md_content = md_content + "ds:DatLatitude: " + row['schema'] + "\n"
-            md_content = md_content + "ds:DatLongitude: " + row['schema'] + "\n"
-
-            md_content = md_content + "download request:\n"
-
-            if str(row['ds:DatDownloadRequestName']) != "nan":
-                md_content = md_content + "  - name: " + str(row['ds:DatDownloadRequestName']) + "\n"
-                md_content = md_content + "    url: " + str(row['ds:DatDownloadRequestURL']) + "\n"
-                md_content = md_content + "    format: " + str(row['ds:DatDownloadRequestFormat']) + "\n"
+            md_content = md_content + "schema: default" + "\n"
+            # md_content = md_content + "title: " + row['ds:prjTitle'] + "\n"
+            md_content = md_content + "ds:prjURL: <a href=\"" + str(
+                project_row['ds:prjURL']) + "\" target=\"_blank\"> View Project </a>\n"
+            md_content = md_content + "ds:prjKeywords: " + str(project_row['ds:prjKeywords']) + "\n"
+            md_content = md_content + "ds:prjType: " + str(project_row['ds:prjType']) + "\n"
+            # md_content = md_content + "notes: " + str(project_row['ds:prjDescription']) + "\n"
+            md_content = md_content + f'ds:prjStartDate: "{str(project_row["ds:prjStartDate"])}"\n'
+            md_content = md_content + f'ds:prjEndDate: "{str(project_row["ds:prjEndDate"])}"\n'
+            md_content = md_content + "ds:prjFundingAgency: " + str(project_row['ds:prjFundingAgency']) + "\n"
+            md_content = md_content + "ds:prjInput: " + str(project_row['ds:prjInput']) + "\n"
+            md_content = md_content + "ds:prjOutput: " + str(project_row['ds:prjOutput']) + "\n"
+            md_content = md_content + "ds:prjCoordinator: " + str(project_row['ds:prjCoordinator']) + "\n"
+            md_content = md_content + "ds:prjObservations: " + str(project_row['ds:prjObservations']) + "\n"
+            md_content = md_content + "organization: " + str(project_row['ds:prjCoordinatorOrganization']) + "\n"
+            md_content = md_content + "ds:prjProjectArea: " + str(project_row['ds:prjProjectArea']) + "\n"
+            md_content = md_content + "ds:prjMembers: " + str(project_row['ds:prjMembers']) + "\n"
+            md_content = md_content + "ds:prjTargetLocation: " + str(project_row['ds:prjTargetLocation']) + "\n"
+            md_content = md_content + "ds:prjTargetPopulation: " + str(project_row['ds:prjTargetPopulation']) + "\n"
+            md_content = md_content + "ds:prjOverallParticipantsInvolved: " + str(
+                project_row['ds:prjOverallParticipantsInvolved']) + "\n"
+            md_content = md_content + "ds:prjSelectedParticipants: " + str(project_row['ds:prjSelectedParticipants']) + "\n"
+            md_content = md_content + "ds:prjTypeOfMeasurements: " + str(project_row['ds:prjTypeOfMeasurements']) + "\n"
+            md_content = md_content + "ds:prjIRBApprovalDate: " + str(project_row['ds:prjIRBApprovalDate']) + "\n"
+            md_content = md_content + "ds:prjIRBApprovalOrganization: " + str(
+                project_row['ds:prjIRBApprovalOrganization']) + "\n"
+            md_content = md_content + "ds:prjIRBApprovalNumber: " + str(project_row['ds:prjIRBApprovalNumber']) + "\n"
+            md_content = md_content + f'ds:prjCiteAs: "{str(project_row["ds:prjCiteAs"])}"\n'
+            md_content = md_content + "ds:prjMaintenance: " + str(project_row['ds:prjMaintenance']) + "\n"
+            md_content = md_content + "latitude_map: " + str(project_row['ds:prjLatitude']) + "\n"
+            md_content = md_content + "longitude_map: " + str(project_row['ds:prjLongitude']) + "\n"
+            md_content = md_content + "ds:prjThumbnailUrl: " + str(project_row['ds:prjThumbnailUrl']) + "\n"
+            md_content = md_content + "ds:prjIdentifier: " + str(project_row['ds:prjIdentifier']) + "\n"
+            md_content = md_content + "ds:prjDownloadRequestEmail: " + str(project_row['ds:prjDownloadRequestEmail']) + "\n"
 
             md_content = md_content + "resources:\n"
 
-            if str(row['ds:DatDocumentationName']) != "nan":
-                md_content = md_content + "  - name: " + str(row['ds:DatDocumentationName']) + "\n"
-                md_content = md_content + "    url: " + str(row['ds:DatDocumentationURL']) + "\n"
-                md_content = md_content + "    format: " + str(row['ds:DatDocumentationFormat']) + "\n"
+            if str(project_row['ds:prjDocumentationName']) != "nan":
+                md_content = md_content + "  - name: " + str(project_row['ds:prjDocumentationName']) + "\n"
+                md_content = md_content + "    url: " + str(project_row['ds:prjDocumentationURL']) + "\n"
+                md_content = md_content + "    format: " + str(project_row['ds:prjDocumentationFormat']) + "\n"
 
+            if str(project_row['ds:prjAdditionalMaterialName']) != "nan":
+                md_content = md_content + "  - name: " + str(project_row['ds:prjAdditionalMaterialName']) + "\n"
+                md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialUrl']) + "\n"
+                md_content = md_content + "    format: " + str(project_row['ds:prjAdditionalMaterialFormat']) + "\n"
             if str(row['ds:DatCodebookName']) != "nan":
                 md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
                 md_content = md_content + "    url: " + str(row['ds:DatCodebookURL']) + "\n"
                 md_content = md_content + "    format: " + str(row['ds:DatCodebookFormat']) + "\n"
 
-            if str(row['ds:DatAdditionalMaterialName']) != "nan":
-                md_content = md_content + "  - name: " + str(row['ds:DatAdditionalMaterialName']) + "\n"
-                md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialURL']) + "\n"
-                md_content = md_content + "    format: " + str(row['ds:DatAdditionalMaterialFormat']) + "\n"
-
-            md_content = md_content + "license: " + ">-\n " + str(row['license']) + "\n"
-
-            md_content = md_content + "dataset_name: " + row['dataset_name'] + "\n"
-            md_content = md_content + "location: " + row['location'] + "\n"
-            md_content = md_content + "latitude_map: " + str(row['latitude_map']) + "\n"
-            md_content = md_content + "longitude_map: " + str(row['longitude_map']) + "\n"
-            md_content = md_content + "start_date: " + str(row['start_date']) + "\n"
-            md_content = md_content + "end_date: " + str(row['end_date']) + "\n"
+            md_content = md_content + "download request:\n"
+            if str(row['ds:DatDownloadRequestName']) != "nan":
+                md_content = md_content + "  - name: " + str(row['ds:DatDownloadRequestName']) + "\n"
+                md_content = md_content + "    url: " + str(row['ds:DatDownloadRequestURL']) + "\n"
+                md_content = md_content + "    format: " + str(row['ds:DatDownloadRequestFormat']) + "\n"
 
 
+            md_content = md_content + "title: " + str(row['ds:DatName']) + "\n"
+            md_content = md_content + "notes: " + str(row['ds:DatDescription']) + "\n"
+            md_content = md_content + "ds:DatVersion: " + str(row['ds:DatVersion']) + "\n"
+            md_content = md_content + f'ds:DatPublicationTimestamp: " {str(row["ds:DatPublicationTimestamp"])}"\n'
+            md_content = md_content + "ds:DatLicense: " + str(row['ds:DatLicense']) + "\n"
+            md_content = md_content + "ds:DatURL: " + str(row['ds:DatURL']) + "\n"
+            md_content = md_content + "ds:DatKeyword: " + str(row['ds:DatKeyword']) + "\n"
+            md_content = md_content + "ds:DatPublisher: " + str(row['ds:DatPublisher']) + "\n"
+            md_content = md_content + "ds:DatCreator: " + str(row['ds:DatCreator']) + "\n"
+            md_content = md_content + "ds:DatOwner: " + str(row['ds:DatOwner']) + "\n"
+            md_content = md_content + "ds:DatLanguage: " + str(row['ds:DatLanguage']) + "\n"
+            md_content = md_content + "ds:DatLevel: " + str(row['ds:DatLevel']) + "\n"
+            md_content = md_content + "ds:DatSize: " + str(row['ds:DatSize']) + "\n"
+            md_content = md_content + "ds:DatDomain: " + str(row['ds:DatDomain']) + "\n"
+            md_content = md_content + "ds:DatFileFormat: " + str(row['ds:DatFileFormat']) + "\n"
+            md_content = md_content + "ds:DatDetailedDescription: " + str(row['ds:DatDetailedDescription']) + "\n"
+            md_content = md_content + "ds:DatDownloadRequest: " + str(row['ds:DatDownloadRequest']) + "\n"
+            md_content = md_content + "ds:DatConditionsOfAccess: " + str(row['ds:DatConditionsOfAccess']) + "\n"
+            md_content = md_content + "ds:DatGenre: " + str(row['ds:DatGenre']) + "\n"
+            md_content = md_content + "ds:DatisAccessibleForFree: " + str(row['ds:DatisAccessibleForFree']) + "\n"
+            md_content = md_content + "ds:DatExpires: " + str(row['ds:DatExpires']) + "\n"
+            if str(row['ds:DatCategoryFacet']) == "Dataset":
+                md_content = md_content + "ds:DatSensorName: " + str(row['ds:DatSensorName']) + "\n"
+            md_content = md_content + "ds:DatType: " + str(row['ds:DatType']) + "\n"
+            if str(row['ds:DatCategoryFacet']) == "Dataset":
+                md_content = md_content + "ds:DatSensorType: " + str(row['ds:DatSensorType']) + "\n"
+            md_content = md_content + f'ds:DatStartDate: "{str(row["ds:DatStartDate"])}"\n'
+            md_content = md_content + f'ds:DatEndDate: "{str(row["ds:DatEndDate"])}"\n'
+            md_content = md_content + "ds:DatFiveStars: " + str(row['ds:DatFiveStars']) + "\n"
+            md_content = md_content + "ds:DatOrigin: " + str(row['ds:DatOrigin']) + "\n"
+            md_content = md_content + "ds:DatCreativeWorkStatus: " + str(row['ds:DatCreativeWorkStatus']) + "\n"
+            md_content = md_content + "ds:DatIdentifier: " + str(row['ds:DatIdentifier']) + "\n"
+            md_content = md_content + "ds:DatChangelogURL: " + str(row['ds:DatChangelogURL']) + "\n"
+            md_content = md_content + "license: " + ">-\n  " + str(row['ds:DatLicenceURL']) + "\n"
+            md_content = md_content + "ds:DatSha256: " + str(row['ds:DatSha256']) + "\n"
+            md_content = md_content + "ds:DatUpdateTimestamp: " + str(row['ds:DatUpdateTimestamp']) + "\n"
+            md_content = md_content + "ds:DatBasedOn: " + str(row['ds:DatBasedOn']) + "\n"
 
-            md_content = md_content + "number_participants: " + str(row['number_participants']) + "\n"
-            md_content = md_content + "language: " + row['language'] + "\n"
-            md_content = md_content + "collection_name: " + row['collection_name'] + "\n"
-            md_content = md_content + "project_url: <a href=\"" + str(row['project_url']) + "\">" + str(
-                row['project_url']) + "</a>\n"
 
-            md_content = md_content + "category: " + "\n  - " + row['category'] + "\n"
-            md_content = md_content + "domain: " + "\n  - " + row['domain'] + "\n"
 
-            md_content = md_content + "5_stars: " + str(row['5_stars']) + "\n"
-            md_content = md_content + "publication_date: " + str(row['publication_date']) + "\n"
-            md_content = md_content + "identifier: " + row['identifier'] + "\n"
-            md_content = md_content + "request_contact: " + row['request_contact'] + "\n"
+            # md_content = md_content + "resources:\n"
+            # if str(row['ds:DatCodebookName']) != "nan":
+            #     md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
+            #     md_content = md_content + "    url: " + str(row['ds:DatCodebookURL']) + "\n"
+            #     md_content = md_content + "    format: " + str(row['ds:DatCodebookFormat']) + "\n"
 
-            md_content = md_content + "component_dataset_link: " + generate_html_href(row, df) + "\n"
+            # md_content = md_content + "project_url: <a href=\"" + str(row['project_url']) + "\">" + str(
+            #     row['project_url']) + "</a>\n"
 
-            # Facets
-            md_content = md_content + "duration_facet: " + '"' + row['duration_facet'] + '"' + "\n"
-            md_content = md_content + "location_facet: " + row['location_facet'] + "\n"
-            md_content = md_content + "location_continent_facet: " + row['location_continent_facet'] + "\n"
+            # facet
+            md_content = md_content + "duration_facet: " + f'"{str(row["ds:DatDurationFacet"])}"' + "\n"
+            md_content = md_content + "location_facet: " + str(row['ds:DatLocationFacet']) + "\n"
+            md_content = md_content + "collection_name: " + str(project_row['ds:prjCollectionFacet']) + "\n"
+            md_content = md_content + "data_type_facet: " + str(row['ds:DataTypeFacet']) + "\n"
+            md_content = md_content + "category: " + str(row['ds:DatCategoryFacet']) + "\n"
 
-            if not str(row['data_type_facet']) == 'nan':
-                md_content = md_content + "data_type_facet: " + str(row['data_type_facet']) + "\n"
-            # md_content = md_content + "project_facet: " + row['project_facet'] + "\n"
+            # for viz
+            if str(row['ds:DatCategoryFacet']) == "Dataset Bundle":
+                md_content = md_content + "component_dataset_link: " + generate_html_href('Dataset Bundle', row, all_df) + "\n"
 
             md_content = md_content + "---\n"
 
@@ -229,17 +289,14 @@ def create_dataset_md(df):
             with open(output_file_path, 'w', encoding='utf-8') as md_file:
                 md_file.write(md_content)
         except Exception as e:
-            print(f"Error processing file {row['title']}: {e}")
+            print(f"Error processing file {file_name}: {e}")
+
 
 def main(excel_path, output_dir):
-
     # step 1. get fields to generate project/dataset/dataset bundle
     # step 2. convertion on the existing to new
     # step 3. dynamic functions
     # step 4. facet creation
-
-    project_fields = md.project
-    dataset_fields = md.dataset
 
     # read by default 1st sheet of an excel file
     all_sheets = pd.read_excel(excel_path, sheet_name=None)  # None reads all sheets
@@ -251,11 +308,11 @@ def main(excel_path, output_dir):
 
     # project
     try:
-        create_project_md(all_sheets['Project'])
+        create_project_md(all_sheets['Project'], all_sheets)
 
-        create_dataset_md(all_sheets['Dataset'])
-
-        create_bundle_md(all_sheets['Dataset Bundle'])
+        create_dataset_md(all_sheets['Dataset'], all_sheets)
+        #
+        create_dataset_md(all_sheets['Dataset Bundle'], all_sheets)
     except Exception as ex:
         print(ex)
 
@@ -264,10 +321,10 @@ def main(excel_path, output_dir):
 
 if __name__ == "__main__":
     # Folder containing the Markdown files
-    excel_path = "/Users/munkhdelger/Knowdive/LivePeople/temp/source.xlsx"
+    excel_path = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/source.xlsx"
 
     # Output path
-    output_dir = "/_datasets"
-    # output_dir = "/Users/munkhdelger/Knowdive/LivePeople/temp/md"
+    output_dir = "/Users/munkhdelger/Knowdive/LivePeople/_datasets"
+    # output_dir = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/md_new"
 
     main(excel_path, output_dir)
