@@ -63,9 +63,7 @@ ds:DatConditionsOfAccess:
 ds:DatGenre: 
 ds:DatisAccessibleForFree: 
 ds:DatExpires: 
-ds:DatSensorName: App-usage
 ds:DatType: Sensors
-ds:DatSensorType: 
 ds:DatStartDate: "2021-03-12"
 ds:DatEndDate: "2021-03-28"
 ds:DatFiveStars: 3

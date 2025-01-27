@@ -63,9 +63,7 @@ ds:DatConditionsOfAccess:
 ds:DatGenre: 
 ds:DatisAccessibleForFree: 
 ds:DatExpires: 
-ds:DatSensorName: Synchronic-Interactions
 ds:DatType: Synchronic-Interactions
-ds:DatSensorType: 
 ds:DatStartDate: "2021-03-16"
 ds:DatEndDate: "2021-03-31"
 ds:DatFiveStars: 3

@@ -63,9 +63,7 @@ ds:DatConditionsOfAccess:
 ds:DatGenre: 
 ds:DatisAccessibleForFree: 
 ds:DatExpires: 
-ds:DatSensorName: Daily annotations & Location
 ds:DatType: Sensors
-ds:DatSensorType: 
 ds:DatStartDate: "2020-09-28"
 ds:DatEndDate: "2020-12-11"
 ds:DatFiveStars: 3

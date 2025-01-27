@@ -63,9 +63,7 @@ ds:DatConditionsOfAccess:
 ds:DatGenre: 
 ds:DatisAccessibleForFree: 
 ds:DatExpires: 
-ds:DatSensorName: Connectivity
 ds:DatType: Sensors
-ds:DatSensorType: 
 ds:DatStartDate: "2024-03-18"
 ds:DatEndDate: "2024-05-13"
 ds:DatFiveStars: 3

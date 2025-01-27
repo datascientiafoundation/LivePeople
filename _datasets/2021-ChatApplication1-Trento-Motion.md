@@ -63,9 +63,7 @@ ds:DatConditionsOfAccess:
 ds:DatGenre: 
 ds:DatisAccessibleForFree: 
 ds:DatExpires: 
-ds:DatSensorName: Motion
 ds:DatType: Sensors
-ds:DatSensorType: 
 ds:DatStartDate: "2021-06-04"
 ds:DatEndDate: "2021-06-18"
 ds:DatFiveStars: 3
