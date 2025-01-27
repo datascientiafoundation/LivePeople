@@ -1,12 +1,12 @@
 ---
 schema: default
 title: 2018-SmartUnitn2-Trento
-ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f target="_blank""> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f" target="_blank"> View Project </a>
 ds:prjKeywords: Academic Performance, Daily Routines, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
 notes: SmartUnitn 2 (SU2) dataset collected personal data about the everyday life of 158 university students at University of Trento by i-Log application installed on their smartphones. The SU2 data contains (1) participants’ synchronic data about profile, e.g., demographics, routines, personality; (2) participants’ diachronic data over a period of four weeks, including data from 34 sensors, both hardware and software, associated to around 100+ thousand self-reported annotations from participants.
-ds:prjStartDate: 2018-05-11
-ds:prjEndDate: 2018-06-06
+ds:prjStartDate: "2018-05-11"
+ds:prjEndDate: "2018-06-06"
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
 ds:prjInput: 
 ds:prjOutput: Datasets, Publications
@@ -23,7 +23,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2017-06-28
 ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 2016-027
-ds:prjCiteAs: Fausto Giunchiglia, Matteo Busso, Mattia Zeni, Ivano Bison, A survey on students’ daily routines and academic performance at the University of Trento, University of Trento Technical Report. No. DISI-2001-DS-01, (2022)
+ds:prjCiteAs: "Fausto Giunchiglia, Matteo Busso, Mattia Zeni, Ivano Bison, A survey on students’ daily routines and academic performance at the University of Trento, University of Trento Technical Report. No. DISI-2001-DS-01, (2022)"
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13

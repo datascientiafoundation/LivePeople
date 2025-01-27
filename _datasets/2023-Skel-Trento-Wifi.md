@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
-ds:prjStartDate: 2023-05-12 02:15:00
-ds:prjEndDate: 2023-06-12 02:15:00
+ds:prjStartDate: "2023-05-12 02:15:00"
+ds:prjEndDate: "2023-06-12 02:15:00"
 ds:prjFundingAgency: 
 ds:prjInput: 
 ds:prjOutput: 

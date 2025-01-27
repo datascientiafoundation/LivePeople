@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3720e313-356e-4b7c-830e-be5cc7dbb3b3" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2020-09-28
-ds:prjEndDate: 2020-12-11
+ds:prjStartDate: "2020-09-28"
+ds:prjEndDate: "2020-12-11"
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
 ds:prjInput: 
 ds:prjOutput: Datasets, Publications

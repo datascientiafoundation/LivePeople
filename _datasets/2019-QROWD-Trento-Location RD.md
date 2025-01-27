@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/9e382c6d-6885-45df-97cb-d24fcbacc0a7" target="_blank"> View Project </a>
 ds:prjKeywords: Mobility, Modal-Split, Parking, Smartphone Data, Sensor Data
 ds:prjType: Data collection
-ds:prjStartDate: 2020-07-09
-ds:prjEndDate: 2020-07-14
+ds:prjStartDate: "2020-07-09"
+ds:prjEndDate: "2020-07-14"
 ds:prjFundingAgency: European Union’s Horizon 2020 QROWD project, under grant agreement 732194
 ds:prjInput: 
 ds:prjOutput: Datasets, Publications

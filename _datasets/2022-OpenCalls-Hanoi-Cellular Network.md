@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Eating Habits, Smartphone data, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2022-06-13
-ds:prjEndDate: 2022-07-11
+ds:prjStartDate: "2022-06-13"
+ds:prjEndDate: "2022-07-11"
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823788
 ds:prjInput: 
 ds:prjOutput: Datasets

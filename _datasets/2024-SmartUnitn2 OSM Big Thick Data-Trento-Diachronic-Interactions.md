@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://datascientia.disi.unitn.it/projects/su2osm/" target="_blank"> View Project </a>
 ds:prjKeywords: Big-Thick Data, Human Behaviors, Observation Context, Reference Context, Personal Context
 ds:prjType: Data Collection, Data Integration
-ds:prjStartDate: 2024-05-24
-ds:prjEndDate: 2024-08-24
+ds:prjStartDate: "2024-05-24"
+ds:prjEndDate: "2024-08-24"
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
 ds:prjInput: Datasets
 ds:prjOutput: Datasets, Publications

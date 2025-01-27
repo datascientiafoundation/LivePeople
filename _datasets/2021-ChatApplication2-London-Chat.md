@@ -3,8 +3,8 @@ schema: default
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/c4c01f4d-bc9a-42b7-8f8e-88b037a9e160" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
-ds:prjStartDate: 2021-11-22
-ds:prjEndDate: 2021-12-06
+ds:prjStartDate: "2021-11-22"
+ds:prjEndDate: "2021-12-06"
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823787
 ds:prjInput: 
 ds:prjOutput: Datasets

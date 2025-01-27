@@ -1,12 +1,12 @@
 ---
 schema: default
 title: 2022-OpenCalls-Hanoi
-ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca target="_blank""> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Eating Habits, Smartphone data, Sensor data
 ds:prjType: Data collection
 notes: The Open Calls Project was a Wenet Horizon 2020 funded project with the goal of developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of FPT University in Vietnam. The project was carried out in June and July 2022. The project set out to sense the daily activity data of respondents through the mobile phone sensors, collect health data through daily food log surveys, collect alcohol-drinking activities coupled with the motives for drinking, and conduct semi-structured surveys to gather feedback on the project. Data collection was carried out in three big cities across Vietnam. The i-Log application was used to collect sensor data from participants with the language set to Vietnamese. The food-drink activities were collected with an i-Log survey filled in by the respondents three times a day.
-ds:prjStartDate: 2022-06-13
-ds:prjEndDate: 2022-07-11
+ds:prjStartDate: "2022-06-13"
+ds:prjEndDate: "2022-07-11"
 ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823788
 ds:prjInput: 
 ds:prjOutput: Datasets
@@ -23,7 +23,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2022-04-12
 ds:prjIRBApprovalOrganization: FPT University
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: 
+ds:prjCiteAs: ""
 ds:prjMaintenance: 
 latitude_map: 21.03
 longitude_map: 105.8
