@@ -78,7 +78,7 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-duration_facet: 2-6 months
+duration_facet: "2-6 months"
 location_facet: Paraguay
 collection_name: DiversityOne
 data_type_facet: Connectivity

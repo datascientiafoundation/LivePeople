@@ -37,7 +37,7 @@ resources:
   - name: 
     url: 
     format: 
-duration_facet: 2-6 months
+duration_facet: "2-6 months"
 location_facet: Uganda
 collection_name: Makerere
 category: Project

@@ -78,7 +78,7 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-duration_facet: 7-12 months
+duration_facet: "7-12 months"
 location_facet: China
 collection_name: DiversityOne
 data_type_facet: Synchronic-Interactions

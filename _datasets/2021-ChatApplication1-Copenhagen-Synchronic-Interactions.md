@@ -78,7 +78,7 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-duration_facet: 1 month
+duration_facet: "1 month"
 location_facet: Denmark
 collection_name: ChatApplication1
 data_type_facet: Synchronic-Interactions

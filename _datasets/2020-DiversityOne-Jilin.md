@@ -37,7 +37,7 @@ resources:
   - name: 
     url: 
     format: 
-duration_facet: 7-12 months
+duration_facet: "7-12 months"
 location_facet: China
 collection_name: DiversityOne
 category: Project

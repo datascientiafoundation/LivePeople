@@ -37,7 +37,7 @@ resources:
   - name: 
     url: 
     format: 
-duration_facet: 1 month
+duration_facet: "1 month"
 location_facet: United Kingdom
 collection_name: ChatApplication2
 category: Project

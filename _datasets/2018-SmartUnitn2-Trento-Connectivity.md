@@ -78,7 +78,7 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-duration_facet: 1 month
+duration_facet: "1 month"
 location_facet: Italy
 collection_name: SmartUnitn2
 data_type_facet: Connectivity

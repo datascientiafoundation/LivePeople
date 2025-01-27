@@ -37,7 +37,7 @@ resources:
   - name: 
     url: 
     format: 
-duration_facet: >12 months
+duration_facet: ">12 months"
 location_facet: Mexico
 collection_name: DiversityOne
 category: Project

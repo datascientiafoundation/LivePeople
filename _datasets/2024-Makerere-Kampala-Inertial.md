@@ -78,7 +78,7 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-duration_facet: 2-6 months
+duration_facet: "2-6 months"
 location_facet: Uganda
 collection_name: Makerere
 data_type_facet: Position

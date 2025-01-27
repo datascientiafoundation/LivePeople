@@ -37,7 +37,7 @@ resources:
   - name: 2018-SmartUnitn2-additional_material-questionnaire
     url: https://drive.google.com/file/d/1yY8RNaWO_eh4-UnXHkL2jpZld2739K3K/view?usp=share_link
     format: PDF
-duration_facet: 1 month
+duration_facet: "1 month"
 location_facet: Italy
 collection_name: SmartUnitn2
 category: Project

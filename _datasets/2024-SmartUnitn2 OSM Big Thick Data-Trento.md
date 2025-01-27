@@ -37,7 +37,7 @@ resources:
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-OSM-Trento-timediaries.html
     format: html
-duration_facet: 2-6 months
+duration_facet: "2-6 months"
 location_facet: Italy
 collection_name: SmartUnitn2OSM
 category: Project
