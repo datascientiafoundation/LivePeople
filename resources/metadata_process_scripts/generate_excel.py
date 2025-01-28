@@ -29,6 +29,8 @@ def extract_resources(data):
     tech_report_keywords = ['technical',
                             'descriptor',
                             'Big-Thick Data generation via reference and personal context unification']
+    if data['title'] == '2024-SmartUnitn2 OSM Big Thick Data-Trento':
+        print('')
 
     if '2018-SmartUnitnTwo-Trento' in data['title']:
         for res in data['resources']:
@@ -58,6 +60,8 @@ def extract_resources(data):
 
             elif 'codebook' in str(res['name']).lower() and data['category'] == "Dataset":
                 extracted['codebook'] = res
+            elif 'codebook' in str(res['name']).lower() and data['category'] != "Dataset":
+                continue
             elif 'html' in str(res['name']).lower():
                 extracted['codebook'] = res
 
@@ -608,7 +612,7 @@ if __name__ == "__main__":
     md_files_pattern = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/md_old/*.md"
 
     # Output CSV file
-    output_file = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/source.xlsx"
+    output_file = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/catalog.xlsx"
 
     project_file = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024_LivePeople PROJECT Metadata.xlsx"
 
