@@ -89,43 +89,62 @@ layout: default
                         </ul>
 
                         <h2>Download Request</h2>
-                            <ul>
-                                <li property='dcat:distribution' typeof='dcat:Distribution'>
-                                    <a href="../../resources/download_request.pdf" download>Request Document</a>
-                                </li>
-                            </ul>
+                        <ul>
+                            <li property='dcat:distribution' typeof='dcat:Distribution'>
+                                <a href="../../resources/download_request.pdf" download>Request Document</a>
+                            </li>
+                        </ul>
 
-                        {% for field in dataset_fields %}
+                        {% assign lat = page.latitude_map %}
+                        {% assign lon = page.longitude_map %}
 
-                        {% if field.field_name == "latitude_map"  %}
-                        {% assign lat = page[field[field_name]] %}
-                        {% continue %}
-                        {% endif %}
-
-                        {% if field.field_name == "longitude_map"  %}
-                        {% assign lon = page[field[field_name]] %}
-                        {% if lon %}
-
+                        {% if lat and lon %}
                         <h2>Map</h2>
                         <div id="map" style="height: 300px;"></div>
-                        <script>
-                            var lon = {{ lon | jsonify }};
-                            var lat = {{ lat | jsonify }};
-                          
-                            var map = new maplibregl.Map({
-                              container: 'map',
-                              style: 'https://demotiles.maplibre.org/style.json', // stylesheet location
-                              center: [lon, lat], // starting position [lng, lat]
-                              zoom: 4 // starting zoom
-                            });
-                            var marker = new maplibregl.Marker().setLngLat([lon, lat]).addTo(map);
-                          </script>
-                          
-                        <br/>
 
+                        <script>
+                            // Debugging - Log Latitude and Longitude
+                            console.log("Latitude:", "{{ lat }}");
+                            console.log("Longitude:", "{{ lon }}");
+
+                            try {
+                                // Parse Latitude and Longitude as numbers
+                                var lon = parseFloat("{{ lon }}");
+                                var lat = parseFloat("{{ lat }}");
+
+                                if (isNaN(lon) || isNaN(lat)) {
+                                    console.error("Invalid Latitude or Longitude: lat =", lat, ", lon =", lon);
+                                    throw new Error("Invalid coordinates provided.");
+                                }
+
+                                // Initialize the Map
+                                var map = new maplibregl.Map({
+                                    container: 'map', // Container ID
+                                    style: 'https://demotiles.maplibre.org/style.json', // Map style URL
+                                    center: [lon, lat], // Starting position [lng, lat]
+                                    zoom: 4 // Starting zoom level
+                                });
+
+                                // Add a marker at the given coordinates
+                                new maplibregl.Marker()
+                                    .setLngLat([lon, lat])
+                                    .addTo(map);
+
+                                console.log("Map successfully loaded.");
+                            } catch (error) {
+                                console.error("An error occurred while initializing the map:", error);
+                                document.getElementById('map').innerText = "Error loading the map. Please check the coordinates.";
+                            }
+                        </script>
+                        {% else %}
+                        <h2>Map</h2>
+                        <p>Map data is unavailable. Please ensure latitude and longitude are provided.</p>
+                        <!-- Debugging for missing values -->
+                        <script>
+                            console.warn("Latitude or Longitude is missing. Latitude:", "{{ lat }}", "Longitude:", "{{ lon }}");
+                        </script>
                         {% endif %}
-                        {% endif %}
-                        {% endfor %}
+
 
                         <h2>Metadata</h2>
                         <table class="table table-striped dataset-details">
