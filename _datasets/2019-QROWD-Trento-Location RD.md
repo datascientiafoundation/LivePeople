@@ -45,7 +45,7 @@ download request:
 title: 2019-QROWD-Trento-Location RD
 notes: This dataset returns the geocoordinates of where the phone is located.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-12-20"
+ds:DatPublicationTimestamp: "2023-12-20"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

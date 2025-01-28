@@ -45,7 +45,7 @@ download request:
 title: 2024-Makerere-Kampala-Accelerometer Uncalibrated
 notes: This dataset gathers information from the accelerometer sensor, returning uncalibrated values. Uncalibrated sensors provide more raw results and may include some bias but also contain fewer "jumps" from corrections applied through calibration. Some apps may prefer these uncalibrated results as smoother and more reliable.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-10-03"
+ds:DatPublicationTimestamp: "2024-10-03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

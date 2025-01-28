@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Location
 notes: Location information using GPS connections. (table location)
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-11-16 14:20:03"
+ds:DatPublicationTimestamp: "2024-11-16 14:20:03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

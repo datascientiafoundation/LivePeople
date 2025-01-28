@@ -44,24 +44,24 @@ download request:
     format: PDF
 title: 2018-SmartUnitn2-Trento-Accelerometer
 notes: The dataset contains 3D vector of the acceleration. It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
-ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-04-07"
-ds:DatLicense: 
-ds:DatURL: 
-ds:DatKeyword: 
-ds:DatPublisher: 
-ds:DatCreator: 
-ds:DatOwner: 
+ds:DatVersion: nan
+ds:DatPublicationTimestamp: "2023-04-07"
+ds:DatLicense: nan
+ds:DatURL: nan
+ds:DatKeyword: nan
+ds:DatPublisher: nan
+ds:DatCreator: nan
+ds:DatOwner: nan
 ds:DatLanguage: Not Applicable
-ds:DatLevel: 
+ds:DatLevel: nan
 ds:DatSize: 27442 MB
 ds:DatDomain: Digital University
 ds:DatFileFormat: parquet
-ds:DatDetailedDescription: 
-ds:DatDownloadRequest: 
-ds:DatConditionsOfAccess: 
-ds:DatGenre: 
-ds:DatisAccessibleForFree: 
+ds:DatDetailedDescription: nan
+ds:DatDownloadRequest: nan
+ds:DatConditionsOfAccess: nan
+ds:DatGenre: nan
+ds:DatisAccessibleForFree: nan
 ds:DatExpires: 
 ds:DatSensorName: Accelerometer
 ds:DatType: Sensor
@@ -69,15 +69,15 @@ ds:DatSensorType: Motion
 ds:DatStartDate: "2018-05-11"
 ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3
-ds:DatOrigin: 
-ds:DatCreativeWorkStatus: 
+ds:DatOrigin: nan
+ds:DatCreativeWorkStatus: nan
 ds:DatIdentifier: 002.AAAB.AAA.AY
-ds:DatChangelogURL: 
+ds:DatChangelogURL: nan
 license: >-
   ./../../resources/2023LivePeopleLicense.html
-ds:DatSha256: 
+ds:DatSha256: nan
 ds:DatUpdateTimestamp: 
-ds:DatBasedOn: 
+ds:DatBasedOn: nan
 duration_facet: "1 month"
 location_facet: Italy
 collection_name: SmartUnitn2

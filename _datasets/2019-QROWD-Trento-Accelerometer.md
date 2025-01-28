@@ -45,7 +45,7 @@ download request:
 title: 2019-QROWD-Trento-Accelerometer
 notes: This dataset returns the 3D vector of the acceleration.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-12-20"
+ds:DatPublicationTimestamp: "2023-12-20"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

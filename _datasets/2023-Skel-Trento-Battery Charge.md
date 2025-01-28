@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Battery Charge
 notes: Returns whether the phone is on charge and the type of charger
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-11-16 14:15:08"
+ds:DatPublicationTimestamp: "2024-11-16 14:15:08"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

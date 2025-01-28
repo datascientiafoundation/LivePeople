@@ -45,7 +45,7 @@ download request:
 title: 2024-Makerere-Kampala-Connectivity
 notes: The survey is based on a cutting edge data collection application called iLog1, developed by the University of Trento (Italy). Once installed on your smartphone and given the permission to collect the data, the iLog app will ask you information on the following topics (a) Socio-demographics (e.g., age, gender, nationality); (b) Social relations with peers and classmates; (c) Personality, Values and Competences; (d) Cultural consumption and activities (e.g., sports, cooking and shopping habits); (e) Mobility. After this information, the app will start sending every 30 minutes for 2 weeks the request to answer to four questions that require a few seconds of your time ("Where are you?"; "With whom are you?"; "What are you doing?"; and "What mood are you?"). Furthermore, the app will automatically collect data from your smartphone's sensors for 2 months. An example of sensors are location, bluetooth or if your smartphone is on or off (you can find a complete list of sensors in the Privacy Statement and within the iLog app itself).
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-10-03"
+ds:DatPublicationTimestamp: "2024-10-03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

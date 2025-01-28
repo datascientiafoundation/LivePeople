@@ -45,7 +45,7 @@ download request:
 title: 2021-ChatApplication1-London-Notification
 notes: The dataset measures when the phone receives a notification and when it is dismissed by the user. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-04-18"
+ds:DatPublicationTimestamp: "2023-04-18"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

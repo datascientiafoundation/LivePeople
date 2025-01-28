@@ -45,7 +45,7 @@ download request:
 title: 2022-OpenCalls-Hanoi-Light
 notes: This dataset contains the ambient Illuminance (lux). The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions. It collected information on the eating/drinking activities of the students of the FPT University.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-12-20"
+ds:DatPublicationTimestamp: "2023-12-20"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

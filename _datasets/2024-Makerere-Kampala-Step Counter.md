@@ -45,7 +45,7 @@ download request:
 title: 2024-Makerere-Kampala-Step Counter
 notes: This dataset exploits the Android API that generates an event when a step is detected. The step counter sensor is used to get the total number of steps taken by the user since the last reboot (power on) of the phone.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-10-03"
+ds:DatPublicationTimestamp: "2024-10-03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

@@ -45,7 +45,7 @@ download request:
 title: 2021-ChatApplication2-Trento-Bluetooth Low Energy
 notes: The dataset returns whether the device to wirelessly exchange data with other Bluetooth Low Energy devices. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-04-18"
+ds:DatPublicationTimestamp: "2023-04-18"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

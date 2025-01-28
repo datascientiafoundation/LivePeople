@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Proximity
 notes: Measures the distance between the user's head and the phone, depending on the phone it may be measured in centimeters (i.e., the absolute distance) or as labels (e.g., 'near', 'far')
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-11-16 14:15:08"
+ds:DatPublicationTimestamp: "2024-11-16 14:15:08"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

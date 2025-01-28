@@ -45,7 +45,7 @@ download request:
 title: 2024-Makerere-Kampala-Magnetic Field Uncalibrated
 notes: This dataset is similar to magnetic field, but the hard iron calibration is reported separately instead of being included in the measurement. Factory calibration and temperature compensation will still be applied to the "uncalibrated" measurement. Assumptions that the magnetic field is due to the Earth's poles is avoided.  It is part of the Makerere data collection, which contains data about the everyday life activities of students coming from Makerere University located in Uganda. The data were collected via questionnaires, data coming from 30 smartphone sensors associated to thousand self-reported annotations over a period of 8 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-10-03"
+ds:DatPublicationTimestamp: "2024-10-03"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

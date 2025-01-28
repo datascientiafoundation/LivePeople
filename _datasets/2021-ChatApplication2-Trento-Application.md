@@ -45,7 +45,7 @@ download request:
 title: 2021-ChatApplication2-Trento-Application
 notes: The dataset returns the name of the application (or application package) that is currently running in the foreground of the phone. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-04-18"
+ds:DatPublicationTimestamp: "2023-04-18"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

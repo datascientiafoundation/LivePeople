@@ -45,7 +45,7 @@ download request:
 title: 2023-Skel-Trento-Step Detector
 notes: Android API that counts (incrementally) the number of steps since the devices booted. The step detector sensor collects an event each time a step is taken by the user. The value reported by the sensor is always one, the fractional part being always zero, and the event timestamp is the time when the user’s foot hit the ground.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2024-11-16 14:15:08"
+ds:DatPublicationTimestamp: "2024-11-16 14:15:08"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 

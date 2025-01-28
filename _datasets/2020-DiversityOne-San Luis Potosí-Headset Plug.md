@@ -45,7 +45,7 @@ download request:
 title: 2020-DiversityOne-San Luis Potosí-Headset Plug
 notes: The dataset contains Headset status (true/false), triggered when the jack of the headphones is plugged in/out. It is part of Wenet Diversity 1 data collection, which contains data about the everyday life activities of students coming from 8 different universities located in China, Denmark, India, Italy, Mexico, Mongolia, Paraguay and UK. The data were collected via questionnaires, data coming from 26 smartphone sensors associated to thousand self-reported annotations over a period of 4 weeks.
 ds:DatVersion: 
-ds:DatPublicationTimestamp: " 2023-11-30"
+ds:DatPublicationTimestamp: "2023-11-30"
 ds:DatLicense: 
 ds:DatURL: 
 ds:DatKeyword: 
