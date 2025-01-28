@@ -88,6 +88,30 @@ layout: default
                             {% endfor %}
                         </ul>
 
+
+                        {% if page.component_dataset_link %}
+                        {% if page.category == 'Project' %}
+                        <h2>Component Bundles</h2>
+                        {% elsif page.category == 'Dataset Bundle' %}
+                        <h2>Component Datasets</h2>
+                        {% endif %}
+
+                        <ul>
+                            {% assign links = page.component_dataset_link | split: "," %}
+                            {% for link in links %}
+                            {% assign link_parts = link | split: '"' %}
+                            {% if link_parts.size == 2 %}
+                            <li>
+                                <a href="{{ link_parts[1] | strip }}" target="_blank">{{ link_parts[0] | strip }}</a>
+                            </li>
+                            {% else %}
+                            <li>{{ link | strip }}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+
+
                         <h2>Download Request</h2>
                         <ul>
                             <li property='dcat:distribution' typeof='dcat:Distribution'>
