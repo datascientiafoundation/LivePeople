@@ -136,7 +136,7 @@ def create_project_md(df, all_df):
 
 
 def create_dataset_md(df, all_df):
-    df = df.fillna('')
+    # df = df.fillna('')
     for index, row in df.iterrows():
         try:
             file_name = row['ds:DatName'] + '.md'
@@ -158,7 +158,15 @@ def create_dataset_md(df, all_df):
             else:
                 project_row = filtered_df.iloc[0]
 
-            project_row = project_row.fillna('')
+            if file_name == '2018-SmartUnitn2-Trento-Accelerometer.md':
+                project_row = project_row.fillna('nan')
+                row = row.fillna('nan')
+            else:
+                project_row = project_row.fillna('')
+                row = row.fillna('')
+
+
+
             for key in ["ds:prjStartDate", "ds:prjEndDate", "ds:prjIRBApprovalDate"]:
                 project_row[key] = convert_datetime_formats(project_row[key])
 
@@ -225,7 +233,7 @@ def create_dataset_md(df, all_df):
             md_content = md_content + "title: " + str(row['ds:DatName']) + "\n"
             md_content = md_content + "notes: " + str(row['ds:DatDescription']) + "\n"
             md_content = md_content + "ds:DatVersion: " + str(row['ds:DatVersion']) + "\n"
-            md_content = md_content + f'ds:DatPublicationTimestamp: " {str(row["ds:DatPublicationTimestamp"])}"\n'
+            md_content = md_content + f'ds:DatPublicationTimestamp: "{str(row["ds:DatPublicationTimestamp"])}"\n'
             md_content = md_content + "ds:DatLicense: " + str(row['ds:DatLicense']) + "\n"
             md_content = md_content + "ds:DatURL: " + str(row['ds:DatURL']) + "\n"
             md_content = md_content + "ds:DatKeyword: " + str(row['ds:DatKeyword']) + "\n"
@@ -321,7 +329,7 @@ def main(excel_path, output_dir):
 
 if __name__ == "__main__":
     # Folder containing the Markdown files
-    excel_path = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/source.xlsx"
+    excel_path = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/catalog.xlsx"
 
     # Output path
     output_dir = "/Users/munkhdelger/Knowdive/LivePeople/_datasets"
