@@ -32,9 +32,9 @@ resources:
   - name: Big-Thick Data generation via reference and personal context unification
     url: https://arxiv.org/abs/2409.05883
     format: PDF
-  - name: Codebook
-    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-OSM-Trento-timediaries.html
-    format: html
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 
