@@ -54,7 +54,7 @@ layout: default
                         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{
                             page.notes }}</p>
 
-                        {% if page.resources and page.resources | size > 0 %}
+                        {% if page.resources%}
                           {% assign non_empty_resources = page.resources | where: "name", "" | size %}
                           {% if non_empty_resources < page.resources | size %}
                             <h2>Resources</h2>
@@ -133,7 +133,7 @@ layout: default
                         <script>
                             var lon = {{ lon | jsonify }};
                             var lat = {{ lat | jsonify }};
-                          
+
                             var map = new maplibregl.Map({
                               container: 'map',
                               style: 'https://demotiles.maplibre.org/style.json', // stylesheet location
@@ -142,7 +142,7 @@ layout: default
                             });
                             var marker = new maplibregl.Marker().setLngLat([lon, lat]).addTo(map);
                           </script>
-                          
+
                         <br/>
 
                         {% endif %}
