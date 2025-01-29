@@ -286,6 +286,7 @@ def create_dataset_md(df, all_df):
             md_content = md_content + "data_type_facet: " + str(row['ds:DataTypeFacet']) + "\n"
             md_content = md_content + "category: " + str(row['ds:DatCategoryFacet']) + "\n"
 
+
             # for viz
             if str(row['ds:DatCategoryFacet']) == "Dataset Bundle":
                 md_content = md_content + "component_dataset_link: " + generate_html_href('Dataset Bundle', row, all_df) + "\n"
