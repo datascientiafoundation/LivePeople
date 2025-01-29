@@ -183,11 +183,11 @@ dataset_fields:
     datajson: ds:DatSensorType
 
   - field_name: ds:DatStartDate
-    label: Start Date
+    label: Data Collection Start Date
     datajson: ds:DatStartDate
 
   - field_name: ds:DatEndDate
-    label: End Date
+    label: Data Collection End Date
     datajson: ds:DatEndDate
 
   - field_name: ds:DatVersion

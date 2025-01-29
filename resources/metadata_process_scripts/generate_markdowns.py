@@ -63,10 +63,17 @@ def generate_html_href(category, row, all_df):
     return ', '.join(generated_href)
 
 
-def create_project_md(df, all_df):
+def create_project_md(df, all_df, skip):
     df = df.fillna('')
+    df['ds:prjOverallParticipantsInvolved'] = pd.to_numeric(df['ds:prjOverallParticipantsInvolved'],
+                                                            errors='coerce').fillna(0).astype(int)
+    df['ds:prjSelectedParticipants'] = pd.to_numeric(df['ds:prjSelectedParticipants'],
+                                                            errors='coerce').fillna(0).astype(int)
     for index, row in df.iterrows():
         try:
+            if any(word in row['ds:prjTitle'] for word in skip):
+                continue
+
             file_name = row['ds:prjTitle'] + '.md'
             for key in ["ds:prjStartDate", "ds:prjEndDate", "ds:prjIRBApprovalDate"]:
                 row[key] = convert_datetime_formats(row[key])
@@ -135,14 +142,14 @@ def create_project_md(df, all_df):
             print(f"Error: {e}")
 
 
-def create_dataset_md(df, all_df):
+def create_dataset_md(df, all_df, skip):
     # df = df.fillna('')
     for index, row in df.iterrows():
         try:
-            file_name = row['ds:DatName'] + '.md'
+            if any(word in row['ds:DatName'] for word in skip):
+                continue
 
-            if file_name == '2018-SmartUnitn2-Trento-Accelerometer.md':
-                print()
+            file_name = row['ds:DatName'] + '.md'
 
             for key in ["ds:DatPublicationTimestamp", "ds:DatExpires", "ds:DatStartDate", "ds:DatEndDate", "ds:DatUpdateTimestamp"]:
                 row[key] = convert_datetime_formats(row[key])
@@ -151,6 +158,12 @@ def create_dataset_md(df, all_df):
             project_title = '-'.join(row['ds:DatName'].split('-')[0:3])
             project_df = all_df['Project']
 
+            project_df['ds:prjOverallParticipantsInvolved'] = pd.to_numeric(project_df['ds:prjOverallParticipantsInvolved'],
+                                                                    errors='coerce').fillna(0).astype(int)
+            project_df['ds:prjSelectedParticipants'] = pd.to_numeric(project_df['ds:prjSelectedParticipants'],
+                                                             errors='coerce').fillna(0).astype(int)
+
+
             filtered_df =project_df[project_df['ds:prjTitle'] == project_title]
             if filtered_df.empty:
                 print(f"No project named: {project_title}")
@@ -158,17 +171,14 @@ def create_dataset_md(df, all_df):
             else:
                 project_row = filtered_df.iloc[0]
 
-            if file_name == '2018-SmartUnitn2-Trento-Accelerometer.md':
-                project_row = project_row.fillna('nan')
-                row = row.fillna('nan')
-            else:
-                project_row = project_row.fillna('')
-                row = row.fillna('')
 
 
+            project_row = project_row.fillna('')
+            row = row.fillna('')
 
             for key in ["ds:prjStartDate", "ds:prjEndDate", "ds:prjIRBApprovalDate"]:
                 project_row[key] = convert_datetime_formats(project_row[key])
+
 
             md_content = "---\n"
 
@@ -315,13 +325,15 @@ def main(excel_path, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
+    skip = ['2023-Skel-Trento']
+
     # project
     try:
-        create_project_md(all_sheets['Project'], all_sheets)
+        create_project_md(all_sheets['Project'], all_sheets,skip)
 
-        create_dataset_md(all_sheets['Dataset'], all_sheets)
+        create_dataset_md(all_sheets['Dataset'], all_sheets, skip)
         #
-        create_dataset_md(all_sheets['Dataset Bundle'], all_sheets)
+        create_dataset_md(all_sheets['Dataset Bundle'], all_sheets, skip)
     except Exception as ex:
         print(ex)
 
