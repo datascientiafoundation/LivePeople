@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London" target="_blank">2020-DiversityOne-London</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90399" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: United Kingdom
 collection_name: DiversityOne
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Light">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Pressure">Pressure</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Light" target="_blank">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Pressure" target="_blank">Pressure</a>
 ---

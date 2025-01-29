@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala" target="_blank">2024-Makerere-Kampala</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
@@ -81,5 +82,5 @@ location_facet: Uganda
 collection_name: Makerere
 data_type_facet: Device-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Airplane%20Mode">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Battery%20Charge">Battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Battery%20Monitoring%20Log">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Doze">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Headset%20Plug">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Ring%20Mode">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Screen">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Touch">Touch</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Airplane%20Mode" target="_blank">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Battery%20Charge" target="_blank">Battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Battery%20Monitoring%20Log" target="_blank">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Doze" target="_blank">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Headset%20Plug" target="_blank">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Ring%20Mode" target="_blank">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Screen" target="_blank">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Touch" target="_blank">Touch</a>
 ---

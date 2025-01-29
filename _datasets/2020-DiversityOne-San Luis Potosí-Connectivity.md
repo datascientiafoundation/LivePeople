@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD" target="_blank">2020-DiversityOne-San Luis Potosí</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Mexico
 collection_name: DiversityOne
 data_type_facet: Connectivity
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Bluetooth">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Cellular%20Network">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Wifi">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Wifi%20Networks">Wifi networks</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Bluetooth" target="_blank">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Cellular%20Network" target="_blank">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Wifi" target="_blank">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Wifi%20Networks" target="_blank">Wifi networks</a>
 ---

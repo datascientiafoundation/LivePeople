@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki" target="_blank">2022-OpenCalls-Thessaloniki</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/1e465a20-1650-42f7-88d4-d7b1b8ed6bb3" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Greece
 collection_name: OpenCalls
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Location%20RD">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Magnetic%20Field">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Proximity">Proximity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Location%20RD" target="_blank">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Magnetic%20Field" target="_blank">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Proximity" target="_blank">Proximity</a>
 ---

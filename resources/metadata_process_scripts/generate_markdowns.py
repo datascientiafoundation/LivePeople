@@ -30,6 +30,12 @@ def encode_url(title):
     return urllib.parse.quote(title)
 
 
+def create_href(title):
+    base_url = "https://datascientiafoundation.github.io/LivePeople/datasets/"
+    link = base_url + encode_url(title)
+    return f'<a href="{link}" target="_blank">{title}</a>'
+
+
 def generate_html_href(category, row, all_df):
     base_url = "https://datascientiafoundation.github.io/LivePeople/datasets/"
     generated_href = []
@@ -42,9 +48,10 @@ def generate_html_href(category, row, all_df):
         titles = bundle_df[bundle_df['ds:DatName'].str.startswith(row['ds:prjTitle'])]['ds:DatName']
 
         for title in titles:
+            href = create_href(title)
             link = base_url + encode_url(title)
             label = '-'.join(title.split('-')[3:]).capitalize()
-            generated_href.append(f'<a href="{link}">{label}</a>')
+            generated_href.append(f'<a href="{link}" target="_blank">{label}</a>')
 
     elif category == 'Dataset Bundle':
         year_collection_city = '-'.join(row['ds:DatName'].split('-')[0:3])
@@ -58,7 +65,7 @@ def generate_html_href(category, row, all_df):
         for title in titles:
             link = base_url + encode_url(title)
             label = '-'.join(title.split('-')[3:]).capitalize()
-            generated_href.append(f'<a href="{link}">{label}</a>')
+            generated_href.append(f'<a href="{link}" target="_blank">{label}</a>')
 
     return ', '.join(generated_href)
 
@@ -183,7 +190,7 @@ def create_dataset_md(df, all_df):
             md_content = "---\n"
 
             md_content = md_content + "schema: default" + "\n"
-            # md_content = md_content + "title: " + row['ds:prjTitle'] + "\n"
+            md_content = md_content + "ds:prjTitle: " + create_href(project_row['ds:prjTitle']) + "\n" # --> for viz
             md_content = md_content + "ds:prjURL: <a href=\"" + str(
                 project_row['ds:prjURL']) + "\" target=\"_blank\"> View Project </a>\n"
             md_content = md_content + "ds:prjKeywords: " + str(project_row['ds:prjKeywords']) + "\n"

@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar" target="_blank">2021-ChatApplication1-Ulaanbaatar</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/04250568-f8ed-4e99-a45b-b5058638587b" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
@@ -81,5 +82,5 @@ location_facet: Mongolia
 collection_name: ChatApplication1
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Step%20Counter">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Step%20Detector">Step detector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Activities" target="_blank">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Step%20Counter" target="_blank">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar-Step%20Detector" target="_blank">Step detector</a>
 ---

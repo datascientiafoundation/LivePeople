@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi" target="_blank">2022-OpenCalls-Hanoi</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Eating Habits, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Vietnam
 collection_name: OpenCalls
 data_type_facet: Device-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Airplane%20Mode">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Battery%20Monitoring%20Log">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Batterycharge">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Doze">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Ring%20Mode">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Screen">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Touch">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-User%20Presence">User presence</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Airplane%20Mode" target="_blank">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Battery%20Monitoring%20Log" target="_blank">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Batterycharge" target="_blank">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Doze" target="_blank">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Ring%20Mode" target="_blank">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Screen" target="_blank">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Touch" target="_blank">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-User%20Presence" target="_blank">User presence</a>
 ---

@@ -54,6 +54,7 @@ def main(excel, output_dir):
     new_df['isBundle'] = df['ds:DatCategoryFacet'] == 'Dataset Bundle'
     new_df['isDataset'] = df['ds:DatCategoryFacet'] == 'Dataset'
     new_df['isProject'] = False
+    new_df['isVisible'] = df['ds:DatIsVisible']
 
     new_df['durationFacet'] = df['ds:DatDurationFacet']
     new_df['locationFacet'] = df['ds:DatLocationFacet']
@@ -79,6 +80,7 @@ def main(excel, output_dir):
     prj_df['isBundle'] = False
     prj_df['isDataset'] = False
     prj_df['isProject'] = True
+    prj_df['isVisible'] = df['ds:prjIsVisible']
 
     prj_df['durationFacet'] = df['ds:prjDurationFacet']
     prj_df['locationFacet'] = df['ds:prjLocationFacet']

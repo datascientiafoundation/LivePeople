@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala" target="_blank">2024-Makerere-Kampala</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
@@ -81,5 +82,5 @@ location_facet: Uganda
 collection_name: Makerere
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Location">Location</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Magnetic%20Field">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Magnetic%20Field%20Uncalibrated">Magnetic field uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Orientation">Orientation</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Proximity">Proximity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Location" target="_blank">Location</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Magnetic%20Field" target="_blank">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Magnetic%20Field%20Uncalibrated" target="_blank">Magnetic field uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Orientation" target="_blank">Orientation</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Proximity" target="_blank">Proximity</a>
 ---

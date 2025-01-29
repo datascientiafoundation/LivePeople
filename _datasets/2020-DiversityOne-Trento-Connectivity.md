@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento" target="_blank">2020-DiversityOne-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b303" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Italy
 collection_name: DiversityOne
 data_type_facet: Connectivity
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Bluetooth">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Cellular%20Network">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Wifi">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Wifi%20Networks">Wifi networks</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Bluetooth" target="_blank">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Cellular%20Network" target="_blank">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Wifi" target="_blank">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Wifi%20Networks" target="_blank">Wifi networks</a>
 ---

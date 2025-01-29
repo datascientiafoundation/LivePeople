@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento" target="_blank">2018-SmartUnitn2-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f" target="_blank"> View Project </a>
 ds:prjKeywords: Academic Performance, Daily Routines, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Italy
 collection_name: SmartUnitn2
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Location">Location</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Magnetic%20Field">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Orientation">Orientation</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Proximity">Proximity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Location" target="_blank">Location</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Magnetic%20Field" target="_blank">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Orientation" target="_blank">Orientation</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Proximity" target="_blank">Proximity</a>
 ---

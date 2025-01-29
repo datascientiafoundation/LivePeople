@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento" target="_blank">2020-DiversityOne-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b303" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Italy
 collection_name: DiversityOne
 data_type_facet: Device-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Airplane%20Mode">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Battery%20Monitoring%20Log">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Batterycharge">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Doze">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Ring%20Mode">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Screen">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Touch">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-User%20Presence">User presence</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Airplane%20Mode" target="_blank">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Battery%20Monitoring%20Log" target="_blank">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Batterycharge" target="_blank">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Doze" target="_blank">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Ring%20Mode" target="_blank">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Screen" target="_blank">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Touch" target="_blank">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-User%20Presence" target="_blank">User presence</a>
 ---

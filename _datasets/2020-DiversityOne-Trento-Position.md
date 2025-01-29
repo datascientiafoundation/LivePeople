@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento" target="_blank">2020-DiversityOne-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b303" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Italy
 collection_name: DiversityOne
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Location%20POI">Location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Location%20RD">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Magnetic%20Field">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Proximity">Proximity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Location%20POI" target="_blank">Location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Location%20RD" target="_blank">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Magnetic%20Field" target="_blank">Magnetic field</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Trento-Proximity" target="_blank">Proximity</a>
 ---

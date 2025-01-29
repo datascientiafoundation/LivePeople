@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n" target="_blank">2020-DiversityOne-Asunción</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/6b8e2fb9-30d9-4fdb-9116-0cc7cc00ba3e" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Paraguay
 collection_name: DiversityOne
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Accelerometer">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Gyroscope">Gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Step%20Counter">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Step%20Detector">Step detector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Accelerometer" target="_blank">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Activities" target="_blank">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Gyroscope" target="_blank">Gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Step%20Counter" target="_blank">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Step%20Detector" target="_blank">Step detector</a>
 ---

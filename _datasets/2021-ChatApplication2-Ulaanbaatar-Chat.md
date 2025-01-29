@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Ulaanbaatar" target="_blank">2021-ChatApplication2-Ulaanbaatar</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/4e384637-2aa1-455a-b1c4-e0d927e9306b" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 

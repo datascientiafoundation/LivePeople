@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala" target="_blank">2024-Makerere-Kampala</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
@@ -81,5 +82,5 @@ location_facet: Uganda
 collection_name: Makerere
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Notification">Notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Application" target="_blank">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Music" target="_blank">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Notification" target="_blank">Notification</a>
 ---

@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita" target="_blank">2020-DiversityOne-Amrita</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/2c45f74f-6538-4bb5-a67e-1e9c15d0307c" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: India
 collection_name: DiversityOne
 data_type_facet: Connectivity
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Bluetooth">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Cellular%20Network">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi%20Networks">Wifi networks</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Bluetooth" target="_blank">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Cellular%20Network" target="_blank">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi" target="_blank">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Wifi%20Networks" target="_blank">Wifi networks</a>
 ---

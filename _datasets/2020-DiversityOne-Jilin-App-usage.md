@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin" target="_blank">2020-DiversityOne-Jilin</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/923b2c1c-166c-4f53-a274-c9d6eaa5ad4f" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: China
 collection_name: DiversityOne
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Headset%20Plug">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Notification">Notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Application" target="_blank">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Headset%20Plug" target="_blank">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Music" target="_blank">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Notification" target="_blank">Notification</a>
 ---

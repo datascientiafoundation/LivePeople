@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n" target="_blank">2021-ChatApplication1-Asunción</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/dcfa089a-1394-4536-abce-0dc44d6aeebd" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Paraguay
 collection_name: ChatApplication1
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Notification">Notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Application" target="_blank">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Notification" target="_blank">Notification</a>
 ---

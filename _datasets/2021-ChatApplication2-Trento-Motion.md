@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento" target="_blank">2021-ChatApplication2-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/326441a6-bc15-4393-b8e0-6ea7fcb4452e" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Italy
 collection_name: ChatApplication2
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Counter">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Detector">Step detector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Activities" target="_blank">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Counter" target="_blank">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Step%20Detector" target="_blank">Step detector</a>
 ---

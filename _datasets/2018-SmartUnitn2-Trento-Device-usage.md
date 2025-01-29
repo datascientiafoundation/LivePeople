@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento" target="_blank">2018-SmartUnitn2-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f" target="_blank"> View Project </a>
 ds:prjKeywords: Academic Performance, Daily Routines, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Italy
 collection_name: SmartUnitn2
 data_type_facet: Device-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Airplane%20Mode">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Battery%20Charge">Battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Doze">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Ring%20Mode">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Screen">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Touch">Touch</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Airplane%20Mode" target="_blank">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Battery%20Charge" target="_blank">Battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Doze" target="_blank">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Ring%20Mode" target="_blank">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Screen" target="_blank">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Touch" target="_blank">Touch</a>
 ---

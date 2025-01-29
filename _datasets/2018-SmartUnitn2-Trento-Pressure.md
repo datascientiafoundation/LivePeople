@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento" target="_blank">2018-SmartUnitn2-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/01f1f074-a636-4bbe-98f9-53c12a66288f" target="_blank"> View Project </a>
 ds:prjKeywords: Academic Performance, Daily Routines, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection

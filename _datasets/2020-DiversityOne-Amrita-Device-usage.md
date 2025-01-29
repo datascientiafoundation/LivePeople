@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita" target="_blank">2020-DiversityOne-Amrita</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/2c45f74f-6538-4bb5-a67e-1e9c15d0307c" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: India
 collection_name: DiversityOne
 data_type_facet: Device-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Airplane%20Mode">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Battery%20Monitoring%20Log">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Batterycharge">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Doze">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Ring%20Mode">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Screen">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Touch">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-User%20Presence">User presence</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Airplane%20Mode" target="_blank">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Battery%20Monitoring%20Log" target="_blank">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Batterycharge" target="_blank">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Doze" target="_blank">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Ring%20Mode" target="_blank">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Screen" target="_blank">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Touch" target="_blank">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-User%20Presence" target="_blank">User presence</a>
 ---

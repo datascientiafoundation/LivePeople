@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar" target="_blank">2020-DiversityOne-Ulaanbaatar</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/f6bfbca4-fbe7-488f-bcf1-a66ac1f5a93a" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
@@ -81,5 +82,5 @@ location_facet: Mongolia
 collection_name: DiversityOne
 data_type_facet: Connectivity
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Bluetooth">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Cellular%20Network">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Wifi">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Wifi%20Networks">Wifi networks</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Bluetooth" target="_blank">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Cellular%20Network" target="_blank">Cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Wifi" target="_blank">Wifi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Wifi%20Networks" target="_blank">Wifi networks</a>
 ---

@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi" target="_blank">2022-OpenCalls-Hanoi</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Eating Habits, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Vietnam
 collection_name: OpenCalls
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Accelerometer">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Gyroscope">Gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Counter">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Detector">Step detector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Accelerometer" target="_blank">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Activities" target="_blank">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Gyroscope" target="_blank">Gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Counter" target="_blank">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Hanoi-Step%20Detector" target="_blank">Step detector</a>
 ---

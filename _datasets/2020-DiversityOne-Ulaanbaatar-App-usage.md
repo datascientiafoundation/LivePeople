@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar" target="_blank">2020-DiversityOne-Ulaanbaatar</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/f6bfbca4-fbe7-488f-bcf1-a66ac1f5a93a" target="_blank"> View Project </a>
 ds:prjKeywords: 
 ds:prjType: 
@@ -81,5 +82,5 @@ location_facet: Mongolia
 collection_name: DiversityOne
 data_type_facet: App-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Application">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Headset%20Plug">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Music">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Notification">Notification</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Application" target="_blank">Application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Headset%20Plug" target="_blank">Headset plug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Music" target="_blank">Music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar-Notification" target="_blank">Notification</a>
 ---

@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London" target="_blank">2020-DiversityOne-London</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90399" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: United Kingdom
 collection_name: DiversityOne
 data_type_facet: Device-usage
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Airplane%20Mode">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Battery%20Monitoring%20Log">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Batterycharge">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Doze">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Ring%20Mode">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Screen">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Touch">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-User%20Presence">User presence</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Airplane%20Mode" target="_blank">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Battery%20Monitoring%20Log" target="_blank">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Batterycharge" target="_blank">Batterycharge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Doze" target="_blank">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Ring%20Mode" target="_blank">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Screen" target="_blank">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-Touch" target="_blank">Touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-London-User%20Presence" target="_blank">User presence</a>
 ---

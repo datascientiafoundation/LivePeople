@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin" target="_blank">2020-DiversityOne-Jilin</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/923b2c1c-166c-4f53-a274-c9d6eaa5ad4f" target="_blank"> View Project </a>
 ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: China
 collection_name: DiversityOne
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Accelerometer">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Gyroscope">Gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Step%20Counter">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Step%20Detector">Step detector</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Accelerometer" target="_blank">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Activities" target="_blank">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Gyroscope" target="_blank">Gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Step%20Counter" target="_blank">Step counter</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Step%20Detector" target="_blank">Step detector</a>
 ---

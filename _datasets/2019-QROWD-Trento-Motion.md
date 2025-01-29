@@ -1,5 +1,6 @@
 ---
 schema: default
+ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento" target="_blank">2019-QROWD-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/9e382c6d-6885-45df-97cb-d24fcbacc0a7" target="_blank"> View Project </a>
 ds:prjKeywords: Mobility, Modal-Split, Parking, Smartphone Data, Sensor Data
 ds:prjType: Data collection
@@ -81,5 +82,5 @@ location_facet: Italy
 collection_name: QROWD
 data_type_facet: Motion
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Accelerometer">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Activities">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Gyroscope">Gyroscope</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Accelerometer" target="_blank">Accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Activities" target="_blank">Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento-Gyroscope" target="_blank">Gyroscope</a>
 ---

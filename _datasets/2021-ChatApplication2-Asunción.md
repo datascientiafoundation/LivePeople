@@ -41,5 +41,5 @@ duration_facet: "1 month"
 location_facet: Paraguay
 collection_name: ChatApplication2
 category: Project
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Asunci%C3%B3n-Diachronic-Interactions">Diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Asunci%C3%B3n-Synchronic-Interactions">Synchronic-interactions</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Asunci%C3%B3n-Diachronic-Interactions" target="_blank">Diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Asunci%C3%B3n-Synchronic-Interactions" target="_blank">Synchronic-interactions</a>
 ---
