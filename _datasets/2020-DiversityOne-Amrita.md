@@ -1,0 +1,45 @@
+---
+schema: default
+title: 2020-DiversityOne-Amrita
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/2c45f74f-6538-4bb5-a67e-1e9c15d0307c" target="_blank"> View Project </a>
+ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
+ds:prjType: Data collection
+notes: The study aimed to assess diversity through the social practices and daily behaviors of university students from eight different countries. The research was carried out in two phases. Initially, a large sample of students from Denmark, Italy, Mongolia, Paraguay, the United Kingdom, China, Mexico, and India, completed a survey on their social practices, as well as their socio-demographic, cultural, and psychological elements. In the second phase, a sub-sample of the respondents engaged in a four-week data collection by using an innovative smartphone application called iLog. This app collected data from thirty-four smartphone sensors around the clock, allowing for an in-depth investigation into the diversity and daily routines of university students across countries, both synchronically and diachronically.
+ds:prjStartDate: "2021-05-26"
+ds:prjEndDate: "2021-08-12"
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823788
+ds:prjInput: 
+ds:prjOutput: Datasets, Publications
+ds:prjCoordinator: Shyam Diwakar
+ds:prjObservations: 
+organization: Unitn
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Chaitanya Nutakki
+ds:prjTargetLocation: Amrita (India)
+ds:prjTargetPopulation: 
+ds:prjOverallParticipantsInvolved: 6598
+ds:prjSelectedParticipants: 20
+ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
+ds:prjIRBApprovalDate: 2020-06-29
+ds:prjIRBApprovalOrganization: Amrita Vishwa Vidyapeetham
+ds:prjIRBApprovalNumber: 
+ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021)."
+ds:prjMaintenance: 
+latitude_map: 10.9
+longitude_map: 76.9
+ds:prjThumbnailUrl: 
+ds:prjIdentifier: 004.AAAD.AAG.**
+ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
+resources:
+  - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
+    url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
+    format: PDF
+  - name: 
+    url: 
+    format: 
+duration_facet: "2-6 months"
+location_facet: India
+collection_name: DiversityOne
+category: Project
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-App-usage">App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Connectivity">Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Daily%20annotations%20%26%20Location">Daily annotations & location</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Device-usage">Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Diachronic-Interactions">Diachronic-interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Environment">Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Motion">Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Position">Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Synchronic-Interactions">Synchronic-interactions</a>
+---

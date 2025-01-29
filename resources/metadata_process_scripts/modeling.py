@@ -29,16 +29,21 @@ project = {
     'ds:prjThumbnailUrl': '',
     'ds:prjIdentifier': 'identifier',
     'ds:prjDownloadRequestEmail': 'request_contact',
-    'ds:prjDurationFacet': 'duration_facet',
-    'ds:prjLocationFacet': 'location_facet',
-    'ds:prjCollectionFacet': 'collection_name',
-    'ds:prjCategoryFacet': 'category',
+
     'ds:prjAdditionalMaterialName': 'additional_material-name',
     'ds:prjAdditionalMaterialUrl': 'additional_material-url',
     'ds:prjAdditionalMaterialFormat': 'additional_material-format',
     'ds:prjDocumentationName': 'technical_report-name',
     'ds:prjDocumentationURL': 'technical_report-url',
     'ds:prjDocumentationFormat': 'technical_report-format',
+
+
+    'ds:prjDurationFacet': 'duration_facet',
+    'ds:prjLocationFacet': 'location_facet',
+    'ds:prjCollectionFacet': 'collection_name',
+    'ds:prjCategoryFacet': 'category',
+
+    'ds:prjIsVisible': '',
 }
 
 dataset = {
@@ -83,6 +88,7 @@ dataset = {
     'ds:DatUpdateTimestamp': '',
     'ds:DatBasedOn': '',
     'ds:DatSensorName': 'dataset_name',
+    'ds:DatIsVisible': '',
 
     'ds:DatDurationFacet': 'duration_facet',
     'ds:DatLocationFacet': 'location_facet',

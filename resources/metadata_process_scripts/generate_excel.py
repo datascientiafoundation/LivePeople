@@ -601,6 +601,12 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
     data['ds:DatDownloadRequestURL'] = 'https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf'
     data['ds:DatDownloadRequestFormat'] = 'PDF'
 
+    data['ds:prjIsVisible'] = True
+    data['ds:DatIsVisible'] = True
+
+    data['ds:prjIsVisible'] = data['ds:prjTitle'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
+    data['ds:DatIsVisible'] = data['ds:DatName'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
+
 
     # Save the extracted data to an Excel file
     save_to_excel(data, output_file)

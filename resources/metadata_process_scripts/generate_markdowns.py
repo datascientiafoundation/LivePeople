@@ -63,7 +63,7 @@ def generate_html_href(category, row, all_df):
     return ', '.join(generated_href)
 
 
-def create_project_md(df, all_df, skip):
+def create_project_md(df, all_df):
     df = df.fillna('')
     df['ds:prjOverallParticipantsInvolved'] = pd.to_numeric(df['ds:prjOverallParticipantsInvolved'],
                                                             errors='coerce').fillna(0).astype(int)
@@ -71,7 +71,7 @@ def create_project_md(df, all_df, skip):
                                                             errors='coerce').fillna(0).astype(int)
     for index, row in df.iterrows():
         try:
-            if any(word in row['ds:prjTitle'] for word in skip):
+            if not row['ds:prjIsVisible']:
                 continue
 
             file_name = row['ds:prjTitle'] + '.md'
@@ -142,11 +142,11 @@ def create_project_md(df, all_df, skip):
             print(f"Error: {e}")
 
 
-def create_dataset_md(df, all_df, skip):
+def create_dataset_md(df, all_df):
     # df = df.fillna('')
     for index, row in df.iterrows():
         try:
-            if any(word in row['ds:DatName'] for word in skip):
+            if not row['ds:DatIsVisible']:
                 continue
 
             file_name = row['ds:DatName'] + '.md'
@@ -325,15 +325,15 @@ def main(excel_path, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    skip = ['2023-Skel-Trento']
+
 
     # project
     try:
-        create_project_md(all_sheets['Project'], all_sheets,skip)
+        create_project_md(all_sheets['Project'], all_sheets)
 
-        create_dataset_md(all_sheets['Dataset'], all_sheets, skip)
+        create_dataset_md(all_sheets['Dataset'], all_sheets)
         #
-        create_dataset_md(all_sheets['Dataset Bundle'], all_sheets, skip)
+        create_dataset_md(all_sheets['Dataset Bundle'], all_sheets)
     except Exception as ex:
         print(ex)
 
