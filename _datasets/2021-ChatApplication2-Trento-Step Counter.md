@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Step Counter
 ds:DatType: Sensor
-ds:DatSensorType: Motion
+ds:DatSensorType: 
+  - Motion
 ds:DatStartDate: "2021-11-20"
 ds:DatEndDate: "2021-12-08"
 ds:DatFiveStars: 3

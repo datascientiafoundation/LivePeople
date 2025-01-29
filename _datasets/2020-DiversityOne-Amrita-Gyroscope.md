@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Gyroscope
 ds:DatType: Sensor
-ds:DatSensorType: Motion
+ds:DatSensorType: 
+  - Motion
 ds:DatStartDate: "2021-05-26"
 ds:DatEndDate: "2021-08-12"
 ds:DatFiveStars: 3

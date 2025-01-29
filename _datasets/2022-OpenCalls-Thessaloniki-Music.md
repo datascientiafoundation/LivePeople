@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Music
 ds:DatType: Sensor
-ds:DatSensorType: App-usage
+ds:DatSensorType: 
+  - App-usage
 ds:DatStartDate: "2022-06-07"
 ds:DatEndDate: "2022-07-06"
 ds:DatFiveStars: 3

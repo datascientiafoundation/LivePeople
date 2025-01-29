@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Activities
 ds:DatType: Sensor
-ds:DatSensorType: Motion
+ds:DatSensorType: 
+  - Motion
 ds:DatStartDate: "2022-06-07"
 ds:DatEndDate: "2022-07-06"
 ds:DatFiveStars: 3

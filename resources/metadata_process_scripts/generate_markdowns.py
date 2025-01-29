@@ -88,7 +88,7 @@ def create_project_md(df, all_df):
             md_content = "---\n"
             md_content = md_content + "schema: default" + "\n"
             md_content = md_content + "title: " + row['ds:prjTitle'] + "\n"
-            md_content = md_content + "ds:prjURL: <a href=\"" + str(row['ds:prjURL']) + "\" target=\"_blank\"> View Project </a>\n"
+            md_content = md_content + "ds:prjURL: <a href=\"" + str(row['ds:prjURL']) + "\" target=\"_blank\"> View </a>\n"
             md_content = md_content + "ds:prjKeywords: " + str(row['ds:prjKeywords']) + "\n"
             md_content = md_content + "ds:prjType: " + str(row['ds:prjType']) + "\n"
             md_content = md_content + "notes: " + str(row['ds:prjDescription']) + "\n"
@@ -272,7 +272,7 @@ def create_dataset_md(df, all_df):
                 md_content = md_content + "ds:DatSensorName: " + str(row['ds:DatSensorName']) + "\n"
             md_content = md_content + "ds:DatType: " + str(row['ds:DatType']) + "\n"
             if str(row['ds:DatCategoryFacet']) == "Dataset":
-                md_content = md_content + "ds:DatSensorType: " + str(row['ds:DatSensorType']) + "\n"
+                md_content = md_content + "ds:DatSensorType: " +"\n  - " + str(row['ds:DatSensorType']) + "\n"
             md_content = md_content + f'ds:DatStartDate: "{str(row["ds:DatStartDate"])}"\n'
             md_content = md_content + f'ds:DatEndDate: "{str(row["ds:DatEndDate"])}"\n'
             md_content = md_content + "ds:DatFiveStars: " + str(row['ds:DatFiveStars']) + "\n"

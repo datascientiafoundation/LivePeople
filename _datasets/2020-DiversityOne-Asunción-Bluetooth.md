@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Bluetooth
 ds:DatType: Sensor
-ds:DatSensorType: Connectivity
+ds:DatSensorType: 
+  - Connectivity
 ds:DatStartDate: "2020-09-28"
 ds:DatEndDate: "2020-12-11"
 ds:DatFiveStars: 3

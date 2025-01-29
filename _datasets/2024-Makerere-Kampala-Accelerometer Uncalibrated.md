@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Accelerometer Uncalibrated
 ds:DatType: Sensor
-ds:DatSensorType: Motion
+ds:DatSensorType: 
+  - Motion
 ds:DatStartDate: "2024-03-18"
 ds:DatEndDate: "2024-05-13"
 ds:DatFiveStars: 3

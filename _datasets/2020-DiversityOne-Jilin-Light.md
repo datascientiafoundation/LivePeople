@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Light
 ds:DatType: Sensor
-ds:DatSensorType: Environment
+ds:DatSensorType: 
+  - Environment
 ds:DatStartDate: "2020-10-12"
 ds:DatEndDate: "2021-06-18"
 ds:DatFiveStars: 3

@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Proximity
 ds:DatType: Sensor
-ds:DatSensorType: Position
+ds:DatSensorType: 
+  - Position
 ds:DatStartDate: "2021-05-26"
 ds:DatEndDate: "2021-08-12"
 ds:DatFiveStars: 3

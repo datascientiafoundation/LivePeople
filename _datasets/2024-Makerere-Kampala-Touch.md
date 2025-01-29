@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Touch
 ds:DatType: Sensor
-ds:DatSensorType: Device-usage
+ds:DatSensorType: 
+  - Device-usage
 ds:DatStartDate: "2024-03-18"
 ds:DatEndDate: "2024-05-13"
 ds:DatFiveStars: 3

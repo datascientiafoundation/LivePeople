@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Doze
 ds:DatType: Sensor
-ds:DatSensorType: Device-usage
+ds:DatSensorType: 
+  - Device-usage
 ds:DatStartDate: "2022-06-13"
 ds:DatEndDate: "2022-07-11"
 ds:DatFiveStars: 3

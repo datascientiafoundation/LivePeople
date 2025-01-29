@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Pressure
 ds:DatType: Sensor
-ds:DatSensorType: Environment
+ds:DatSensorType: 
+  - Environment
 ds:DatStartDate: "2018-05-11"
 ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3

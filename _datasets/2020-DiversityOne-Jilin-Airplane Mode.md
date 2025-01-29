@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Airplane Mode
 ds:DatType: Sensor
-ds:DatSensorType: Device-usage
+ds:DatSensorType: 
+  - Device-usage
 ds:DatStartDate: "2020-10-12"
 ds:DatEndDate: "2021-06-18"
 ds:DatFiveStars: 3

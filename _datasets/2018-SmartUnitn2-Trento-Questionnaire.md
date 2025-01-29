@@ -67,6 +67,7 @@ ds:DatExpires:
 ds:DatSensorName: Questionnaire
 ds:DatType: Synchronic-Interactions
 ds:DatSensorType: 
+  - 
 ds:DatStartDate: "2018-05-11"
 ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3

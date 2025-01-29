@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Wifi
 ds:DatType: Sensor
-ds:DatSensorType: Connectivity
+ds:DatSensorType: 
+  - Connectivity
 ds:DatStartDate: "2019-08-30"
 ds:DatEndDate: "2021-08-14"
 ds:DatFiveStars: 3

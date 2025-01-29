@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Geomagnetic Rotation Vector
 ds:DatType: Sensor
-ds:DatSensorType: Inertial
+ds:DatSensorType: 
+  - Inertial
 ds:DatStartDate: "2024-03-18"
 ds:DatEndDate: "2024-05-13"
 ds:DatFiveStars: 3

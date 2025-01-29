@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Notification
 ds:DatType: Sensor
-ds:DatSensorType: App-usage
+ds:DatSensorType: 
+  - App-usage
 ds:DatStartDate: "2021-11-20"
 ds:DatEndDate: "2021-12-08"
 ds:DatFiveStars: 3

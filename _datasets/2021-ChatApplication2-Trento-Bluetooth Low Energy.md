@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Bluetooth Low Energy
 ds:DatType: Sensor
-ds:DatSensorType: Connectivity
+ds:DatSensorType: 
+  - Connectivity
 ds:DatStartDate: "2021-11-20"
 ds:DatEndDate: "2021-12-08"
 ds:DatFiveStars: 3

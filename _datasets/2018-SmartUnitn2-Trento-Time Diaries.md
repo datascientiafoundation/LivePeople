@@ -67,6 +67,7 @@ ds:DatExpires:
 ds:DatSensorName: Time Diaries
 ds:DatType: Diachronic-Interactions
 ds:DatSensorType: 
+  - 
 ds:DatStartDate: "2018-05-11"
 ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3

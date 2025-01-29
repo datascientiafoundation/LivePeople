@@ -67,6 +67,7 @@ ds:DatExpires:
 ds:DatSensorName: Questionnaire Diversity B
 ds:DatType: Synchronic-Interactions
 ds:DatSensorType: 
+  - 
 ds:DatStartDate: "2020-10-19"
 ds:DatEndDate: "2020-12-18"
 ds:DatFiveStars: 3

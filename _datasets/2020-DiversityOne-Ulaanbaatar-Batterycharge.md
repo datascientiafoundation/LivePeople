@@ -66,7 +66,8 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Battery Charge
 ds:DatType: Sensor
-ds:DatSensorType: Device-usage
+ds:DatSensorType: 
+  - Device-usage
 ds:DatStartDate: "2020-11-16"
 ds:DatEndDate: "2020-12-11"
 ds:DatFiveStars: 3
