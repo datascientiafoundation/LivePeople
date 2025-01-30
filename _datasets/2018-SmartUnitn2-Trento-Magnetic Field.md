@@ -66,7 +66,7 @@ ds:DatisAccessibleForFree:
 ds:DatExpires: 
 ds:DatSensorName: Magnetic Field
 ds:DatType: Sensor
-ds:DatSensorType: 
+ds:DatSensorType:
   - Position
 ds:DatStartDate: "2018-05-11"
 ds:DatEndDate: "2018-06-06"
