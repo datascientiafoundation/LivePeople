@@ -1,7 +1,7 @@
 ---
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Copenhagen" target="_blank">2021-ChatApplication2-Copenhagen</a>
-ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/65f3fe8a-81e0-4177-8bec-7e52ad251c2d" target="_blank"> View Project </a>
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/65f3fe8a-81e0-4177-8bec-7e52ad251c2d" target="_blank"> View </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
 ds:prjStartDate: "2021-11-22"
