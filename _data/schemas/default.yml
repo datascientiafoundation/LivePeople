@@ -185,6 +185,7 @@ dataset_fields:
   - field_name: ds:DatSensorType
     label: Sensor Type
     datajson: ds:DatSensorType
+    display_template: display/sensor_type.html
 
   - field_name: ds:DatStartDate
     label: Data Collection Start Date
