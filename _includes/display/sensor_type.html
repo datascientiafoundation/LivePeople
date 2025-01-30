@@ -1,1 +1,6 @@
-<a href="{{ site.baseurl }}/datasets/?data_type_facet={{ value | downcase | replace: ' ', '-' }}">{{ value }}</a>
+{% assign value = field.value %}
+{% if value %}
+  <a href="/datasets/?data_type_facet={{ value | downcase | replace: ' ', '-' }}">{{ value }}</a>
+{% else %}
+  {{ value }}
+{% endif %}
