@@ -1,6 +1,12 @@
-{% assign value = field.value %}
-{% if value %}
-  <a href="/datasets/?data_type_facet={{ value | downcase | replace: ' ', '-' }}">{{ value }}</a>
-{% else %}
-  {{ value }}
-{% endif %}
+<tr>
+  <th>{{ field.label }}</th>
+  <td>
+    {% if field.value.size %}
+      {% for sensor_type in field.value %}
+        <a href="{{ site.baseurl }}/datasets/?data_type_facet={{ sensor_type | slugify }}">{{ sensor_type }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    {% else %}
+      <a href="{{ site.baseurl }}/datasets/?data_type_facet={{ field.value | slugify }}">{{ field.value }}</a>
+    {% endif %}
+  </td>
+</tr>
