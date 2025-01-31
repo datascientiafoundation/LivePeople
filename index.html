@@ -28,21 +28,39 @@ layout: default
 </div>
 -->
 
-<h3>Browse by Category</h3>
-<div class="homepage-categories">
-{% for category in site.data.categories %}
-  {% if category.featured == true %}
-    {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo by {{ category.logo_credit }}{% endif %}{% endcapture %}
-    <a href="{{ site.baseurl }}/datasets/?category={{ category.name | slugify }}" class="thumbnail" title="{{ logo_alt }}">
-      {% if category.logo and category.logo != empty %}
-        <img src="{{ site.baseurl }}{{ category.logo }}" alt="{{ logo_alt }}">
+
+<h3>Browse by Collection</h3>
+<div class="homepage-collections">
+{% for collection in site.data.collections %}
+  {% if collection.featured == true %}
+    {% capture logo_alt %}{{ collection.name }}{% if collection.logo_credit and collection.logo_credit != empty %} logo by {{ collection.logo_credit }}{% endif %}{% endcapture %}
+    <a href="{{ site.baseurl }}/datasets/?collection_name={{ collection.name | slugify }}" class="thumbnail" title="{{ logo_alt }}">
+      {% if collection.logo and collection.logo != empty %}
+        <img src="{{ site.baseurl }}{{ collection.logo }}" alt="{{ logo_alt }}">
       {% endif %}
       <br>
-      {{ category.name }}
+      {{ collection.name }}
     </a>
   {% endif %}
 {% endfor %}
 </div>
+
+
+<!--<h3>Browse by Category</h3>-->
+<!--<div class="homepage-categories">-->
+<!--{% for category in site.data.categories %}-->
+<!--  {% if category.featured == true %}-->
+<!--    {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo by {{ category.logo_credit }}{% endif %}{% endcapture %}-->
+<!--    <a href="{{ site.baseurl }}/datasets/?category={{ category.name | slugify }}" class="thumbnail" title="{{ logo_alt }}">-->
+<!--      {% if category.logo and category.logo != empty %}-->
+<!--        <img src="{{ site.baseurl }}{{ category.logo }}" alt="{{ logo_alt }}">-->
+<!--      {% endif %}-->
+<!--      <br>-->
+<!--      {{ category.name }}-->
+<!--    </a>-->
+<!--  {% endif %}-->
+<!--{% endfor %}-->
+<!--</div>-->
 
 <h3 id="services">Services</h3>
 <div class="homepage-categories">
