@@ -1,4 +1,42 @@
+- name: ChatApplication1
+  logo: /img/categories/education.svg
+  logo_credit: ChatApplication1
+  featured: true
+
+- name: ChatApplication2
+  logo: /img/categories/education.svg
+  logo_credit: ChatApplication2
+  featured: true
+
 - name: DiversityOne
   logo: /img/categories/education.svg
   logo_credit: DiversityOne
   featured: true
+
+- name: Makerere
+  logo: /img/categories/education.svg
+  logo_credit: Makerere
+  featured: true
+
+- name: OpenCalls
+  logo: /img/categories/education.svg
+  logo_credit: OpenCalls
+  featured: true
+
+- name: QROWD
+  logo: /img/categories/education.svg
+  logo_credit: QROWD
+  featured: true
+
+- name: SmartUnitn2
+  logo: /img/categories/education.svg
+  logo_credit: SmartUnitn2
+  featured: true
+
+- name: SmartUnitn2OSM
+  logo: /img/categories/education.svg
+  logo_credit: SmartUnitn2OSM
+  featured: true
+
+
+
