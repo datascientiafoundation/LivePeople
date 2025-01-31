@@ -145,8 +145,6 @@ layout: default
 
                         <script>
                             // Debugging - Log Latitude and Longitude
-                            console.log("Latitude:", "{{ lat }}");
-                            console.log("Longitude:", "{{ lon }}");
 
                             try {
                                 // Parse Latitude and Longitude as numbers
@@ -171,7 +169,7 @@ layout: default
                                     .setLngLat([lon, lat])
                                     .addTo(map);
 
-                                console.log("Map successfully loaded.");
+
                             } catch (error) {
                                 console.error("An error occurred while initializing the map:", error);
                                 document.getElementById('map').innerText = "Error loading the map. Please check the coordinates.";
