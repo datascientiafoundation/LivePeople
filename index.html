@@ -30,7 +30,7 @@ layout: default
 
 
 <h3>Browse by Collection</h3>
-<div class="homepage-collections">
+<div class="homepage-categories">
 {% for collection in site.data.collections %}
   {% if collection.featured == true %}
     {% capture logo_alt %}{{ collection.name }}{% if collection.logo_credit and collection.logo_credit != empty %} logo by {{ collection.logo_credit }}{% endif %}{% endcapture %}
