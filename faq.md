@@ -1,12 +1,8 @@
 ---
 title: FAQ
-layout: default
+layout: faq
 permalink: /faq/
 ---
-
-{% include breadcrumbs.html %}
-
-<div class="row wrapper">
 
 # FAQ
 
@@ -105,5 +101,3 @@ This allows you to make your data more visible and, if you want, leverage our da
 
 ### Can I organize a data collection using your infrastructure and/or services?
 Yes, we support you in designing the study and provide access to our services. [Contact us](https://datascientia.disi.unitn.it/contact/) and describe what study you would like to organize.
-
-</div>
