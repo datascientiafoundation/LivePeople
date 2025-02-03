@@ -12,6 +12,12 @@ The DataScientia team is at your disposal for any questions related to technical
 2. [Data request, download and usage](#2-data-request-download-and-usage)
 3. [Data upload and custom catalog](#3-data-upload-and-custom-catalog)
 
+<details>
+  <summary>Click me</summary>
+
+  test
+</details>
+
 ## 1. Data catalog search and navigation
 
 ### What is the LivePeople catalog?
