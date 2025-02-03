@@ -1,10 +1,12 @@
 ---
 title: FAQ
-layout: faq
+layout: default
 permalink: /faq/
 ---
+
 {% include breadcrumbs.html %}
 
+# FAQ
 
 The DataScientia team is at your disposal for any questions related to technical aspects, clarifications or possible collaborations. [Contact Us](https://datascientia.disi.unitn.it/contact/).
 
@@ -20,7 +22,7 @@ It is a data catalog allowing data consumers to discover which data are availabl
 
 ### What is Datascientia?
 
-You can find who we are on the [Datascientia webpage](https://datascientia.disi.unitn.it/about-us/) 
+You can find who we are on the [Datascientia webpage](https://datascientia.disi.unitn.it/about-us/).
 
 ### Why are you not distributing your data through one of the existing data catalogs?
 
