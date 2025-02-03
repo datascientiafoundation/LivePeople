@@ -1,6 +1,6 @@
 ---
 title: FAQ
-layout: default
+layout: faq
 permalink: /faq/
 ---
 {% include breadcrumbs.html %}
