@@ -6,6 +6,8 @@ permalink: /metadata/
 
 {% include breadcrumbs.html %}
 
-<div class="row wrapper">
+<div class="wrapper">
+
+## Coming soon...
 
 </div>

@@ -8,13 +8,17 @@ permalink: /faq/
 
 The DataScientia team is at your disposal for any questions related to technical aspects, clarifications or possible collaborations. [Contact Us](https://datascientia.disi.unitn.it/contact/).
 
-## Data catalog search and navigation
+1. [Data catalog search and navigation](#1-data-catalog-search-and-navigation)
+2. [Data request, download and usage](#2-data-request-download-and-usage)
+3. [Data upload and custom catalog](#3-data-upload-and-custom-catalog)
+
+## 1. Data catalog search and navigation
 
 ### What is the LivePeople catalog?
 
 It is a data catalog allowing data consumers to discover which data are available and understand if it fits their purposes. Each dataset is described by:
 
-- _metadata_ describes the data and the project that generated it;
+- _[metadata](({{ site.baseurl }}/metadata))_ describes the data and the project that generated it;
 - _documentation_ details the project and the data;
 - _codebook_ shows data descriptive statistics for each dataset variable.
 
@@ -46,7 +50,12 @@ The metadata provides information about the dataset and allows the data consumer
 
 The format of each file in the datasets is [Apache Parquet](https://parquet.apache.org/), an efficient data storage format that can be opened by most of the existing data processing tools. Suggested tools: the Python library pandas `pd.read_parquet('path/to/dataset.parquet')`, [DuckDB](https://duckdb.org/), a in-process database solution,  [Tad](https://www.tadviewer.com/), a desktop application to visualize parquet files.
 
-## Data request, download and usage
+
+---
+
+
+
+## 2. Data request, download and usage
 
 ### Can I download the data directly from the data catalog?
 
@@ -80,9 +89,13 @@ The research entity can't, directly or indirectly, sell, license or sub-license,
 
 No, the research entity that requested the data deletes it at the end date specified in the research proposal. The research entity is asked to notify the elimination.
 
-## Data upload and custom catalog
 
-You can upload your metadata and/or your data to our catalog.
+---
+
+
+## 3. Data upload and custom catalog
+
+You can upload your [metadata values](({{ site.baseurl }}/metadata)) and/or your data to our catalog. 
 
 ### Why should I create my catalog?
 
