@@ -1,13 +1,7 @@
 ---
 title: metadata
-layout: default
+layout: base
 permalink: /metadata/
 ---
 
-{% include breadcrumbs.html %}
-
-<div class="wrapper">
-
 ## Coming soon...
-
-</div>
