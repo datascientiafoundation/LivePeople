@@ -20,7 +20,7 @@ The DataScientia team is at your disposal for any questions related to technical
 
 It is a data catalog allowing data consumers to discover which data are available and understand if it fits their purposes. Each dataset is described by:
 
-- _[metadata](({{ site.baseurl }}/metadata)_ describes the data and the project that generated it;
+- _[metadata]({{ site.baseurl }}/metadata)_ describes the data and the project that generated it;
 - _documentation_ details the project and the data;
 - _codebook_ shows data descriptive statistics for each dataset variable.
 
