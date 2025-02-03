@@ -6,6 +6,8 @@ permalink: /faq/
 
 {% include breadcrumbs.html %}
 
+<div class="row wrapper">
+
 # FAQ
 
 The DataScientia team is at your disposal for any questions related to technical aspects, clarifications or possible collaborations. [Contact Us](https://datascientia.disi.unitn.it/contact/).
@@ -42,7 +44,7 @@ Based on the GDPR minimization principle, data must be adequate, limited, and re
 
 ### What is the meaning of the metadata?
 
-The metadata provides information about the dataset and allows the data consumers to understand whether it fits their needs or research questions. The metadata glossary describes them.
+The metadata provides information about the dataset and allows the data consumers to understand whether it fits their needs or research questions. The [metadata glossary]({% link metadata.md%}) describes them.
 
 ### What is the Parquet format?
 
@@ -104,3 +106,4 @@ This allows you to make your data more visible and, if you want, leverage our da
 ### Can I organize a data collection using your infrastructure and/or services?
 Yes, we support you in designing the study and provide access to our services. [Contact us](https://datascientia.disi.unitn.it/contact/) and describe what study you would like to organize.
 
+</div>
