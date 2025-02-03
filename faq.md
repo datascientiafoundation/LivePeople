@@ -40,7 +40,7 @@ Based on the GDPR minimization principle, data must be adequate, limited, and re
 
 ### What is the meaning of the metadata?
 
-The metadata provides information about the dataset and allows the data consumers to understand whether it fits their needs or research questions. The [metadata glossary]({% link metadata.md%}) describes them.
+The metadata provides information about the dataset and allows the data consumers to understand whether it fits their needs or research questions. The [metadata glossary]({{ site.baseurl }}/metadata) describes them.
 
 ### What is the Parquet format?
 
