@@ -34,7 +34,10 @@ You can find who we are on the [Datascientia webpage](https://datascientia.disi.
 <details>
 <summary>### Why are you not distributing your data through one of the existing data catalogs?</summary>
 
+
 Current data catalogs are not designed to distribute person-centric data at our granularity level, thus requiring custom procedures. To reduce the risk of re-identification or abuse, the data are shared only for research purposes with identified researchers. The current procedure has been designed with legal and privacy experts.
+
+
 </details>
 
 <details>
