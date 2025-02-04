@@ -55,7 +55,7 @@ ds:DatCreator:
 ds:DatOwner: 
 ds:DatLanguage: Not Applicable
 ds:DatLevel: 
-ds:DatSize: 16.53 MB
+ds:DatSize: 33.32
 ds:DatDomain: Digital University
 ds:DatFileFormat: parquet
 ds:DatDetailedDescription: 

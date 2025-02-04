@@ -36,15 +36,15 @@ resources:
   - name: 
     url: 
     format: 
-  - name: bluetoothnormalevent.html
-    url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-bluetoothnormalevent.html
+  - name: bluetoothlowenergyevent.html
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-bluetoothlowenergyevent.html
     format: html
 download request:
   - name: Download request
     url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
     format: PDF
 title: 2021-ChatApplication2-Trento-Bluetooth
-notes: The dataset returns whether the device to wirelessly exchange data with other Bluetooth devices. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
+notes: The dataset returns whether the device to wirelessly exchange data with other Bluetooth Low Energy devices. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
 ds:DatPublicationTimestamp: "2023-04-18"
 ds:DatLicense: 
@@ -55,7 +55,7 @@ ds:DatCreator:
 ds:DatOwner: 
 ds:DatLanguage: Not Applicable
 ds:DatLevel: 
-ds:DatSize: 7.64 MB
+ds:DatSize: 19.25
 ds:DatDomain: Digital University
 ds:DatFileFormat: parquet
 ds:DatDetailedDescription: 
@@ -73,7 +73,7 @@ ds:DatEndDate: "2021-12-08"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 005.AAAG.AAA.AK
+ds:DatIdentifier: 005.AAAG.AAA.AL
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html

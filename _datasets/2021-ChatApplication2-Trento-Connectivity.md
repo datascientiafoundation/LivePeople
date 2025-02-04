@@ -82,5 +82,5 @@ location_facet: Italy
 collection_name: ChatApplication2
 data_type_facet: Connectivity
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Bluetooth" target="_blank">Bluetooth</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Bluetooth" target="_blank">Bluetooth</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Trento-Bluetooth" target="_blank">Bluetooth</a>
 ---
