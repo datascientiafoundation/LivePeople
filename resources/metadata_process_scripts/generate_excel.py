@@ -258,7 +258,7 @@ def fix_title(df):
     replacements_title = {
         'Wenet DiversityOne': 'DiversityOne',
         '2024-SmartUnitnTwo OpenStreetMap Big-thick Data-Trento': '2024-SmartUnitn2OSM-Trento',
-        '2024-SmartUnitnTwoOpenStreetMap-Trento-Big Thick Data': '2024-SmartUnitn2OSM-Time Diaries',
+        '2024-SmartUnitnTwoOpenStreetMap-Trento-Big Thick Data': '2024-SmartUnitn2OSM-Trento-Time Diaries',
 
         'Chat Application 1': 'ChatApplication1',
         'Chat Application 2': 'ChatApplication2',
@@ -277,6 +277,7 @@ def fix_title(df):
 
         'Diversity1': 'DiversityOne',  # only case that should have letter One
         '-Bluetooth Normal': '-Bluetooth',
+        '-Bluetooth Low Energy': '-Bluetooth',
         'Doze Mode': 'Doze',
         'Location  Per Time RD': 'Location RD',
         'Location$': 'Location RD',
@@ -286,7 +287,6 @@ def fix_title(df):
         'Location  POI': 'Location POI',
         'Ulan Bator': 'Ulaanbaatar',
         'Questionnaire-Exit-Survey': 'Questionnaire Exit Survey',
-        '-Bluetooth Low Energy': '-Bluetooth',
         'Contribution Answers': 'Time Diaries',
         'Contribution Questions': 'Time Diaries',
         'Batterycharge': 'Battery Charge',
@@ -329,7 +329,9 @@ def fix_collection_name(df):
         df['collection_name'] = df['collection_name'].str.replace(old_value, new_value, regex=True)
 
     df['collection_name'] = df.apply(
-        lambda row: 'SmartUnitn2OSM' if 'SmartUnitn2 OSM' in row['title'] else row['collection_name'], axis=1)
+        lambda row: 'SmartUnitn2OSM' if 'SmartUnitn2OSM' in row['title'] else row['collection_name'], axis=1)
+
+
 
     return df
 
@@ -387,7 +389,7 @@ def fix_locations(df):
 
 
 def fix_dataset_types(df):
-    # Define a function to process the dataset_type
+
     def process_dataset_type(row):
         if not isinstance(row, str):
             # Handle cases where the row is None or not a string
@@ -566,7 +568,10 @@ def fix_file_name(df):
 def merge_row(df):
     merge_groups = [
         {'2022-OC1-Hanoi-Contribution Answers', '2022-OC1-Hanoi-Contribution Questions'},
-        {'2022-OC2-Thessaloniki-Contribution Answers', '2022-OC2-Thessaloniki-Contribution Questions'}
+        {'2022-OC2-Thessaloniki-Contribution Answers', '2022-OC2-Thessaloniki-Contribution Questions'},
+        {'2021-ChatApplicationTwo-Trento-Bluetooth Low Energy', '2021-ChatApplicationTwo-Trento-Bluetooth Normal'},
+        {'2022-OC1-Hanoi-Bluetooth Low Energy', '2022-OC1-Hanoi-Bluetooth Normal'},
+        {'2022-OC2-Thessaloniki-Bluetooth Low Energy','2022-OC2-Thessaloniki-Bluetooth Normal'}
     ]
 
     # Iterate through each group of titles to merge
@@ -586,6 +591,8 @@ def merge_row(df):
 
             # Append the new merged row
             df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+
+
     return df
 
 def normalize_values(df):

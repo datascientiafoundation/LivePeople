@@ -71,6 +71,7 @@ def generate_html_href(category, row, all_df):
 
 
 def create_project_md(df, all_df):
+    cnt = 0
     df = df.fillna('')
     df['ds:prjOverallParticipantsInvolved'] = pd.to_numeric(df['ds:prjOverallParticipantsInvolved'],
                                                             errors='coerce').fillna(0).astype(int)
@@ -145,16 +146,22 @@ def create_project_md(df, all_df):
 
             with open(output_file_path, 'w', encoding='utf-8') as md_file:
                 md_file.write(md_content)
+            cnt = cnt+1
         except Exception as e:
             print(f"Error: {e}")
-
+    print(f'total proj generated: {cnt}')
 
 def create_dataset_md(df, all_df):
     # df = df.fillna('')
+    cnt = 0
+    skipped = 0
     for index, row in df.iterrows():
         try:
             if not row['ds:DatIsVisible']:
+                print(f"skipped md title: {row['ds:DatName']}")
+                skipped = skipped + 1
                 continue
+
 
             file_name = row['ds:DatName'] + '.md'
 
@@ -314,9 +321,11 @@ def create_dataset_md(df, all_df):
 
             with open(output_file_path, 'w', encoding='utf-8') as md_file:
                 md_file.write(md_content)
+                cnt = cnt +1
         except Exception as e:
             print(f"Error processing file {file_name}: {e}")
 
+    print(f'total # generated md: {cnt}, with skipped: {skipped}')
 
 def main(excel_path, output_dir):
     # step 1. get fields to generate project/dataset/dataset bundle
