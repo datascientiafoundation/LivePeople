@@ -5,3 +5,9 @@ _config.dev.yml
 node_modules
 *.map
 .idea
+resources/metadata_process_scripts/__pycache__/modeling.cpython-38.pyc
+/resources/metadata_process_scripts/_datasets_arch(24012025)
+/resources/metadata_process_scripts/md_new
+
+resources/metadata_process_scripts/sources/2024_LivePeople PROJECT Metadata.xlsx
+/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx
