@@ -724,15 +724,11 @@ def read_project(path):
     df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('WeNet-', '', regex=False)
     df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Diversity1', 'DiversityOne', regex=False)
     df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('SmartUnitn', 'SmartUnitn2', regex=False)
-    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Big-Thick Data Project', 'Big-thick Data',
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Big-Thick Data Project', 'SmartUnitn2OSM-Trento',
                                                                       regex=False)
     df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('_', '-', regex=False)
     df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Tessaloniki', 'Thessaloniki', regex=False)
-    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Big-thick Data',
-                                                                      'SmartUnitn2 OSM Big Thick Data-Trento',
-                                                                      regex=False)
-    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Ulan Bator', 'Thessaloniki', regex=False)
-
+    df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Ulan Bator', 'Ulaanbaatar', regex=False)
     df_project.rename(columns={'ds:prjOverallPeopleInvolved': 'ds:prjOverallParticipantsInvolved'}, inplace=True)
 
     return df_project
@@ -798,6 +794,18 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
 
     data['ds:prjIsVisible'] = data['ds:prjTitle'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
     data['ds:DatIsVisible'] = data['ds:DatName'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
+
+    data['ds:prjWebpage'] = data.apply(lambda x: 'https://datascientia.disi.unitn.it/projects/su2/' if x['ds:prjTitle'] == '2018-SmartUnitn2-Trento' else x['ds:prjWebpage'] , axis =1 )
+    data['ds:prjWebpage'] = data.apply(lambda x: 'https://datascientia.disi.unitn.it/projects/diversityone/' if 'DiversityOne' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
+    data['ds:prjWebpage'] = data.apply(lambda x: '' if 'ChatApplication' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
+    data['ds:prjWebpage'] = data.apply(lambda x: '' if 'OpenCalls' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
+
+    # skel dont have project url for trento
+    data['ds:prjWebpage'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
+    data['ds:prjURL'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in x['ds:prjTitle'] else x['ds:prjURL'] ,axis =1)
+
+    data['ds:prjURL'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/8b227ff7-803e-4f7b-8765-75ea2b7a8113' if 'SmartUnitn2OSM' in x['ds:prjTitle'] else x['ds:prjURL'] ,axis =1)
+
 
     # Save the extracted data to an Excel file
     save_to_excel(data, output_file)
