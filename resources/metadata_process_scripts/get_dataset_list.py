@@ -41,9 +41,9 @@ def main(excel, output_dir):
     df_catalog = pd.read_excel(excel, sheet_name=None)
     new_df = pd.DataFrame()
     df = pd.concat([df_catalog['Dataset'], df_catalog['Dataset Bundle']], ignore_index=True)
-    # df = pd.concat(df_catalog.values(), ignore_index=True)
 
     # dataset and bundle
+
     new_df['name'] = df['ds:DatName']
     new_df['identifier'] = df['ds:DatIdentifier']
     new_df['parentIdentifier'] = df.apply(lambda row: get_parent(row['ds:DatCategoryFacet'], row, df_catalog), axis=1)
@@ -64,6 +64,16 @@ def main(excel, output_dir):
 
     new_df['collectionFacet'] = new_df['collectionFacet'].replace({'SmartUnitn2 OSM Big Thick Data':'SmartUnitn2OSM'})
 
+    # Add cases that have multiple parent bundles
+    for id, row in new_df.iterrows():
+        year_collection_city = '-'.join(row['name'].split('-')[0:3])
+        bundle_name = '-'.join(row['name'].split('-')[3:])
+        if 'Daily annotations & Location RD' ==  bundle_name:
+            childs = new_df[new_df['name'].isin(
+                [f'{year_collection_city}-Location RD', f'{year_collection_city}-Time Diaries'])]
+            to_add = childs.copy()
+            to_add['parentIdentifier'] = row['identifier']
+            new_df = pd.concat([new_df, to_add], ignore_index=True)
 
     # project
     prj_df = pd.DataFrame()
@@ -90,6 +100,8 @@ def main(excel, output_dir):
 
     out = pd.concat([new_df, prj_df], ignore_index=True)
     out = out.where(pd.notnull(out), None)
+    out = out.sort_values(by='name')
+
     # Save the filtered DataFrame to a CSV file
     output_path = f"{output_dir}/list_of_datasets.csv"
 
