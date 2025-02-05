@@ -2,27 +2,28 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Ulaanbaatar" target="_blank">2020-DiversityOne-Ulaanbaatar</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/f6bfbca4-fbe7-488f-bcf1-a66ac1f5a93a" target="_blank"> View </a>
-ds:prjKeywords: 
-ds:prjType: 
+ds:prjWebpage: <a href="https://datascientia.disi.unitn.it/projects/diversityone/" target="_blank"> View </a>
+ds:prjKeywords: Diversity, Social Practices, Lifestyle, Smartphone data, Sensor data
+ds:prjType: Data collection
 ds:prjStartDate: "2020-09-28"
 ds:prjEndDate: "2020-12-11"
-ds:prjFundingAgency: 
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823784
 ds:prjInput: 
-ds:prjOutput: 
-ds:prjCoordinator: 
+ds:prjOutput: Datasets, Publications
+ds:prjCoordinator: Amarsanaa Ganbold
 ds:prjObservations: 
 organization: Unitn
-ds:prjProjectArea: 
-ds:prjMembers: 
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Altangerel Chagnaa, Tsolmon Zundui
 ds:prjTargetLocation: Ulaanbaatar (Mongolia)
 ds:prjTargetPopulation: 
-ds:prjOverallParticipantsInvolved: 0
+ds:prjOverallParticipantsInvolved: 3972
 ds:prjSelectedParticipants: 164
-ds:prjTypeOfMeasurements: 
-ds:prjIRBApprovalDate: 
-ds:prjIRBApprovalOrganization: 
+ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
+ds:prjIRBApprovalDate: 2020-04-10
+ds:prjIRBApprovalOrganization: National University of Mongolia
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: ""
+ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021)."
 ds:prjMaintenance: 
 latitude_map: 47.92
 longitude_map: 106.9
@@ -68,7 +69,7 @@ ds:DatSensorName: Touch
 ds:DatType: Sensor
 ds:DatSensorType: 
   - Device-usage
-ds:DatStartDate: "2020-11-16"
+ds:DatStartDate: "2020-09-28"
 ds:DatEndDate: "2020-12-11"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
@@ -80,7 +81,7 @@ license: >-
 ds:DatSha256: 
 ds:DatUpdateTimestamp: 
 ds:DatBasedOn: 
-duration_facet: "1 month"
+duration_facet: "2-6 months"
 location_facet: Mongolia
 collection_name: DiversityOne
 data_type_facet: Device-usage

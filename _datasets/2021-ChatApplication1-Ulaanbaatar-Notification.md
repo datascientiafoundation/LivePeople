@@ -2,27 +2,28 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Ulaanbaatar" target="_blank">2021-ChatApplication1-Ulaanbaatar</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/04250568-f8ed-4e99-a45b-b5058638587b" target="_blank"> View </a>
-ds:prjKeywords: 
-ds:prjType: 
+ds:prjWebpage: <a href="" target="_blank"> View </a>
+ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
+ds:prjType: Data collection
 ds:prjStartDate: "2021-03-12"
 ds:prjEndDate: "2021-03-28"
-ds:prjFundingAgency: 
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823784
 ds:prjInput: 
-ds:prjOutput: 
-ds:prjCoordinator: 
+ds:prjOutput: Datasets
+ds:prjCoordinator: Amarsanaa Ganbold
 ds:prjObservations: 
 organization: Unitn
-ds:prjProjectArea: 
-ds:prjMembers: 
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Altangerel Chagnaa, Tsolmon Zundui
 ds:prjTargetLocation: Ulaanbaatar (Mongolia)
 ds:prjTargetPopulation: 
-ds:prjOverallParticipantsInvolved: 0
+ds:prjOverallParticipantsInvolved: 40
 ds:prjSelectedParticipants: 24
-ds:prjTypeOfMeasurements: 
-ds:prjIRBApprovalDate: 
-ds:prjIRBApprovalOrganization: 
+ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
+ds:prjIRBApprovalDate: 2020-04-10
+ds:prjIRBApprovalOrganization: National University of Mongolia
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: ""
+ds:prjCiteAs: "Fausto Giunchiglia, Ivano Bison, Matteo Busso, Ronald Chenu-Abente, Marcelo Rodas Britez, Can Gunel, Amalia de Götzen, Peter Kun, Amarsanaa Ganbold, Altangerel Chagnaa, George Gaskell, Miriam Bidoglia, Luca Cernuzzi, Alethia Hume, Jose Luis Zarza, Daniele Miorandi, Carlo Caprini, Laura Schelenz, Paula Helm, Daniel Gatica-Perez, Lakmal Meegahapola. A worldwide diversity chatbot pilot on interactions and social practices (2021). University of Trento Technical Report. No. #DISI-2001-DS-05."
 ds:prjMaintenance: 
 latitude_map: 47.92
 longitude_map: 106.9

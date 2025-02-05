@@ -2,27 +2,28 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-Ulaanbaatar" target="_blank">2021-ChatApplication2-Ulaanbaatar</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/4e384637-2aa1-455a-b1c4-e0d927e9306b" target="_blank"> View </a>
-ds:prjKeywords: 
-ds:prjType: 
+ds:prjWebpage: <a href="" target="_blank"> View </a>
+ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
+ds:prjType: Data collection
 ds:prjStartDate: "2021-11-22"
 ds:prjEndDate: "2021-12-06"
-ds:prjFundingAgency: 
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823784
 ds:prjInput: 
-ds:prjOutput: 
-ds:prjCoordinator: 
+ds:prjOutput: Datasets
+ds:prjCoordinator: Amarsanaa Ganbold
 ds:prjObservations: 
 organization: Unitn
-ds:prjProjectArea: 
-ds:prjMembers: 
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Altangerel Chagnaa, Tsolmon Zundui
 ds:prjTargetLocation: Ulaanbaatar (Mongolia)
 ds:prjTargetPopulation: 
-ds:prjOverallParticipantsInvolved: 0
+ds:prjOverallParticipantsInvolved: 31
 ds:prjSelectedParticipants: 31
-ds:prjTypeOfMeasurements: 
-ds:prjIRBApprovalDate: 
-ds:prjIRBApprovalOrganization: 
+ds:prjTypeOfMeasurements: Questionnaire, Chat Application, Focus Group
+ds:prjIRBApprovalDate: 2020-04-10
+ds:prjIRBApprovalOrganization: National University of Mongolia
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: ""
+ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Britez, M. D., de Götzen, A., ... & Sierra, C. (2022). A worldwide diversity chat application pilot on interactions and social practices (2021-2nd Wave)."
 ds:prjMaintenance: 
 latitude_map: 47.92
 longitude_map: 106.9

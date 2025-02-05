@@ -2,6 +2,7 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento" target="_blank">2021-ChatApplication1-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/046c8202-4e96-490f-95e7-007e72578650" target="_blank"> View </a>
+ds:prjWebpage: <a href="" target="_blank"> View </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
 ds:prjStartDate: "2021-06-04"

@@ -2,6 +2,7 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QROWD-Trento" target="_blank">2019-QROWD-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/9e382c6d-6885-45df-97cb-d24fcbacc0a7" target="_blank"> View </a>
+ds:prjWebpage: <a href="" target="_blank"> View </a>
 ds:prjKeywords: Mobility, Modal-Split, Parking, Smartphone Data, Sensor Data
 ds:prjType: Data collection
 ds:prjStartDate: "2020-07-09"

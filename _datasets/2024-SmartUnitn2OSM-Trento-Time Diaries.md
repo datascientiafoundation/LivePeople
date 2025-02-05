@@ -1,28 +1,29 @@
 ---
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-SmartUnitn2OSM-Trento" target="_blank">2024-SmartUnitn2OSM-Trento</a>
-ds:prjURL: <a href="https://datascientia.disi.unitn.it/projects/su2osm/" target="_blank"> View </a>
-ds:prjKeywords: 
-ds:prjType: 
+ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/8b227ff7-803e-4f7b-8765-75ea2b7a8113" target="_blank"> View </a>
+ds:prjWebpage: <a href="" target="_blank"> View </a>
+ds:prjKeywords: Big-Thick Data, Human Behaviors, Observation Context, Reference Context, Personal Context
+ds:prjType: Data Collection, Data Integration
 ds:prjStartDate: "2024-05-24"
 ds:prjEndDate: "2024-08-24"
-ds:prjFundingAgency: 
-ds:prjInput: 
-ds:prjOutput: 
-ds:prjCoordinator: 
+ds:prjFundingAgency: European Union’s Horizon 2020 WeNet project, under grant agreement 823783
+ds:prjInput: Datasets
+ds:prjOutput: Datasets, Publications
+ds:prjCoordinator: Fausto Giunchiglia
 ds:prjObservations: 
 organization: Unitn
-ds:prjProjectArea: 
-ds:prjMembers: 
+ds:prjProjectArea: LivePeople
+ds:prjMembers: Xiaoyue Li
 ds:prjTargetLocation: Trento (Italy)
 ds:prjTargetPopulation: 
-ds:prjOverallParticipantsInvolved: 0
+ds:prjOverallParticipantsInvolved: 158
 ds:prjSelectedParticipants: 158
-ds:prjTypeOfMeasurements: 
+ds:prjTypeOfMeasurements: Intensive Longitudinal Survey, Phone Sensors, Human Annotators in OpenStreetMap
 ds:prjIRBApprovalDate: 
-ds:prjIRBApprovalOrganization: 
+ds:prjIRBApprovalOrganization: CER UniTrento
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: ""
+ds:prjCiteAs: "Giunchiglia, F., Xiaoyue, L. Big-Thick Data generation via reference and personal context unification, 27TH European Conference on Artificial Intelligence (2024)."
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13

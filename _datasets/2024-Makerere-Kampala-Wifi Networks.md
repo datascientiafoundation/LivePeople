@@ -2,6 +2,7 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala" target="_blank">2024-Makerere-Kampala</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8" target="_blank"> View </a>
+ds:prjWebpage: <a href="" target="_blank"> View </a>
 ds:prjKeywords: 
 ds:prjType: 
 ds:prjStartDate: "2024-03-18"
