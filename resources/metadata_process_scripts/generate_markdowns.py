@@ -59,8 +59,15 @@ def generate_html_href(category, row, all_df):
 
         dataset_df = all_df['Dataset']
 
-        titles = dataset_df[(dataset_df['ds:DatName'].str.startswith(year_collection_city)) & (dataset_df['ds:DatSensorType'] == bundle_name)][
-            'ds:DatName']
+        if row['ds:DatName'] == '2020-DiversityOne-Ulaanbaatar-Daily annotations & Location RD':
+            print('')
+
+        if bundle_name == 'Daily annotations & Location RD':
+            titles = dataset_df[dataset_df['ds:DatName'].isin([f'{year_collection_city}-Location RD', f'{year_collection_city}-Time Diaries'])][
+                'ds:DatName']
+        else:
+            titles = dataset_df[(dataset_df['ds:DatName'].str.startswith(year_collection_city)) & (dataset_df['ds:DatSensorType'] == bundle_name)][
+                'ds:DatName']
 
         for title in titles:
             link = base_url + encode_url(title)

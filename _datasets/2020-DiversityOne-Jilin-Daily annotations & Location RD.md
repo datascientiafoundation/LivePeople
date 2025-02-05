@@ -70,7 +70,7 @@ ds:DatEndDate: "2021-06-18"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 004.AAAD.AAF.BN-BO
+ds:DatIdentifier: 004.AAAD.AAF.CD-CG
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html
@@ -82,5 +82,5 @@ location_facet: China
 collection_name: DiversityOne
 data_type_facet: Daily annotations & Location
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Location%20RD" target="_blank">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Jilin-Time%20Diaries" target="_blank">Time diaries</a>
 ---

@@ -70,7 +70,7 @@ ds:DatEndDate: "2021-08-12"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 004.AAAD.AAG.BN-BO
+ds:DatIdentifier: 004.AAAD.AAG.CD-CG
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html
@@ -82,5 +82,5 @@ location_facet: India
 collection_name: DiversityOne
 data_type_facet: Daily annotations & Location
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Location%20RD" target="_blank">Location rd</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Amrita-Time%20Diaries" target="_blank">Time diaries</a>
 ---

@@ -70,7 +70,7 @@ ds:DatEndDate: "2022-07-06"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 006.AAAI.AAK.AS-AR
+ds:DatIdentifier: 006.AAAI.AAK.AR-AS
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html

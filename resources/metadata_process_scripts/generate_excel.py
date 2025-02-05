@@ -138,7 +138,6 @@ def read_md_files_and_extract_data(md_files_pattern) -> pd.DataFrame:
 def save_to_excel(df, output_file):
     df = df.sort_values('title')
 
-
     df.drop(columns=['location_continent_facet', 'resources', 'other_format'], inplace=True)
     # df.drop(columns=['dataset_type_link', 'sensor_type_link'], inplace=True)
 
@@ -331,8 +330,6 @@ def fix_collection_name(df):
     df['collection_name'] = df.apply(
         lambda row: 'SmartUnitn2OSM' if 'SmartUnitn2OSM' in row['title'] else row['collection_name'], axis=1)
 
-
-
     return df
 
 
@@ -389,7 +386,6 @@ def fix_locations(df):
 
 
 def fix_dataset_types(df):
-
     def process_dataset_type(row):
         if not isinstance(row, str):
             # Handle cases where the row is None or not a string
@@ -463,48 +459,12 @@ def fix_note(df):
 
     return df
 
-def fix_identifier(data):
-    # identifier correction
-
-    identifier_counts = data.identifier.value_counts()
-
-    filtered_data = data[data['identifier'].isin(identifier_counts[identifier_counts > 2].index)][
-        ['title', 'category', 'identifier']]
-    filtered_data['identifier_old'] = filtered_data['identifier']
-
-    filtered_data.loc[filtered_data['title'] == '2021-ChatApplication1-Asunción', 'identifier'] = '005.AAAE.AAD.**'
-    filtered_data.loc[filtered_data[
-                          'title'] == '2024-SmartUnitn2 OSM Big Thick Data-Trento-Diachronic-Interactions', 'identifier'] = '007.AAAP.AAA.AC'
-    # Create a mapping for category to number
-    category_map = {'A': 1, 'B': 2, 'C': 3}
-
-    # Filter rows with category 'Dataset'
-    dataset_rows = filtered_data[filtered_data['category'] == 'Dataset']
-
-    # Iterate over each group of rows with the same identifier
-    for identifier, group in dataset_rows.groupby('identifier'):
-        # Iterate over the rows in the group
-        for idx, row in group.iterrows():
-            # Extract the letter at the end of the title (A, B, C)
-            title_ending = row['title'][-1]
-
-            # If the title ends with A, B, or C, update the identifier accordingly
-            if title_ending in category_map:
-                new_identifier = row['identifier'] + '.' + str(category_map[title_ending])
-                filtered_data.at[idx, 'identifier'] = new_identifier
-
-    filtered_data = filtered_data[['title', 'category', 'identifier_old', 'identifier']]
-    filtered_data.to_csv(
-        f'/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/duplicated_identifiers.csv')
-
-    data['identifier'] = data.apply(
-        lambda row: filtered_data.loc[filtered_data['title'] == row['title'], 'identifier'].values[0]
-        if row['title'] in filtered_data['title'].values else row['identifier'], axis=1)
-
-    catalog_dict = pd.read_excel('/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx', sheet_name = 'WIP_identifier')
-    catalog_dict['Collection name'] = catalog_dict['Collection name'].replace({'Diversity1': 'DiversityOne', 'Chatbot1': 'ChatApplication1',
-                                                                               'Chatbot2':'ChatApplication2', 'Chatbot3': 'ChatApplication3',
-                                                                               'Mak': 'Makerere', 'OSM': 'SmartUnitn2OSM' })
+def get_identifier_dict(path):
+    catalog_dict = pd.read_excel(path, sheet_name='WIP_identifier')
+    catalog_dict['Collection name'] = catalog_dict['Collection name'].replace(
+        {'Diversity1': 'DiversityOne', 'Chatbot1': 'ChatApplication1',
+         'Chatbot2': 'ChatApplication2', 'Chatbot3': 'ChatApplication3',
+         'Mak': 'Makerere', 'OSM': 'SmartUnitn2OSM'})
 
     identifier_dict = {
         "Year": {},
@@ -512,15 +472,28 @@ def fix_identifier(data):
         "Location": {},
         "Dataset name": {},
     }
-    for index, row in catalog_dict.iterrows():
-        if not pd.isna(row['Year']):
-            identifier_dict['Year'][str(int(row['Year']))] = f'00{int(row["Year identifier"])}'
-        if not pd.isna(row['Collection name']):
-            identifier_dict['Collection name'][row['Collection name']] = row['Collection identifier']
-        if not pd.isna(row['Location']):
-            identifier_dict['Location'][row['Location']] = row['Location identifier']
-        if not pd.isna(row['New catalog dataset name']) and row['Status'] == 'active':
-            identifier_dict['Dataset name'][row['New catalog dataset name']] = row['Dataset identifier']
+    try:
+        for index, row in catalog_dict.iterrows():
+            if not pd.isna(row['Year']):
+                identifier_dict['Year'][str(int(row['Year']))] = f'00{int(row["Year identifier"])}'
+            if not pd.isna(row['Collection name']):
+                identifier_dict['Collection name'][row['Collection name']] = row['Collection identifier']
+            if not pd.isna(row['Location']):
+                identifier_dict['Location'][row['Location']] = row['Location identifier']
+            if not pd.isna(row['New catalog dataset name']) and row['Status'] == 'active':
+                identifier_dict['Dataset name'][row['New catalog dataset name']] = row['Dataset identifier']
+    except Exception as e:
+        print(e)
+        print(f'index: {index}')
+
+    return identifier_dict
+
+
+def fix_identifier(data):
+
+    # identifier correction
+    identifier_dict = get_identifier_dict('/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx')
+
 
     def check_identifier(row, identifier_dict):
 
@@ -530,6 +503,7 @@ def fix_identifier(data):
         title_splits = row['title'].split('-')
 
         new_identifier = []
+
         new_identifier.append(identifier_dict["Year"].get(title_splits[0], 'None'))
 
         if title_splits[1] == 'OpenCalls' and title_splits[2] == 'Thessaloniki':
@@ -540,7 +514,7 @@ def fix_identifier(data):
             new_identifier.append(identifier_dict["Collection name"].get(title_splits[1], 'None'))
 
         new_identifier.append(identifier_dict["Location"].get(title_splits[2], 'None'))
-        if len(title_splits)>3:
+        if len(title_splits) > 3:
             if 'Questionnaire' in title_splits[3]:
                 new_identifier.append(identifier_dict["Dataset name"].get('Questionnaire', 'None'))
             else:
@@ -552,18 +526,95 @@ def fix_identifier(data):
         if new_identifier != row['identifier']:
             print(f"no match identifier on title: {row['title']}, on {new_identifier} != {row['identifier']}")
 
+        row['identifier'] = new_identifier
+
+        return row
+    data = data.apply(check_identifier, identifier_dict=identifier_dict, axis=1)
+
+    # Solve duplicated
+    dataset_df = data[data['category'] == 'Dataset']
+    identifier_counts = dataset_df.identifier.value_counts()
+    filtered_data = dataset_df[dataset_df['identifier'].isin(identifier_counts[identifier_counts > 1].index)][
+        ['title', 'category', 'identifier']]
+    filtered_data['identifier_old'] = filtered_data['identifier']
+
+    # Create a mapping for category to number
+    category_map = {'A': 1, 'B': 2, 'C': 3}
+
+    # Iterate over each group of rows with the same identifier
+    for identifier, group in filtered_data.groupby('identifier'):
+        # Iterate over the rows in the group
+        for idx, row in group.iterrows():
+            # Extract the letter at the end of the title (A, B, C)
+            title_ending = row['title'][-1]
+
+            # If the title ends with A, B, or C, update the identifier accordingly
+            if title_ending in category_map:
+                new_identifier = row['identifier'] + '.' + str(category_map[title_ending])
+                filtered_data.at[idx, 'identifier'] = new_identifier
+
+    data['identifier'] = data.apply(
+        lambda row: filtered_data.loc[filtered_data['title'] == row['title'], 'identifier'].values[0]
+        if row['title'] in filtered_data['title'].values else row['identifier'], axis=1)
+
+
+
+    # TODO one for dataset bundles
+
+    def gen_bundle_identifier(row, dataset_df):
+        if row['category'] != 'Dataset Bundle':
+            return row
+
+        year_collection_city = '-'.join(row['title'].split('-')[0:3])
+        bundle_name = '-'.join(row['title'].split('-')[3:])
+
+        if bundle_name == 'Diachronic-Interactions' or bundle_name == 'Synchronic-Interactions':
+            filtered = dataset_df[(dataset_df['title'].str.startswith(year_collection_city)) & (
+                    dataset_df['dataset_type'] == bundle_name)]
+        elif bundle_name == 'Daily annotations & Location RD':
+            filtered = dataset_df[dataset_df['title'].isin([f'{year_collection_city}-Location RD', f'{year_collection_city}-Time Diaries'])]
+
+        else:
+            filtered = dataset_df[(dataset_df['title'].str.startswith(year_collection_city)) & (
+                    dataset_df['sensor_type'] == bundle_name)]
+        idfs = filtered.sort_values(by='title')['identifier'].tolist()
+
+        try:
+            new_identifier = [idfs[0]]  # must
+            for idf in idfs[1:]:
+                new_identifier.append('.'.join(idf.split('.')[3:]))
+
+            row['identifier'] = '-'.join(new_identifier)
+        except Exception as e:
+            print(f'Error {e}, on {row["title"]}')
+
+        print(f"{row['title']} - {row['identifier']}")
         return row
 
-    # Apply function correctly by passing `identifier_dict` as an argument
-    # data = data.apply(check_identifier, identifier_dict=identifier_dict, axis=1)
-    print("")
+    data = data.apply(gen_bundle_identifier, args=(data[data['category'] == 'Dataset'],), axis=1)
+
+    # TODO one for projects
+    def gen_project_identifier(row, dataset_df):
+        if row['category'] != 'Project':
+            return row
+        try:
+            first_match = dataset_df[dataset_df['title'].str.startswith(row['title'])].iloc[0]
+            row['identifier'] = '.'.join(first_match['identifier'].split('.')[0:3]) + "." + "**"
+        except Exception as e:
+            print(f'Error {e}, on {row["title"]}')
+        return row
+
+    data = data.apply(gen_project_identifier, args=(data[data['category'] == 'Dataset'],), axis=1)
+
 
 
     return data
 
+
 def fix_file_name(df):
     df['file_name'] = df['title'] + '.md'
     return df
+
 
 def merge_row(df):
     merge_groups = [
@@ -571,7 +622,7 @@ def merge_row(df):
         {'2022-OC2-Thessaloniki-Contribution Answers', '2022-OC2-Thessaloniki-Contribution Questions'},
         {'2021-ChatApplicationTwo-Trento-Bluetooth Low Energy', '2021-ChatApplicationTwo-Trento-Bluetooth Normal'},
         {'2022-OC1-Hanoi-Bluetooth Low Energy', '2022-OC1-Hanoi-Bluetooth Normal'},
-        {'2022-OC2-Thessaloniki-Bluetooth Low Energy','2022-OC2-Thessaloniki-Bluetooth Normal'}
+        {'2022-OC2-Thessaloniki-Bluetooth Low Energy', '2022-OC2-Thessaloniki-Bluetooth Normal'}
     ]
 
     # Iterate through each group of titles to merge
@@ -584,7 +635,8 @@ def merge_row(df):
             new_row = rows_to_merge.iloc[0].copy()
 
             # Sum the 'size' column
-            new_row['size'] = float(rows_to_merge['size'].iloc[0].split(' ')[0]) + float(rows_to_merge['size'].iloc[1].split(' ')[0])
+            new_row['size'] = float(rows_to_merge['size'].iloc[0].split(' ')[0]) + float(
+                rows_to_merge['size'].iloc[1].split(' ')[0])
 
             # Remove the original rows from the DataFrame
             df = df[~df['title'].isin(titles_to_merge)]
@@ -592,14 +644,12 @@ def merge_row(df):
             # Append the new merged row
             df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
-
     return df
 
-def normalize_values(df):
 
+def normalize_values(df):
     # remove dup
     df = merge_row(df)
-
 
     df = fix_title(df)
 
@@ -624,7 +674,6 @@ def normalize_values(df):
     df = fix_note(df)
 
     df = fix_identifier(df)
-
 
     return df
 
@@ -656,8 +705,6 @@ def get_missing_codebooks(df):
 
     df['codebook-url'] = df.apply(generate_codebook_url, axis=1)
 
-
-
     def update_codebook_url(row):
         if row['title'] == '2020-DiversityOne-San Luis Potosí-Gyroscope':
             row[
@@ -686,7 +733,7 @@ def read_project(path):
                                                                       regex=False)
     df_project['ds:prjTitle'] = df_project['ds:prjTitle'].str.replace('Ulan Bator', 'Thessaloniki', regex=False)
 
-    df_project.rename(columns={'ds:prjOverallPeopleInvolved': 'ds:prjOverallParticipantsInvolved'} ,  inplace=True)
+    df_project.rename(columns={'ds:prjOverallPeopleInvolved': 'ds:prjOverallParticipantsInvolved'}, inplace=True)
 
     return df_project
 
@@ -742,7 +789,8 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
 
     # custom
     data['ds:DatDownloadRequestName'] = 'Download request'
-    data['ds:DatDownloadRequestURL'] = 'https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf'
+    data[
+        'ds:DatDownloadRequestURL'] = 'https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf'
     data['ds:DatDownloadRequestFormat'] = 'PDF'
 
     data['ds:prjIsVisible'] = True
@@ -750,8 +798,6 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
 
     data['ds:prjIsVisible'] = data['ds:prjTitle'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
     data['ds:DatIsVisible'] = data['ds:DatName'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
-
-
 
     # Save the extracted data to an Excel file
     save_to_excel(data, output_file)
