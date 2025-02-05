@@ -2,7 +2,6 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-London" target="_blank">2021-ChatApplication1-London</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4851" target="_blank"> View </a>
-ds:prjWebpage: <a href="" target="_blank"> View </a>
 ds:prjKeywords: Diversity, Social Practices, Social interactions, Ask4Help, Sensor data
 ds:prjType: Data collection
 ds:prjStartDate: "2021-03-12"

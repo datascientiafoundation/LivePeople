@@ -95,7 +95,8 @@ def create_project_md(df, all_df):
             md_content = md_content + "schema: default" + "\n"
             md_content = md_content + "title: " + row['ds:prjTitle'] + "\n"
             md_content = md_content + "ds:prjURL: <a href=\"" + str(row['ds:prjURL']) + "\" target=\"_blank\"> View </a>\n"
-            md_content = md_content + "ds:prjWebpage: <a href=\"" + str(row['ds:prjWebpage']) + "\" target=\"_blank\"> View </a>\n"
+            if str(row['ds:prjWebpage']) != '':
+                md_content = md_content + "ds:prjWebpage: <a href=\"" + str(row['ds:prjWebpage']) + "\" target=\"_blank\"> View </a>\n"
             md_content = md_content + "ds:prjKeywords: " + str(row['ds:prjKeywords']) + "\n"
             md_content = md_content + "ds:prjType: " + str(row['ds:prjType']) + "\n"
             md_content = md_content + "notes: " + str(row['ds:prjDescription']) + "\n"
@@ -205,7 +206,8 @@ def create_dataset_md(df, all_df):
             md_content = md_content + "schema: default" + "\n"
             md_content = md_content + "ds:prjTitle: " + create_href(project_row['ds:prjTitle']) + "\n" # --> for viz
             md_content = md_content + "ds:prjURL: <a href=\"" + str(project_row['ds:prjURL']) + "\" target=\"_blank\"> View </a>\n"
-            md_content = md_content + "ds:prjWebpage: <a href=\"" + str(project_row['ds:prjWebpage']) + "\" target=\"_blank\"> View </a>\n"
+            if str(project_row['ds:prjWebpage']) != '':
+                md_content = md_content + "ds:prjWebpage: <a href=\"" + str(project_row['ds:prjWebpage']) + "\" target=\"_blank\"> View </a>\n"
             md_content = md_content + "ds:prjKeywords: " + str(project_row['ds:prjKeywords']) + "\n"
             md_content = md_content + "ds:prjType: " + str(project_row['ds:prjType']) + "\n"
             # md_content = md_content + "notes: " + str(project_row['ds:prjDescription']) + "\n"

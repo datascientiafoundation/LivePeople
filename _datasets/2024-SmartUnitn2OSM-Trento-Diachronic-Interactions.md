@@ -2,7 +2,6 @@
 schema: default
 ds:prjTitle: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-SmartUnitn2OSM-Trento" target="_blank">2024-SmartUnitn2OSM-Trento</a>
 ds:prjURL: <a href="https://ds.datascientia.eu/community/public/projects/8b227ff7-803e-4f7b-8765-75ea2b7a8113" target="_blank"> View </a>
-ds:prjWebpage: <a href="" target="_blank"> View </a>
 ds:prjKeywords: Big-Thick Data, Human Behaviors, Observation Context, Reference Context, Personal Context
 ds:prjType: Data Collection, Data Integration
 ds:prjStartDate: "2024-05-24"
