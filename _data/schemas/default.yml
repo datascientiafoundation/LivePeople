@@ -10,6 +10,10 @@ dataset_fields:
     label: Project URL
     datajson: ds:prjURL
 
+  - field_name: ds:prjWebpage
+    label: Project web page
+    datajson: ds:prjWebpage
+
   - field_name: ds:prjKeywords
     label: Project keywords
     datajson: ds:prjKeywords
