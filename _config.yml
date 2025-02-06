@@ -26,7 +26,8 @@ navigation:
     url: /#services
   - title: FAQ
     url: /faq/
-
+  - title: Metadata Descritions
+    url: /metadata/
 # Collections
 collections:
   datasets:
