@@ -60,7 +60,12 @@ permalink: /metadata/
 
 # Append field names and descriptions
 for _, row in combined_df.iterrows():
-    markdown_content += f"| **{row['Field HR']}** | {row['Description']} |\n"
+    field_hr = row['Field HR']
+    # Replace spaces with non-breaking spaces for field names
+    field_hr = field_hr.replace(' ', '&nbsp;')
+
+    description = row['Description']
+    markdown_content += f"| *{field_hr}* | {description} |\n"
 
 # Define the output path (root directory)
 output_dir = "/Users/munkhdelger/Knowdive/LivePeople"  # Root folder path
