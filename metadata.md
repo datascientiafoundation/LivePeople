@@ -27,9 +27,9 @@ permalink: /metadata/
 | **Project&nbsp;overall&nbsp;participants&nbsp;involved** | Total number of participants who were involved in the project |
 | **Project&nbsp;selected&nbsp;participants** | Number of participants who have been selected for the project (less than or equal to ds:prjOverallPeopleInvolved), if the project has multiple phases |
 | **Project&nbsp;type&nbsp;of&nbsp;measurements** | Survey methods that were used to collect participant data (i.e., Questionnaire, Structured Interview, Semi-Structured Interview, Participant Observation, Intensive Longitudinal Survey). Multiple options can be selected |
-| **Project&nbsp;irbapproval&nbsp;date** | Date of Institutional review board (IRB) approval of the project |
-| **Project&nbsp;irbapproval&nbsp;organization** | Institution to which the committee belongs to |
-| **Project&nbsp;irbapproval&nbsp;number** | Number of protocol of the approval |
+| **Project&nbsp;IRB&nbsp;approval&nbsp;date** | Date of Institutional review board (IRB) approval of the project |
+| **Project&nbsp;IRB&nbsp;approval&nbsp;organization** | Institution to which the committee belongs to |
+| **Project&nbsp;IRB&nbsp;approval&nbsp;number** | Number of protocol of the approval |
 | **Project&nbsp;cite&nbsp;as** | Bibtext citation of the project |
 | **Project&nbsp;maintenance** | description of the dataset maintenance process: how often is the dataset updated, how updates will be communicated, who is responsible for the updates, whether and how older versions will be supported |
 | **Project&nbsp;latitude** | Latitude of the centroid of ds:prjTargetLocation (maily for visualization purposes on the catalog website) |
