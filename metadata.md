@@ -12,8 +12,8 @@ permalink: /metadata/
 | **Project keywords** | list of keywords in a natural language to quickly understand the theme of the project |
 | **Project type** | the type of the DataScientia project. e.g., Knowledge Resource Generation, Knowledge Resource Annotation, etc |
 | **Project description** | description of the DataScientia project in a natural language, namely (i) the project name and objectives; (ii) the type of data collected; (iii) suggested reuse. |
-| **Project start datae** | the date of the commencement of a DataScientia project |
-| **Project end datae** | the date of conclusion of a DataScientia project |
+| **Project start date** | the date of the commencement of a DataScientia project |
+| **Project end date** | the date of conclusion of a DataScientia project |
 | **Project funding agency** | the name of the agency or institution funding a DataScientia project and, if available, the grant agreement number. European projects also have a DOI, e.g., https://doi.org/10.3030/823783  |
 | **Project input** | this (repeatable) attribute encodes the various inputs (e.g., datasets, specifications, etc.) with respect to a DataScientia project. |
 | **Project output** | this (repeatable) attribute encodes the various outputs (e.g., datasets, domain languages, etc.) with respect to a DataScientia project. |
@@ -27,7 +27,7 @@ permalink: /metadata/
 | **Project overall participants involved** | Total number of participants who were involved in the project |
 | **Project selected participants** | Number of participants who have been selected for the project (less than or equal to ds:prjOverallPeopleInvolved), if the project has multiple phases |
 | **Project type of measurements** | Survey methods that were used to collect participant data (i.e., Questionnaire, Structured Interview, Semi-Structured Interview, Participant Observation, Intensive Longitudinal Survey). Multiple options can be selected |
-| **Project irbapproval datae** | Date of Institutional review board (IRB) approval of the project |
+| **Project irbapproval date** | Date of Institutional review board (IRB) approval of the project |
 | **Project irbapproval organization** | Institution to which the committee belongs to |
 | **Project irbapproval number** | Number of protocol of the approval |
 | **Project cite as** | Bibtext citation of the project |
@@ -50,7 +50,7 @@ permalink: /metadata/
 | **Data publisher** | the publisher of the dataset |
 | **Data creator** | the creator of the dataset. Individual member of the community or organization. |
 | **Data owner** | the owner of the dataset. Individual member of the community or organization. |
-| **Data language** | The language of the dataset (only if dataset type==Synchronic interaction | dataset type==Diachronic interaction). Recommended values are taken from https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes. When not applicable use N/A |
+| **Data language** | The language of the dataset (only if dataset type==Synchronic interaction \| dataset type==Diachronic interaction). Recommended values are taken from https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes. When not applicable use N/A |
 | **Data level** | the knowledge level of the dataset, e.g., L1-2, L4 |
 | **Data size** | the byte size of the dataset (e.g., the size of the file parquet) |
 | **Data domain** | the domain to which the dataset belongs. Possible values are: Digital University, Territory & Society, Health |
@@ -59,12 +59,12 @@ permalink: /metadata/
 | **Data download request** | email of the institution responsible for validating the download request and share the data or link to the form to fill |
 | **Data conditions of access** | conditions that affect the availability of the data. E.g., only for scientific purposes |
 | **Data genre** | Genre of the dataset: images, tabular data, geographical file |
-| **Datais accessible for free** | nan |
+| **Data is accessible for free** |  |
 | **Data expires** | When the dataset is no longer available  |
 | **Data type** | The type of dataset |
 | **Data sensor type** | The type of sensor (only if dataset type == Sensor) |
-| **Data start datae** | The begin of the data collection (i.e., the oldest date in the dataset) |
-| **Data end datae** | The end of the data collection (i.e., the most recent date in the dataset) |
+| **Data start date** | The begin of the data collection (i.e., the oldest date in the dataset) |
+| **Data end date** | The end of the data collection (i.e., the most recent date in the dataset) |
 | **Data five stars** | Ranking based on Tim Berners-Lee's 5-star deployment scheme for Open Data (https://5stardata.info/en/). iLog data after the data preparation are 3 stars |
 | **Data origin** | Origin of the data. Synthetic: generated from an algorithm. Direct observation: collected from humans through human behavior studies. Composition: dataset resulting from the composition of other datasets. Feature engineering: dataset as the result of features extraction or aggregation of existing datasets; |
 | **Data creative work status** | Status of the data. Raw: no preprocessing has been performed. Cleaned: cleaning procedures has been applied to the raw data. Reduced: the data has been aggregated, e.g., to generate features. Enriched: contains additional data from third parties. |
@@ -81,8 +81,8 @@ permalink: /metadata/
 | **Data codebook url** | The link to the downloadable codebook |
 | **Data codebook format** | The format of the resource |
 | **Data identifier** | alpha numeric code identifing the resource (see Identifier sheet) |
-| **Data changelog url** | nan |
-| **Data licence url** | nan |
+| **Data changelog url** |  |
+| **Data licence url** |  |
 | **Data sha256** | hash of the content of the file |
 | **Data update timestamp** | last date the dataset has been updated |
 | **Data based on** | A resource from which this work is derived or from which it is a modification or adaptation. It is a link to Dataset, Project, Url |
