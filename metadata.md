@@ -4,10 +4,10 @@ layout: base
 permalink: /metadata/
 ---
 
-| Field Name       | Description                                        |
-|------------------|----------------------------------------------------|
-| **Project title** | name of the DataScientia project in a natural language as a string |
-| **Project url** | this attribute encodes the dereferenciable URL of the DataScientia project |
+| Field Name    | Description                                        |
+|---------------|----------------------------------------------------|
+| *Project title* | name of the DataScientia project in a natural language as a string |
+| *Project url* | this attribute encodes the dereferenciable URL of the DataScientia project |
 | **Project webpage** | this attribute encodes the dereferenciable URL of the DataScientia project |
 | **Project keywords** | list of keywords in a natural language to quickly understand the theme of the project |
 | **Project type** | the type of the DataScientia project. e.g., Knowledge Resource Generation, Knowledge Resource Annotation, etc |
