@@ -12,6 +12,8 @@ datasets_df = pd.read_excel(excel_file, sheet_name="LivePeople DATASETS Metadata
 # Merge both dataframes
 combined_df = pd.concat([projects_df, datasets_df]).drop_duplicates().reset_index(drop=True)
 combined_df = combined_df.dropna(subset=["Field"])
+combined_df['Description'] = combined_df['Description'].fillna('')
+
 combined_df = combined_df[combined_df["Field"].str.startswith("ds:")]
 
 # Function to convert to human-readable format
@@ -19,23 +21,31 @@ def convert_to_human_readable(field):
     # Remove 'ds:' prefix
     field = re.sub(r'^ds:', '', field)
 
-    # Replace 'Prj' with 'Project' and 'Dat' with 'Data'
-    field = field.replace('prj', 'Project').replace('Dat', 'Data')
-
     # Replace uppercase letters followed by lowercase with a space and lowercase letter
     field = re.sub(r'([a-z])([A-Z])', r'\1 \2', field)
 
     # only first letter upper
     field = field[0].capitalize() + field[1:].lower()
 
+    # Replace 'Prj' with 'Project' and 'Dat' with 'Data'
+    field = field.replace('Prj', 'Project').replace('Dat', 'Data')
+
     # Correct common typos or inconsistencies, e.g., 'Datae' -> 'Date'
-    field = field.replace('Datae', 'Date')
+    field = field.replace('datae', 'date')
+    field = field.replace('Datais', 'Data is')
+
 
     return field
+
+
+def escape_pipe_in_description(description):
+    return description.replace('|', r'\|')
 
 # Filter data based on visibility
 combined_df = combined_df[combined_df['Visibility'] == 'public']
 combined_df['Field HR'] = combined_df['Field'].apply(convert_to_human_readable)
+combined_df['Description'] = combined_df['Description'].apply(escape_pipe_in_description)
+
 
 # Generate Markdown content
 markdown_content = """---
