@@ -82,5 +82,5 @@ location_facet: Italy
 collection_name: ChatApplication1
 data_type_facet: Diachronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Chat" target="_blank">Chat</a>
 ---

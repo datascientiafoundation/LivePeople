@@ -83,5 +83,5 @@ location_facet: Paraguay
 collection_name: DiversityOne
 data_type_facet: Diachronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Time%20Diaries" target="_blank">Time diaries</a>
 ---

@@ -82,5 +82,5 @@ location_facet: Paraguay
 collection_name: ChatApplication1
 data_type_facet: Synchronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Asunci%C3%B3n-Questionnaire%20Exit%20Survey" target="_blank">Questionnaire exit survey</a>
 ---

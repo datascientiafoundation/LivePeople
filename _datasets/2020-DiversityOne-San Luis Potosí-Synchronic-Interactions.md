@@ -83,5 +83,5 @@ location_facet: Mexico
 collection_name: DiversityOne
 data_type_facet: Synchronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Questionnaire%20Diversity%20A" target="_blank">Questionnaire diversity a</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Questionnaire%20Diversity%20B" target="_blank">Questionnaire diversity b</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Questionnaire%20Diversity%20C" target="_blank">Questionnaire diversity c</a>
 ---

@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: SmartUnitn2
 data_type_facet: Synchronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Questionnaire" target="_blank">Questionnaire</a>
 ---

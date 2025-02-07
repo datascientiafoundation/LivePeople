@@ -83,5 +83,5 @@ location_facet: Mexico
 collection_name: DiversityOne
 data_type_facet: Diachronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-San%20Luis%20Potos%C3%AD-Time%20Diaries" target="_blank">Time diaries</a>
 ---

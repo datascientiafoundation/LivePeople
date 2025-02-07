@@ -82,5 +82,5 @@ location_facet: United Kingdom
 collection_name: ChatApplication2
 data_type_facet: Synchronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication2-London-Questionnaire%20Exit%20Survey" target="_blank">Questionnaire exit survey</a>
 ---

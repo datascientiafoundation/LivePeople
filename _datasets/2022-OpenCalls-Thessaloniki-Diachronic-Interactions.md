@@ -82,5 +82,5 @@ location_facet: Greece
 collection_name: OpenCalls
 data_type_facet: Diachronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OpenCalls-Thessaloniki-Time%20Diaries" target="_blank">Time diaries</a>
 ---

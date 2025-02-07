@@ -82,5 +82,5 @@ location_facet: Uganda
 collection_name: Makerere
 data_type_facet: Diachronic-Interactions
 category: Dataset Bundle
-component_dataset_link: 
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-Makerere-Kampala-Time%20Diaries" target="_blank">Time diaries</a>
 ---
