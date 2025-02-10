@@ -70,7 +70,7 @@ ds:DatEndDate: "2021-06-18"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 005.AAAE.AAA.CD
+ds:DatIdentifier: 005.AAAE.AAA.CC-CD
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html
@@ -82,5 +82,5 @@ location_facet: Italy
 collection_name: ChatApplication1
 data_type_facet: Position
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Location%20RD" target="_blank">Location rd</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Location%20POI" target="_blank">Location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Trento-Location%20RD" target="_blank">Location rd</a>
 ---
