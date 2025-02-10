@@ -40,6 +40,9 @@ def generate_html_href(category, row, all_df):
     base_url = "https://datascientiafoundation.github.io/LivePeople/datasets/"
     generated_href = []
 
+
+
+
     # TODO should get component datasets using identifier field
     if category == 'Project':  # Should contain Dataset Bundles
 
@@ -54,6 +57,10 @@ def generate_html_href(category, row, all_df):
             generated_href.append(f'<a href="{link}" target="_blank">{label}</a>')
 
     elif category == 'Dataset Bundle':
+
+        if row['ds:DatName'] == '2022-OpenCalls-Hanoi-Diachronic-Interactions':
+            print()
+
         year_collection_city = '-'.join(row['ds:DatName'].split('-')[0:3])
         bundle_name = '-'.join(row['ds:DatName'].split('-')[3:])
 
@@ -63,6 +70,11 @@ def generate_html_href(category, row, all_df):
         if bundle_name == 'Daily annotations & Location RD':
             titles = dataset_df[dataset_df['ds:DatName'].isin([f'{year_collection_city}-Location RD', f'{year_collection_city}-Time Diaries'])][
                 'ds:DatName']
+
+        elif bundle_name in ['Diachronic-Interactions', 'Synchronic-Interactions']:
+            titles = dataset_df[(dataset_df['ds:DatName'].str.startswith(year_collection_city)) & (
+                        dataset_df['ds:DatType'] == bundle_name)]['ds:DatName']
+
         else:
             titles = dataset_df[(dataset_df['ds:DatName'].str.startswith(year_collection_city)) & (dataset_df['ds:DatSensorType'] == bundle_name)][
                 'ds:DatName']

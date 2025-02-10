@@ -3,7 +3,7 @@ import re
 import os
 
 # Load the Excel file
-excel_file = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx"
+excel_file = "/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx"
 
 # Read both sheets
 projects_df = pd.read_excel(excel_file, sheet_name="LivePeople PROJECTS Metadata", usecols=["Field", "Description", "Visibility"])
@@ -15,6 +15,19 @@ combined_df = combined_df.dropna(subset=["Field"])
 combined_df['Description'] = combined_df['Description'].fillna('')
 
 combined_df = combined_df[combined_df["Field"].str.startswith("ds:")]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:prjDocumentationURL', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:prjDocumentationFormat', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:prjAdditionalMaterialURL', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:prjAdditionalMaterialFormat', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatDownloadRequestURL', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatDownloadRequestFormat', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatDocumentationURL', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatDocumentationFormat', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatAdditionalMaterialURL', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatAdditionalMaterialFormat', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatCodebookURL', case=False, na=False)]
+combined_df = combined_df[~combined_df['Field'].str.contains('ds:DatCodebookFormat', case=False, na=False)]
+
 
 # Function to convert to human-readable format
 def convert_to_human_readable(field):
@@ -29,8 +42,7 @@ def convert_to_human_readable(field):
 
     # Replace 'Prj' with 'Project' and 'Dat' with 'Data'
     field = field.replace('Prj', 'Project').replace('Dat', 'Data')
-
-    # Correct common typos or inconsistencies, e.g., 'Datae' -> 'Date'
+    field = field.replace('irbapproval', 'IRB approval')
     field = field.replace('datae', 'date')
     field = field.replace('Datais', 'Data is')
 
@@ -44,7 +56,11 @@ def escape_pipe_in_description(description):
 # Filter data based on visibility
 combined_df = combined_df[combined_df['Visibility'] == 'public']
 combined_df['Field HR'] = combined_df['Field'].apply(convert_to_human_readable)
+combined_df['Field HR'] = combined_df['Field HR'].replace({'': ''})
+
 combined_df['Description'] = combined_df['Description'].apply(escape_pipe_in_description)
+
+
 
 
 # Generate Markdown content
@@ -65,10 +81,10 @@ for _, row in combined_df.iterrows():
     field_hr = field_hr.replace(' ', '&nbsp;')
 
     description = row['Description']
-    markdown_content += f"| *{field_hr}* | {description} |\n"
+    markdown_content += f"| **{field_hr}** | {description} |\n"
 
 # Define the output path (root directory)
-output_dir = "/Users/munkhdelger/Knowdive/LivePeople"  # Root folder path
+output_dir = "/"  # Root folder path
 output_file = os.path.join(output_dir, "metadata.md")
 
 # Save to the Markdown file in the root folder

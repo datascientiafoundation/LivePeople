@@ -806,6 +806,11 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
 
     data['ds:prjURL'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/8b227ff7-803e-4f7b-8765-75ea2b7a8113' if 'SmartUnitn2OSM' in x['ds:prjTitle'] else x['ds:prjURL'] ,axis =1)
 
+    data['ds:prjAdditionalMaterialName'] = data.apply(lambda row: 'Dataset paper and data collection methodology' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialName'], axis=1)
+    data['ds:prjAdditionalMaterialUrl'] = data.apply(lambda row: 'https://arxiv.org/abs/2502.03347' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialUrl'],  axis=1)
+    data['ds:prjAdditionalMaterialFormat'] = data.apply(lambda row: 'PDF' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialFormat'],  axis=1)
+
+    data['ds:prjDocumentationName'] = data.apply(lambda row: 'Dataset technical report' if pd.notna(row['ds:prjDocumentationName']) and row['ds:prjDocumentationName'] != '' else row['ds:prjDocumentationName'], axis=1)
 
     # Save the extracted data to an Excel file
     save_to_excel(data, output_file)
