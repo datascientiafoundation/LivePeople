@@ -43,8 +43,8 @@ download request:
   - name: Download request
     url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
     format: PDF
-title: 2021-ChatApplication1-Copenhagen-Position
-notes: The Wenet Chat Application 1 project was based on a chatbot that collected questions and answers from university students in Italy, Denmark, Paraguay, the United Kingdom, and Mongolia. It was conducted in March and June 2021 to improve the knowledge about students' lives to promote the design of better and more targeted technology and support tools for students. It was a European Union WeNet Horizon 2020-funded project with the overall goal of developing a diversity-aware, machine-mediated paradigm for social interactions. Data was collected with a Telegram App and the i-Log Application. Some of the data collected included the respondent's career information (department, study course, study year,) and demographics (age, gender'). Questions were sent on the Telegram App and user answers were recorded, the i-Log App recorded sensor data (such as location, accelerometer) from the user device. This data was collected in three phases, the first phase entailed interacting with the Telegram App Ask4Help, and sensor data was also collected during this phase. The second phase involved respondents answering a questionnaire, and in the third phase, they participated in a focus group to provide feedback.
+title: 2021-ChatApplication1-Copenhagen-Location POI
+notes: This dataset contains the Point Of Interests surrounding the geocoordinates of where the phone is located. POI extracted every 5 minutes. The dataset was collected as part of the WeNet project, a Horizon 2020 funded project that aims at developing a diversity-aware, machine-mediated paradigm for social interactions.
 ds:DatVersion: 
 ds:DatPublicationTimestamp: "2023-04-18"
 ds:DatLicense: 
@@ -55,7 +55,7 @@ ds:DatCreator:
 ds:DatOwner: 
 ds:DatLanguage: Not Applicable
 ds:DatLevel: 
-ds:DatSize: 0.26 MB
+ds:DatSize: 0.12 MB
 ds:DatDomain: Digital University
 ds:DatFileFormat: parquet
 ds:DatDetailedDescription: 
@@ -64,13 +64,16 @@ ds:DatConditionsOfAccess:
 ds:DatGenre: 
 ds:DatisAccessibleForFree: 
 ds:DatExpires: 
-ds:DatType: Sensors
+ds:DatSensorName: Location POI
+ds:DatType: Sensor
+ds:DatSensorType: 
+  - Position
 ds:DatStartDate: "2021-03-12"
 ds:DatEndDate: "2021-03-28"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 005.AAAE.AAC.CC-CD
+ds:DatIdentifier: 005.AAAE.AAC.CC
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html
@@ -81,6 +84,5 @@ duration_facet: "1 month"
 location_facet: Denmark
 collection_name: ChatApplication1
 data_type_facet: Position
-category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Copenhagen-Location%20POI" target="_blank">Location poi</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-ChatApplication1-Copenhagen-Location%20RD" target="_blank">Location rd</a>
+category: Dataset
 ---
