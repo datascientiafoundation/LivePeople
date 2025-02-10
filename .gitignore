@@ -11,3 +11,5 @@ resources/metadata_process_scripts/__pycache__/modeling.cpython-38.pyc
 
 resources/metadata_process_scripts/sources/2024_LivePeople PROJECT Metadata.xlsx
 /resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx
+resources/metadata_process_scripts/sources/dataset_dir.txt
+resources/metadata_process_scripts/sources/dataset_dir_mapping.txt
