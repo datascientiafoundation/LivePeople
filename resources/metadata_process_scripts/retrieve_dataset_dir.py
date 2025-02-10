@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from collections import defaultdict
 import argparse
-
+import time
 
 def get_child_dirs(client, target_directory):
     # Run find command for each level separately (5th, 6th, and 7th level)
@@ -13,17 +13,12 @@ def get_child_dirs(client, target_directory):
     stdin, stdout, stderr = client.exec_command(command)
     all_dirs = stdout.read().decode().splitlines()
 
-    ###
-    # k = pd.DataFrame(sorted(all_dirs), columns=['dirs'])
-    # k.to_csv('/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/parquet_dirs.txt')
-    ###
+    print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ Dirs read successful! :" + str(len(all_dirs)))
 
     parquet_dirs = [dir for dir in all_dirs if
                     sum(1 for part in dir.split('/') if '.parquet' in part) == 1 and dir.endswith('parquet')]
 
-    # csv_dirs = [dir for dir in all_dirs if
-    #                 sum(1 for part in dir.split('/') if '.csv' in part) == 1 and dir.endswith('csv')]
-
+    print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ Parquet filtered successful! :" + str(len(parquet_dirs)))
     return parquet_dirs
 
 
@@ -171,7 +166,7 @@ def extract_name_from_path(path):
         'Accelerometer': ['accelerometer', 'accelerometerevent'],
         'Accelerometer Uncalibrated': ['accelerometeruncalibrated'],
         'Airplane Mode': ['airplanemode', 'airplanemodeevent'],
-        'Ambient Temperature': ['ambienttemperature']
+        'Ambient Temperature': ['ambienttemperature'],
         'Application': ['application', 'applicationevent', 'applications'],
         'Activities': ['activities', 'activitiespertime'],
         'Battery Charge': ['batterycharge', 'batterychargeevent'],
@@ -189,7 +184,7 @@ def extract_name_from_path(path):
         'Location POI': ['location_poi'],
         'Location RD': ['location_rd', 'location', 'locationeventpertime_rd'],
         'Linear Acceleration': ['linearacceleration', 'linearaccelerationevent'],
-        'Magnetic Field': ['magneticfield'],
+        'Magnetic Field': ['magneticfield', 'magneticfieldevent'],
         'Magnetic Field Uncalibrated': ['magneticfielduncalibrated'],
         'Music': ['music', 'musicevent'],
         'Notification': ['notification', 'notificationevent'],
@@ -236,7 +231,7 @@ def extract_name_from_path(path):
 
 
 def main(target_directory, output_dir, hostname, username, private_key_path, excel_path):
-    output_file = os.path.join(output_dir, "dataset_dirs.txt")
+    output_file = os.path.join(output_dir, "dataset_dir.txt")
     output_mapping_file = os.path.join(output_dir, "dataset_dir_mapping.txt")
     dataset_mapping = load_dataset_mapping(excel_path)
 
@@ -250,18 +245,18 @@ def main(target_directory, output_dir, hostname, username, private_key_path, exc
         private_key = paramiko.RSAKey.from_private_key_file(private_key_path)
         client.connect(hostname, username=username, pkey=private_key)
 
-        print("✅ SSH connection successful!")
+        print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ SSH connection successful!")
 
         # Get all child directories of the given path
         parquet_dirs = get_child_dirs(client, target_directory)
         active_collections = filter_latest_versions(client, target_directory)
         active_dirs = filter(parquet_dirs, active_collections)
+        print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ Filtered active dir - successful! :" + str(len(active_dirs)))
 
         active_dirs = pd.DataFrame(active_dirs, columns=['dataset_dirs'])
         active_dirs.to_csv(output_file, index=False)
 
-        active_dirs = pd.read_csv(
-            '/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/dataset_dirs.txt')
+        active_dirs = pd.read_csv(output_file)
         # active_dirs['k'] = active_dirs['dataset_dirs'].str.split('/').str[-1].str.split('.').str[0]
         active_dirs = active_dirs['dataset_dirs'].tolist()
 
