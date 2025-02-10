@@ -31,12 +31,12 @@ ds:prjThumbnailUrl:
 ds:prjIdentifier: 004.AAAD.AAF.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
-  - name: 2022_WeNet_Diversity1_Technical-Report(2020-2021)
+  - name: Dataset technical report
     url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
-  - name: 
-    url: 
-    format: 
+  - name: Dataset paper and data collection methodology
+    url: https://arxiv.org/abs/2502.03347
+    format: PDF
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_Jilin_wifinetworks.html
     format: html

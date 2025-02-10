@@ -31,7 +31,7 @@ ds:prjThumbnailUrl:
 ds:prjIdentifier: 005.AAAE.AAC.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
-  - name: 2021-Chatbot1-technical_report
+  - name: Dataset technical report
     url: https://drive.google.com/file/d/1m3_2X4b3gv-9tQS45FBCG7IJiVyeHgW3/view?usp=sharing
     format: PDF
   - name: 

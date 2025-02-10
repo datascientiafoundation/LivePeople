@@ -30,7 +30,7 @@ ds:prjThumbnailUrl:
 ds:prjIdentifier: 007.AAAN.AAN.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
-  - name: Big-Thick Data generation via reference and personal context unification
+  - name: Dataset technical report
     url: https://arxiv.org/abs/2409.05883
     format: PDF
   - name: 

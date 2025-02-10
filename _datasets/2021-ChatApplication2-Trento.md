@@ -31,7 +31,7 @@ ds:prjThumbnailUrl:
 ds:prjIdentifier: 005.AAAG.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
-  - name: 2022_LivePeople_Chatbot2_Data_Descriptor
+  - name: Dataset technical report
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing
     format: PDF
   - name: 

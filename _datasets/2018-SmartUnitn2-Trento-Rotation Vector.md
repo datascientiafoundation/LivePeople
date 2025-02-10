@@ -31,7 +31,7 @@ ds:prjThumbnailUrl:
 ds:prjIdentifier: 002.AAAB.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
-  - name: 2018-SmartUnitn2-technical_report
+  - name: Dataset technical report
     url: https://drive.google.com/file/d/1mSIBHgKJBw07crEjMTYEi3ylpPL-62fB/view?usp=sharing
     format: PDF
   - name: 2018-SmartUnitn2-additional_material-questionnaire
