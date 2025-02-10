@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: 2021-Chatbot1-Location Event-codebook
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-Chatbot1/2021_CH1_locationeventpertime_rd.html
     format: html
 download request:

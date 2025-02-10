@@ -810,6 +810,8 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
     data['ds:prjAdditionalMaterialUrl'] = data.apply(lambda row: 'https://arxiv.org/abs/2502.03347' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialUrl'],  axis=1)
     data['ds:prjAdditionalMaterialFormat'] = data.apply(lambda row: 'PDF' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialFormat'],  axis=1)
 
+    data.loc[data['ds:DatCodebookName'].notna() & (data['ds:DatCodebookName'] != ''), 'ds:DatCodebookName'] = 'Codebook'
+
     data['ds:prjDocumentationName'] = data.apply(lambda row: 'Dataset technical report' if pd.notna(row['ds:prjDocumentationName']) and row['ds:prjDocumentationName'] != '' else row['ds:prjDocumentationName'], axis=1)
 
     # Save the extracted data to an Excel file

@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: Chat_data.html
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-Chat_data.html
     format: html
 download request:

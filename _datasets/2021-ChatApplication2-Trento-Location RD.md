@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: locationeventpertime_rd.html
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-locationeventpertime_rd.html
     format: html
 download request:

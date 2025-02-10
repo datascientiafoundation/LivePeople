@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: Exit_survey.html
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-Exit_survey.html
     format: html
 download request:

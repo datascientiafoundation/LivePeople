@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: 2021-Chatbot1-Activities Per Time-codebook
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-Chatbot1/2021_CH1_activitiespertime.html
     format: html
 download request:

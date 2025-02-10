@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: bluetoothlowenergyevent.html
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-bluetoothlowenergyevent.html
     format: html
 download request:

@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: 2021-Chatbot1-Chat-codebook
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-Chatbot1/2021_CH1_Chat_data.html
     format: html
 download request:

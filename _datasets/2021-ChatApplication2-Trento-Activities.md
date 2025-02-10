@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: activitiespertime.html
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-activitiespertime.html
     format: html
 download request:

@@ -37,7 +37,7 @@ resources:
   - name: 2018-SmartUnitn2-additional_material-questionnaire
     url: https://drive.google.com/file/d/1yY8RNaWO_eh4-UnXHkL2jpZld2739K3K/view?usp=share_link
     format: PDF
-  - name: 2018-SmartUnitn2-codebook(c)
+  - name: Codebook
     url: https://drive.google.com/file/d/1WIcaWAjYeKEfW5_1oFoXNU0qaiwwfFC7/view?usp=sharing
     format: PDF
 download request:

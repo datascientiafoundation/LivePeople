@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: stepdetectorevent.html
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-stepdetectorevent.html
     format: html
 download request:

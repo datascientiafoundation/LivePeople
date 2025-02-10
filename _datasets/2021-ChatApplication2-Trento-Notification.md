@@ -36,7 +36,7 @@ resources:
   - name: 
     url: 
     format: 
-  - name: notificationevent.html
+  - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-ChatApplication2/2021-ChatApplication2-notificationevent.html
     format: html
 download request:
