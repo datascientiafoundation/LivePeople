@@ -31,11 +31,11 @@ ds:prjThumbnailUrl:
 ds:prjIdentifier: 004.AAAD.AAE.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
-  - name: Dataset technical report
-    url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
-    format: PDF
   - name: Dataset paper and data collection methodology
     url: https://arxiv.org/abs/2502.03347
+    format: PDF
+  - name: Dataset technical report
+    url: https://drive.google.com/file/d/1TMrjkAEWRZ5xhETJKOCnERgh_Z06PO2E/view?usp=drive_link
     format: PDF
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_London_bluetooth.html
