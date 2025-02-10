@@ -800,6 +800,7 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
     data['ds:prjWebpage'] = data.apply(lambda x: '' if 'ChatApplication' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
     data['ds:prjWebpage'] = data.apply(lambda x: '' if 'OpenCalls' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
 
+
     # skel dont have project url for trento
     data['ds:prjWebpage'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
     data['ds:prjURL'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in x['ds:prjTitle'] else x['ds:prjURL'] ,axis =1)

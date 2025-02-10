@@ -1,638 +1,584 @@
-dataset_name,identifier,directory
-2018-SmartUnitn2-Trento-Accelerometer,002.AAAB.AAA.AY,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
-2018-SmartUnitn2-Trento-Activities,002.AAAB.AAA.CF,
-2018-SmartUnitn2-Trento-Airplane Mode,002.AAAB.AAA.BS,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/airplanemode.parquet
-2018-SmartUnitn2-Trento-Ambient Temperature,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/ambienttemperature.parquet
-2018-SmartUnitn2-Trento-Application,002.AAAB.AAA.AG,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
-2018-SmartUnitn2-Trento-Battery Charge,002.AAAB.AAA.BT,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterycharge.parquet
-2018-SmartUnitn2-Trento-Battery Monitoring Log,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterymonitoringlog.parquet
-2018-SmartUnitn2-Trento-Cellular Network,002.AAAB.AAA.AM,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
-2018-SmartUnitn2-Trento-Doze,002.AAAB.AAA.BV,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/doze.parquet
-2018-SmartUnitn2-Trento-Gravity,002.AAAB.AAA.BA,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/gravity.parquet
-2018-SmartUnitn2-Trento-Gyroscope,002.AAAB.AAA.BB,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/gyroscope.parquet
-2018-SmartUnitn2-Trento-Headset Plug,002.AAAB.AAA.AH,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/headsetplug.parquet
-2018-SmartUnitn2-Trento-Light,002.AAAB.AAA.AR,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/light.parquet
-2018-SmartUnitn2-Trento-Linear Acceleration,002.AAAB.AAA.BD,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/linearacceleration.parquet
-2018-SmartUnitn2-Trento-Location RD,002.AAAB.AAA.CD,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
-2018-SmartUnitn2-Trento-Magnetic Field,002.AAAB.AAA.BP,
-2018-SmartUnitn2-Trento-Music,002.AAAB.AAA.AI,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/music.parquet
-2018-SmartUnitn2-Trento-Notification,002.AAAB.AAA.AJ,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
-2018-SmartUnitn2-Trento-Orientation,002.AAAB.AAA.BQ,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Position/orientation.parquet
-2018-SmartUnitn2-Trento-Pressure,002.AAAB.AAA.AS,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/pressure.parquet
-2018-SmartUnitn2-Trento-Proximity,002.AAAB.AAA.BR,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
-2018-SmartUnitn2-Trento-Questionnaire,002.AAAB.AAA.AA,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Synchronic-Interactions/questionnaire.parquet
-2018-SmartUnitn2-Trento-Relative Humidity,002.AAAB.AAA.AT,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/relativehumidity.parquet
-2018-SmartUnitn2-Trento-Ring Mode,002.AAAB.AAA.BW,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/ringmode.parquet
-2018-SmartUnitn2-Trento-Rotation Vector,002.AAAB.AAA.BG,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/rotationvector.parquet
-2018-SmartUnitn2-Trento-Screen,002.AAAB.AAA.BX,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/screen.parquet
-2018-SmartUnitn2-Trento-Time Diaries,002.AAAB.AAA.CG,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Diachronic-Interactions/timediariesanswers.parquet
-2018-SmartUnitn2-Trento-Touch,002.AAAB.AAA.BY,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/touch.parquet
-2018-SmartUnitn2-Trento-Wifi,002.AAAB.AAA.AN,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
-2018-SmartUnitn2-Trento-Wifi Networks,002.AAAB.AAA.AO,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
-2018-SmartUnitn2_KGE_2024-None-Accelerometer,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/accelerometerevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Airplane Mode,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/airplanemodeevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Application,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/applicationevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Battery Charge,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/batterychargeevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Battery Monitoring Log,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/batterymonitoringlog.parquet
-2018-SmartUnitn2_KGE_2024-None-Cellular Network,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Connectivity/cellularnetwork.parquet
-2018-SmartUnitn2_KGE_2024-None-Doze,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/dozeevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Gravity,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/gravityevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Gyroscope,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/gyroscopeevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Headset Plug,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/headsetplugevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Light,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/lightevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Linear Acceleration,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/linearaccelerationevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Location RD,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Position/locationeventpertime_rd.parquet
-2018-SmartUnitn2_KGE_2024-None-Music,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/musicevent.parquet
-2018-SmartUnitn2_KGE_2024-None-None,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/ambienttemperatureevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Notification,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/notificationevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Orientation,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Position/orientationevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Pressure,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/pressureevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Proximity,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Position/proximityevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Synchronic-Interactions/questionnaire.parquet
-2018-SmartUnitn2_KGE_2024-None-Relative Humidity,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/relativehumidityevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Ring Mode,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/ringmodeevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Rotation Vector,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/rotationvectorevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Screen,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/screenevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Diachronic-Interactions/timediariesanswers.parquet
-2018-SmartUnitn2_KGE_2024-None-Touch,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/touchevent.parquet
-2018-SmartUnitn2_KGE_2024-None-Wifi,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Connectivity/wifievent.parquet
-2018-SmartUnitn2_KGE_2024-None-Wifi Networks,Unknown,/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Connectivity/wifinetworksevent.parquet
-2019-QROWD-Trento-Accelerometer,003.AAAC.AAA.AY,
-2019-QROWD-Trento-Activities,003.AAAC.AAA.CF,
-2019-QROWD-Trento-Gyroscope,003.AAAC.AAA.BB,
-2019-QROWD-Trento-Location POI,003.AAAC.AAA.CC,
-2019-QROWD-Trento-Location RD,003.AAAC.AAA.CD,
-2020-DiversityOne-Amrita-Accelerometer,004.AAAD.AAG.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-Amrita-Activities,004.AAAD.AAG.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/activities.parquet
-2020-DiversityOne-Amrita-Airplane Mode,004.AAAD.AAG.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-Amrita-Application,004.AAAD.AAG.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/application.parquet
-2020-DiversityOne-Amrita-Battery Charge,004.AAAD.AAG.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-Amrita-Battery Monitoring Log,004.AAAD.AAG.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-Amrita-Bluetooth,004.AAAD.AAG.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-Amrita-Cellular Network,004.AAAD.AAG.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-Amrita-Doze,004.AAAD.AAG.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-Amrita-Gyroscope,004.AAAD.AAG.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-Amrita-Headset Plug,004.AAAD.AAG.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-Amrita-Light,004.AAAD.AAG.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Environment/light.parquet
-2020-DiversityOne-Amrita-Location POI,004.AAAD.AAG.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/location_poi.parquet
-2020-DiversityOne-Amrita-Location RD,004.AAAD.AAG.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/location_rd.parquet
-2020-DiversityOne-Amrita-Magnetic Field,004.AAAD.AAG.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-Amrita-Music,004.AAAD.AAG.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/music.parquet
-2020-DiversityOne-Amrita-Notification,004.AAAD.AAG.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/notification.parquet
-2020-DiversityOne-Amrita-Pressure,004.AAAD.AAG.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Environment/pressure.parquet
-2020-DiversityOne-Amrita-Proximity,004.AAAD.AAG.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/proximity.parquet
-2020-DiversityOne-Amrita-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-Amrita-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-Amrita-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-Amrita-Questionnaire Diversity A,004.AAAD.AAG.AA.1,
-2020-DiversityOne-Amrita-Questionnaire Diversity B,004.AAAD.AAG.AA.2,
-2020-DiversityOne-Amrita-Questionnaire Diversity C,004.AAAD.AAG.AA.3,
-2020-DiversityOne-Amrita-Ring Mode,004.AAAD.AAG.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-Amrita-Screen,004.AAAD.AAG.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-Amrita-Step Counter,004.AAAD.AAG.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-Amrita-Step Detector,004.AAAD.AAG.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-Amrita-Time Diaries,004.AAAD.AAG.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-Amrita-Touch,004.AAAD.AAG.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-Amrita-User Presence,004.AAAD.AAG.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-Amrita-Wifi,004.AAAD.AAG.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-Amrita-Wifi Networks,004.AAAD.AAG.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/wifinetworks.parquet
-2020-DiversityOne-Asunción-Accelerometer,004.AAAD.AAD.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-Asunción-Activities,004.AAAD.AAD.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/activities.parquet
-2020-DiversityOne-Asunción-Airplane Mode,004.AAAD.AAD.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-Asunción-Application,004.AAAD.AAD.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/application.parquet
-2020-DiversityOne-Asunción-Battery Charge,004.AAAD.AAD.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-Asunción-Battery Monitoring Log,004.AAAD.AAD.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-Asunción-Bluetooth,004.AAAD.AAD.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-Asunción-Cellular Network,004.AAAD.AAD.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-Asunción-Doze,004.AAAD.AAD.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-Asunción-Gyroscope,004.AAAD.AAD.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-Asunción-Headset Plug,004.AAAD.AAD.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-Asunción-Light,004.AAAD.AAD.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Environment/light.parquet
-2020-DiversityOne-Asunción-Location POI,004.AAAD.AAD.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_poi.parquet
-2020-DiversityOne-Asunción-Location RD,004.AAAD.AAD.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_rd.parquet
-2020-DiversityOne-Asunción-Magnetic Field,004.AAAD.AAD.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-Asunción-Music,004.AAAD.AAD.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/music.parquet
-2020-DiversityOne-Asunción-Notification,004.AAAD.AAD.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/notification.parquet
-2020-DiversityOne-Asunción-Pressure,004.AAAD.AAD.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Environment/pressure.parquet
-2020-DiversityOne-Asunción-Proximity,004.AAAD.AAD.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/proximity.parquet
-2020-DiversityOne-Asunción-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-Asunción-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-Asunción-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-Asunción-Questionnaire Diversity A,004.AAAD.AAD.AA.1,
-2020-DiversityOne-Asunción-Questionnaire Diversity B,004.AAAD.AAD.AA.2,
-2020-DiversityOne-Asunción-Questionnaire Diversity C,004.AAAD.AAD.AA.3,
-2020-DiversityOne-Asunción-Ring Mode,004.AAAD.AAD.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-Asunción-Screen,004.AAAD.AAD.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-Asunción-Step Counter,004.AAAD.AAD.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-Asunción-Step Detector,004.AAAD.AAD.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-Asunción-Time Diaries,004.AAAD.AAD.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-Asunción-Touch,004.AAAD.AAD.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-Asunción-User Presence,004.AAAD.AAD.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-Asunción-Wifi,004.AAAD.AAD.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-Asunción-Wifi Networks,004.AAAD.AAD.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifinetworks.parquet
-2020-DiversityOne-Copenhagen-Accelerometer,004.AAAD.AAC.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-Copenhagen-Activities,004.AAAD.AAC.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/activities.parquet
-2020-DiversityOne-Copenhagen-Airplane Mode,004.AAAD.AAC.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-Copenhagen-Application,004.AAAD.AAC.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/application.parquet
-2020-DiversityOne-Copenhagen-Battery Charge,004.AAAD.AAC.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-Copenhagen-Battery Monitoring Log,004.AAAD.AAC.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-Copenhagen-Bluetooth,004.AAAD.AAC.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-Copenhagen-Cellular Network,004.AAAD.AAC.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-Copenhagen-Doze,004.AAAD.AAC.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-Copenhagen-Gyroscope,004.AAAD.AAC.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-Copenhagen-Headset Plug,004.AAAD.AAC.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-Copenhagen-Light,004.AAAD.AAC.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Environment/light.parquet
-2020-DiversityOne-Copenhagen-Location POI,004.AAAD.AAC.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_poi.parquet
-2020-DiversityOne-Copenhagen-Location RD,004.AAAD.AAC.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_rd.parquet
-2020-DiversityOne-Copenhagen-Magnetic Field,004.AAAD.AAC.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-Copenhagen-Music,004.AAAD.AAC.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/music.parquet
-2020-DiversityOne-Copenhagen-Notification,004.AAAD.AAC.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/notification.parquet
-2020-DiversityOne-Copenhagen-Pressure,004.AAAD.AAC.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Environment/pressure.parquet
-2020-DiversityOne-Copenhagen-Proximity,004.AAAD.AAC.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/proximity.parquet
-2020-DiversityOne-Copenhagen-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-Copenhagen-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-Copenhagen-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-Copenhagen-Questionnaire Diversity A,004.AAAD.AAC.AA.1,
-2020-DiversityOne-Copenhagen-Questionnaire Diversity B,004.AAAD.AAC.AA.2,
-2020-DiversityOne-Copenhagen-Questionnaire Diversity C,004.AAAD.AAC.AA.3,
-2020-DiversityOne-Copenhagen-Ring Mode,004.AAAD.AAC.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-Copenhagen-Screen,004.AAAD.AAC.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-Copenhagen-Step Counter,004.AAAD.AAC.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-Copenhagen-Step Detector,004.AAAD.AAC.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-Copenhagen-Time Diaries,004.AAAD.AAC.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-Copenhagen-Touch,004.AAAD.AAC.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-Copenhagen-User Presence,004.AAAD.AAC.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-Copenhagen-Wifi,004.AAAD.AAC.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-Copenhagen-Wifi Networks,004.AAAD.AAC.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/wifinetworks.parquet
-2020-DiversityOne-Jilin-Accelerometer,004.AAAD.AAF.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-Jilin-Activities,004.AAAD.AAF.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/activities.parquet
-2020-DiversityOne-Jilin-Airplane Mode,004.AAAD.AAF.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-Jilin-Application,004.AAAD.AAF.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/application.parquet
-2020-DiversityOne-Jilin-Battery Charge,004.AAAD.AAF.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-Jilin-Battery Monitoring Log,004.AAAD.AAF.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-Jilin-Bluetooth,004.AAAD.AAF.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-Jilin-Cellular Network,004.AAAD.AAF.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-Jilin-Doze,004.AAAD.AAF.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-Jilin-Gyroscope,004.AAAD.AAF.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-Jilin-Headset Plug,004.AAAD.AAF.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-Jilin-Light,004.AAAD.AAF.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Environment/light.parquet
-2020-DiversityOne-Jilin-Location POI,004.AAAD.AAF.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/location_poi.parquet
-2020-DiversityOne-Jilin-Location RD,004.AAAD.AAF.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/location_rd.parquet
-2020-DiversityOne-Jilin-Magnetic Field,004.AAAD.AAF.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-Jilin-Music,004.AAAD.AAF.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/music.parquet
-2020-DiversityOne-Jilin-Notification,004.AAAD.AAF.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/notification.parquet
-2020-DiversityOne-Jilin-Pressure,004.AAAD.AAF.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Environment/pressure.parquet
-2020-DiversityOne-Jilin-Proximity,004.AAAD.AAF.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/proximity.parquet
-2020-DiversityOne-Jilin-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-Jilin-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-Jilin-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-Jilin-Questionnaire Diversity A,004.AAAD.AAF.AA.1,
-2020-DiversityOne-Jilin-Questionnaire Diversity B,004.AAAD.AAF.AA.2,
-2020-DiversityOne-Jilin-Questionnaire Diversity C,004.AAAD.AAF.AA.3,
-2020-DiversityOne-Jilin-Ring Mode,004.AAAD.AAF.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-Jilin-Screen,004.AAAD.AAF.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-Jilin-Step Counter,004.AAAD.AAF.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-Jilin-Step Detector,004.AAAD.AAF.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-Jilin-Time Diaries,004.AAAD.AAF.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-Jilin-Touch,004.AAAD.AAF.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-Jilin-User Presence,004.AAAD.AAF.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-Jilin-Wifi,004.AAAD.AAF.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-Jilin-Wifi Networks,004.AAAD.AAF.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/wifinetworks.parquet
-2020-DiversityOne-London-Accelerometer,004.AAAD.AAE.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-London-Activities,004.AAAD.AAE.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/activities.parquet
-2020-DiversityOne-London-Airplane Mode,004.AAAD.AAE.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-London-Application,004.AAAD.AAE.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/application.parquet
-2020-DiversityOne-London-Battery Charge,004.AAAD.AAE.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-London-Battery Monitoring Log,004.AAAD.AAE.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-London-Bluetooth,004.AAAD.AAE.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-London-Cellular Network,004.AAAD.AAE.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-London-Doze,004.AAAD.AAE.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-London-Gyroscope,004.AAAD.AAE.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-London-Headset Plug,004.AAAD.AAE.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-London-Light,004.AAAD.AAE.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Environment/light.parquet
-2020-DiversityOne-London-Location POI,004.AAAD.AAE.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/location_poi.parquet
-2020-DiversityOne-London-Location RD,004.AAAD.AAE.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/location_rd.parquet
-2020-DiversityOne-London-Magnetic Field,004.AAAD.AAE.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-London-Music,004.AAAD.AAE.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/music.parquet
-2020-DiversityOne-London-Notification,004.AAAD.AAE.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/notification.parquet
-2020-DiversityOne-London-Pressure,004.AAAD.AAE.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Environment/pressure.parquet
-2020-DiversityOne-London-Proximity,004.AAAD.AAE.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/proximity.parquet
-2020-DiversityOne-London-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-London-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-London-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-London-Questionnaire Diversity A,004.AAAD.AAE.AA.1,
-2020-DiversityOne-London-Questionnaire Diversity B,004.AAAD.AAE.AA.2,
-2020-DiversityOne-London-Questionnaire Diversity C,004.AAAD.AAE.AA.3,
-2020-DiversityOne-London-Ring Mode,004.AAAD.AAE.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-London-Screen,004.AAAD.AAE.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-London-Step Counter,004.AAAD.AAE.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-London-Step Detector,004.AAAD.AAE.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-London-Time Diaries,004.AAAD.AAE.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-London-Touch,004.AAAD.AAE.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-London-User Presence,004.AAAD.AAE.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-London-Wifi,004.AAAD.AAE.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-London-Wifi Networks,004.AAAD.AAE.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/wifinetworks.parquet
-2020-DiversityOne-San Luis Potosí-Accelerometer,004.AAAD.AAH.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-San Luis Potosí-Activities,004.AAAD.AAH.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/activities.parquet
-2020-DiversityOne-San Luis Potosí-Airplane Mode,004.AAAD.AAH.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-San Luis Potosí-Application,004.AAAD.AAH.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/application.parquet
-2020-DiversityOne-San Luis Potosí-Battery Charge,004.AAAD.AAH.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-San Luis Potosí-Battery Monitoring Log,004.AAAD.AAH.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-San Luis Potosí-Bluetooth,004.AAAD.AAH.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-San Luis Potosí-Cellular Network,004.AAAD.AAH.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-San Luis Potosí-Doze,004.AAAD.AAH.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-San Luis Potosí-Gyroscope,004.AAAD.AAH.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-San Luis Potosí-Headset Plug,004.AAAD.AAH.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-San Luis Potosí-Light,004.AAAD.AAH.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Environment/light.parquet
-2020-DiversityOne-San Luis Potosí-Location POI,004.AAAD.AAH.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/location_poi.parquet
-2020-DiversityOne-San Luis Potosí-Location RD,004.AAAD.AAH.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/location_rd.parquet
-2020-DiversityOne-San Luis Potosí-Magnetic Field,004.AAAD.AAH.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-San Luis Potosí-Music,004.AAAD.AAH.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/music.parquet
-2020-DiversityOne-San Luis Potosí-Notification,004.AAAD.AAH.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/notification.parquet
-2020-DiversityOne-San Luis Potosí-Pressure,004.AAAD.AAH.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Environment/pressure.parquet
-2020-DiversityOne-San Luis Potosí-Proximity,004.AAAD.AAH.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/proximity.parquet
-2020-DiversityOne-San Luis Potosí-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-San Luis Potosí-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-San Luis Potosí-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-San Luis Potosí-Questionnaire Diversity A,004.AAAD.AAH.AA.1,
-2020-DiversityOne-San Luis Potosí-Questionnaire Diversity B,004.AAAD.AAH.AA.2,
-2020-DiversityOne-San Luis Potosí-Questionnaire Diversity C,004.AAAD.AAH.AA.3,
-2020-DiversityOne-San Luis Potosí-Ring Mode,004.AAAD.AAH.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-San Luis Potosí-Screen,004.AAAD.AAH.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-San Luis Potosí-Step Counter,004.AAAD.AAH.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-San Luis Potosí-Step Detector,004.AAAD.AAH.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-San Luis Potosí-Time Diaries,004.AAAD.AAH.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-San Luis Potosí-Touch,004.AAAD.AAH.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-San Luis Potosí-User Presence,004.AAAD.AAH.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-San Luis Potosí-Wifi,004.AAAD.AAH.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-San Luis Potosí-Wifi Networks,004.AAAD.AAH.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/wifinetworks.parquet
-2020-DiversityOne-Trento-Accelerometer,004.AAAD.AAA.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-Trento-Activities,004.AAAD.AAA.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/activities.parquet
-2020-DiversityOne-Trento-Airplane Mode,004.AAAD.AAA.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-Trento-Application,004.AAAD.AAA.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
-2020-DiversityOne-Trento-Battery Charge,004.AAAD.AAA.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-Trento-Battery Monitoring Log,004.AAAD.AAA.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-Trento-Bluetooth,004.AAAD.AAA.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-Trento-Cellular Network,004.AAAD.AAA.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-Trento-Doze,004.AAAD.AAA.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-Trento-Gyroscope,004.AAAD.AAA.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-Trento-Headset Plug,004.AAAD.AAA.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-Trento-Light,004.AAAD.AAA.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Environment/light.parquet
-2020-DiversityOne-Trento-Location POI,004.AAAD.AAA.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/location_poi.parquet
-2020-DiversityOne-Trento-Location RD,004.AAAD.AAA.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
-2020-DiversityOne-Trento-Magnetic Field,004.AAAD.AAA.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-Trento-Music,004.AAAD.AAA.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/music.parquet
-2020-DiversityOne-Trento-Notification,004.AAAD.AAA.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
-2020-DiversityOne-Trento-Pressure,004.AAAD.AAA.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Environment/pressure.parquet
-2020-DiversityOne-Trento-Proximity,004.AAAD.AAA.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
-2020-DiversityOne-Trento-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-Trento-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-Trento-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-Trento-Questionnaire Diversity A,004.AAAD.AAA.AA.1,
-2020-DiversityOne-Trento-Questionnaire Diversity B,004.AAAD.AAA.AA.2,
-2020-DiversityOne-Trento-Questionnaire Diversity C,004.AAAD.AAA.AA.3,
-2020-DiversityOne-Trento-Ring Mode,004.AAAD.AAA.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-Trento-Screen,004.AAAD.AAA.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-Trento-Step Counter,004.AAAD.AAA.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-Trento-Step Detector,004.AAAD.AAA.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-Trento-Time Diaries,004.AAAD.AAA.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-Trento-Touch,004.AAAD.AAA.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-Trento-User Presence,004.AAAD.AAA.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-Trento-Wifi,004.AAAD.AAA.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-Trento-Wifi Networks,004.AAAD.AAA.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
-2020-DiversityOne-Ulaanbaatar-Accelerometer,004.AAAD.AAB.AY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/accelerometer.parquet
-2020-DiversityOne-Ulaanbaatar-Activities,004.AAAD.AAB.CF,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/activities.parquet
-2020-DiversityOne-Ulaanbaatar-Airplane Mode,004.AAAD.AAB.BS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/airplanemode.parquet
-2020-DiversityOne-Ulaanbaatar-Application,004.AAAD.AAB.AG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/application.parquet
-2020-DiversityOne-Ulaanbaatar-Battery Charge,004.AAAD.AAB.BT,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterycharge.parquet
-2020-DiversityOne-Ulaanbaatar-Battery Monitoring Log,004.AAAD.AAB.BU,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterymonitoringlog.parquet
-2020-DiversityOne-Ulaanbaatar-Bluetooth,004.AAAD.AAB.CE,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/bluetooth.parquet
-2020-DiversityOne-Ulaanbaatar-Cellular Network,004.AAAD.AAB.AM,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/cellularnetwork.parquet
-2020-DiversityOne-Ulaanbaatar-Doze,004.AAAD.AAB.BV,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/doze.parquet
-2020-DiversityOne-Ulaanbaatar-Gyroscope,004.AAAD.AAB.BB,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/gyroscope.parquet
-2020-DiversityOne-Ulaanbaatar-Headset Plug,004.AAAD.AAB.AH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/headsetplug.parquet
-2020-DiversityOne-Ulaanbaatar-Light,004.AAAD.AAB.AR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/light.parquet
-2020-DiversityOne-Ulaanbaatar-Location POI,004.AAAD.AAB.CC,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_poi.parquet
-2020-DiversityOne-Ulaanbaatar-Location RD,004.AAAD.AAB.CD,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_rd.parquet
-2020-DiversityOne-Ulaanbaatar-Magnetic Field,004.AAAD.AAB.BP,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/magneticfield.parquet
-2020-DiversityOne-Ulaanbaatar-Music,004.AAAD.AAB.AI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/music.parquet
-2020-DiversityOne-Ulaanbaatar-Notification,004.AAAD.AAB.AJ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/notification.parquet
-2020-DiversityOne-Ulaanbaatar-Pressure,004.AAAD.AAB.AS,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/pressure.parquet
-2020-DiversityOne-Ulaanbaatar-Proximity,004.AAAD.AAB.BR,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/proximity.parquet
-2020-DiversityOne-Ulaanbaatar-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey2.parquet
-2020-DiversityOne-Ulaanbaatar-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey1.parquet
-2020-DiversityOne-Ulaanbaatar-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey3.parquet
-2020-DiversityOne-Ulaanbaatar-Questionnaire Diversity A,004.AAAD.AAB.AA.1,
-2020-DiversityOne-Ulaanbaatar-Questionnaire Diversity B,004.AAAD.AAB.AA.2,
-2020-DiversityOne-Ulaanbaatar-Questionnaire Diversity C,004.AAAD.AAB.AA.3,
-2020-DiversityOne-Ulaanbaatar-Ring Mode,004.AAAD.AAB.BW,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/ringmode.parquet
-2020-DiversityOne-Ulaanbaatar-Screen,004.AAAD.AAB.BX,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/screen.parquet
-2020-DiversityOne-Ulaanbaatar-Step Counter,004.AAAD.AAB.BH,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepcounter.parquet
-2020-DiversityOne-Ulaanbaatar-Step Detector,004.AAAD.AAB.BI,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepdetector.parquet
-2020-DiversityOne-Ulaanbaatar-Time Diaries,004.AAAD.AAB.CG,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/timediaries.parquet
-2020-DiversityOne-Ulaanbaatar-Touch,004.AAAD.AAB.BY,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/touch.parquet
-2020-DiversityOne-Ulaanbaatar-User Presence,004.AAAD.AAB.BZ,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/userpresence.parquet
-2020-DiversityOne-Ulaanbaatar-Wifi,004.AAAD.AAB.AN,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifi.parquet
-2020-DiversityOne-Ulaanbaatar-Wifi Networks,004.AAAD.AAB.AO,/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifinetworks.parquet
-2020-QROWD-Trento-None,Unknown,/datascientia_repository/CREP/Collection/2020.07.09-2020.07.09_QROWD/Location/Site_Trento_IT/Bundled/big_poi/2019-Qrowd2-poi/profile.parquet
-2021-ChatApplication1-Asunción-Activities,005.AAAE.AAD.CF,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Motion/activitiespertime.parquet
-2021-ChatApplication1-Asunción-Application,005.AAAE.AAD.AG,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/application.parquet
-2021-ChatApplication1-Asunción-Bluetooth,005.AAAE.AAD.CE,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/bluetooth.parquet
-2021-ChatApplication1-Asunción-Chat,005.AAAE.AAD.CA,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/chat.parquet
-2021-ChatApplication1-Asunción-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_poi.parquet
-2021-ChatApplication1-Asunción-Location RD,005.AAAE.AAD.CD,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_rd.parquet
-2021-ChatApplication1-Asunción-Notification,005.AAAE.AAD.AJ,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/notification.parquet
-2021-ChatApplication1-Asunción-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey.parquet
-2021-ChatApplication1-Asunción-Questionnaire Exit Survey,005.AAAE.AAD.AA,
-2021-ChatApplication1-Asunción-Step Counter,005.AAAE.AAD.BH,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepcounter.parquet
-2021-ChatApplication1-Asunción-Step Detector,005.AAAE.AAD.BI,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepdetector.parquet
-2021-ChatApplication1-Copenhagen-Activities,005.AAAE.AAC.CF,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/activitiespertime.parquet
-2021-ChatApplication1-Copenhagen-Application,005.AAAE.AAC.AG,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/application.parquet
-2021-ChatApplication1-Copenhagen-Bluetooth,005.AAAE.AAC.CE,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/bluetooth.parquet
-2021-ChatApplication1-Copenhagen-Chat,005.AAAE.AAC.CA,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Diachronic-Interactions/chat.parquet
-2021-ChatApplication1-Copenhagen-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_poi.parquet
-2021-ChatApplication1-Copenhagen-Location RD,005.AAAE.AAC.CD,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_rd.parquet
-2021-ChatApplication1-Copenhagen-Notification,005.AAAE.AAC.AJ,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/notification.parquet
-2021-ChatApplication1-Copenhagen-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey.parquet
-2021-ChatApplication1-Copenhagen-Questionnaire Exit Survey,005.AAAE.AAC.AA,
-2021-ChatApplication1-London-Activities,005.AAAE.AAE.CF,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Motion/activitiespertime.parquet
-2021-ChatApplication1-London-Application,005.AAAE.AAE.AG,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/App-usage/application.parquet
-2021-ChatApplication1-London-Bluetooth,005.AAAE.AAE.CE,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Connectivity/bluetooth.parquet
-2021-ChatApplication1-London-Chat,005.AAAE.AAE.CA,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Diachronic-Interactions/chat.parquet
-2021-ChatApplication1-London-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Position/location_poi.parquet
-2021-ChatApplication1-London-Location RD,005.AAAE.AAE.CD,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Position/location_rd.parquet
-2021-ChatApplication1-London-Notification,005.AAAE.AAE.AJ,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/App-usage/notification.parquet
-2021-ChatApplication1-London-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Synchronic-Interactions/survey.parquet
-2021-ChatApplication1-London-Questionnaire Exit Survey,005.AAAE.AAE.AA,
-2021-ChatApplication1-London-Step Counter,005.AAAE.AAE.BH,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Motion/stepcounter.parquet
-2021-ChatApplication1-London-Step Detector,005.AAAE.AAE.BI,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Motion/stepdetector.parquet
-2021-ChatApplication1-Trento-Activities,005.AAAE.AAA.CF,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Motion/activitiespertime.parquet
-2021-ChatApplication1-Trento-Application,005.AAAE.AAA.AG,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
-2021-ChatApplication1-Trento-Bluetooth,005.AAAE.AAA.CE,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
-2021-ChatApplication1-Trento-Chat,005.AAAE.AAA.CA,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Diachronic-Interactions/chat.parquet
-2021-ChatApplication1-Trento-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Position/location_poi.parquet
-2021-ChatApplication1-Trento-Location RD,005.AAAE.AAA.CD,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
-2021-ChatApplication1-Trento-Notification,005.AAAE.AAA.AJ,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
-2021-ChatApplication1-Trento-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey.parquet
-2021-ChatApplication1-Trento-Questionnaire Exit Survey,005.AAAE.AAA.AA,
-2021-ChatApplication1-Trento-Step Counter,005.AAAE.AAA.BH,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
-2021-ChatApplication1-Trento-Step Detector,005.AAAE.AAA.BI,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
-2021-ChatApplication1-Ulaanbaatar-Activities,005.AAAE.AAB.CF,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/activitiespertime.parquet
-2021-ChatApplication1-Ulaanbaatar-Application,005.AAAE.AAB.AG,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/application.parquet
-2021-ChatApplication1-Ulaanbaatar-Bluetooth,005.AAAE.AAB.CE,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/bluetooth.parquet
-2021-ChatApplication1-Ulaanbaatar-Chat,005.AAAE.AAB.CA,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/chat.parquet
-2021-ChatApplication1-Ulaanbaatar-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_poi.parquet
-2021-ChatApplication1-Ulaanbaatar-Location RD,005.AAAE.AAB.CD,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_rd.parquet
-2021-ChatApplication1-Ulaanbaatar-Notification,005.AAAE.AAB.AJ,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/notification.parquet
-2021-ChatApplication1-Ulaanbaatar-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey.parquet
-2021-ChatApplication1-Ulaanbaatar-Questionnaire Exit Survey,005.AAAE.AAB.AA,
-2021-ChatApplication1-Ulaanbaatar-Step Counter,005.AAAE.AAB.BH,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepcounter.parquet
-2021-ChatApplication1-Ulaanbaatar-Step Detector,005.AAAE.AAB.BI,/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepdetector.parquet
-2021-ChatApplication2-Asunción-Chat,005.AAAG.AAD.CA,
-2021-ChatApplication2-Asunción-Questionnaire Exit Survey,005.AAAG.AAD.AA,
-2021-ChatApplication2-Copenhagen-Chat,005.AAAG.AAC.CA,
-2021-ChatApplication2-Copenhagen-Questionnaire Exit Survey,005.AAAG.AAC.AA,
-2021-ChatApplication2-London-Chat,005.AAAG.AAE.CA,
-2021-ChatApplication2-London-Questionnaire Exit Survey,005.AAAG.AAE.AA,
-2021-ChatApplication2-Trento-Activities,005.AAAG.AAA.CF,
-2021-ChatApplication2-Trento-Application,005.AAAG.AAA.AG,
-2021-ChatApplication2-Trento-Bluetooth,005.AAAG.AAA.CE,
-2021-ChatApplication2-Trento-Chat,005.AAAG.AAA.CA,
-2021-ChatApplication2-Trento-Location POI,005.AAAG.AAA.CC,
-2021-ChatApplication2-Trento-Location RD,005.AAAG.AAA.CD,
-2021-ChatApplication2-Trento-Notification,005.AAAG.AAA.AJ,
-2021-ChatApplication2-Trento-Questionnaire Exit Survey,005.AAAG.AAA.AA,
-2021-ChatApplication2-Trento-Step Counter,005.AAAG.AAA.BH,
-2021-ChatApplication2-Trento-Step Detector,005.AAAG.AAA.BI,
-2021-ChatApplication2-Ulaanbaatar-Chat,005.AAAG.AAB.CA,
-2021-ChatApplication2-Ulaanbaatar-Questionnaire Exit Survey,005.AAAG.AAB.AA,
-2021-Diversity2-Asunción-Accelerometer,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/accelerometer.parquet
-2021-Diversity2-Asunción-Activities,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/activities.parquet
-2021-Diversity2-Asunción-Airplane Mode,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/airplanemode.parquet
-2021-Diversity2-Asunción-Application,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/application.parquet
-2021-Diversity2-Asunción-Battery Charge,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterycharge.parquet
-2021-Diversity2-Asunción-Battery Monitoring Log,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterymonitoringlog.parquet
-2021-Diversity2-Asunción-Bluetooth,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/bluetooth.parquet
-2021-Diversity2-Asunción-Cellular Network,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/cellularnetwork.parquet
-2021-Diversity2-Asunción-Doze,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/doze.parquet
-2021-Diversity2-Asunción-Gyroscope,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/gyroscope.parquet
-2021-Diversity2-Asunción-Headset Plug,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/headsetplug.parquet
-2021-Diversity2-Asunción-Light,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Environment/light.parquet
-2021-Diversity2-Asunción-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/location_poi.parquet
-2021-Diversity2-Asunción-Location RD,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/location_rd.parquet
-2021-Diversity2-Asunción-Magnetic Field,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/magneticfield.parquet
-2021-Diversity2-Asunción-Music,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/music.parquet
-2021-Diversity2-Asunción-Notification,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/notification.parquet
-2021-Diversity2-Asunción-Pressure,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Environment/pressure.parquet
-2021-Diversity2-Asunción-Proximity,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/proximity.parquet
-2021-Diversity2-Asunción-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey.parquet
-2021-Diversity2-Asunción-Ring Mode,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/ringmode.parquet
-2021-Diversity2-Asunción-Screen,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/screen.parquet
-2021-Diversity2-Asunción-Step Counter,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepcounter.parquet
-2021-Diversity2-Asunción-Step Detector,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepdetector.parquet
-2021-Diversity2-Asunción-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/timediaries.parquet
-2021-Diversity2-Asunción-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/contributionsconfirmations.parquet
-2021-Diversity2-Asunción-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/contributionsquestions.parquet
-2021-Diversity2-Asunción-Touch,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/touch.parquet
-2021-Diversity2-Asunción-User Presence,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/userpresence.parquet
-2021-Diversity2-Asunción-Wifi,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifi.parquet
-2021-Diversity2-Asunción-Wifi Networks,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifinetworks.parquet
-2021-Diversity2-Trento-Accelerometer,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
-2021-Diversity2-Trento-Activities,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/activities.parquet
-2021-Diversity2-Trento-Airplane Mode,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/airplanemode.parquet
-2021-Diversity2-Trento-Application,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
-2021-Diversity2-Trento-Battery Charge,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterycharge.parquet
-2021-Diversity2-Trento-Battery Monitoring Log,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterymonitoringlog.parquet
-2021-Diversity2-Trento-Bluetooth,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
-2021-Diversity2-Trento-Cellular Network,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
-2021-Diversity2-Trento-Doze,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/doze.parquet
-2021-Diversity2-Trento-Gyroscope,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/gyroscope.parquet
-2021-Diversity2-Trento-Headset Plug,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/headsetplug.parquet
-2021-Diversity2-Trento-Light,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Environment/light.parquet
-2021-Diversity2-Trento-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/location_poi.parquet
-2021-Diversity2-Trento-Location RD,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
-2021-Diversity2-Trento-Magnetic Field,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/magneticfield.parquet
-2021-Diversity2-Trento-Music,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/music.parquet
-2021-Diversity2-Trento-Notification,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
-2021-Diversity2-Trento-Pressure,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Environment/pressure.parquet
-2021-Diversity2-Trento-Proximity,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
-2021-Diversity2-Trento-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey.parquet
-2021-Diversity2-Trento-Ring Mode,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/ringmode.parquet
-2021-Diversity2-Trento-Screen,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/screen.parquet
-2021-Diversity2-Trento-Step Counter,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
-2021-Diversity2-Trento-Step Detector,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
-2021-Diversity2-Trento-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Diachronic-Interactions/contributionsconfirmations.parquet
-2021-Diversity2-Trento-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Diachronic-Interactions/timediaries.parquet
-2021-Diversity2-Trento-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Diachronic-Interactions/contributionsquestions.parquet
-2021-Diversity2-Trento-Touch,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/touch.parquet
-2021-Diversity2-Trento-User Presence,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/userpresence.parquet
-2021-Diversity2-Trento-Wifi,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
-2021-Diversity2-Trento-Wifi Networks,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
-2021-Diversity2-Ulaanbaatar-Accelerometer,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/accelerometer.parquet
-2021-Diversity2-Ulaanbaatar-Activities,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/activities.parquet
-2021-Diversity2-Ulaanbaatar-Airplane Mode,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/airplanemode.parquet
-2021-Diversity2-Ulaanbaatar-Application,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/application.parquet
-2021-Diversity2-Ulaanbaatar-Battery Charge,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterycharge.parquet
-2021-Diversity2-Ulaanbaatar-Battery Monitoring Log,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterymonitoringlog.parquet
-2021-Diversity2-Ulaanbaatar-Bluetooth,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/bluetooth.parquet
-2021-Diversity2-Ulaanbaatar-Cellular Network,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/cellularnetwork.parquet
-2021-Diversity2-Ulaanbaatar-Doze,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/doze.parquet
-2021-Diversity2-Ulaanbaatar-Gyroscope,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/gyroscope.parquet
-2021-Diversity2-Ulaanbaatar-Headset Plug,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/headsetplug.parquet
-2021-Diversity2-Ulaanbaatar-Light,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/light.parquet
-2021-Diversity2-Ulaanbaatar-Location POI,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_poi.parquet
-2021-Diversity2-Ulaanbaatar-Location RD,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_rd.parquet
-2021-Diversity2-Ulaanbaatar-Magnetic Field,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/magneticfield.parquet
-2021-Diversity2-Ulaanbaatar-Music,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/music.parquet
-2021-Diversity2-Ulaanbaatar-Notification,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/notification.parquet
-2021-Diversity2-Ulaanbaatar-Pressure,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/pressure.parquet
-2021-Diversity2-Ulaanbaatar-Proximity,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/proximity.parquet
-2021-Diversity2-Ulaanbaatar-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey.parquet
-2021-Diversity2-Ulaanbaatar-Ring Mode,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/ringmode.parquet
-2021-Diversity2-Ulaanbaatar-Screen,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/screen.parquet
-2021-Diversity2-Ulaanbaatar-Step Counter,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepcounter.parquet
-2021-Diversity2-Ulaanbaatar-Step Detector,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepdetector.parquet
-2021-Diversity2-Ulaanbaatar-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/contributionsconfirmations.parquet
-2021-Diversity2-Ulaanbaatar-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/contributionsquestions.parquet
-2021-Diversity2-Ulaanbaatar-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/timediaries.parquet
-2021-Diversity2-Ulaanbaatar-Touch,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/touch.parquet
-2021-Diversity2-Ulaanbaatar-User Presence,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/userpresence.parquet
-2021-Diversity2-Ulaanbaatar-Wifi,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifi.parquet
-2021-Diversity2-Ulaanbaatar-Wifi Networks,Unknown,/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifinetworks.parquet
-2022-ChatApplication2-Asunción-Chat,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/chat.parquet
-2022-ChatApplication2-Asunción-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey.parquet
-2022-ChatApplication2-Copenhagen-Chat,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Copenhagen_DK/Diachronic-Interactions/chat.parquet
-2022-ChatApplication2-Copenhagen-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey.parquet
-2022-ChatApplication2-London-Chat,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_London_UK/Diachronic-Interactions/chat.parquet
-2022-ChatApplication2-London-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_London_UK/Synchronic-Interactions/survey.parquet
-2022-ChatApplication2-Trento-Activities,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Motion/activitiespertime.parquet
-2022-ChatApplication2-Trento-Application,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
-2022-ChatApplication2-Trento-Bluetooth,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
-2022-ChatApplication2-Trento-Chat,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Diachronic-Interactions/chat.parquet
-2022-ChatApplication2-Trento-Location RD,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Position/location.parquet
-2022-ChatApplication2-Trento-Notification,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
-2022-ChatApplication2-Trento-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey.parquet
-2022-ChatApplication2-Trento-Step Counter,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
-2022-ChatApplication2-Trento-Step Detector,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
-2022-ChatApplication2-Ulaanbaatar-Chat,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/chat.parquet
-2022-ChatApplication2-Ulaanbaatar-Questionnaire,Unknown,/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey.parquet
-2022-OpenCalls-Hanoi-Accelerometer,006.AAAJ.AAJ.AY,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/accelerometer.parquet
-2022-OpenCalls-Hanoi-Activities,006.AAAJ.AAJ.CF,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/activitiespertime.parquet
-2022-OpenCalls-Hanoi-Airplane Mode,006.AAAJ.AAJ.BS,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/airplanemode.parquet
-2022-OpenCalls-Hanoi-Application,006.AAAJ.AAJ.AG,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/application.parquet
-2022-OpenCalls-Hanoi-Battery Charge,006.AAAJ.AAJ.BT,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/batterycharge.parquet
-2022-OpenCalls-Hanoi-Battery Monitoring Log,006.AAAJ.AAJ.BU,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/batterymonitoringlog.parquet
-2022-OpenCalls-Hanoi-Bluetooth,006.AAAJ.AAJ.CE,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/bluetooth.parquet
-2022-OpenCalls-Hanoi-Cellular Network,006.AAAJ.AAJ.AM,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/cellularnetwork.parquet
-2022-OpenCalls-Hanoi-Doze,006.AAAJ.AAJ.BV,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/doze.parquet
-2022-OpenCalls-Hanoi-Gyroscope,006.AAAJ.AAJ.BB,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/gyroscope.parquet
-2022-OpenCalls-Hanoi-Headset Plug,006.AAAJ.AAJ.AH,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/headsetplug.parquet
-2022-OpenCalls-Hanoi-Light,006.AAAJ.AAJ.AR,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Environment/light.parquet
-2022-OpenCalls-Hanoi-Location RD,006.AAAJ.AAJ.CD,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Position/location.parquet
-2022-OpenCalls-Hanoi-Magnetic Field,006.AAAJ.AAJ.BP,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Position/magneticfield.parquet
-2022-OpenCalls-Hanoi-Music,006.AAAJ.AAJ.AI,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/music.parquet
-2022-OpenCalls-Hanoi-Notification,006.AAAJ.AAJ.AJ,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/notification.parquet
-2022-OpenCalls-Hanoi-Pressure,006.AAAJ.AAJ.AS,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Environment/pressure.parquet
-2022-OpenCalls-Hanoi-Proximity,006.AAAJ.AAJ.BR,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Position/proximity.parquet
-2022-OpenCalls-Hanoi-Ring Mode,006.AAAJ.AAJ.BW,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/ringmode.parquet
-2022-OpenCalls-Hanoi-Screen,006.AAAJ.AAJ.BX,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/screen.parquet
-2022-OpenCalls-Hanoi-Step Counter,006.AAAJ.AAJ.BH,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/stepcounter.parquet
-2022-OpenCalls-Hanoi-Step Detector,006.AAAJ.AAJ.BI,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/stepdetector.parquet
-2022-OpenCalls-Hanoi-Time Diaries,006.AAAJ.AAJ.CG,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Diachronic-Interactions/contributionsanswers.parquet
-2022-OpenCalls-Hanoi-Time Diaries,006.AAAJ.AAJ.CG,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Diachronic-Interactions/contributionsquestions.parquet
-2022-OpenCalls-Hanoi-Touch,006.AAAJ.AAJ.BY,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/touch.parquet
-2022-OpenCalls-Hanoi-User Presence,006.AAAJ.AAJ.BZ,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/userpresence.parquet
-2022-OpenCalls-Hanoi-Wifi,006.AAAJ.AAJ.AN,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/wifi.parquet
-2022-OpenCalls-Hanoi-Wifi Networks,006.AAAJ.AAJ.AO,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/wifinetworks.parquet
-2022-OpenCalls-Thessaloniki-Accelerometer,006.AAAI.AAK.AY,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/accelerometer.parquet
-2022-OpenCalls-Thessaloniki-Activities,006.AAAI.AAK.CF,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/activitiespertime.parquet
-2022-OpenCalls-Thessaloniki-Airplane Mode,006.AAAI.AAK.BS,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/airplanemode.parquet
-2022-OpenCalls-Thessaloniki-Application,006.AAAI.AAK.AG,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/application.parquet
-2022-OpenCalls-Thessaloniki-Battery Charge,006.AAAI.AAK.BT,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/batterycharge.parquet
-2022-OpenCalls-Thessaloniki-Battery Monitoring Log,006.AAAI.AAK.BU,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/batterymonitoringlog.parquet
-2022-OpenCalls-Thessaloniki-Bluetooth,006.AAAI.AAK.CE,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/bluetooth.parquet
-2022-OpenCalls-Thessaloniki-Cellular Network,006.AAAI.AAK.AM,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/cellularnetwork.parquet
-2022-OpenCalls-Thessaloniki-Doze,006.AAAI.AAK.BV,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/doze.parquet
-2022-OpenCalls-Thessaloniki-Gyroscope,006.AAAI.AAK.BB,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/gyroscope.parquet
-2022-OpenCalls-Thessaloniki-Headset Plug,006.AAAI.AAK.AH,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/headsetplug.parquet
-2022-OpenCalls-Thessaloniki-Light,006.AAAI.AAK.AR,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Environment/light.parquet
-2022-OpenCalls-Thessaloniki-Location RD,006.AAAI.AAK.CD,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Position/location.parquet
-2022-OpenCalls-Thessaloniki-Magnetic Field,006.AAAI.AAK.BP,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Position/magneticfield.parquet
-2022-OpenCalls-Thessaloniki-Music,006.AAAI.AAK.AI,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/music.parquet
-2022-OpenCalls-Thessaloniki-Notification,006.AAAI.AAK.AJ,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/notification.parquet
-2022-OpenCalls-Thessaloniki-Pressure,006.AAAI.AAK.AS,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Environment/pressure.parquet
-2022-OpenCalls-Thessaloniki-Proximity,006.AAAI.AAK.BR,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Position/proximity.parquet
-2022-OpenCalls-Thessaloniki-Ring Mode,006.AAAI.AAK.BW,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/ringmode.parquet
-2022-OpenCalls-Thessaloniki-Screen,006.AAAI.AAK.BX,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/screen.parquet
-2022-OpenCalls-Thessaloniki-Step Counter,006.AAAI.AAK.BH,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/stepcounter.parquet
-2022-OpenCalls-Thessaloniki-Step Detector,006.AAAI.AAK.BI,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/stepdetector.parquet
-2022-OpenCalls-Thessaloniki-Time Diaries,006.AAAI.AAK.CG,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Diachronic-Interactions/timediariesanswers.parquet
-2022-OpenCalls-Thessaloniki-Time Diaries,006.AAAI.AAK.CG,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Diachronic-Interactions/timediariesquestions.parquet
-2022-OpenCalls-Thessaloniki-Touch,006.AAAI.AAK.BY,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/touch.parquet
-2022-OpenCalls-Thessaloniki-User Presence,006.AAAI.AAK.BZ,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/userpresence.parquet
-2022-OpenCalls-Thessaloniki-Wifi,006.AAAI.AAK.AN,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/wifi.parquet
-2022-OpenCalls-Thessaloniki-Wifi Networks,006.AAAI.AAK.AO,/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/wifinetworks.parquet
-2023-Skel-Trento-Accelerometer,008.AAAQ.AAA.AY,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
-2023-Skel-Trento-Battery Charge,008.AAAQ.AAA.BT,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Device-Usage/batterycharge.parquet
-2023-Skel-Trento-Bluetooth,008.AAAQ.AAA.CE,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
-2023-Skel-Trento-Location RD,008.AAAQ.AAA.CD,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Position/location.parquet
-2023-Skel-Trento-Orientation,008.AAAQ.AAA.BQ,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Position/orientation.parquet
-2023-Skel-Trento-Proximity,008.AAAQ.AAA.BR,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
-2023-Skel-Trento-Step Detector,008.AAAQ.AAA.BI,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
-2023-Skel-Trento-Wifi,008.AAAQ.AAA.AN,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
-2023-Skel-Trento-Wifi Networks,008.AAAQ.AAA.AO,/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
-2024-Makerere-Kampala-Accelerometer,007.AAAN.AAN.AY,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/accelerometer.parquet
-2024-Makerere-Kampala-Accelerometer Uncalibrated,007.AAAN.AAN.AZ,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/accelerometeruncalibrated.parquet
-2024-Makerere-Kampala-Activities,007.AAAN.AAN.CF,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/activities.parquet
-2024-Makerere-Kampala-Airplane Mode,007.AAAN.AAN.BS,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/airplanemode.parquet
-2024-Makerere-Kampala-Application,007.AAAN.AAN.AG,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/App-Usage/applications.parquet
-2024-Makerere-Kampala-Battery Charge,007.AAAN.AAN.BT,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/batterycharge.parquet
-2024-Makerere-Kampala-Battery Monitoring Log,007.AAAN.AAN.BU,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/batterylevel.parquet
-2024-Makerere-Kampala-Bluetooth,007.AAAN.AAN.CE,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/bluetooth.parquet
-2024-Makerere-Kampala-Cellular Network,007.AAAN.AAN.AM,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/cellularnetwork.parquet
-2024-Makerere-Kampala-Doze,007.AAAN.AAN.BV,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/doze.parquet
-2024-Makerere-Kampala-Geomagnetic Rotation Vector,007.AAAN.AAN.BK,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Inertial/geomagneticrotationvector.parquet
-2024-Makerere-Kampala-Gravity,007.AAAN.AAN.BA,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/gravity.parquet
-2024-Makerere-Kampala-Gyroscope,007.AAAN.AAN.BB,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/gyroscope.parquet
-2024-Makerere-Kampala-Gyroscope Uncalibrated,007.AAAN.AAN.BC,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/gyroscopeuncalibrated.parquet
-2024-Makerere-Kampala-Headset Plug,007.AAAN.AAN.AH,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/headsetplug.parquet
-2024-Makerere-Kampala-Light,007.AAAN.AAN.AR,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Environment/light.parquet
-2024-Makerere-Kampala-Location RD,007.AAAN.AAN.CD,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/location.parquet
-2024-Makerere-Kampala-Magnetic Field,007.AAAN.AAN.BP,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/magneticfield.parquet
-2024-Makerere-Kampala-Magnetic Field Uncalibrated,007.AAAN.AAN.BL,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/magneticfielduncalibrated.parquet
-2024-Makerere-Kampala-Music,007.AAAN.AAN.AI,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/App-Usage/music.parquet
-2024-Makerere-Kampala-Notification,007.AAAN.AAN.AJ,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/App-Usage/notification.parquet
-2024-Makerere-Kampala-Orientation,007.AAAN.AAN.BQ,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/orientation.parquet
-2024-Makerere-Kampala-Pressure,007.AAAN.AAN.AS,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Environment/pressure.parquet
-2024-Makerere-Kampala-Proximity,007.AAAN.AAN.BR,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/proximity.parquet
-2024-Makerere-Kampala-Questionnaire,007.AAAN.AAN.AA,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Synchronic-Interactions/survey.parquet
-2024-Makerere-Kampala-Ring Mode,007.AAAN.AAN.BW,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/ringmode.parquet
-2024-Makerere-Kampala-Rotation Vector,007.AAAN.AAN.BG,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/rotationvector.parquet
-2024-Makerere-Kampala-Screen,007.AAAN.AAN.BX,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/screen.parquet
-2024-Makerere-Kampala-Step Counter,007.AAAN.AAN.BH,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/stepcounter.parquet
-2024-Makerere-Kampala-Step Detector,007.AAAN.AAN.BI,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/stepdetector.parquet
-2024-Makerere-Kampala-Time Diaries,007.AAAN.AAN.CG,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Diachronic-Interactions/timediary.parquet
-2024-Makerere-Kampala-Touch,007.AAAN.AAN.BY,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/touch.parquet
-2024-Makerere-Kampala-Wifi,007.AAAN.AAN.AN,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/wifi.parquet
-2024-Makerere-Kampala-Wifi Networks,007.AAAN.AAN.AO,/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/wifinetworks.parquet
-2024-SmartUnitn2OSM-Trento-Time Diaries,007.AAAP.AAA.CG,/datascientia_repository/CREP/Collection/2024.05.24-2024.08.24_SmartUnitn2OSM/Location/Site_Trento_IT/Diachronic-Interactions/timediaries_processed.parquet
-2024-Test_Opera-Trento-Activities,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Motion/activities.parquet
-2024-Test_Opera-Trento-Airplane Mode,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/airplanemode.parquet
-2024-Test_Opera-Trento-Application,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/App-Usage/applications.parquet
-2024-Test_Opera-Trento-Battery Charge,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/batterycharge.parquet
-2024-Test_Opera-Trento-Battery Monitoring Log,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/batterylevel.parquet
-2024-Test_Opera-Trento-Bluetooth,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
-2024-Test_Opera-Trento-Cellular Network,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
-2024-Test_Opera-Trento-Doze,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/doze.parquet
-2024-Test_Opera-Trento-Headset Plug,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/headsetplug.parquet
-2024-Test_Opera-Trento-Location RD,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Position/location.parquet
-2024-Test_Opera-Trento-Music,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/App-Usage/music.parquet
-2024-Test_Opera-Trento-Notification,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/App-Usage/notification.parquet
-2024-Test_Opera-Trento-Ring Mode,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/ringmode.parquet
-2024-Test_Opera-Trento-Screen,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/screen.parquet
-2024-Test_Opera-Trento-Step Counter,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
-2024-Test_Opera-Trento-Step Detector,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
-2024-Test_Opera-Trento-Time Diaries,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Diachronic-Interactions/timediary.parquet
-2024-Test_Opera-Trento-Touch,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/touch.parquet
-2024-Test_Opera-Trento-Wifi,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
-2024-Test_Opera-Trento-Wifi Networks,Unknown,/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
+dataset_dirs
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Diachronic-Interactions/timediariesanswers.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/ambienttemperature.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Environment/relativehumidity.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/gravity.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/linearacceleration.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Motion/rotationvector.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Position/orientation.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2/v3/Location/Site_Trento_IT/Synchronic-Interactions/questionnaire.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Diachronic-Interactions/timediariesanswers.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/applicationevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/headsetplugevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/musicevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/App-usage/notificationevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Connectivity/wifievent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Connectivity/wifinetworksevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/airplanemodeevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/batterychargeevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/dozeevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/ringmodeevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/screenevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Device-usage/touchevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/ambienttemperatureevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/lightevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/pressureevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Environment/relativehumidityevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/accelerometerevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/gravityevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/gyroscopeevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/linearaccelerationevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Motion/rotationvectorevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Position/locationeventpertime_rd.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Position/orientationevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Sensors/Position/proximityevent.parquet
+/datascientia_repository/CREP/Collection/2018.04.14-2018.06.06_SmartUnitn2_KGE_2024/Synchronic-Interactions/questionnaire.parquet
+/datascientia_repository/CREP/Collection/2020.07.09-2020.07.09_QROWD/Location/Site_Trento_IT/Bundled/big_poi/2019-Qrowd2-poi/profile.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Amrita_IN/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Jilin_CN/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_London_UK/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_San-Luis-Potosi_MX/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey1.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey2.parquet
+/datascientia_repository/CREP/Collection/2020.09.28-2021.08.15_Diversity1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey3.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_London_UK/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.03.12-2021.06.17_ChatApplication1/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/contributionsconfirmations.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/contributionsquestions.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Diachronic-Interactions/contributionsconfirmations.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Diachronic-Interactions/contributionsquestions.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/contributionsconfirmations.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/contributionsquestions.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/timediaries.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_poi.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/location_rd.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2021.10.20-2021.11.21_Diversity2/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Diachronic-Interactions/contributionsanswers.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Diachronic-Interactions/contributionsquestions.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Position/location.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-FPT/v3/Location/Site_Hanoi_VN/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Diachronic-Interactions/timediariesanswers.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Diachronic-Interactions/timediariesquestions.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/music.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/batterymonitoringlog.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/doze.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/screen.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/touch.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Device-usage/userpresence.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Position/location.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2022.06.07-2022.07.05_OC-UTH/v3/Location/Site_Thessaloniki_GR/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Asuncion_PY/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Asuncion_PY/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Copenhagen_DK/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Copenhagen_DK/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_London_UK/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_London_UK/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/App-usage/application.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/App-usage/notification.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Motion/activitiespertime.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Sensors/Position/location.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Trento_IT/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Ulan-Bator_MN/Diachronic-Interactions/chat.parquet
+/datascientia_repository/CREP/Collection/2022.09.18-2022.09.22_ChatApplication2/v3/Location/Site_Ulan-Bator_MN/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Device-Usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Position/location.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Position/orientation.parquet
+/datascientia_repository/CREP/Collection/2023.05.12-2023.06.12_Skel/Location/Site_Trento_IT/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Diachronic-Interactions/timediary.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/App-Usage/applications.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/App-Usage/music.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/App-Usage/notification.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/batterylevel.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/doze.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/screen.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Device-Usage/touch.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Environment/light.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Environment/pressure.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Inertial/geomagneticrotationvector.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/accelerometer.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/accelerometeruncalibrated.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/gravity.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/gyroscope.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/gyroscopeuncalibrated.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/rotationvector.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/location.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/magneticfield.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/magneticfielduncalibrated.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/orientation.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Sensors/Position/proximity.parquet
+/datascientia_repository/CREP/Collection/2024.03.18-2024.05.13_Mak/Location/Site_Kampala_UG/Synchronic-Interactions/survey.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Diachronic-Interactions/timediary.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/App-Usage/applications.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/App-Usage/music.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/App-Usage/notification.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/bluetooth.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/cellularnetwork.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/wifi.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Connectivity/wifinetworks.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/airplanemode.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/batterycharge.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/batterylevel.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/doze.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/headsetplug.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/ringmode.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/screen.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Device-Usage/touch.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Motion/activities.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Motion/stepcounter.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Motion/stepdetector.parquet
+/datascientia_repository/CREP/Collection/2024.05.10-2024.06.01_Test_Opera/Location/Site_Trento_IT/Sensors/Position/location.parquet
+/datascientia_repository/CREP/Collection/2024.05.24-2024.08.24_SmartUnitn2OSM/Location/Site_Trento_IT/Diachronic-Interactions/timediaries_processed.parquet

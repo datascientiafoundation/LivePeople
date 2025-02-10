@@ -253,19 +253,32 @@ def create_dataset_md(df, all_df):
 
             md_content = md_content + "resources:\n"
 
-            if str(project_row['ds:prjDocumentationName']) != "nan":
-                md_content = md_content + "  - name: " + str(project_row['ds:prjDocumentationName']) + "\n"
-                md_content = md_content + "    url: " + str(project_row['ds:prjDocumentationURL']) + "\n"
-                md_content = md_content + "    format: " + str(project_row['ds:prjDocumentationFormat']) + "\n"
-
-            if str(project_row['ds:prjAdditionalMaterialName']) != "nan":
-                md_content = md_content + "  - name: " + str(project_row['ds:prjAdditionalMaterialName']) + "\n"
-                md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialUrl']) + "\n"
-                md_content = md_content + "    format: " + str(project_row['ds:prjAdditionalMaterialFormat']) + "\n"
-            if str(row['ds:DatCodebookName']) != "nan":
-                md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
-                md_content = md_content + "    url: " + str(row['ds:DatCodebookURL']) + "\n"
-                md_content = md_content + "    format: " + str(row['ds:DatCodebookFormat']) + "\n"
+            if str(project_row['ds:prjCollectionFacet']) == 'DiversityOne':
+                if str(project_row['ds:prjAdditionalMaterialName']) != "nan":
+                    md_content = md_content + "  - name: " + str(project_row['ds:prjAdditionalMaterialName']) + "\n"
+                    md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    format: " + str(project_row['ds:prjAdditionalMaterialFormat']) + "\n"
+                if str(project_row['ds:prjDocumentationName']) != "nan":
+                    md_content = md_content + "  - name: " + str(project_row['ds:prjDocumentationName']) + "\n"
+                    md_content = md_content + "    url: " + str(project_row['ds:prjDocumentationURL']) + "\n"
+                    md_content = md_content + "    format: " + str(project_row['ds:prjDocumentationFormat']) + "\n"
+                if str(row['ds:DatCodebookName']) != "nan":
+                    md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
+                    md_content = md_content + "    url: " + str(row['ds:DatCodebookURL']) + "\n"
+                    md_content = md_content + "    format: " + str(row['ds:DatCodebookFormat']) + "\n"
+            else:
+                if str(project_row['ds:prjDocumentationName']) != "nan":
+                    md_content = md_content + "  - name: " + str(project_row['ds:prjDocumentationName']) + "\n"
+                    md_content = md_content + "    url: " + str(project_row['ds:prjDocumentationURL']) + "\n"
+                    md_content = md_content + "    format: " + str(project_row['ds:prjDocumentationFormat']) + "\n"
+                if str(project_row['ds:prjAdditionalMaterialName']) != "nan":
+                    md_content = md_content + "  - name: " + str(project_row['ds:prjAdditionalMaterialName']) + "\n"
+                    md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    format: " + str(project_row['ds:prjAdditionalMaterialFormat']) + "\n"
+                if str(row['ds:DatCodebookName']) != "nan":
+                    md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
+                    md_content = md_content + "    url: " + str(row['ds:DatCodebookURL']) + "\n"
+                    md_content = md_content + "    format: " + str(row['ds:DatCodebookFormat']) + "\n"
 
             md_content = md_content + "download request:\n"
             if str(row['ds:DatDownloadRequestName']) != "nan":

@@ -21,6 +21,9 @@ def get_child_dirs(client, target_directory):
     parquet_dirs = [dir for dir in all_dirs if
                     sum(1 for part in dir.split('/') if '.parquet' in part) == 1 and dir.endswith('parquet')]
 
+    # csv_dirs = [dir for dir in all_dirs if
+    #                 sum(1 for part in dir.split('/') if '.csv' in part) == 1 and dir.endswith('csv')]
+
     return parquet_dirs
 
 
@@ -81,6 +84,24 @@ def map_directory_to_dataset(dataset_dirs, dataset_mapping):
     for dir_path in dataset_dirs:
         name = extract_name_from_path(dir_path)
         identifier = dataset_mapping.get(name, 'Unknown')
+
+        ## MANUALS
+        # for the special case where 'Questionnaire' is 'Questionnaire Exit Survey'
+        if identifier == 'Unknown' and name.split('-')[-1] == 'Questionnaire':
+            exit_survey_name = '-'.join(name.split('-')[:-1]) + '-' + 'Questionnaire Exit Survey'
+            identifier = dataset_mapping.get(exit_survey_name, 'Unknown')
+            name = name if identifier == 'Unknown' else exit_survey_name
+
+        if identifier == 'Unknown' and name.split('-')[1] == 'ChatApplication2':
+            if name.split('-')[-1] == 'Questionnaire':
+                exit_survey_name = '2021-' + '-'.join(name.split('-')[1:-1]) + '-Questionnaire Exit Survey'
+                identifier = dataset_mapping.get(temp_name, 'Unknown')
+                name = name if identifier == 'Unknown' else exit_survey_name
+            else:
+                temp_name = '2021'+ '-' + '-'.join(name.split('-')[1:])
+                identifier = dataset_mapping.get(temp_name, 'Unknown')
+                name = name if identifier == 'Unknown' else temp_name
+
         mapped_data.append({ 'dataset_name': name, 'identifier': identifier, 'directory': dir_path})
 
         # Track names to check which ones exist in dataset_dirs
@@ -150,6 +171,7 @@ def extract_name_from_path(path):
         'Accelerometer': ['accelerometer', 'accelerometerevent'],
         'Accelerometer Uncalibrated': ['accelerometeruncalibrated'],
         'Airplane Mode': ['airplanemode', 'airplanemodeevent'],
+        'Ambient Temperature': ['ambienttemperature']
         'Application': ['application', 'applicationevent', 'applications'],
         'Activities': ['activities', 'activitiespertime'],
         'Battery Charge': ['batterycharge', 'batterychargeevent'],
@@ -174,7 +196,12 @@ def extract_name_from_path(path):
         'Orientation': ['orientation', 'orientationevent'],
         'Pressure': ['pressure', 'pressureevent'],
         'Proximity': ['proximity', 'proximityevent'],
-        'Questionnaire': ['questionnaire', 'survey', 'survey1', 'survey2', 'survey3'],
+        'Questionnaire': ['questionnaire', 'survey'],
+        'Questionnaire Diversity A' : ['survey1'],
+        'Questionnaire Diversity B' : ['survey2'],
+        'Questionnaire Diversity C' : ['survey3'],
+
+
         'Ring Mode': ['ringmode', 'ringmodeevent'],
         'Relative Humidity': ['relativehumidity', 'relativehumidityevent'],
         'Rotation Vector': ['rotationvector', 'rotationvectorevent'],
@@ -210,6 +237,7 @@ def extract_name_from_path(path):
 
 def main(target_directory, output_dir, hostname, username, private_key_path, excel_path):
     output_file = os.path.join(output_dir, "dataset_dirs.txt")
+    output_mapping_file = os.path.join(output_dir, "dataset_dir_mapping.txt")
     dataset_mapping = load_dataset_mapping(excel_path)
 
     # Create SSH client
@@ -219,15 +247,18 @@ def main(target_directory, output_dir, hostname, username, private_key_path, exc
 
     try:
         # Load the private key and connect using SSH key
-        # private_key = paramiko.RSAKey.from_private_key_file(private_key_path)
-        # client.connect(hostname, username=username, pkey=private_key)
-        #
-        # print("✅ SSH connection successful!")
-        #
-        # # Get all child directories of the given path
-        # parquet_dirs = get_child_dirs(client, target_directory)
-        # active_collections = filter_latest_versions(client, target_directory)
-        # active_dirs = filter(parquet_dirs, active_collections)
+        private_key = paramiko.RSAKey.from_private_key_file(private_key_path)
+        client.connect(hostname, username=username, pkey=private_key)
+
+        print("✅ SSH connection successful!")
+
+        # Get all child directories of the given path
+        parquet_dirs = get_child_dirs(client, target_directory)
+        active_collections = filter_latest_versions(client, target_directory)
+        active_dirs = filter(parquet_dirs, active_collections)
+
+        active_dirs = pd.DataFrame(active_dirs, columns=['dataset_dirs'])
+        active_dirs.to_csv(output_file, index=False)
 
         active_dirs = pd.read_csv(
             '/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/dataset_dirs.txt')
@@ -235,8 +266,9 @@ def main(target_directory, output_dir, hostname, username, private_key_path, exc
         active_dirs = active_dirs['dataset_dirs'].tolist()
 
         df = map_directory_to_dataset(active_dirs, dataset_mapping)
+
         df = df.sort_values(by=['dataset_name'])
-        df.to_csv(output_file, index=False)
+        df.to_csv(output_mapping_file, index=False)
 
 
     finally:
