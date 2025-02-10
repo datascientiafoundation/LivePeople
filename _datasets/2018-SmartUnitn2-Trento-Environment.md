@@ -71,7 +71,7 @@ ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 002.AAAB.AAA.AR-AS-AT
+ds:DatIdentifier: 002.AAAB.AAA.None-AR-AS-AT
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html
@@ -83,5 +83,5 @@ location_facet: Italy
 collection_name: SmartUnitn2
 data_type_facet: Environment
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Light" target="_blank">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Pressure" target="_blank">Pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Relative%20Humidity" target="_blank">Relative humidity</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Ambient%20Temperature" target="_blank">Ambient temperature</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Light" target="_blank">Light</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Pressure" target="_blank">Pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Relative%20Humidity" target="_blank">Relative humidity</a>
 ---

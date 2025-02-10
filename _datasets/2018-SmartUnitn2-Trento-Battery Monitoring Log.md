@@ -37,15 +37,15 @@ resources:
   - name: 2018-SmartUnitn2-additional_material-questionnaire
     url: https://drive.google.com/file/d/1yY8RNaWO_eh4-UnXHkL2jpZld2739K3K/view?usp=share_link
     format: PDF
-  - name: 
-    url: 
-    format: 
+  - name: Codebook
+    url: https://drive.google.com/file/d/1WIcaWAjYeKEfW5_1oFoXNU0qaiwwfFC7/view?usp=sharing
+    format: PDF
 download request:
   - name: Download request
     url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
     format: PDF
-title: 2018-SmartUnitn2-Trento-Device-usage
-notes: SmartUnitn 2 (SU2) dataset collected personal data about the everyday life of 158 university students at University of Trento by i-Log application installed on their smartphones. The SU2 data contains (1) participants’ synchronic data about profile, e.g., demographics, routines, personality; (2) participants’ diachronic data over a period of four weeks, including data from 34 sensors, both hardware and software, associated to around 100+ thousand self-reported annotations from participants.
+title: 2018-SmartUnitn2-Trento-Battery Monitoring Log
+notes: Battery Monitoring Log note
 ds:DatVersion: 
 ds:DatPublicationTimestamp: "2023-04-07"
 ds:DatLicense: 
@@ -54,9 +54,9 @@ ds:DatKeyword:
 ds:DatPublisher: 
 ds:DatCreator: 
 ds:DatOwner: 
-ds:DatLanguage: English
+ds:DatLanguage: Not Applicable
 ds:DatLevel: 
-ds:DatSize: 123 MB
+ds:DatSize: 1 MB
 ds:DatDomain: Digital University
 ds:DatFileFormat: parquet
 ds:DatDetailedDescription: 
@@ -65,13 +65,16 @@ ds:DatConditionsOfAccess:
 ds:DatGenre: 
 ds:DatisAccessibleForFree: 
 ds:DatExpires: 
-ds:DatType: Sensors
+ds:DatSensorName: Battery Monitoring Log
+ds:DatType: Sensor
+ds:DatSensorType: 
+  - Device-usage
 ds:DatStartDate: "2018-05-11"
 ds:DatEndDate: "2018-06-06"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 002.AAAB.AAA.BS-BT-BU-BV-BW-BX-BY
+ds:DatIdentifier: 002.AAAB.AAA.BU
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html
@@ -82,6 +85,5 @@ duration_facet: "1 month"
 location_facet: Italy
 collection_name: SmartUnitn2
 data_type_facet: Device-usage
-category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Airplane%20Mode" target="_blank">Airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Battery%20Charge" target="_blank">Battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Battery%20Monitoring%20Log" target="_blank">Battery monitoring log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Doze" target="_blank">Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Ring%20Mode" target="_blank">Ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Screen" target="_blank">Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SmartUnitn2-Trento-Touch" target="_blank">Touch</a>
+category: Dataset
 ---
