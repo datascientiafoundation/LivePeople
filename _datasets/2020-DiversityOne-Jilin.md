@@ -24,7 +24,7 @@ ds:prjTypeOfMeasurements: Questionnaire, Intensive Longitudinal Survey
 ds:prjIRBApprovalDate: 2020-05-29
 ds:prjIRBApprovalOrganization: Jilin University
 ds:prjIRBApprovalNumber: 
-ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas, M., Zeni, M., ... & Gatica-Perez, D. (2021). A worldwide diversity pilot on daily routines and social practices (2020-2021)."
+ds:prjCiteAs: "Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakmal Meegahapola, Peter Kun, Shyam Diwakar, Chaitanya Nutakki, Marcelo Rodas Britez,Hao Xu, Donglei Song, Salvador Ruiz-Correa, Andrea-Rebeca Mendoza-Lara, George Gaskell, Sally Stares, Miriam Bidoglia, Amarsanaa Ganbold, Altangerel Chagnaa, Luca Cernuzzi, Alethia Hume, Ronald Chenu-Abente, Roy Alia Asiku, Ivan Kayongo, Daniel Gatica-Perez, Amalia De Götzen, Ivano Bison, and Fausto Giunchiglia. (2025). DiversityOne: A Multi-Country Smartphone Sensor Dataset for Everyday Life Behavior Modeling. Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies."
 ds:prjMaintenance: 
 latitude_map: 43.83
 longitude_map: 126.5
