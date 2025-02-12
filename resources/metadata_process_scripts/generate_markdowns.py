@@ -266,6 +266,13 @@ def create_dataset_md(df, all_df):
                     md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
                     md_content = md_content + "    url: " + str(row['ds:DatCodebookURL']) + "\n"
                     md_content = md_content + "    format: " + str(row['ds:DatCodebookFormat']) + "\n"
+
+                if str(row['ds:DatAdditionalMaterialName']) != "nan":
+                    md_content = md_content + "  - name: " + str(row['ds:DatAdditionalMaterialName']) + "\n"
+                    md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    format: " + str(row['ds:DatAdditionalMaterialFormat']) + "\n"
+
+
             else:
                 if str(project_row['ds:prjDocumentationName']) != "nan":
                     md_content = md_content + "  - name: " + str(project_row['ds:prjDocumentationName']) + "\n"
@@ -279,6 +286,11 @@ def create_dataset_md(df, all_df):
                     md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
                     md_content = md_content + "    url: " + str(row['ds:DatCodebookURL']) + "\n"
                     md_content = md_content + "    format: " + str(row['ds:DatCodebookFormat']) + "\n"
+
+                if str(row['ds:DatAdditionalMaterialName']) != "nan":
+                    md_content = md_content + "  - name: " + str(row['ds:DatAdditionalMaterialName']) + "\n"
+                    md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    format: " + str(row['ds:DatAdditionalMaterialFormat']) + "\n"
 
             md_content = md_content + "download request:\n"
             if str(row['ds:DatDownloadRequestName']) != "nan":
