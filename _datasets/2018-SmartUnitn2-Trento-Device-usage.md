@@ -40,6 +40,9 @@ resources:
   - name: 
     url: 
     format: 
+  - name: 
+    url: 
+    format: 
 download request:
   - name: Download request
     url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf

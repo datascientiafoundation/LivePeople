@@ -37,6 +37,9 @@ resources:
   - name: 
     url: 
     format: 
+  - name: 
+    url: 
+    format: 
 download request:
   - name: Download request
     url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
@@ -68,7 +71,7 @@ ds:DatEndDate: "2020-12-11"
 ds:DatFiveStars: 3
 ds:DatOrigin: 
 ds:DatCreativeWorkStatus: 
-ds:DatIdentifier: 004.AAAD.AAD.AA.1-AA.2-AA.3
+ds:DatIdentifier: 004.AAAD.AAD.AA-AA-AA
 ds:DatChangelogURL: 
 license: >-
   ./../../resources/2023LivePeopleLicense.html
@@ -80,5 +83,5 @@ location_facet: Paraguay
 collection_name: DiversityOne
 data_type_facet: Synchronic-Interactions
 category: Dataset Bundle
-component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Questionnaire%20Diversity%20A" target="_blank">Questionnaire diversity a</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Questionnaire%20Diversity%20B" target="_blank">Questionnaire diversity b</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Questionnaire%20Diversity%20C" target="_blank">Questionnaire diversity c</a>
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Questionnaire%20Part%201" target="_blank">Questionnaire part 1</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Questionnaire%20Part%202" target="_blank">Questionnaire part 2</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DiversityOne-Asunci%C3%B3n-Questionnaire%20Part%203" target="_blank">Questionnaire part 3</a>
 ---

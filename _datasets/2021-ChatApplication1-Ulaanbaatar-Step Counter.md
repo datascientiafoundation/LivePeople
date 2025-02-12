@@ -39,6 +39,9 @@ resources:
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/2021-Chatbot1/2021_CH1_stepcounterevent.html
     format: html
+  - name: 
+    url: 
+    format: 
 download request:
   - name: Download request
     url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf

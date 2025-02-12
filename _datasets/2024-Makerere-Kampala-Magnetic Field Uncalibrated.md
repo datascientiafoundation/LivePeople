@@ -39,6 +39,9 @@ resources:
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-magneticfielduncalibrated.html
     format: html
+  - name: 
+    url: 
+    format: 
 download request:
   - name: Download request
     url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
