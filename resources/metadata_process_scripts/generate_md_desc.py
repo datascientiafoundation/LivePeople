@@ -3,7 +3,7 @@ import re
 import os
 
 # Load the Excel file
-excel_file = "/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx"
+excel_file = "/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx"
 
 # Read both sheets
 projects_df = pd.read_excel(excel_file, sheet_name="LivePeople PROJECTS Metadata", usecols=["Field", "Description", "Visibility"])
@@ -85,7 +85,8 @@ for _, row in combined_df.iterrows():
 
 # Define the output path (root directory)
 output_dir = "/"  # Root folder path
-output_file = os.path.join(output_dir, "metadata.md")
+# output_file = os.path.join(output_dir, "metadata.md")
+output_file = '/Users/munkhdelger/Knowdive/LivePeople/metadata.md'
 
 # Save to the Markdown file in the root folder
 with open(output_file, "w", encoding="utf-8") as md_file:
