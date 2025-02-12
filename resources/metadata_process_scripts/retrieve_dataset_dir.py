@@ -192,10 +192,9 @@ def extract_name_from_path(path):
         'Pressure': ['pressure', 'pressureevent'],
         'Proximity': ['proximity', 'proximityevent'],
         'Questionnaire': ['questionnaire', 'survey'],
-        'Questionnaire Diversity A' : ['survey1'],
-        'Questionnaire Diversity B' : ['survey2'],
-        'Questionnaire Diversity C' : ['survey3'],
-
+        'Questionnaire Part 1' : ['survey1'],
+        'Questionnaire Part 2' : ['survey2'],
+        'Questionnaire Part 3' : ['survey3'],
 
         'Ring Mode': ['ringmode', 'ringmodeevent'],
         'Relative Humidity': ['relativehumidity', 'relativehumidityevent'],
@@ -232,7 +231,7 @@ def extract_name_from_path(path):
 
 def main(target_directory, output_dir, hostname, username, private_key_path, excel_path):
     output_file = os.path.join(output_dir, "dataset_dir.txt")
-    output_mapping_file = os.path.join(output_dir, "dataset_dir_mapping.txt")
+    output_mapping_file = os.path.join(output_dir, "dataset_dir_mapping.csv")
     dataset_mapping = load_dataset_mapping(excel_path)
 
     # Create SSH client
@@ -242,19 +241,19 @@ def main(target_directory, output_dir, hostname, username, private_key_path, exc
 
     try:
         # Load the private key and connect using SSH key
-        private_key = paramiko.RSAKey.from_private_key_file(private_key_path)
-        client.connect(hostname, username=username, pkey=private_key)
+        # private_key = paramiko.RSAKey.from_private_key_file(private_key_path)
+        # client.connect(hostname, username=username, pkey=private_key)
+        #
+        # print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ SSH connection successful!")
+        #
+        # # Get all child directories of the given path
+        # parquet_dirs = get_child_dirs(client, target_directory)
+        # active_collections = filter_latest_versions(client, target_directory)
+        # active_dirs = filter(parquet_dirs, active_collections)
+        # print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ Filtered active dir - successful! :" + str(len(active_dirs)))
 
-        print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ SSH connection successful!")
-
-        # Get all child directories of the given path
-        parquet_dirs = get_child_dirs(client, target_directory)
-        active_collections = filter_latest_versions(client, target_directory)
-        active_dirs = filter(parquet_dirs, active_collections)
-        print(time.strftime("%Y-%m-%d %H:%M:%S"), " ✅ Filtered active dir - successful! :" + str(len(active_dirs)))
-
-        active_dirs = pd.DataFrame(active_dirs, columns=['dataset_dirs'])
-        active_dirs.to_csv(output_file, index=False)
+        # active_dirs = pd.DataFrame(active_dirs, columns=['dataset_dirs'])
+        # active_dirs.to_csv(output_file, index=False)
 
         active_dirs = pd.read_csv(output_file)
         # active_dirs['k'] = active_dirs['dataset_dirs'].str.split('/').str[-1].str.split('.').str[0]
