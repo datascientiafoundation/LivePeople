@@ -289,6 +289,9 @@ def fix_title(df):
         'Contribution Answers': 'Time Diaries',
         'Contribution Questions': 'Time Diaries',
         'Batterycharge': 'Battery Charge',
+        'Questionnaire Diversity A': 'Questionnaire Part 1',
+        'Questionnaire Diversity B': 'Questionnaire Part 2',
+        'Questionnaire Diversity C': 'Questionnaire Part 3',
         # "r'\bLocation\b'": 'Location RD'
     }
 
@@ -353,7 +356,10 @@ def fix_dataset_name(df):
         'Synchronic Interactions': 'Synchronic-Interactions',
         'Questionnaire Exit Survey': 'Questionnaire',
         'Questionnaire-Exit-Survey': 'Questionnaire',
-        'Bluetooth Low Energy': 'Bluetooth'
+        'Bluetooth Low Energy': 'Bluetooth',
+        'Questionnaire Diversity A': 'Questionnaire Part 1',
+        'Questionnaire Diversity B': 'Questionnaire Part 2',
+        'Questionnaire Diversity C': 'Questionnaire Part 3',
     }
 
     for old_value, new_value in replacements.items():
@@ -814,6 +820,21 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
     data.loc[data['ds:DatCodebookName'].notna() & (data['ds:DatCodebookName'] != ''), 'ds:DatCodebookName'] = 'Codebook'
 
     data['ds:prjDocumentationName'] = data.apply(lambda row: 'Dataset technical report' if pd.notna(row['ds:prjDocumentationName']) and row['ds:prjDocumentationName'] != '' else row['ds:prjDocumentationName'], axis=1)
+
+    data.loc[data['ds:prjCollectionFacet'] == 'DiversityOne', 'ds:prjCiteAs'] = 'Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakmal Meegahapola, Peter Kun, Shyam Diwakar, Chaitanya Nutakki, Marcelo Rodas Britez,Hao Xu, Donglei Song, Salvador Ruiz-Correa, Andrea-Rebeca Mendoza-Lara, George Gaskell, Sally Stares, Miriam Bidoglia, Amarsanaa Ganbold, Altangerel Chagnaa, Luca Cernuzzi, Alethia Hume, Ronald Chenu-Abente, Roy Alia Asiku, Ivan Kayongo, Daniel Gatica-Perez, Amalia De Götzen, Ivano Bison, and Fausto Giunchiglia. (2025). DiversityOne: A Multi-Country Smartphone Sensor Dataset for Everyday Life Behavior Modeling. Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies.'
+
+
+    data.loc[data['ds:DatName'].str.endswith('Part 1', ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
+    data.loc[data['ds:DatName'].str.endswith('Part 1', ''), 'ds:DatAdditionalMaterialUrl'] = 'https://drive.google.com/file/d/1fXlb2vJfp_HOs4XP_3jaLYM7rTipGygO/view?usp=drive_link'
+    data.loc[data['ds:DatName'].str.endswith('Part 1', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
+
+    data.loc[data['ds:DatName'].str.endswith('Part 2', ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
+    data.loc[data['ds:DatName'].str.endswith('Part 2', ''), 'ds:DatAdditionalMaterialUrl'] = 'https://drive.google.com/file/d/16loX2mvErVw_fzrBAYLX3uIwc_3FrwrA/view?usp=drive_link'
+    data.loc[data['ds:DatName'].str.endswith('Part 2', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
+
+    data.loc[data['ds:DatName'].str.endswith('Part 3', ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
+    data.loc[data['ds:DatName'].str.endswith('Part 3', ''), 'ds:DatAdditionalMaterialUrl'] = 'https://drive.google.com/file/d/1i7-1KpYq-e7bkmqsACY_38sRtYwUpo1j/view?usp=sharing'
+    data.loc[data['ds:DatName'].str.endswith('Part 3', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
 
     # Save the extracted data to an Excel file
     save_to_excel(data, output_file)
