@@ -134,7 +134,7 @@ def create_project_md(df, all_df):
             md_content = md_content + "ds:prjMaintenance: " + str(row['ds:prjMaintenance']) + "\n"
             md_content = md_content + "latitude_map: " + str(row['ds:prjLatitude']) + "\n"
             md_content = md_content + "longitude_map: " + str(row['ds:prjLongitude']) + "\n"
-            md_content = md_content + "ds:prjThumbnailUrl: " + str(row['ds:prjThumbnailUrl']) + "\n"
+            md_content = md_content + "ds:prjThumbnailURL: " + str(row['ds:prjThumbnailURL']) + "\n"
             md_content = md_content + "ds:prjIdentifier: " + str(row['ds:prjIdentifier']) + "\n"
             md_content = md_content + "ds:prjDownloadRequestEmail: " + str(row['ds:prjDownloadRequestEmail']) + "\n"
 
@@ -147,7 +147,7 @@ def create_project_md(df, all_df):
 
             if str(row['ds:prjAdditionalMaterialName']) != "nan":
                 md_content = md_content + "  - name: " + str(row['ds:prjAdditionalMaterialName']) + "\n"
-                md_content = md_content + "    url: " + str(row['ds:prjAdditionalMaterialUrl']) + "\n"
+                md_content = md_content + "    url: " + str(row['ds:prjAdditionalMaterialURL']) + "\n"
                 md_content = md_content + "    format: " + str(row['ds:prjAdditionalMaterialFormat']) + "\n"
 
             # NOTE facet needs to have common field name due to filtering
@@ -247,7 +247,7 @@ def create_dataset_md(df, all_df):
             md_content = md_content + "ds:prjMaintenance: " + str(project_row['ds:prjMaintenance']) + "\n"
             md_content = md_content + "latitude_map: " + str(project_row['ds:prjLatitude']) + "\n"
             md_content = md_content + "longitude_map: " + str(project_row['ds:prjLongitude']) + "\n"
-            md_content = md_content + "ds:prjThumbnailUrl: " + str(project_row['ds:prjThumbnailUrl']) + "\n"
+            md_content = md_content + "ds:prjThumbnailURL: " + str(project_row['ds:prjThumbnailURL']) + "\n"
             md_content = md_content + "ds:prjIdentifier: " + str(project_row['ds:prjIdentifier']) + "\n"
             md_content = md_content + "ds:prjDownloadRequestEmail: " + str(project_row['ds:prjDownloadRequestEmail']) + "\n"
 
@@ -256,7 +256,7 @@ def create_dataset_md(df, all_df):
             if str(project_row['ds:prjCollectionFacet']) == 'DiversityOne':
                 if str(project_row['ds:prjAdditionalMaterialName']) != "nan":
                     md_content = md_content + "  - name: " + str(project_row['ds:prjAdditionalMaterialName']) + "\n"
-                    md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialURL']) + "\n"
                     md_content = md_content + "    format: " + str(project_row['ds:prjAdditionalMaterialFormat']) + "\n"
                 # if str(project_row['ds:prjDocumentationName']) != "nan":
                 #     md_content = md_content + "  - name: " + str(project_row['ds:prjDocumentationName']) + "\n"
@@ -269,7 +269,7 @@ def create_dataset_md(df, all_df):
 
                 if str(row['ds:DatAdditionalMaterialName']) != "nan":
                     md_content = md_content + "  - name: " + str(row['ds:DatAdditionalMaterialName']) + "\n"
-                    md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialURL']) + "\n"
                     md_content = md_content + "    format: " + str(row['ds:DatAdditionalMaterialFormat']) + "\n"
 
 
@@ -280,7 +280,7 @@ def create_dataset_md(df, all_df):
                     md_content = md_content + "    format: " + str(project_row['ds:prjDocumentationFormat']) + "\n"
                 if str(project_row['ds:prjAdditionalMaterialName']) != "nan":
                     md_content = md_content + "  - name: " + str(project_row['ds:prjAdditionalMaterialName']) + "\n"
-                    md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    url: " + str(project_row['ds:prjAdditionalMaterialURL']) + "\n"
                     md_content = md_content + "    format: " + str(project_row['ds:prjAdditionalMaterialFormat']) + "\n"
                 if str(row['ds:DatCodebookName']) != "nan":
                     md_content = md_content + "  - name: " + str(row['ds:DatCodebookName']) + "\n"
@@ -289,7 +289,7 @@ def create_dataset_md(df, all_df):
 
                 if str(row['ds:DatAdditionalMaterialName']) != "nan":
                     md_content = md_content + "  - name: " + str(row['ds:DatAdditionalMaterialName']) + "\n"
-                    md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialUrl']) + "\n"
+                    md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialURL']) + "\n"
                     md_content = md_content + "    format: " + str(row['ds:DatAdditionalMaterialFormat']) + "\n"
 
             md_content = md_content + "download request:\n"

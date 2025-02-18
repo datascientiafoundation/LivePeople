@@ -8,6 +8,7 @@ from numpy.f2py.crackfortran import expectbegin
 import pycountry
 import pycountry_convert as pc
 import numpy as np
+import urllib.request
 
 
 def validate_and_normalize_date(date_string):
@@ -135,20 +136,13 @@ def read_md_files_and_extract_data(md_files_pattern) -> pd.DataFrame:
     return pd.DataFrame(extracted_data)
 
 
-def save_to_excel(df, output_file):
-    df = df.sort_values('title')
-
-    df.drop(columns=['location_continent_facet', 'resources', 'other_format'], inplace=True)
-    # df.drop(columns=['dataset_type_link', 'sensor_type_link'], inplace=True)
-
-    category_groups = {category: group for category, group in df.groupby('category')}
-
+def save_to_excel(category_groups, output_file):
     with pd.ExcelWriter(output_file, engine='xlsxwriter') as writer:
         for category, group in category_groups.items():
             if category == 'Project':
-                group = group[[c for c in df.columns if 'ds:prj' in c]]
+                group = group[[c for c in group.columns if 'ds:prj' in c]]
             if category == 'Dataset' or category == 'Dataset Bundle':
-                group = group[[c for c in df.columns if 'ds:Dat' in c]]
+                group = group[[c for c in group.columns if 'ds:Dat' in c]]
             group.to_excel(writer, sheet_name=category, index=False)
 
     print(f"Data saved to {output_file}")
@@ -465,6 +459,7 @@ def fix_note(df):
 
     return df
 
+
 def get_identifier_dict(path):
     catalog_dict = pd.read_excel(path, sheet_name='WIP_identifier')
     catalog_dict['Collection name'] = catalog_dict['Collection name'].replace(
@@ -496,10 +491,9 @@ def get_identifier_dict(path):
 
 
 def fix_identifier(data):
-
     # identifier correction
-    identifier_dict = get_identifier_dict('/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx')
-
+    identifier_dict = get_identifier_dict(
+        '/Users/munkhdelger/Knowdive/LivePeople/resources/metadata_process_scripts/sources/2024-LivePeople_Metadata_Description-v2.xlsx')
 
     def check_identifier(row, identifier_dict):
 
@@ -535,6 +529,7 @@ def fix_identifier(data):
         row['identifier'] = new_identifier
 
         return row
+
     data = data.apply(check_identifier, identifier_dict=identifier_dict, axis=1)
 
     # Solve duplicated
@@ -563,8 +558,6 @@ def fix_identifier(data):
         lambda row: filtered_data.loc[filtered_data['title'] == row['title'], 'identifier'].values[0]
         if row['title'] in filtered_data['title'].values else row['identifier'], axis=1)
 
-
-
     # TODO one for dataset bundles
 
     def gen_bundle_identifier(row, dataset_df):
@@ -578,7 +571,8 @@ def fix_identifier(data):
             filtered = dataset_df[(dataset_df['title'].str.startswith(year_collection_city)) & (
                     dataset_df['dataset_type'] == bundle_name)]
         elif bundle_name == 'Daily annotations & Location RD':
-            filtered = dataset_df[dataset_df['title'].isin([f'{year_collection_city}-Location RD', f'{year_collection_city}-Time Diaries'])]
+            filtered = dataset_df[dataset_df['title'].isin(
+                [f'{year_collection_city}-Location RD', f'{year_collection_city}-Time Diaries'])]
 
         else:
             filtered = dataset_df[(dataset_df['title'].str.startswith(year_collection_city)) & (
@@ -611,8 +605,6 @@ def fix_identifier(data):
         return row
 
     data = data.apply(gen_project_identifier, args=(data[data['category'] == 'Dataset'],), axis=1)
-
-
 
     return data
 
@@ -768,6 +760,17 @@ def mapping_to_md_column_names(df):
     return df
 
 
+def is_valid_url(url, col):
+    if not url:  # Handle empty values (None, '', etc.)
+        return ''
+    try:
+        response = urllib.request.urlopen(url)
+        return url  # Keep the URL if it's valid
+    except Exception as e:
+        print(f"--- URL error - excluded from catalog: {getattr(e, 'code', 'NoCode')} | Column: {col} | URL: {url}")
+        return ''  # Return empty to indicate removal
+
+
 def main(md_files_pattern, project_file, metadata_description, output_file):
     # Extract data from the markdown files
     data = read_md_files_and_extract_data(md_files_pattern)
@@ -801,43 +804,114 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
     data['ds:prjIsVisible'] = data['ds:prjTitle'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
     data['ds:DatIsVisible'] = data['ds:DatName'].apply(lambda x: False if '2023-Skel-Trento' in x else True)
 
-    data['ds:prjWebpage'] = data.apply(lambda x: 'https://datascientia.disi.unitn.it/projects/su2/' if x['ds:prjTitle'] == '2018-SmartUnitn2-Trento' else x['ds:prjWebpage'] , axis =1 )
-    data['ds:prjWebpage'] = data.apply(lambda x: 'https://datascientia.disi.unitn.it/projects/diversityone/' if 'DiversityOne' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
-    data['ds:prjWebpage'] = data.apply(lambda x: '' if 'ChatApplication' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
-    data['ds:prjWebpage'] = data.apply(lambda x: '' if 'OpenCalls' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
-
+    data['ds:prjWebpage'] = data.apply(lambda x: 'https://datascientia.disi.unitn.it/projects/su2/' if x[
+                                                                                                           'ds:prjTitle'] == '2018-SmartUnitn2-Trento' else
+    x['ds:prjWebpage'], axis=1)
+    data['ds:prjWebpage'] = data.apply(
+        lambda x: 'https://datascientia.disi.unitn.it/projects/diversityone/' if 'DiversityOne' in x['ds:prjTitle'] else
+        x['ds:prjWebpage'], axis=1)
+    data['ds:prjWebpage'] = data.apply(lambda x: '' if 'ChatApplication' in x['ds:prjTitle'] else x['ds:prjWebpage'],
+                                       axis=1)
+    data['ds:prjWebpage'] = data.apply(lambda x: '' if 'OpenCalls' in x['ds:prjTitle'] else x['ds:prjWebpage'], axis=1)
 
     # skel dont have project url for trento
-    data['ds:prjWebpage'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in x['ds:prjTitle'] else x['ds:prjWebpage'] ,axis =1)
-    data['ds:prjURL'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in x['ds:prjTitle'] else x['ds:prjURL'] ,axis =1)
+    data['ds:prjWebpage'] = data.apply(lambda
+                                           x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in
+                                                                                                                                             x[
+                                                                                                                                                 'ds:prjTitle'] else
+    x['ds:prjWebpage'], axis=1)
+    data['ds:prjURL'] = data.apply(lambda
+                                       x: 'https://ds.datascientia.eu/community/public/projects/2f39ee2e-4012-4fa8-9794-a56bce243d3e' if 'Skel' in
+                                                                                                                                         x[
+                                                                                                                                             'ds:prjTitle'] else
+    x['ds:prjURL'], axis=1)
 
-    data['ds:prjURL'] = data.apply(lambda x: 'https://ds.datascientia.eu/community/public/projects/8b227ff7-803e-4f7b-8765-75ea2b7a8113' if 'SmartUnitn2OSM' in x['ds:prjTitle'] else x['ds:prjURL'] ,axis =1)
+    data['ds:prjURL'] = data.apply(lambda
+                                       x: 'https://ds.datascientia.eu/community/public/projects/8b227ff7-803e-4f7b-8765-75ea2b7a8113' if 'SmartUnitn2OSM' in
+                                                                                                                                         x[
+                                                                                                                                             'ds:prjTitle'] else
+    x['ds:prjURL'], axis=1)
 
-    data['ds:prjAdditionalMaterialName'] = data.apply(lambda row: 'Dataset paper and data collection methodology' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialName'], axis=1)
-    data['ds:prjAdditionalMaterialUrl'] = data.apply(lambda row: 'https://arxiv.org/abs/2502.03347' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialUrl'],  axis=1)
-    data['ds:prjAdditionalMaterialFormat'] = data.apply(lambda row: 'PDF' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialFormat'],  axis=1)
+    data['ds:prjAdditionalMaterialName'] = data.apply(
+        lambda row: 'Dataset paper and data collection methodology' if 'DiversityOne' in row[
+            'ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialName'], axis=1)
+    data['ds:prjAdditionalMaterialURL'] = data.apply(
+        lambda row: 'https://arxiv.org/abs/2502.03347' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row[
+            'ds:prjAdditionalMaterialURL'], axis=1)
+    data['ds:prjAdditionalMaterialFormat'] = data.apply(
+        lambda row: 'PDF' if 'DiversityOne' in row['ds:prjCollectionFacet'] else row['ds:prjAdditionalMaterialFormat'],
+        axis=1)
 
     data.loc[data['ds:DatCodebookName'].notna() & (data['ds:DatCodebookName'] != ''), 'ds:DatCodebookName'] = 'Codebook'
 
-    data['ds:prjDocumentationName'] = data.apply(lambda row: 'Dataset technical report' if pd.notna(row['ds:prjDocumentationName']) and row['ds:prjDocumentationName'] != '' else row['ds:prjDocumentationName'], axis=1)
+    data['ds:prjDocumentationName'] = data.apply(
+        lambda row: 'Dataset technical report' if pd.notna(row['ds:prjDocumentationName']) and row[
+            'ds:prjDocumentationName'] != '' else row['ds:prjDocumentationName'], axis=1)
 
-    data.loc[data['ds:prjCollectionFacet'] == 'DiversityOne', 'ds:prjCiteAs'] = 'Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakmal Meegahapola, Peter Kun, Shyam Diwakar, Chaitanya Nutakki, Marcelo Rodas Britez,Hao Xu, Donglei Song, Salvador Ruiz-Correa, Andrea-Rebeca Mendoza-Lara, George Gaskell, Sally Stares, Miriam Bidoglia, Amarsanaa Ganbold, Altangerel Chagnaa, Luca Cernuzzi, Alethia Hume, Ronald Chenu-Abente, Roy Alia Asiku, Ivan Kayongo, Daniel Gatica-Perez, Amalia De Götzen, Ivano Bison, and Fausto Giunchiglia. (2025). DiversityOne: A Multi-Country Smartphone Sensor Dataset for Everyday Life Behavior Modeling. Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies.'
+    data.loc[data[
+                 'ds:prjCollectionFacet'] == 'DiversityOne', 'ds:prjCiteAs'] = 'Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakmal Meegahapola, Peter Kun, Shyam Diwakar, Chaitanya Nutakki, Marcelo Rodas Britez,Hao Xu, Donglei Song, Salvador Ruiz-Correa, Andrea-Rebeca Mendoza-Lara, George Gaskell, Sally Stares, Miriam Bidoglia, Amarsanaa Ganbold, Altangerel Chagnaa, Luca Cernuzzi, Alethia Hume, Ronald Chenu-Abente, Roy Alia Asiku, Ivan Kayongo, Daniel Gatica-Perez, Amalia De Götzen, Ivano Bison, and Fausto Giunchiglia. (2025). DiversityOne: A Multi-Country Smartphone Sensor Dataset for Everyday Life Behavior Modeling. Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies.'
 
-
-    data.loc[data['ds:DatName'].str.endswith('Part 1', ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
-    data.loc[data['ds:DatName'].str.endswith('Part 1', ''), 'ds:DatAdditionalMaterialUrl'] = 'https://drive.google.com/file/d/1fXlb2vJfp_HOs4XP_3jaLYM7rTipGygO/view?usp=drive_link'
+    data.loc[data['ds:DatName'].str.endswith('Part 1',
+                                             ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
+    data.loc[data['ds:DatName'].str.endswith('Part 1',
+                                             ''), 'ds:DatAdditionalMaterialURL'] = 'https://drive.google.com/file/d/1fXlb2vJfp_HOs4XP_3jaLYM7rTipGygO/view?usp=drive_link'
     data.loc[data['ds:DatName'].str.endswith('Part 1', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
 
-    data.loc[data['ds:DatName'].str.endswith('Part 2', ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
-    data.loc[data['ds:DatName'].str.endswith('Part 2', ''), 'ds:DatAdditionalMaterialUrl'] = 'https://drive.google.com/file/d/16loX2mvErVw_fzrBAYLX3uIwc_3FrwrA/view?usp=drive_link'
+    data.loc[data['ds:DatName'].str.endswith('Part 2',
+                                             ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
+    data.loc[data['ds:DatName'].str.endswith('Part 2',
+                                             ''), 'ds:DatAdditionalMaterialURL'] = 'https://drive.google.com/file/d/16loX2mvErVw_fzrBAYLX3uIwc_3FrwrA/view?usp=drive_link'
     data.loc[data['ds:DatName'].str.endswith('Part 2', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
 
-    data.loc[data['ds:DatName'].str.endswith('Part 3', ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
-    data.loc[data['ds:DatName'].str.endswith('Part 3', ''), 'ds:DatAdditionalMaterialUrl'] = 'https://drive.google.com/file/d/1i7-1KpYq-e7bkmqsACY_38sRtYwUpo1j/view?usp=sharing'
+    data.loc[data['ds:DatName'].str.endswith('Part 3',
+                                             ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
+    data.loc[data['ds:DatName'].str.endswith('Part 3',
+                                             ''), 'ds:DatAdditionalMaterialURL'] = 'https://drive.google.com/file/d/1i7-1KpYq-e7bkmqsACY_38sRtYwUpo1j/view?usp=sharing'
     data.loc[data['ds:DatName'].str.endswith('Part 3', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
 
     # Save the extracted data to an Excel file
-    save_to_excel(data, output_file)
+
+    data = data.sort_values('title')
+
+    data.drop(columns=['location_continent_facet', 'resources', 'other_format'], inplace=True)
+    category_groups = {category: group for category, group in data.groupby('category')}
+
+    filtered_groups = {
+        'Project': category_groups['Project'][[c for c in data.columns if 'ds:prj' in c]],
+        'Dataset': category_groups['Dataset'][[c for c in data.columns if 'ds:Dat' in c]],
+        'Dataset Bundle': category_groups['Dataset Bundle'][[c for c in data.columns if 'ds:Dat' in c]]
+    }
+
+    for category, value_df in filtered_groups.items():
+        if category == 'Project':
+            columns = ['ds:prjURL', 'ds:prjWebpage', 'ds:prjAdditionalMaterialURL', 'ds:prjDocumentationURL']
+        else:
+            columns = ['ds:DatCodebookURL', 'ds:DatAdditionalMaterialURL', 'ds:DatChangelogURL']
+
+        invalid = set()
+        for col in columns:
+            uniq_values = value_df[col].dropna().unique()
+            for value in uniq_values:
+                if value.startswith('https://drive.google.com'):
+                    continue
+                if value == '':
+                    continue
+                if is_valid_url(value, col) == '':
+                    invalid.add(value)
+
+        # Apply changes directly to the original DataFrame
+        if len(invalid) > 0:
+            for col in columns:
+                if col in ['ds:prjAdditionalMaterialURL', 'ds:prjDocumentationURL', 'ds:DatCodebookURL',
+                           'ds:DatAdditionalMaterialURL']:
+                    col_name = col.replace('URL', 'Name')
+                    col_format = col.replace('URL', 'Format')
+
+                    filtered_groups[category].loc[filtered_groups[category][col].isin(invalid), col_name] = ''
+                    filtered_groups[category].loc[filtered_groups[category][col].isin(invalid), col_format] = ''
+                filtered_groups[category].loc[filtered_groups[category][col].isin(invalid), col] = ''
+
+    save_to_excel(filtered_groups, output_file)
 
 
 if __name__ == "__main__":
