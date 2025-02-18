@@ -27,16 +27,16 @@ ds:prjCiteAs: "Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakma
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 004.AAAD.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: Dataset paper and data collection methodology
     url: https://arxiv.org/abs/2502.03347
     format: PDF
-  - name: Codebook
-    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_Trento_questionnaire_a.html
-    format: html
+  - name: 
+    url: 
+    format: 
   - name: Additional_material-questionnaire
     url: https://drive.google.com/file/d/1fXlb2vJfp_HOs4XP_3jaLYM7rTipGygO/view?usp=drive_link
     format: PDF

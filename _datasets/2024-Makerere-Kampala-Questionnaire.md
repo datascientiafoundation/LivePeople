@@ -26,7 +26,7 @@ ds:prjCiteAs: ""
 ds:prjMaintenance: 
 latitude_map: 0.335
 longitude_map: 32.56
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 007.AAAN.AAN.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
@@ -36,9 +36,9 @@ resources:
   - name: 
     url: 
     format: 
-  - name: Codebook
-    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-survey.html
-    format: html
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

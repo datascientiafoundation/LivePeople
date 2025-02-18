@@ -27,16 +27,16 @@ ds:prjCiteAs: "Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakma
 ds:prjMaintenance: 
 latitude_map: 51.5
 longitude_map: 0.12
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 004.AAAD.AAE.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: Dataset paper and data collection methodology
     url: https://arxiv.org/abs/2502.03347
     format: PDF
-  - name: Codebook
-    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_London_magnetic.html
-    format: html
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

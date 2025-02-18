@@ -27,16 +27,16 @@ ds:prjCiteAs: "Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakma
 ds:prjMaintenance: 
 latitude_map: 10.9
 longitude_map: 76.9
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 004.AAAD.AAG.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: Dataset paper and data collection methodology
     url: https://arxiv.org/abs/2502.03347
     format: PDF
-  - name: Codebook
-    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_Amrita_questionnaire_c.html
-    format: html
+  - name: 
+    url: 
+    format: 
   - name: Additional_material-questionnaire
     url: https://drive.google.com/file/d/1i7-1KpYq-e7bkmqsACY_38sRtYwUpo1j/view?usp=sharing
     format: PDF

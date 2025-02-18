@@ -28,7 +28,7 @@ ds:prjCiteAs: "Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakma
 ds:prjMaintenance: 
 latitude_map: 55.67
 longitude_map: 12.56
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 004.AAAD.AAC.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:

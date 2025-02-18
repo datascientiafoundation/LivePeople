@@ -27,16 +27,16 @@ ds:prjCiteAs: "Matteo Busso, Andrea Bontempelli, Leonardo Javier Malcotti, Lakma
 ds:prjMaintenance: 
 latitude_map: 22.15
 longitude_map: -100.9
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 004.AAAD.AAH.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
   - name: Dataset paper and data collection methodology
     url: https://arxiv.org/abs/2502.03347
     format: PDF
-  - name: Codebook
-    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_San-Luis-Potosi_timediaries.html
-    format: html
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

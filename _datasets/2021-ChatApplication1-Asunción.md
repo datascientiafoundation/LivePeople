@@ -27,7 +27,7 @@ ds:prjCiteAs: "Fausto Giunchiglia, Ivano Bison, Matteo Busso, Ronald Chenu-Abent
 ds:prjMaintenance: 
 latitude_map: -25.26
 longitude_map: -57.57
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 005.AAAE.AAD.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:

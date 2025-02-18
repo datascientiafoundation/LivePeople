@@ -27,7 +27,7 @@ ds:prjCiteAs: "Eddy Maddalena, Luis-Daniel Ibáñez, Elena Simperl, Mattia Zeni,
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 003.AAAC.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:

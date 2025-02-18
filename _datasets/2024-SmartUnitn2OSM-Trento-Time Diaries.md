@@ -26,7 +26,7 @@ ds:prjCiteAs: "Giunchiglia, F., Xiaoyue, L. Big-Thick Data generation via refere
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 007.AAAP.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:

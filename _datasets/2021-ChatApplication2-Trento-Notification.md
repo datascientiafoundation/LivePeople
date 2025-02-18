@@ -26,7 +26,7 @@ ds:prjCiteAs: "Giunchiglia, F., Bison, I., Busso, M., Chenu-Abente, R., Rodas Br
 ds:prjMaintenance: 
 latitude_map: 46.07
 longitude_map: 11.13
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 005.AAAG.AAA.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:

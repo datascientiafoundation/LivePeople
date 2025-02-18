@@ -26,7 +26,7 @@ ds:prjCiteAs: ""
 ds:prjMaintenance: 
 latitude_map: 40.64
 longitude_map: 22.94
-ds:prjThumbnailUrl: 
+ds:prjThumbnailURL: 
 ds:prjIdentifier: 006.AAAI.AAK.**
 ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
 resources:
