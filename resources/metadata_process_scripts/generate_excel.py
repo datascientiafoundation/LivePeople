@@ -545,7 +545,7 @@ def fix_identifier(data):
     filtered_data['identifier_old'] = filtered_data['identifier']
 
     # Create a mapping for category to number
-    category_map = {'A': 1, 'B': 2, 'C': 3}
+    category_map = {'1': 1, '2': 2, '3': 3}
 
     # Iterate over each group of rows with the same identifier
     for identifier, group in filtered_data.groupby('identifier'):
