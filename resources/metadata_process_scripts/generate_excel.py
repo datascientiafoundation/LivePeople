@@ -903,13 +903,13 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
     data.loc[data['ds:DatName'].str.endswith('Part 2',
                                              ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
     data.loc[data['ds:DatName'].str.endswith('Part 2',
-                                             ''), 'ds:DatAdditionalMaterialURL'] = 'https://drive.google.com/file/d/16loX2mvErVw_fzrBAYLX3uIwc_3FrwrA/view?usp=drive_link'
+                                             ''), 'ds:DatAdditionalMaterialURL'] = 'https://drive.google.com/file/d/1jhkBFcruJil2f09xV1dYpjgQL-yqcbaj/view?usp=drive_link'
     data.loc[data['ds:DatName'].str.endswith('Part 2', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
 
     data.loc[data['ds:DatName'].str.endswith('Part 3',
                                              ''), 'ds:DatAdditionalMaterialName'] = 'Additional_material-questionnaire'
     data.loc[data['ds:DatName'].str.endswith('Part 3',
-                                             ''), 'ds:DatAdditionalMaterialURL'] = 'https://drive.google.com/file/d/1i7-1KpYq-e7bkmqsACY_38sRtYwUpo1j/view?usp=sharing'
+                                             ''), 'ds:DatAdditionalMaterialURL'] = 'https://drive.google.com/file/d/1bOYnYNkhHjpRO1WW0e2yDCSrKd4KwA-s/view?usp=drive_link'
     data.loc[data['ds:DatName'].str.endswith('Part 3', ''), 'ds:DatAdditionalMaterialFormat'] = 'PDF'
 
     # Save the extracted data to an Excel file
