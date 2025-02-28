@@ -34,9 +34,9 @@ resources:
   - name: Dataset paper and data collection methodology
     url: https://arxiv.org/abs/2502.03347
     format: PDF
-  - name: 
-    url: 
-    format: 
+  - name: Codebook
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_Trento_survey3.html
+    format: html
   - name: Additional_material-questionnaire
     url: https://drive.google.com/file/d/1bOYnYNkhHjpRO1WW0e2yDCSrKd4KwA-s/view?usp=drive_link
     format: PDF

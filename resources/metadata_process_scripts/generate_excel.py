@@ -709,43 +709,151 @@ def get_missing_codebooks(df):
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+        if row['title'] == '2020-DiversityOne-Amrita-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Amrita_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Amrita-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Amrita_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Amrita-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Amrita_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-Amrita-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-Amrita_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Amrita_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+        if row['title'] == '2020-DiversityOne-Asunción-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Asuncion_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Asunción-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Asuncion_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Asunción-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Asuncion_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-Asunción-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-Asuncion_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Asuncion_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+        if row['title'] == '2020-DiversityOne-Copenhagen-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Copenhagen_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Copenhagen-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Copenhagen_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Copenhagen-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Copenhagen_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-Copenhagen-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-Copenhagen_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Copenhagen_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+        if row['title'] == '2020-DiversityOne-Jilin-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Jilin_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Jilin-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Jilin_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Jilin-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Jilin_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-Jilin-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-Jilin_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Jilin_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+
+        if row['title'] == '2020-DiversityOne-London-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_London_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-London-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_London_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-London-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_London_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-London-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-London_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_London_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+
+        if row['title'] == '2020-DiversityOne-San Luis Potosí-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_San-Luis-Potosi_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-San Luis Potosí-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_San-Luis-Potosi_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-San Luis Potosí-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_San-Luis-Potosi_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-San Luis Potosí-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-San_Luis_potosi_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_San-Luis-Potosi_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+
+        if row['title'] == '2020-DiversityOne-Trento-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Trento_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Trento-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Trento_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Trento-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Trento_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-Trento-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-Trento_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Trento_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
+
+
+        if row['title'] == '2020-DiversityOne-Ulaanbaatar-Questionnaire Part 1':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Ulan-Bator_survey1.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Ulaanbaatar-Questionnaire Part 2':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Ulan-Bator_survey2.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
+        if row['title'] == '2020-DiversityOne-Ulaanbaatar-Questionnaire Part 3':
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Ulan-Bator_survey3.html'
+            row['codebook-name'] = 'Codebook'
+            row['codebook-format'] = 'html'
         if row['title'] == '2020-DiversityOne-Ulaanbaatar-Time Diaries':
-            row['codebook-url'] = base_url + '/codebooks/' + '2020-DV1-Ulan_Bator_timediary.html'
+            row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_Ulan_Bator_timediaries.html'
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
