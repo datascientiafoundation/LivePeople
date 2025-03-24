@@ -43,9 +43,9 @@ resources:
     url: 
     format: 
 download request:
-  - name: Download request
-    url: https://datascientiafoundation.github.io/LivePeople/resources/download_request.pdf
-    format: PDF
+  - name: 
+    url: 
+    url: 
 title: 2019-QROWD-Trento-Gyroscope
 notes: The dataset returns the 3D vector of the gyroscope showing the rate of rotation (rad/s)
 ds:DatVersion: 

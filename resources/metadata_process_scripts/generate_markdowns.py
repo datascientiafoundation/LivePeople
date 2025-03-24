@@ -271,8 +271,6 @@ def create_dataset_md(df, all_df):
                     md_content = md_content + "  - name: " + str(row['ds:DatAdditionalMaterialName']) + "\n"
                     md_content = md_content + "    url: " + str(row['ds:DatAdditionalMaterialURL']) + "\n"
                     md_content = md_content + "    format: " + str(row['ds:DatAdditionalMaterialFormat']) + "\n"
-
-
             else:
                 if str(project_row['ds:prjDocumentationName']) != "nan":
                     md_content = md_content + "  - name: " + str(project_row['ds:prjDocumentationName']) + "\n"
@@ -294,10 +292,14 @@ def create_dataset_md(df, all_df):
 
             md_content = md_content + "download request:\n"
             if str(row['ds:DatDownloadRequestName']) != "nan":
-                md_content = md_content + "  - name: " + str(row['ds:DatDownloadRequestName']) + "\n"
-                md_content = md_content + "    url: " + str(row['ds:DatDownloadRequestURL']) + "\n"
-                md_content = md_content + "    format: " + str(row['ds:DatDownloadRequestFormat']) + "\n"
 
+                md_content = md_content + "  - name: " + "" + "\n"
+                md_content = md_content + "    url: " + "" + "\n"
+                md_content = md_content + "    url: " + "" + "\n"
+
+                # md_content = md_content + "  - name: " + str(row['ds:DatDownloadRequestName']) + "\n"
+                # md_content = md_content + "    url: " + str(row['ds:DatDownloadRequestURL']) + "\n"
+                # md_content = md_content + "    format: " + str(row['ds:DatDownloadRequestFormat']) + "\n"
 
             md_content = md_content + "title: " + str(row['ds:DatName']) + "\n"
             md_content = md_content + "notes: " + str(row['ds:DatDescription']) + "\n"
@@ -366,7 +368,7 @@ def create_dataset_md(df, all_df):
 
             with open(output_file_path, 'w', encoding='utf-8') as md_file:
                 md_file.write(md_content)
-                cnt = cnt +1 
+                cnt = cnt +1
         except Exception as e:
             print(f"Error processing file {file_name}: {e}")
 
