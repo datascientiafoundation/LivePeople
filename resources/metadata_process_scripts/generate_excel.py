@@ -945,9 +945,10 @@ def main(md_files_pattern, project_file, metadata_description, output_file):
 
     # custom
     data['ds:DatDownloadRequestName'] = 'Web form'
-    data[
-        'ds:DatDownloadRequestURL'] = 'https://ds.datascientia.eu/marketplace/welcome'
+    data['ds:DatDownloadRequestURL'] = 'https://ds.datascientia.eu/marketplace/welcome'
     data['ds:DatDownloadRequestFormat'] = ''
+
+    data['ds:prjDownloadRequestEmail'] = ''
 
     data['ds:prjIsVisible'] = True
     data['ds:DatIsVisible'] = True

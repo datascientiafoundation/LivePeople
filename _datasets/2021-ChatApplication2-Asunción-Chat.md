@@ -28,7 +28,7 @@ latitude_map: 25.26
 longitude_map: 57.57
 ds:prjThumbnailURL: 
 ds:prjIdentifier: 005.AAAG.AAD.**
-ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
+ds:prjDownloadRequestEmail: 
 resources:
   - name: Dataset technical report
     url: https://drive.google.com/file/d/1ilA2_f5HPHt5-4EvscsKo_lL-BgeFoF9/view?usp=sharing

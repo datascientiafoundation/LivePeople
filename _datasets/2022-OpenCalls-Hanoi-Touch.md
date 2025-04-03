@@ -28,7 +28,7 @@ latitude_map: 21.03
 longitude_map: 105.8
 ds:prjThumbnailURL: 
 ds:prjIdentifier: 006.AAAJ.AAJ.**
-ds:prjDownloadRequestEmail: datadistribution.knowdive@unitn.it
+ds:prjDownloadRequestEmail: 
 resources:
   - name: 
     url: 
