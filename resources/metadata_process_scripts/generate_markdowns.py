@@ -300,10 +300,19 @@ def create_dataset_md(df, all_df):
                     md_content = md_content + "  - name: " + str(row['ds:DatDownloadRequestName']) + "\n"
                     md_content = md_content + "    url: " + str(row['ds:DatDownloadRequestURL']) + "\n"
                     md_content = md_content + "    format: " + str(row['ds:DatDownloadRequestFormat']) + "\n"
+
+                    #guidelines
+                    md_content = md_content + "  - name: " + "Guidelines" + "\n"
+                    md_content = md_content + "    url: " + "https://ds.datascientia.eu/marketplace/public/data-access-policy" + "\n"
+                    md_content = md_content + "    format: " + "" + "\n"
+
+
                 else:
                     md_content = md_content + "  - name: " + "" + "\n"
                     md_content = md_content + "    url: " + "" + "\n"
                     md_content = md_content + "    url: " + "" + "\n"
+
+
 
             md_content = md_content + "title: " + str(row['ds:DatName']) + "\n"
             md_content = md_content + "notes: " + str(row['ds:DatDescription']) + "\n"
