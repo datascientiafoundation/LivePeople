@@ -781,8 +781,6 @@ def get_missing_codebooks(df):
             row['codebook-name'] = 'Codebook'
             row['codebook-format'] = 'html'
 
-
-
         if row['title'] == '2020-DiversityOne-London-Questionnaire Part 1':
             row['codebook-url'] = base_url + '/codebooks/' + '2020_DV1_London_survey1.html'
             row['codebook-name'] = 'Codebook'
@@ -861,8 +859,7 @@ def get_missing_codebooks(df):
 
     df = df.apply(update_codebook_url, axis=1)
 
-
-
+    df['codebook-url'] = df['codebook-url'].str.replace('magnetic.html', 'magneticfield.html')
 
     return df
 

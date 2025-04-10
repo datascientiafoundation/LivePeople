@@ -34,9 +34,9 @@ resources:
   - name: Dataset paper and data collection methodology
     url: https://arxiv.org/abs/2502.03347
     format: PDF
-  - name: 
-    url: 
-    format: 
+  - name: Codebook
+    url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2020_DV1_Ulan-Bator_magneticfield.html
+    format: html
   - name: 
     url: 
     format: 
