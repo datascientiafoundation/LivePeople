@@ -30,9 +30,9 @@ ds:prjThumbnailURL:
 ds:prjIdentifier: 007.AAAN.AAN.**
 ds:prjDownloadRequestEmail: 
 resources:
-  - name: Dataset technical report
-    url: https://arxiv.org/abs/2409.05883
-    format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 
