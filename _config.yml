@@ -25,7 +25,7 @@ navigation:
   - title: Services
     url: /#services
   - title: Docs
-    url: https://datascientiafoundation.github.io/docs/LivePeople/intro.html
+    url: https://datascientiafoundation.github.io/docs/LivePeople/intro
 
 # Collections
 collections:
