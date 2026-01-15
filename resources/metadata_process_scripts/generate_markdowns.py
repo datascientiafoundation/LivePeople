@@ -370,8 +370,7 @@ def create_dataset_md(df, all_df, output_dir):
 
             # for viz
             if str(row['ds:DatCategoryFacet']) == "Dataset Bundle":
-                md_content = md_content + "component_dataset_link: " + generate_html_href('Dataset Bundle', row,
-                                                                                          all_df) + "\n"
+                md_content = md_content + "component_dataset_link: " + generate_html_href('Dataset Bundle', row, all_df) + "\n"
 
             md_content = md_content + "---\n"
 
@@ -392,15 +391,13 @@ def main(excel_path, output_dir) -> None:
     # step 3. dynamic functions
     # step 4. facet creation
 
-    # read by default 1st sheet of an excel file
-    all_sheets = pd.read_excel(excel_path, sheet_name=None)  # None reads all sheets
-    # df = pd.concat(all_sheets.values(), ignore_index=True)
+    # read all sheets in exel
+    all_sheets = pd.read_excel(excel_path, sheet_name=None)
 
     # Ensure output directory exists
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    # project
     try:
         create_project_md(all_sheets['Project'], all_sheets, output_dir)
         create_dataset_md(all_sheets['Dataset'], all_sheets, output_dir)
