@@ -32,14 +32,14 @@ ds:prjIdentifier: 002.AAAB.AAA.**
 ds:prjDownloadRequestEmail: 
 resources:
   - name: Dataset technical report
-    url: https://drive.google.com/file/d/1mSIBHgKJBw07crEjMTYEi3ylpPL-62fB/view?usp=sharing
+    url: https://iris.unitn.it/retrieve/e3835199-ed48-72ef-e053-3705fe0ad821/2022_DataScientia_LivePeople_SmartUnitn2.pdf
     format: PDF
   - name: 2018-SmartUnitn2-additional_material-questionnaire
     url: https://drive.google.com/file/d/1yY8RNaWO_eh4-UnXHkL2jpZld2739K3K/view?usp=share_link
     format: PDF
-  - name: Codebook
-    url: https://drive.google.com/file/d/1WGYy8DdDO2C81GXRJ2OOPB80QNgbowq_/view?usp=sharing
-    format: PDF
+  - name: 
+    url: 
+    format: 
   - name: 
     url: 
     format: 

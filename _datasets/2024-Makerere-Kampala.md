@@ -34,8 +34,8 @@ resources:
   - name: 
     url: 
     format: 
-  - name: 
-    url: 
+  - name: Dataset paper and data collection methodology
+    url: https://dl.acm.org/doi/pdf/10.1145/3714394.3756183
     format: 
 duration_facet: "2-6 months"
 location_facet: Uganda

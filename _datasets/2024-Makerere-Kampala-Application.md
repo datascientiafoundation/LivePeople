@@ -33,8 +33,8 @@ resources:
   - name: 
     url: 
     format: 
-  - name: 
-    url: 
+  - name: Dataset paper and data collection methodology
+    url: https://dl.acm.org/doi/pdf/10.1145/3714394.3756183
     format: 
   - name: Codebook
     url: https://datascientiafoundation.github.io/LivePeople-Documentation/codebooks/2024-MAK-Kampala-applications.html
